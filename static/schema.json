@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "patternProperties": {
+        "^[A-Za-z0-9_-]+/[A-Za-z0-9_-]+:[A-Za-z0-9_-]+$": {
+            "type": "object",
+            "required": [
+                "options"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "options": {
+                    "type": "object",
+                    "required": [
+                        "prefix",
+                        "suffix"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "prefix": {
+                            "type": "string"
+                        },
+                        "suffix": {
+                            "type": "string"
+                        },
+                        "abandoned": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "dependencies": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "patternProperties": {
+                            "^[0-9]+$": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -16,6 +16,9 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "indent": ["error", 4, "tab"]
+    "indent": ["error", 4],
+    "vue/html-indent": "off",
+    "space-before-function-paren": "off",
+    "prefer-const": "off"
   }
 }

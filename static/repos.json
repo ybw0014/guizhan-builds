@@ -1,5 +1,30 @@
 {
     "ybw0014/SlimeTinker-CN:master": {
-        
+        "options": {
+            "prefix": "DEV",
+            "suffix": "zh-CN"
+        },
+        "dependencies": {
+            "Minecraft 版本": {
+                "1": "1.16-1.17"
+            },
+            "Slimefun 版本": {
+                "1": "官方版 DEV - 925 / 汉化版 dev-7c84de8"
+            }
+        }
+    },
+    "ybw0014/ExoticGarden-CN:master": {
+        "options": {
+            "prefix": "DEV",
+            "suffix": "zh-CN"
+        },
+        "dependencies": {
+            "Minecraft 版本": {
+                "1": "1.14-1.17"
+            },
+            "Slimefun 版本": {
+                "1": "官方版 DEV - 584 / 汉化版 未知"
+            }
+        }
     }
 }

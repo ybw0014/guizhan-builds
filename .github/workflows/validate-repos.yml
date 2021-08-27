@@ -9,4 +9,13 @@ on:
       - master
 
 jobs:
-  
+  validate-repos:
+    name: Validate repos.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Validate repos.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: /static/schema.json
+          INPUT_JSONS: /static/repos.json
