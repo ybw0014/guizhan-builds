@@ -1,1 +1,31 @@
-name: Maven Build
+name: Auto Build
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+    steps:
+    - name: Checking out Repository
+      uses: actions/checkout@master
+
+    - name: Setting up Java
+      uses: actions/setup-java@v2.2.0
+      with:
+        distribution: 'adopt'
+        java-version: '16'
+        java-package: jdk
+        architecture: x64
+
+    - name: Setting up node.js
+      uses: actions/setup-node@v2.4.0
+      with:
+        node-version: '16'
+
+    - name: Installing dependencies
+      run: yarn

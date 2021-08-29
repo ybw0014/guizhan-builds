@@ -1,9 +1,114 @@
 <template>
-    <div></div>
+    <div>
+        <b-breadcrumb class="mb-0">
+            <b-breadcrumb-item to="/">
+                <b-icon icon="house-fill" scale="1.25" shift-v="1.25" aria-hidden="true" />
+                首页
+            </b-breadcrumb-item>
+            <b-breadcrumb-item active>
+                {{ user }}
+            </b-breadcrumb-item>
+        </b-breadcrumb>
+        <div class="container-fluid">
+            <div class="row">
+                <b-list-group class="col-md-3 pr-0" flush>
+                    <b-list-group-item to="/?tab=all">
+                        <b-icon icon="arrow-left" />
+                        返回仓库列表
+                    </b-list-group-item>
+                    <b-list-group-item :href="'https://github.com/' + user" target="_blank">
+                        <b-icon icon="github" />
+                        访问 GitHub 主页
+                    </b-list-group-item>
+                </b-list-group>
+                <div class="col-md-9 pt-2 border-left">
+                    <b-tabs content-class="mt-3" lazy>
+                        <b-tab :title="user + ' 的所有仓库'" active>
+                            <b-table striped hover :items="listRepos" :fields="reposFields">
+                                <template #cell(repo)="data">
+                                    <nuxt-link :to="'/' + data.value">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                            </b-table>
+                        </b-tab>
+                    </b-tabs>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
+// import markdown from '@/utils/markdown'
+import request from '@/utils/request'
+import reposUtil from '@/utils/repos'
 export default {
-    layout: 'main'
+    layout: 'main',
+    data () {
+        return {
+            user: this.$route.params.user,
+            reposFields: [
+                {
+                    key: 'repo',
+                    label: '项目名称',
+                    sortable: true
+                },
+                {
+                    key: 'branch',
+                    label: '分支'
+                },
+                {
+                    label: '最新构建状态'
+                }
+            ]
+        }
+    },
+    head () {
+        return {
+            title: this.user + ' - ybw0014 的 Maven 构建页面'
+        }
+    },
+    computed: {
+        repos () {
+            try {
+                return this.$store.state.repos.data.repos
+            } catch (ex) {
+                return null
+            }
+        },
+        listRepos () {
+            let lRepos = []
+            for (const repoIndex in this.repos) {
+                const repoInfo = this.repos[repoIndex]
+                const user = repoInfo.split('/')[0]
+                if (user !== this.user) {
+                    continue
+                }
+                const repo = repoInfo.split('/')[1].split(':')[0]
+                const branch = repoInfo.split(':')[1]
+                lRepos.push({ repo, user, branch })
+            }
+            return lRepos
+        }
+    },
+    mounted () {
+        // repos
+        if (this.repos == null) {
+            request.getRepos()
+                .then((response) => {
+                    const data = reposUtil.parse(response.data)
+                    this.$store.commit('repos/setData', data)
+                })
+        }
+    },
+    methods: {
+        //
+    }
 }
 </script>
+<style scoped>
+.announcement{
+    font-weight: 300;
+}
+</style>

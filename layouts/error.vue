@@ -1,16 +1,43 @@
 <template>
     <div class="container mt-4">
         <b-card class="text-center mx-auto">
-            <div class="error mx-auto d-inline-block" data-text="404">404</div>
-            <div class="error-title mb-5">页面不存在</div>
-            <div class="text-muted error-info">你正在访问的页面不存在</div>
-            <b-link class="error-info" to="/">返回首页</b-link>
+            <div class="error mx-auto d-inline-block" :data-text="code" v-text="code" />
+            <div class="error-title mb-5" v-text="reason" />
+            <div class="text-muted error-info" v-text="description" />
+            <b-link class="error-info" to="/">
+                返回首页
+            </b-link>
         </b-card>
     </div>
 </template>
 <script>
 export default {
-    layout: 'main'
+    layout: 'main',
+    props: ['error'],
+    data () {
+        return {
+            code: NaN,
+            reason: '',
+            description: ''
+        }
+    },
+    mounted () {
+        if (this.error.statusCode === 404) {
+            this.code = 404
+            this.reason = '页面不存在'
+            this.description = '你正在访问的页面不存在'
+        } else if (this.error.statusCode === 500) {
+            this.code = 500
+            this.reason = '内部错误'
+            this.description = '发生了内部错误'
+            console.error('发生内部错误: ', this.error.message)
+        } else {
+            this.code = NaN
+            this.reason = '未知错误'
+            this.description = '发生了未知错误'
+            console.error(`发生位置错误(代码: ${this.error.statusCode}): `, this.error.message)
+        }
+    }
 }
 </script>
 <style scoped>

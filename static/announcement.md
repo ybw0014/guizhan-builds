@@ -4,4 +4,6 @@
 
 如果你想在本页面添加你的项目，请向本项目的 GitHub 仓库提交 PR。
 
+~~只会用 Bootstrap 整了个丑陋的页面，能用就行。~~
+
 GitHub 仓库: [https://github.com/ybw0014/maven-builds](https://github.com/ybw0014/maven-builds)

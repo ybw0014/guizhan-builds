@@ -1,4 +1,4 @@
-name: ci
+name: Nuxt Build
 
 on:
   push:
@@ -6,29 +6,28 @@ on:
       - main
 
 jobs:
-  ci:
-    runs-on: ${{ matrix.os }}
+  build:
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        os: [ubuntu-latest]
-        node: [14]
+        node: [16]
 
     steps:
-      - name: Checkout 🛎
+      - name: Checkout
         uses: actions/checkout@master
 
-      - name: Setup node env 🏗
-        uses: actions/setup-node@v2.1.5
+      - name: Setup node
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: ${{ matrix.node }}
           check-latest: true
 
-      - name: Get yarn cache directory path 🛠
+      - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
-      - name: Cache node_modules 📦
+      - name: Cache node_modules
         uses: actions/cache@v2.1.4
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
@@ -37,6 +36,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Install dependencies 👨🏻‍💻
+      - name: Install dependencies
         run: yarn
+
+      - name: Generate static site
+        run: yarn generate
+      
+      - name: Publish to gh-pages branch
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
