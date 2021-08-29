@@ -4,8 +4,9 @@
   ],
   "packageRules": [
     {
-      "datasources": [
-        "npm"
+      "matchDatasources": [
+        "npm",
+        "yarn"
       ],
       "registryUrls": [
         "https://registry.npm.taobao.org"
