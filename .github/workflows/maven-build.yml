@@ -1,10 +1,11 @@
-name: Auto Build
+name: Automatic Maven Build
 
 on:
   workflow_dispatch: {}
 
 jobs:
   build:
+    name: Automatic Maven Build
     runs-on: ubuntu-latest
 
     env:
