@@ -3,6 +3,9 @@ name: Automatic Maven Build
 on:
   workflow_dispatch: {}
 
+  schedule:
+  - cron: '*/10 * * * *'
+
 jobs:
   build:
     name: Automatic Maven Build
@@ -30,3 +33,10 @@ jobs:
 
     - name: Installing dependencies
       run: yarn
+
+    - name: Run Nuxt Build
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        event-type: after-auto-build
+      
