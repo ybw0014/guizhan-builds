@@ -18,15 +18,15 @@
                     </b-list-group-item>
                     <b-list-group-item :href="'https://github.com/' + user" target="_blank">
                         <b-icon icon="github" />
-                        访问 GitHub 主页
+                        访问用户 GitHub 主页
                     </b-list-group-item>
                 </b-list-group>
                 <div class="col-md-9 pt-2 border-left">
-                    <b-tabs content-class="mt-3" lazy>
+                    <b-tabs content-class="mt-3">
                         <b-tab :title="user + ' 的所有仓库'" active>
-                            <b-table striped hover :items="listRepos" :fields="reposFields">
+                            <b-table striped hover :items="listRepos" :fields="reposFields" head-variant="dark">
                                 <template #cell(repo)="data">
-                                    <nuxt-link :to="'/' + data.value">
+                                    <nuxt-link :to="'/' + user + '/' + data.value + '/' + data.item.branch">
                                         {{ data.value }}
                                     </nuxt-link>
                                 </template>
@@ -99,16 +99,19 @@ export default {
                 .then((response) => {
                     const data = reposUtil.parse(response.data)
                     this.$store.commit('repos/setData', data)
+                    this.validateUser()
                 })
+        } else {
+            this.validateUser()
         }
     },
     methods: {
-        //
+        validateUser () {
+            const users = this.$store.state.repos.data.users
+            if (!(this.user in users)) {
+                this.$nuxt.error({ statusCode: 404, message: 'Not found' })
+            }
+        }
     }
 }
 </script>
-<style scoped>
-.announcement{
-    font-weight: 300;
-}
-</style>

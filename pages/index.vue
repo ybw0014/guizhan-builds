@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-3 pt-2">
                     <h3 class="sidebar-title">
-                        <b-icon icon="bell"></b-icon>
+                        <b-icon icon="bell" />
                         公告
                     </h3>
                     <div class="announcement" v-html="announcement" />
@@ -28,6 +28,9 @@
                                     <nuxt-link :to="'/' + data.value">
                                         {{ data.value }}
                                     </nuxt-link>
+                                </template>
+                                <template #cell(status)="data">
+                                    <build-status :info="data.item" />
                                 </template>
                             </b-table>
                         </b-tab>
@@ -84,6 +87,7 @@ export default {
                     label: '分支'
                 },
                 {
+                    key: 'status',
                     label: '最新构建状态'
                 }
             ]
@@ -148,7 +152,9 @@ export default {
         }
     },
     methods: {
-        //
+        statusError (e) {
+            console.log('k', e)
+        }
     }
 }
 </script>
