@@ -6233,7 +6233,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.nlark.com/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt@^2.15.7:
+nuxt@2.15.8:
   version "2.15.8"
   resolved "https://registry.nlark.com/nuxt/download/nuxt-2.15.8.tgz#946cba46bdaaf0e3918aa27fd9ea0fed8ed303b0"
   integrity sha1-lGy6Rr2q8OORiqJ/2eoP7Y7TA7A=
