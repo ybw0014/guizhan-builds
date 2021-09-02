@@ -32,17 +32,10 @@
                     </b-list-group-item>
                 </b-list-group>
                 <div class="col-md-9 pt-2 border-left">
-                    <b-tabs content-class="mt-3" lazy>
-                        <b-tab :title="repo + ' 的所有分支'">
-                            <b-table striped hover :items="listBranches" :fields="branchesFields" head-variant="dark">
-                                <template #cell(branch)="data">
-                                    <nuxt-link :to="'/' + user + '/' + repo + '/' + data.value">
-                                        {{ data.value }}
-                                    </nuxt-link>
-                                </template>
-                            </b-table>
-                        </b-tab>
-                    </b-tabs>
+
+                    <h3 class="repo-name">{{ repo }} <small class="repo-branch">{{ branch }}</small></h3>
+
+                    
                 </div>
             </div>
         </div>
@@ -120,3 +113,13 @@ export default {
     }
 }
 </script>
+<style scoped>
+.repo-name{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.repo-branch{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+</style>

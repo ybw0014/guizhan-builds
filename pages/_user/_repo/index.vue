@@ -37,6 +37,9 @@
                                         {{ data.value }}
                                     </nuxt-link>
                                 </template>
+                                <template #cell(status)="data">
+                                    <build-status :info="data.item" />
+                                </template>
                             </b-table>
                         </b-tab>
                     </b-tabs>

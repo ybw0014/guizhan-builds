@@ -9,11 +9,8 @@ on:
 
 jobs:
   build:
+    name: Nuxt build
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node: [16]
 
     steps:
       - name: Checkout
@@ -22,7 +19,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2.4.0
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 16
           check-latest: true
 
       - name: Get yarn cache directory path
@@ -47,6 +44,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.REPO_ACCESS_TOKEN }}
           publish_dir: ./dist
 

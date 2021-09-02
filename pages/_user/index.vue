@@ -30,6 +30,9 @@
                                         {{ data.value }}
                                     </nuxt-link>
                                 </template>
+                                <template #cell(status)="data">
+                                    <build-status :info="data.item" />
+                                </template>
                             </b-table>
                         </b-tab>
                     </b-tabs>
@@ -59,6 +62,7 @@ export default {
                     label: '分支'
                 },
                 {
+                    key: 'status',
                     label: '最新构建状态'
                 }
             ]

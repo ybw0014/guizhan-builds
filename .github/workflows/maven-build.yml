@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
 
     steps:
     - name: Checking out Repository
@@ -33,6 +33,12 @@ jobs:
 
     - name: Installing dependencies
       run: yarn
+
+    - name: Setup environment
+      run: sh src/maven-build-setup.sh
+
+    - name: Run automatic build
+      run: node src/maven-build.js
 
     - name: Run Nuxt Build
       uses: peter-evans/repository-dispatch@v1
