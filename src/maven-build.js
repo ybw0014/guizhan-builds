@@ -1,4 +1,4 @@
-import main from './maven-build/main'
+import main from '@/src/maven-build/main'
 
 global.status = {
     task: {},
