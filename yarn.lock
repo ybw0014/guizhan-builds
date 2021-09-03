@@ -42,7 +42,16 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/eslint-parser@7.15.0", "@babel/eslint-parser@^7.12.16":
+"@babel/eslint-parser@7.15.4":
+  version "7.15.4"
+  resolved "https://registry.nlark.com/@babel/eslint-parser/download/@babel/eslint-parser-7.15.4.tgz#46385943726291fb3e8db99522c8099b15684387"
+  integrity sha1-RjhZQ3Jikfs+jbmVIsgJmxVoQ4c=
+  dependencies:
+    eslint-scope "^5.1.1"
+    eslint-visitor-keys "^2.1.0"
+    semver "^6.3.0"
+
+"@babel/eslint-parser@^7.12.16":
   version "7.15.0"
   resolved "https://registry.nlark.com/@babel/eslint-parser/download/@babel/eslint-parser-7.15.0.tgz#b54f06e04d0e93aebcba99f89251e3bf0ee39f21"
   integrity sha1-tU8G4E0Ok668upn4klHjvw7jnyE=
