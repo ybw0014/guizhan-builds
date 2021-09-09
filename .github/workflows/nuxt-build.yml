@@ -44,6 +44,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          personal_token: ${{ secrets.REPO_ACCESS_TOKEN }}
           publish_dir: ./dist
+          user_name: 'GuizhanCraft'
+          user_email: ${{ secrets.GIT_EMAIL }}
 
