@@ -1,15 +1,5 @@
 {
   "extends": [
     "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "npm"
-      ],
-      "registryUrls": [
-        "https://registry.npm.taobao.org"
-      ]
-    }
   ]
 }

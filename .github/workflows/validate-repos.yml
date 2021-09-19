@@ -17,5 +17,5 @@ jobs:
       - name: Validate repos.json
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: /static/schema.json
+          INPUT_SCHEMA: /static/repos_schema.json
           INPUT_JSONS: /static/repos.json
