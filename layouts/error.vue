@@ -13,6 +13,7 @@
 <script>
 export default {
     layout: 'main',
+    // eslint-disable-next-line vue/require-prop-types
     props: ['error'],
     data () {
         return {

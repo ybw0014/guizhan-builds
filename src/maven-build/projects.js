@@ -7,7 +7,9 @@ export default {
             fs.promises.readFile(path.resolve('@/repos.json'))
                 .then((repos) => {
                     const json = JSON.parse(repos)
-                    console.log(json)
+                    for (const repo in json) {
+
+                    }
                 }, reject)
         })
     }

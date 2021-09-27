@@ -12,16 +12,25 @@
                 "options": {
                     "type": "object",
                     "required": [
-                        "prefix",
-                        "suffix"
+                        "target"
                     ],
                     "additionalProperties": false,
                     "properties": {
-                        "prefix": {
-                            "type": "string"
-                        },
-                        "suffix": {
-                            "type": "string"
+                        "target": {
+                            "type": "object",
+                            "required": [
+                                "name",
+                                "version"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "version": {
+                                    "type": "string"
+                                }
+                            }
                         },
                         "abandoned": {
                             "type": "boolean"

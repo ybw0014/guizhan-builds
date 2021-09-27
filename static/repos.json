@@ -1,14 +1,18 @@
 {
     "ybw0014/SlimeTinker-CN:master": {
         "options": {
-            "prefix": "DEV",
-            "suffix": "zh-CN(ybw0014)"
+            "target": {
+                "name": "SlimeTinker",
+                "version": "#{version} zh-CN(ybw0014) (git {git_commit})"
+            }
         }
     },
     "ybw0014/ExoticGarden-CN:master": {
         "options": {
-            "prefix": "DEV",
-            "suffix": "zh-CN(ybw0014)"
+            "target": {
+                "name": "ExoticGarden",
+                "version": "#{version} zh-CN(ybw0014) (git {git_commit})"
+            }
         }
     }
 }
