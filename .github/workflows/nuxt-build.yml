@@ -9,6 +9,7 @@ on:
 
 jobs:
   build:
+    if: startsWith(github.event.head_commit.message, '[build skip]') == false
     name: Nuxt build
     runs-on: ubuntu-latest
 
@@ -40,7 +41,7 @@ jobs:
 
       - name: Generate static site
         run: yarn generate
-      
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
