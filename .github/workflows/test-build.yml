@@ -1,0 +1,39 @@
+name: Test Maven Build
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    name: Automatic Maven Build
+    runs-on: ubuntu-latest
+
+    env:
+      ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@master
+
+      - name: Setting up Java
+        uses: actions/setup-java@v2.3.0
+        with:
+          distribution: 'adopt'
+          java-version: '16'
+          java-package: jdk
+          architecture: x64
+
+      - name: Setting up node.js
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: '16'
+
+      - name: Installing dependencies
+        run: yarn
+
+      - name: Setup environment
+        run: sh src/maven-build-setup.sh
+
+      - name: Run automatic build
+        run: node src/maven-build.js
+
