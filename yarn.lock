@@ -6012,10 +6012,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.nlark.com/marked/download/marked-3.0.4.tgz?cache=0&sync_timestamp=1631642407336&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmarked%2Fdownload%2Fmarked-3.0.4.tgz#b8a1539e5e05c6ea9e93f15c0bad1d54ce890406"
-  integrity sha1-uKFTnl4Fxuqek/FcC60dVM6JBAY=
+marked@3.0.7:
+  version "3.0.7"
+  resolved "https://registry.npmmirror.com/marked/download/marked-3.0.7.tgz?cache=0&sync_timestamp=1633615515832&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmarked%2Fdownload%2Fmarked-3.0.7.tgz#343aad9e91b96249b495c99c512ea09cfe06de1e"
+  integrity sha1-NDqtnpG5Ykm0lcmcUS6gnP4G3h4=
 
 maven@5.0.0:
   version "5.0.0"
