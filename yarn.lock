@@ -4095,10 +4095,10 @@ eslint-plugin-unicorn@^28.0.2:
     safe-regex "^2.1.1"
     semver "^7.3.4"
 
-eslint-plugin-vue@7.18.0:
-  version "7.18.0"
-  resolved "https://registry.nlark.com/eslint-plugin-vue/download/eslint-plugin-vue-7.18.0.tgz#02a452142330c7f27c242db21a1b9e25238540f6"
-  integrity sha1-AqRSFCMwx/J8JC2yGhueJSOFQPY=
+eslint-plugin-vue@7.19.1:
+  version "7.19.1"
+  resolved "https://registry.npmmirror.com/eslint-plugin-vue/download/eslint-plugin-vue-7.19.1.tgz?cache=0&sync_timestamp=1633510308150&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Feslint-plugin-vue%2Fdownload%2Feslint-plugin-vue-7.19.1.tgz#435fb2ce712842a9530b28eacb883680e8eaa4f3"
+  integrity sha1-Q1+yznEoQqlTCyjqy4g2gOjqpPM=
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
