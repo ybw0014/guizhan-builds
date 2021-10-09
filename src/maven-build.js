@@ -1,4 +1,4 @@
-import main from '@/src/maven-build/main'
+const main = require('./maven-build/main')
 
 global.status = {
     task: {},

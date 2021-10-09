@@ -1,6 +1,6 @@
-import projects from './projects'
+const projects = require('./projects.js')
 
-export default {
+module.exports = {
     start() {
         return new Promise((resolve, reject) => {
             console.log('Loading projects')
