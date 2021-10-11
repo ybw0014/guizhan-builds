@@ -1,12 +1,12 @@
 const main = require('./maven-build/main')
 
 global.status = {
-    task: {},
+    tasks: {},
     running: true
 }
 
-main.start(true).then(() => {
-    console.log('Run completed.')
+main.start().then(() => {
+    console.log('运行完成')
 
     process.exit()
 })
