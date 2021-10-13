@@ -43,14 +43,13 @@
 </template>
 
 <script>
-// import markdown from '@/utils/markdown'
-import request from '@/utils/request'
-import reposUtil from '@/utils/repos'
+import reposUtil from '~/utils/repos'
 export default {
     layout: 'main',
     data () {
         return {
             user: this.$route.params.user,
+            repos: null,
             reposFields: [
                 {
                     key: 'repo',
@@ -74,13 +73,6 @@ export default {
         }
     },
     computed: {
-        repos () {
-            try {
-                return this.$store.state.repos.data.repos
-            } catch (ex) {
-                return null
-            }
-        },
         listRepos () {
             let lRepos = []
             for (const repoIndex in this.repos) {
@@ -98,24 +90,14 @@ export default {
     },
     mounted () {
         // repos
-        if (this.repos == null) {
-            request.getRepos()
-                .then((response) => {
-                    const data = reposUtil.parse(response.data)
-                    this.$store.commit('repos/setData', data)
-                    this.validateUser()
-                })
-        } else {
-            this.validateUser()
-        }
-    },
-    methods: {
-        validateUser () {
-            const users = this.$store.state.repos.data.users
-            if (!(this.user in users)) {
+        reposUtil.loadRepos(this).then(() => {
+            this.repos = reposUtil.getRepos(this)
+            if (!reposUtil.exists(this.repos, { user: this.user })) {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             }
-        }
+        })
+    },
+    methods: {
     }
 }
 </script>

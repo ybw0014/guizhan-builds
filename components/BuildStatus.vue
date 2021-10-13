@@ -5,6 +5,7 @@
 import axios from 'axios'
 export default {
     props: {
+        // eslint-disable-next-line vue/require-default-prop
         info: Object
     },
     data () {

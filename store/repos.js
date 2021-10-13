@@ -1,9 +1,20 @@
 export const state = () => ({
-    data: null
+    repos: null,
+    users: null
 })
-
+export const getters = {
+    getRepos (state) {
+        return state.repos
+    },
+    getUsers (state) {
+        return state.users
+    }
+}
 export const mutations = {
-    setData (state, data) {
-        state.data = data
+    setRepos (state, value) {
+        state.repos = value
+    },
+    setUsers (state, value) {
+        state.users = value
     }
 }

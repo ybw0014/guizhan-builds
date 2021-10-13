@@ -50,14 +50,14 @@
 </template>
 
 <script>
-import request from '@/utils/request'
-import reposUtil from '@/utils/repos'
+import reposUtil from '~/utils/repos'
 export default {
     layout: 'main',
     data () {
         return {
             user: this.$route.params.user,
             repo: this.$route.params.repo,
+            repos: null,
             branchesFields: [
                 {
                     key: 'branch',
@@ -77,13 +77,6 @@ export default {
         }
     },
     computed: {
-        repos () {
-            try {
-                return this.$store.state.repos.data.repos
-            } catch (ex) {
-                return null
-            }
-        },
         repoInfo () {
             try {
                 for (const repoIndex in this.repos) {
@@ -117,30 +110,21 @@ export default {
                     continue
                 }
                 const branch = repoInfo.split(':')[1]
-                lBranches.push({ branch })
+                lBranches.push({ user, repo, branch })
             }
             return lBranches
         }
     },
     mounted () {
         // repos
-        if (this.repos == null) {
-            request.getRepos()
-                .then((response) => {
-                    const data = reposUtil.parse(response.data)
-                    this.$store.commit('repos/setData', data)
-                    this.validateRepo()
-                })
-        } else {
-            this.validateRepo()
-        }
-    },
-    methods: {
-        validateRepo () {
-            if (this.repoInfo === null) {
+        reposUtil.loadRepos(this).then(() => {
+            this.repos = reposUtil.getRepos(this)
+            if (!reposUtil.exists(this.repos, { user: this.user, repo: this.repo })) {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             }
-        }
+        })
+    },
+    methods: {
     }
 }
 </script>

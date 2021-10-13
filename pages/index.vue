@@ -51,15 +51,17 @@
 </template>
 
 <script>
-import markdown from '@/utils/markdown'
-import request from '@/utils/request'
-import reposUtil from '@/utils/repos'
+import markdown from '~/utils/markdown'
+import request from '~/utils/request'
+import reposUtil from '~/utils/repos'
 export default {
     layout: 'main',
     data: () => {
         return {
             announcement: '公告加载中',
             listTab: 1,
+            repos: null,
+            users: null,
             usersFields: [
                 {
                     key: 'name',
@@ -94,20 +96,6 @@ export default {
         }
     },
     computed: {
-        repos () {
-            try {
-                return this.$store.state.repos.data.repos
-            } catch (ex) {
-                return null
-            }
-        },
-        users () {
-            try {
-                return this.$store.state.repos.data.users
-            } catch (ex) {
-                return null
-            }
-        },
         listRepos () {
             let lRepos = []
             for (const repoIndex in this.repos) {
@@ -143,18 +131,12 @@ export default {
                 this.announcement = '公告加载失败'
             })
         // repos
-        if (this.repos == null) {
-            request.getRepos()
-                .then((response) => {
-                    const data = reposUtil.parse(response.data)
-                    this.$store.commit('repos/setData', data)
-                })
-        }
+        reposUtil.loadRepos(this).then(() => {
+            this.repos = reposUtil.getRepos(this)
+            this.users = reposUtil.getUsers(this)
+        })
     },
     methods: {
-        statusError (e) {
-            console.log('k', e)
-        }
     }
 }
 </script>

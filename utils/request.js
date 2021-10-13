@@ -6,5 +6,8 @@ export default {
     },
     getRepos() {
         return axios.get('/repos.json')
+    },
+    getBuilds(repoDir) {
+        return axios.get(`/f/${repoDir}/builds.json`)
     }
 }
