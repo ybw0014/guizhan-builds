@@ -3,28 +3,31 @@
  * @author ybw0014
  */
 
-const xmlParser = require('fast-xml-parser')
-
-const parserOptions = {
-
-}
-
-// eslint-disable-next-line new-cap
-let jsonParser = new xmlParser.j2xParser(parserOptions)
+const convert = require('xml-js')
 
 module.exports = {
+    /**
+     * XML to JSON object
+     * @param data xml string
+     * @returns {Promise} resolve json
+     */
     toJSON(data) {
         return new Promise((resolve, reject) => {
-            if (!xmlParser.validate(data)) {
-                reject(new Error('不是有效的XML文件'))
-                return
-            }
-            resolve(xmlParser.parse(data, parserOptions))
+            resolve(convert.xml2js(data, {
+                compact: true
+            }))
         })
     },
+    /**
+     * JSON object to XML
+     * @param data js object
+     * @returns {Promise} resolve xml
+     */
     toXML(data) {
         return new Promise((resolve, reject) => {
-            resolve(jsonParser.parse(data))
+            resolve(convert.js2xml(data, {
+                compact: true
+            }))
         })
     }
 }

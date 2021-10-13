@@ -40,7 +40,7 @@ module.exports = {
 
                     task.finalName = json.project.build.finalName
                         // eslint-disable-next-line no-template-curly-in-string
-                        .replace('${project.name}', json.project.artifactId)
+                        .replace('${project.name}', json.project.artifactId._text)
                         // eslint-disable-next-line no-template-curly-in-string
                         .replace('${project.version}', version)
 

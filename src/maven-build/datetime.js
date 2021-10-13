@@ -19,5 +19,13 @@ module.exports = {
      */
     isoToString(isotime) {
         return Date.parse(isotime).toString()
+    },
+    /**
+     * 时间戳转换为标准时间格式
+     * @param timestamp 时间戳
+     * @returns {string} 标准时间格式
+     */
+    timestampToString(timestamp) {
+        return new Date(timestamp).toString()
     }
 }

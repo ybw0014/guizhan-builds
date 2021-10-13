@@ -6,8 +6,10 @@
 const fileSystem = require('fs')
 const fs = fileSystem.promises
 const path = require('path')
+const _ = require('lodash')
 
 const config = require('./config')
+const datetime = require('./datetime')
 
 module.exports = {
     /**
@@ -52,18 +54,19 @@ module.exports = {
      */
     hasUpdate(task, timestamp) {
         return new Promise((resolve, reject) => {
-            const dir = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
+            const filePath = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
             // 检查文件是否存在
-            if (!fileSystem.existsSync(dir)) {
+            if (!fileSystem.existsSync(filePath)) {
                 resolve(1)
                 return
             }
-            fs.readFile(dir).then((builds) => {
+            fs.readFile(filePath).then((builds) => {
                 let json = JSON.parse(builds)
                 if (json.latest < timestamp) {
-                    resolve(json.builds[0].id)
+                    resolve(_.last(json.builds).id)
                 }
             }).catch(reject)
+            reject(new Error('无更新内容'))
         })
     },
     /**
@@ -73,6 +76,73 @@ module.exports = {
      */
     getWorkingDirectory(task) {
         return path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir)
+    },
+    /**
+     * 新增构建
+     * @param task 任务
+     * @returns {Promise} resolve
+     */
+    addBuild(task) {
+        return new Promise((resolve, reject) => {
+            const filePath = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
+
+            let build = {
+                id: task.version,
+                success: task.success,
+                commit: task.commit.hash,
+                datetime: datetime.timestampToString(task.commit.timestamp),
+                timestamp: task.commit.timestamp,
+                message: task.commit.message,
+                author: task.commit.author
+            }
+
+            console.log('> 保存构建信息')
+            // 检查文件是否存在
+            if (!fileSystem.existsSync(filePath)) {
+                let builds = {
+                    latest: task.commit.timestamp,
+                    builds: [
+                        build
+                    ]
+                }
+                fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
+            } else {
+                fs.readFile(filePath).then((builds) => {
+                    let json = JSON.parse(builds)
+                    json.latest = task.commit.timestamp
+                    json.builds.push(build)
+                    fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
+                }).catch(reject)
+            }
+        })
+    },
+    /**
+     * 生成任务标识
+     * @param task 任务
+     * @returns {Promise} resolve
+     */
+    addBadge(task) {
+        return new Promise((resolve, reject) => {
+            let badgeTemplate = path.resolve(__dirname, '../../assets/images/badge.svg')
+            let badgeTarget = path.resolve(this.getWorkingDirectory(task), '../badge.svg')
+
+            console.log('> 生成任务标识')
+            fs.readFile(badgeTemplate).then((badge) => {
+                badge = badge.toString()
+                if (task.success) {
+                    // eslint-disable-next-line no-template-curly-in-string
+                    badge = badge.replace('${status}', '成功')
+                        // eslint-disable-next-line no-template-curly-in-string
+                        .replace('${color}', '#009688')
+                } else {
+                    // eslint-disable-next-line no-template-curly-in-string
+                    badge = badge.replace('${status}', '失败')
+                        // eslint-disable-next-line no-template-curly-in-string
+                        .replace('${color}', '#f34436')
+                }
+                fs.writeFile(badgeTarget, badge).then(resolve, reject)
+            })
+        })
     },
     /**
      * 清理任务工作区

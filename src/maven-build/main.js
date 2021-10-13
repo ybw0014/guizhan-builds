@@ -86,7 +86,7 @@ module.exports = {
                     task.version = version
                     task.status = '清理工作区'
                     projects.clearWorkspace(task).then(resolve, reject)
-                })
+                }, reject)
             }).catch(reject)
         })
     },
@@ -112,9 +112,11 @@ module.exports = {
         task.status = '编译项目中'
         return new Promise((resolve, reject) => {
             maven.build(task).then(() => {
+                console.log('> 编译成功')
                 task.success = true
                 resolve()
             }).catch((error) => {
+                console.log('> 编译失败')
                 console.error(error)
                 task.success = false
                 resolve()
@@ -132,8 +134,10 @@ module.exports = {
             console.log('> 上传构建文件')
 
             Promise.all([
+                projects.addBuild(task),
+                projects.addBadge(task),
                 maven.relocateTarget(task)
-            ]).then((values) => {
+            ]).then(() => {
                 resolve()
             }, reject)
         })
@@ -145,6 +149,7 @@ module.exports = {
      */
     finish (task) {
         return new Promise((resolve, reject) => {
+            console.log('> 提交改动')
             projects.clearWorkspace(task)
             resolve()
         })

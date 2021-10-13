@@ -3,7 +3,7 @@
         "options": {
             "target": {
                 "name": "SlimeTinker",
-                "version": "#{version} zh-CN(ybw0014) (git {git_commit})"
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
     },
@@ -11,7 +11,7 @@
         "options": {
             "target": {
                 "name": "ExoticGarden",
-                "version": "#{version} zh-CN(ybw0014) (git {git_commit})"
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
     }

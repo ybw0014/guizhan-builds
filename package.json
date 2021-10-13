@@ -17,14 +17,15 @@
     "bootstrap-vue": "2.21.2",
     "core-js": "3.18.2",
     "cos-nodejs-sdk-v5": "2.10.4",
-    "fast-xml-parser": "^3.20.3",
+    "lodash": "4.17.21",
     "marked": "3.0.7",
     "maven": "5.0.0",
     "node-sass": "6.0.1",
     "nuxt": "2.15.8",
     "nuxt-lazy-load": "1.2.7",
     "qcloud-cos-sts": "3.0.6",
-    "sass-loader": "10.2.0"
+    "sass-loader": "10.2.0",
+    "xml-js": "1.6.11"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.15.8",
