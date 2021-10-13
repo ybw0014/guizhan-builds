@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
 
     steps:
     - name: Checking out Repository

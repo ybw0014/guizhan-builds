@@ -1,0 +1,92 @@
+/**
+ * 有关 Maven 的所有方法
+ * @author ybw0014
+ */
+
+const fileSystem = require('fs')
+const fs = fileSystem.promises
+const path = require('path')
+const maven = require('maven')
+
+const config = require('./config')
+const projects = require('./projects')
+const xml = require('./xml')
+
+module.exports = {
+    /**
+     * 设置输出版本
+     * @param task 任务
+     * @returns {Promise} 设置成功则resolve
+     */
+    setVersion(task) {
+        return new Promise((resolve, reject) => {
+            const pomFile = path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir, './pom.xml')
+
+            fs.readFile(pomFile, 'utf8').then((data) => { // read pom.xml
+                xml.toJSON(data).then((json) => { // xml to json
+                    // version
+                    let version = task.options.target.version
+                        .replace('{version}', task.version)
+                        .replace('{git_commit}', task.commit.hash.substr(0, 7))
+
+                    json.project.version = version
+
+                    // target name
+                    if (!json.project.build) {
+                        json.project.build = {}
+                    }
+                    // eslint-disable-next-line no-template-curly-in-string
+                    json.project.build.finalName = '${project.name}-${project.version}'
+
+                    task.finalName = json.project.build.finalName
+                        // eslint-disable-next-line no-template-curly-in-string
+                        .replace('${project.name}', json.project.artifactId)
+                        // eslint-disable-next-line no-template-curly-in-string
+                        .replace('${project.version}', version)
+
+                    // write pom.xml
+                    xml.toXML(json).then((data) => {
+                        fs.writeFile(pomFile, data, 'utf8').then(resolve, reject)
+                    }, reject)
+                }, reject)
+            }, reject)
+        })
+    },
+    /**
+     * 构建任务项目
+     * @param task 任务
+     * @returns {Promise} promise
+     */
+    build(task) {
+        return new Promise((resolve, reject) => {
+            console.log('> 构建项目: ' + task.directory)
+
+            let dir = projects.getWorkingDirectory(task)
+            let logFile = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)
+
+            const mvn = maven.create({
+                cwd: dir,
+                batchMode: true,
+                logFile
+            })
+            mvn.execute(['clean', 'package']).then(resolve, reject)
+        })
+    },
+    /**
+     * 将构建目标文件移动
+     * @param task 任务
+     * @returns {Promise} 总是resolve
+     */
+    relocateTarget(task) {
+        if (!task.success) {
+            return Promise.resolve()
+        }
+
+        let dir = projects.getWorkingDirectory(task)
+
+        return fs.rename(
+            path.resolve(dir, './target/', `${task.finalName}.jar`),
+            path.resolve(dir, '../', `${task.finalName}.jar`)
+        )
+    }
+}

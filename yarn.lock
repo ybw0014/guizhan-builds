@@ -4502,6 +4502,13 @@ fast-levenshtein@^2.0.6:
   resolved "https://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz?cache=0&sync_timestamp=1605292839055&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffast-levenshtein%2Fdownload%2Ffast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-xml-parser@^3.20.3:
+  version "3.20.3"
+  resolved "https://registry.npmmirror.com/fast-xml-parser/download/fast-xml-parser-3.20.3.tgz?cache=0&sync_timestamp=1632559288887&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Ffast-xml-parser%2Fdownload%2Ffast-xml-parser-3.20.3.tgz#c171425356d4d929efeca4e4f67f24231a31c786"
+  integrity sha1-wXFCU1bU2Snv7KTk9n8kIxoxx4Y=
+  dependencies:
+    strnum "^1.0.4"
+
 fastq@^1.6.0:
   version "1.12.0"
   resolved "https://registry.nlark.com/fastq/download/fastq-1.12.0.tgz?cache=0&sync_timestamp=1629360956808&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffastq%2Fdownload%2Ffastq-1.12.0.tgz#ed7b6ab5d62393fb2cc591c853652a5c318bf794"
@@ -9053,6 +9060,11 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.nlark.com/strip-json-comments/download/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha1-MfEoGzgyYwQ0gxwxDAHMzajL4AY=
+
+strnum@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmmirror.com/strnum/download/strnum-1.0.4.tgz?cache=0&sync_timestamp=1632556408060&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fstrnum%2Fdownload%2Fstrnum-1.0.4.tgz#e97e36a7d6ba9f93d0d6b496b2ed0678d422832b"
+  integrity sha1-6X42p9a6n5PQ1rSWsu0GeNQigys=
 
 style-resources-loader@^1.4.1:
   version "1.4.1"

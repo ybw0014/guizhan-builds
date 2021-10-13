@@ -3,8 +3,10 @@
  * @author ybw0014
  */
 
-const projects = require('./projects')
+const datetime = require('./datetime')
 const github = require('./github')
+const maven = require('./maven')
+const projects = require('./projects')
 
 module.exports = {
     /**
@@ -39,8 +41,14 @@ module.exports = {
 
                         this.check(currentTask)
                             .then(() => this.update(currentTask)
-                                .then(() => this.compile(currentTask),
+                                .then(() => this.build(currentTask)
+                                    .then(() => this.upload(currentTask)
+                                        .then(() => this.finish(currentTask)
+                                            .then(() => this.updateStatus(i, '已完成'))
+                                            .then(nextTask, reject),
+                                        reject),
                                     reject),
+                                reject),
                             nextTask)
                     }
                 }
@@ -53,20 +61,94 @@ module.exports = {
     /**
      * 检查最新commit
      * @param task 需要检查的任务
-     * @returns {Promise}
+     * @returns {Promise} 如需新构建则resolve
      */
     check(task) {
         task.status = '获取最新commit'
 
         return new Promise((resolve, reject) => {
             github.getLatestCommit(task).then((commit) => {
-                // let latestBuild = projects.getLatestBuild(task.directory)
-            }).catch((error) => {
-                reject(error)
+                if (commit.commit.message.toLowerCase().startsWith('[ci skip]')) {
+                    reject(new Error('跳过构建'))
+                    return
+                }
+
+                let timestamp = datetime.isoToTimestamp(commit.commit.author.date)
+
+                task.commit = {
+                    hash: commit.sha,
+                    timestamp,
+                    message: commit.commit.message,
+                    author: commit.author.login
+                }
+
+                projects.hasUpdate(task, timestamp).then((version) => {
+                    task.version = version
+                    task.status = '清理工作区'
+                    projects.clearWorkspace(task).then(resolve, reject)
+                })
+            }).catch(reject)
+        })
+    },
+    /**
+     * 获取并更新仓库内容
+     * @param task 任务
+     * @returns {Promise} 更新信息成功则resolve
+     */
+    update(task) {
+        task.status = '更新仓库中'
+        return new Promise((resolve, reject) => {
+            github.clone(task).then(() => {
+                maven.setVersion(task).then(resolve, reject)
             })
         })
     },
+    /**
+     * 构建项目
+     * @param task 项目
+     * @returns {Promise} 构建成功则resolve
+     */
+    build(task) {
+        task.status = '编译项目中'
+        return new Promise((resolve, reject) => {
+            maven.build(task).then(() => {
+                task.success = true
+                resolve()
+            }).catch((error) => {
+                console.error(error)
+                task.success = false
+                resolve()
+            })
+        })
+    },
+    /**
+     * 将构建完成的文件上传并更新构建信息
+     * @param task 任务
+     * @returns {Promise} 上传成功则resolve
+     */
+    upload(task) {
+        task.status = '上传构建结果'
+        return new Promise((resolve, reject) => {
+            console.log('> 上传构建文件')
 
+            Promise.all([
+                maven.relocateTarget(task)
+            ]).then((values) => {
+                resolve()
+            }, reject)
+        })
+    },
+    /**
+     * 完成任务的清理工作
+     * @param task 任务
+     * @returns {Promise} 总是resolve
+     */
+    finish (task) {
+        return new Promise((resolve, reject) => {
+            projects.clearWorkspace(task)
+            resolve()
+        })
+    },
     /**
      * 更新任务状态
      * @param index 任务索引

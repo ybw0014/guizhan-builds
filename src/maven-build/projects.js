@@ -1,11 +1,13 @@
 /**
- * 有关项目的所有方法
+ * 有关项目本地文件的所有方法
  * @author ybw0014
  */
 
 const fileSystem = require('fs')
 const fs = fileSystem.promises
 const path = require('path')
+
+const config = require('./config')
 
 module.exports = {
     /**
@@ -41,20 +43,43 @@ module.exports = {
                 }, reject)
         })
     },
-
     /**
-     * 获取最新构建信息
-     * @param dir 本地项目目录
+     * 与本地存储对比，查询是否有更新内容
+     *
+     * @param task 任务
+     * @param timestamp 最新时间戳
+     * @returns {Promise} 如果有更新内容则resolve, 包含新版本号
      */
-    getLatestBuild(dir) {
+    hasUpdate(task, timestamp) {
         return new Promise((resolve, reject) => {
-            fs.readFile(path.resolve(__dirname, `../../static/f/${dir}/builds.json`))
-                .then((builds) => {
-                    let json = JSON.parse(builds)
-                    resolve(json[0])
-                }).catch((error) => {
-                    reject(error)
-                })
+            const dir = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
+            // 检查文件是否存在
+            if (!fileSystem.existsSync(dir)) {
+                resolve(1)
+                return
+            }
+            fs.readFile(dir).then((builds) => {
+                let json = JSON.parse(builds)
+                if (json.latest < timestamp) {
+                    resolve(json.builds[0].id)
+                }
+            }).catch(reject)
         })
+    },
+    /**
+     * 获取任务工作目录
+     * @param task 任务
+     * @returns {string} 工作目录
+     */
+    getWorkingDirectory(task) {
+        return path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir)
+    },
+    /**
+     * 清理任务工作区
+     * @param task
+     */
+    clearWorkspace(task) {
+        fileSystem.rmdirSync(this.getWorkingDirectory(task), { recursive: true })
+        return Promise.resolve()
     }
 }
