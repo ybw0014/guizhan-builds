@@ -97,48 +97,29 @@ module.exports = {
             let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.directory + ' (' + task.version + ')'
 
             console.log(`>> git add ${addFiles}`)
-            let gitAdd = childProcess.spawn('git', [
+            let gitAdd = childProcess.spawnSync('git', [
                 'add',
-                path.resolve(projects.getWorkingDirectory(task), '../') + '/*'
+                addFiles
             ])
+            console.log('git > ', gitAdd.stdout.toString())
+            console.log('git > ', gitAdd.stderr.toString())
 
-            gitAdd.stdout.on('data', (data) => {
-                console.log('git> ' + data)
-            })
-            gitAdd.stderr.on('data', (data) => {
-                console.log('git> ' + data)
-            })
+            console.log(`>> git commit -m "${commitMsg}"`)
+            let gitCommit = childProcess.spawnSync('git', [
+                'commit',
+                '-m',
+                commitMsg
+            ])
+            console.log('git > ', gitCommit.stdout.toString())
+            console.log('git > ', gitCommit.stderr.toString())
 
-            gitAdd.on('close', () => {
-                console.log(`>> git commit -m "${commitMsg}"`)
-                let gitCommit = childProcess.spawn('git', [
-                    'commit',
-                    '-m',
-                    commitMsg
-                ])
+            console.log('>> git push origin --force')
+            let gitPush = childProcess.spawnSync('git', ['push', 'origin', '--force'])
+            console.log('git > ', gitPush.stdout.toString())
+            console.log('git > ', gitPush.stderr.toString())
 
-                gitCommit.stdout.on('data', (data) => {
-                    console.log('git> ' + data)
-                })
-                gitCommit.stderr.on('data', (data) => {
-                    console.log('git> ' + data)
-                })
-                gitCommit.on('close', () => {
-                    console.log('>> git push origin --force')
-                    let gitPush = childProcess.spawn('git', ['push', 'origin', '--force'])
-
-                    gitPush.stdout.on('data', (data) => {
-                        console.log('git> ' + data)
-                    })
-                    gitPush.stderr.on('data', (data) => {
-                        console.log('git> ' + data)
-                    })
-                    gitPush.on('close', () => {
-                        console.log('> 已推送至远程仓库')
-                        resolve()
-                    })
-                })
-            })
+            console.log('> 已推送至远程仓库')
+            resolve()
         })
     }
 }
