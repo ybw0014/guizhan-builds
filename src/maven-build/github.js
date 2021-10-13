@@ -119,7 +119,7 @@ module.exports = {
                     console.log('git> ' + data)
                 })
                 gitCommit.on('close', () => {
-                    let gitPush = childProcess.spawn('git', ['push', 'origin'])
+                    let gitPush = childProcess.spawn('git', ['push', 'origin', '--force'])
 
                     gitPush.stdout.on('data', (data) => {
                         console.log('git> ' + data)
