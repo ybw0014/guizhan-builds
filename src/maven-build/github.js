@@ -95,7 +95,7 @@ module.exports = {
 
             let gitAdd = childProcess.spawn('git', [
                 'add',
-                path.resolve(projects.getWorkingDirectory(task), '../*')
+                path.resolve(projects.getWorkingDirectory(task), '../') + '/*'
             ])
 
             gitAdd.stdout.on('data', (data) => {

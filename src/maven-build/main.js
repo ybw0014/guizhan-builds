@@ -150,6 +150,7 @@ module.exports = {
     finish (task) {
         return new Promise((resolve, reject) => {
             console.log('> 提交改动')
+            github.pushChanges(task)
             projects.clearWorkspace(task)
             resolve()
         })
