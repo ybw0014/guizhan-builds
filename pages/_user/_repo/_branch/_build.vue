@@ -55,7 +55,7 @@
                                         构建于 {{ buildTime }}
                                     </b-card-text>
 
-                                    <b-button href="" variant="primary" target="_blank">
+                                    <b-button :href="'/f/' + repoDir + '/' + buildInfo.target" variant="primary" target="_blank">
                                         从 Github 下载
                                     </b-button>
 

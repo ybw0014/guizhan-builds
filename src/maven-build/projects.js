@@ -96,7 +96,8 @@ module.exports = {
                 build_timestamp: new Date().getTime(),
                 timestamp: task.commit.timestamp,
                 message: task.commit.message,
-                author: task.commit.author
+                author: task.commit.author,
+                target: task.finalName + '.jar'
             }
 
             console.log('> 保存构建信息')
