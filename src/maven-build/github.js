@@ -93,6 +93,10 @@ module.exports = {
         return new Promise((resolve, reject) => {
             console.log('> 推送更改')
 
+            let addFiles = path.resolve(projects.getWorkingDirectory(task), '../') + '/*'
+            let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.directory + ' (' + task.version + ')'
+
+            console.log(`>> git add ${addFiles}`)
             let gitAdd = childProcess.spawn('git', [
                 'add',
                 path.resolve(projects.getWorkingDirectory(task), '../') + '/*'
@@ -106,10 +110,11 @@ module.exports = {
             })
 
             gitAdd.on('close', () => {
+                console.log(`>> git commit -m "${commitMsg}"`)
                 let gitCommit = childProcess.spawn('git', [
                     'commit',
                     '-m',
-                    (task.success ? '构建成功: ' : '构建失败: ') + task.directory + ' (' + task.version + ')'
+                    commitMsg
                 ])
 
                 gitCommit.stdout.on('data', (data) => {
@@ -119,6 +124,7 @@ module.exports = {
                     console.log('git> ' + data)
                 })
                 gitCommit.on('close', () => {
+                    console.log('>> git push origin --force')
                     let gitPush = childProcess.spawn('git', ['push', 'origin', '--force'])
 
                     gitPush.stdout.on('data', (data) => {
@@ -128,7 +134,7 @@ module.exports = {
                         console.log('git> ' + data)
                     })
                     gitPush.on('close', () => {
-                        console.log('> 已推送')
+                        console.log('> 已推送至远程仓库')
                         resolve()
                     })
                 })
