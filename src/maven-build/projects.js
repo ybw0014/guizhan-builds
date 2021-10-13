@@ -149,7 +149,10 @@ module.exports = {
      * @param task
      */
     clearWorkspace(task) {
-        fileSystem.rmdirSync(this.getWorkingDirectory(task), { recursive: true })
+        let workspace = this.getWorkingDirectory(task)
+        if (fileSystem.existsSync(workspace)) {
+            fileSystem.rmSync(workspace, { recursive: true })
+        }
         return Promise.resolve()
     }
 }
