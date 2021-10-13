@@ -15,14 +15,14 @@
                 {{ branch }}
             </b-breadcrumb-item>
         </b-breadcrumb>
-        <div class="container-fluid">
-            <div class="row">
+        <b-container fluid>
+            <b-row>
                 <b-list-group class="col-md-3 pr-0" flush>
                     <b-list-group-item to="/?tab=all">
                         <b-icon icon="arrow-left" />
                         返回仓库列表
                     </b-list-group-item>
-                    <b-list-group-item :href="'https://github.com/' + user + '/' + repo" target="_blank">
+                    <b-list-group-item :href="'https://github.com/' + user + '/' + repo + '/tree/' + branch" target="_blank">
                         <b-icon icon="github" />
                         项目 GitHub 主页
                     </b-list-group-item>
@@ -30,19 +30,56 @@
                         <b-icon icon="bug" />
                         问题追踪器
                     </b-list-group-item>
+                    <b-list-group-item :href="'/f/' + repoDir + '/badge.svg'" target="_blank">
+                        <b-icon icon="cloud" />
+                        <build-status :info="{ user, repo, branch }" />
+                    </b-list-group-item>
                 </b-list-group>
-                <div class="col-md-9 pt-2 border-left">
+                <b-col md="9" class="pt-2 border-left">
                     <h3 class="repo-name">
                         {{ repo }}
                         <small class="repo-branch">{{ branch }}</small>
                     </h3>
-                </div>
-            </div>
-        </div>
+                    <b-container fluid class="mt-4">
+                        <b-row>
+                            <b-col xs="12" md="8" offset-md="2" class="">
+                                <b-card v-if="buildInfo !== null">
+                                    <slot name="header">
+                                        <h4 class="card-title">
+                                            {{ buildTitle }}
+                                            <b-icon v-if="buildInfo.success" icon="check-circle-fill" class="text-success" />
+                                            <b-icon v-else icon="x-circle-fill" class="text-danger" />
+                                        </h4>
+                                    </slot>
+                                    <b-card-text>
+                                        构建于 {{ buildTime }}
+                                    </b-card-text>
+
+                                    <b-button href="" variant="primary" target="_blank">
+                                        从 Github 下载
+                                    </b-button>
+
+                                    <b-card class="mt-4 text-center">
+                                        <b-card-text>
+                                            {{ buildInfo.author }} 于 {{ commitTime }} 提交
+                                            (<a :href="'https://github.com/' + user + '/' + repo + '/commit/' + buildInfo.hash" target="_blank">{{ buildInfo.hash.substr(0, 7) }}</a>):
+                                        </b-card-text>
+                                        <b-card-text>
+                                            {{ buildInfo.message }}
+                                        </b-card-text>
+                                    </b-card>
+                                </b-card>
+                            </b-col>
+                        </b-row>
+                    </b-container>
+                </b-col>
+            </b-row>
+        </b-container>
     </div>
 </template>
 
 <script>
+import _ from 'lodash'
 import reposUtil from '~/utils/repos'
 import buildsUtil from '~/utils/builds'
 export default {
@@ -53,7 +90,11 @@ export default {
             repo: this.$route.params.repo,
             branch: this.$route.params.branch,
             build: this.$route.params.build,
-            builds: null
+            builds: null,
+            buildInfo: null,
+            buildTitle: '',
+            buildTime: '',
+            commitTime: ''
         }
     },
     head () {
@@ -70,6 +111,17 @@ export default {
         }
     },
     mounted () {
+        try {
+            let build = parseInt(this.build)
+            if (build.toString() !== this.build.toString()) {
+                throw new Error('无效的构建版本')
+            }
+            this.build = build
+        } catch (ex) {
+            this.$router.push({
+                name: 'user-repo-branch'
+            })
+        }
         // repos
         reposUtil.loadRepos(this).then(() => {
             let queryOption = {
@@ -83,8 +135,19 @@ export default {
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
                 this.builds = buildsUtil.getBuilds(this, this.repoStr)
                 if (!buildsUtil.exists(this.builds, { id: this.build })) {
-                    this.$nuxt.error({ statusCode: 404, message: 'Not found' })
+                    this.$router.push({
+                        name: 'user-repo-branch'
+                    })
                 }
+
+                this.buildInfo = _.find(this.builds, (build) => {
+                    return build.id === this.build
+                })
+                this.buildTitle = '构建 #' + this.buildInfo.id
+                this.buildTime = new Date(this.buildInfo.build_timestamp).toLocaleString()
+                this.commitTime = new Date(this.buildInfo.timestamp).toLocaleString()
+            }).catch(() => {
+                this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
         })
     },

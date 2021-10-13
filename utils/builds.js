@@ -17,7 +17,7 @@ export default {
                     vueInst.$store.commit('builds/setLatest', { repoStr, latest: response.data.latest })
                     vueInst.$store.commit('builds/setBuilds', { repoStr, builds: response.data.builds })
                     resolve()
-                })
+                }).catch(reject)
             } else {
                 resolve()
             }
@@ -50,7 +50,7 @@ export default {
     exists(builds, options) {
         let found = false
         _.forEach(builds, (build) => {
-            if (!_.isNil(options.id) && options.id !== build.id.toString()) {
+            if (!_.isNil(options.id) && options.id.toString() !== build.id.toString()) {
                 return true // continue
             }
             if (!_.isNil(options.commit) && options.commit !== build.commit) {

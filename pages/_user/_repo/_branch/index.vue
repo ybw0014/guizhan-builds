@@ -45,6 +45,8 @@ export default {
                     name: 'user-repo-branch-build',
                     params: { build: _.last(builds).id }
                 })
+            }).catch(() => {
+                this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
         })
     },

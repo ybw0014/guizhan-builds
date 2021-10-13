@@ -57,15 +57,19 @@ module.exports = {
             const filePath = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
             // 检查文件是否存在
             if (!fileSystem.existsSync(filePath)) {
+                console.log('> 全新构建 #1')
                 resolve(1)
                 return
             }
             fs.readFile(filePath).then((builds) => {
                 let json = JSON.parse(builds)
                 if (json.latest < timestamp) {
-                    resolve(_.last(json.builds).id)
+                    let version = _.last(json.builds).id + 1
+                    console.log('> 构建新版本 #' + version)
+                    resolve(version)
                 }
             }).catch(reject)
+            console.log('> 无更新内容')
             reject(new Error('无更新内容'))
         })
     },
@@ -90,7 +94,7 @@ module.exports = {
                 id: task.version,
                 success: task.success,
                 commit: task.commit.hash,
-                datetime: datetime.timestampToString(task.commit.timestamp),
+                build_timestamp: new Date().getTime(),
                 timestamp: task.commit.timestamp,
                 message: task.commit.message,
                 author: task.commit.author
