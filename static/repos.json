@@ -94,5 +94,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/HeadLimiter-CN:master": {
+        "options": {
+            "target": {
+                "name": "HeadLimiter",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }

@@ -56,7 +56,10 @@
                                     </b-card-text>
 
                                     <b-button :href="'/f/' + repoDir + '/' + buildInfo.target" variant="primary" target="_blank">
-                                        从 Github 下载
+                                        直接下载
+                                    </b-button>
+                                    <b-button disabled variant="primary" target="_blank">
+                                        网盘下载(即将推出)
                                     </b-button>
 
                                     <b-card class="mt-4 text-center">
