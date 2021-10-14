@@ -62,7 +62,7 @@
                                     <b-card class="mt-4 text-center">
                                         <b-card-text>
                                             {{ buildInfo.author }} 于 {{ commitTime }} 提交
-                                            (<a :href="'https://github.com/' + user + '/' + repo + '/commit/' + buildInfo.hash" target="_blank">{{ buildInfo.hash.substr(0, 7) }}</a>):
+                                            (<a :href="'https://github.com/' + user + '/' + repo + '/commit/' + buildInfo.commit" target="_blank">{{ buildInfo.commit.substr(0, 7) }}</a>):
                                         </b-card-text>
                                         <b-card-text>
                                             {{ buildInfo.message }}
