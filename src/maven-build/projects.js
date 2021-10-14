@@ -66,10 +66,11 @@ module.exports = {
                     let version = _.last(json.builds).id + 1
                     console.log('> 构建新版本 #' + version)
                     resolve(version)
+                } else {
+                    console.log('> 无更新内容')
+                    reject(new Error('无更新内容'))
                 }
             }).catch(reject)
-            console.log('> 无更新内容')
-            reject(new Error('无更新内容'))
         })
     },
     /**

@@ -53,6 +53,9 @@
                                     </slot>
                                     <b-card-text>
                                         构建于 {{ buildTime }}
+                                        <a :href="'/f/' + repoDir + '/' + repo + '-' + branch + '-' + buildInfo.id + '.log'" target="_blank">
+                                            日志
+                                        </a>
                                     </b-card-text>
 
                                     <b-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank">

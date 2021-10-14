@@ -40,7 +40,7 @@ jobs:
     - name: Run automatic build
       run: node src/maven-build.js
 
-    - name: Run Nuxt Build
+    - name: Trigger nuxt build
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
