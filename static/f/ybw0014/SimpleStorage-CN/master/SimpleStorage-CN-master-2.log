@@ -1,0 +1,74 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< io.github.sefiraat.simplestorage:SimpleStorage >-----------
+[INFO] Building SimpleStorage Build 2 zh-CN(ybw0014) (git a1e9e94)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom (14 kB at 97 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.pom (5.1 kB at 39 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom (1.7 kB at 1.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom (1.5 kB at 1.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.jar (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar (22 kB at 14 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar (4.1 kB at 2.6 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityLib/1.2.0/InfinityLib-1.2.0.jar (91 kB at 676 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar (4.3 MB at 15 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SimpleStorage ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SimpleStorage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SimpleStorage ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 39 source files to /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/src/main/java/io/github/sefiraat/simplestorage/items/chests/SimpleInventoryCache.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/src/main/java/io/github/sefiraat/simplestorage/items/chests/SimpleInventoryCache.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SimpleStorage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SimpleStorage ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SimpleStorage ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SimpleStorage ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/target/SimpleStorage-Build 2 zh-CN(ybw0014) (git a1e9e94).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SimpleStorage ---
+[INFO] Including com.github.ybw0014:InfinityLib:jar:1.2.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/target/SimpleStorage-Build 2 zh-CN(ybw0014) (git a1e9e94).jar with /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/target/SimpleStorage-Build 2 zh-CN(ybw0014) (git a1e9e94)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/SimpleStorage-CN/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.262 s
+[INFO] Finished at: 2021-10-14T12:31:28Z
+[INFO] ------------------------------------------------------------------------
