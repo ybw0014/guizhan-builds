@@ -69,6 +69,7 @@ module.exports = {
         return new Promise((resolve, reject) => {
             github.getLatestCommit(task).then((commit) => {
                 if (commit.commit.message.toLowerCase().startsWith('[ci skip]')) {
+                    console.log('> 跳过构建')
                     reject(new Error('跳过构建'))
                     return
                 }
