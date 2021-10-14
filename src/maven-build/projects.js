@@ -113,7 +113,7 @@ module.exports = {
                 fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
             } else {
                 fs.readFile(filePath).then((builds) => {
-                    let json = JSON.parse(builds)
+                    let json = JSON.parse(builds.toString('utf-8'))
                     json.latest = task.commit.timestamp
                     json.builds.push(build)
                     fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
