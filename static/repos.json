@@ -14,5 +14,85 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/MobCapturer-CN:master": {
+        "options": {
+            "target": {
+                "name": "MobCapturer",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/InfinityExpansion-CN:master": {
+        "options": {
+            "target": {
+                "name": "InfinityExpansion",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/FluffyMachines-CN:master": {
+        "options": {
+            "target": {
+                "name": "FluffyMachines",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ChestTerminal-CN:master": {
+        "options": {
+            "target": {
+                "name": "ChestTerminal",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/HotbarPets-CN:master": {
+        "options": {
+            "target": {
+                "name": "HotbarPets",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SoulJars-CN:master": {
+        "options": {
+            "target": {
+                "name": "SoulJars",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/LiteXpansion-CN:master": {
+        "options": {
+            "target": {
+                "name": "LiteXpansion",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SimpleUtils-CN:master": {
+        "options": {
+            "target": {
+                "name": "SimpleUtils",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/DynaTech-CN:master": {
+        "options": {
+            "target": {
+                "name": "DynaTech",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SimpleStorage-CN:master": {
+        "options": {
+            "target": {
+                "name": "SimpleStorage",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
