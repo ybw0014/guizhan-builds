@@ -116,8 +116,6 @@ module.exports = {
                     let json = JSON.parse(builds)
                     json.latest = task.commit.timestamp
                     json.builds.push(build)
-                    console.log(json)
-                    reject(new Error('dev'))
                     fs.writeFile(filePath, JSON.stringify(builds), 'utf8').then(resolve, reject)
                 }).catch(reject)
             }
