@@ -110,13 +110,13 @@ module.exports = {
                         build
                     ]
                 }
-                fs.writeFile(filePath, JSON.stringify(builds), 'utf8').then(resolve, reject)
+                fs.writeFile(filePath, JSON.stringify(builds)).then(resolve, reject)
             } else {
                 fs.readFile(filePath, 'utf8').then((builds) => {
                     let json = JSON.parse(builds)
                     json.latest = task.commit.timestamp
                     json.builds.push(build)
-                    fs.writeFile(filePath, JSON.stringify(builds), 'utf8').then(resolve, reject)
+                    fs.writeFile(filePath, JSON.stringify(json)).then(resolve, reject)
                 }).catch(reject)
             }
         })
