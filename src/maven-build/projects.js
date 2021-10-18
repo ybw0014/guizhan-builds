@@ -17,7 +17,7 @@ module.exports = {
      */
     getProjects() {
         return new Promise((resolve, reject) => {
-            fs.readFile(path.resolve(process.cwd(), './static/repos.json'))
+            fs.readFile(path.resolve(process.cwd(), './static/repos.json'), 'utf-8')
                 .then((repos) => {
                     const tasks = []
                     const json = JSON.parse(repos)
@@ -60,7 +60,7 @@ module.exports = {
                 resolve(1)
                 return
             }
-            fs.readFile(filePath).then((builds) => {
+            fs.readFile(filePath, 'utf-8').then((builds) => {
                 let json = JSON.parse(builds)
                 if (json.latest < timestamp) {
                     let version = _.last(json.builds).id + 1
@@ -112,8 +112,8 @@ module.exports = {
                 }
                 fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
             } else {
-                fs.readFile(filePath).then((builds) => {
-                    let json = JSON.parse(builds.toString('utf-8'))
+                fs.readFile(filePath, 'utf-8').then((builds) => {
+                    let json = JSON.parse(builds)
                     json.latest = task.commit.timestamp
                     json.builds.push(build)
                     fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
@@ -132,8 +132,7 @@ module.exports = {
             let badgeTarget = path.resolve(this.getWorkingDirectory(task), '../badge.svg')
 
             console.log('> 生成任务标识')
-            fs.readFile(badgeTemplate).then((badge) => {
-                badge = badge.toString()
+            fs.readFile(badgeTemplate, 'utf-8').then((badge) => {
                 if (task.success) {
                     // eslint-disable-next-line no-template-curly-in-string
                     badge = badge.replace('${status}', '成功')

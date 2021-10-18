@@ -22,7 +22,7 @@ module.exports = {
         return new Promise((resolve, reject) => {
             const pomFile = path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir, './pom.xml')
 
-            fs.readFile(pomFile, 'utf8').then((data) => { // read pom.xml
+            fs.readFile(pomFile, 'utf-8').then((data) => { // read pom.xml
                 xml.toJSON(data).then((json) => { // xml to json
                     // version
                     let version = task.options.target.version
