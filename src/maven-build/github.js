@@ -30,7 +30,11 @@ module.exports = {
             }).then((response) => {
                 console.log('> 已获取最新commit')
                 resolve(response.data[0])
-            }).catch(reject)
+            }).catch((error) => {
+                console.log('> 获取最新commit失败,跳过构建')
+                console.log('> 错误信息: ', error.data ? error.data.message : error.response.statusText)
+                reject(error)
+            })
         })
     },
     /**

@@ -60,7 +60,7 @@ module.exports = {
                 resolve(1)
                 return
             }
-            fs.readFile(filePath, 'utf-8').then((builds) => {
+            fs.readFile(filePath, 'utf8').then((builds) => {
                 let json = JSON.parse(builds)
                 if (json.latest < timestamp) {
                     let version = _.last(json.builds).id + 1
@@ -110,13 +110,15 @@ module.exports = {
                         build
                     ]
                 }
-                fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
+                fs.writeFile(filePath, JSON.stringify(builds), 'utf8').then(resolve, reject)
             } else {
-                fs.readFile(filePath, 'utf-8').then((builds) => {
+                fs.readFile(filePath, 'utf8').then((builds) => {
                     let json = JSON.parse(builds)
                     json.latest = task.commit.timestamp
                     json.builds.push(build)
-                    fs.writeFile(filePath, JSON.stringify(builds), 'utf-8').then(resolve, reject)
+                    console.log(json)
+                    reject(new Error('dev'))
+                    fs.writeFile(filePath, JSON.stringify(builds), 'utf8').then(resolve, reject)
                 }).catch(reject)
             }
         })
