@@ -38,9 +38,11 @@ jobs:
       run: sh src/maven-build-setup.sh
 
     - name: Run automatic build
+      id: maven-build
       run: node src/maven-build.js
 
     - name: Trigger nuxt build
+      if: steps.maven-build.outputs.HAS_UPDATE == true
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}

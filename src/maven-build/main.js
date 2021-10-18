@@ -139,6 +139,7 @@ module.exports = {
                 projects.addBadge(task),
                 maven.relocateTarget(task)
             ]).then(() => {
+                global.status.hasUpdate = true
                 resolve()
             }, reject)
         })
