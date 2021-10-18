@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@actions/core@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npmmirror.com/@actions/core/download/@actions/core-1.6.0.tgz#0568e47039bfb6a9170393a73f3b7eb3b22462cb"
+  integrity sha1-BWjkcDm/tqkXA5OnPzt+s7IkYss=
+  dependencies:
+    "@actions/http-client" "^1.0.11"
+
+"@actions/http-client@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.npm.taobao.org/@actions/http-client/download/@actions/http-client-1.0.11.tgz#c58b12e9aa8b159ee39e7dd6cbd0e91d905633c0"
+  integrity sha1-xYsS6aqLFZ7jnn3Wy9DpHZBWM8A=
+  dependencies:
+    tunnel "0.0.6"
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.npmmirror.com/@babel/code-frame/download/@babel/code-frame-7.12.11.tgz?cache=0&sync_timestamp=1633554562995&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fcode-frame%2Fdownload%2F%40babel%2Fcode-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -9287,6 +9301,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+tunnel@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npm.taobao.org/tunnel/download/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
+  integrity sha1-cvExSzSlsZLbASMk3yzFh8pH+Sw=
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"

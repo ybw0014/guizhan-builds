@@ -1,3 +1,4 @@
+const core = require('@actions/core')
 const main = require('./maven-build/main')
 
 global.status = {
@@ -8,7 +9,7 @@ global.status = {
 
 main.start().then(() => {
     console.log('运行完成')
-    console.log('::set-output name=HAS_UPDATE::' + global.status.hasUpdate)
+    core.setOutput('HAS_UPDATE', global.status.hasUpdate)
 
     process.exit()
 })
