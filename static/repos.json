@@ -126,5 +126,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/EcoPower-CN:master": {
+        "options": {
+            "target": {
+                "name": "EcoPower",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
