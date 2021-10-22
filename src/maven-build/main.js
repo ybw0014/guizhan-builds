@@ -3,6 +3,7 @@
  * @author ybw0014
  */
 
+const core = require('@actions/core')
 const datetime = require('./datetime')
 const github = require('./github')
 const maven = require('./maven')
@@ -139,7 +140,7 @@ module.exports = {
                 projects.addBadge(task),
                 maven.relocateTarget(task)
             ]).then(() => {
-                global.status.hasUpdate = true
+                core.setOutput('HAS_UPDATE', 'true')
                 resolve()
             }, reject)
         })
