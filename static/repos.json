@@ -102,5 +102,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/ElectricSpawners-CN:master": {
+        "options": {
+            "target": {
+                "name": "ElectricSpawners",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
