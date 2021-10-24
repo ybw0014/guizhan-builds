@@ -158,5 +158,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/SlimefunOreChunks-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimefunOreChunks",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
