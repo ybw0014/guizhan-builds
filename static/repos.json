@@ -151,10 +151,10 @@
             }
         }
     },
-    "ybw0014/下载ColoredEnderChests-CN:master": {
+    "ybw0014/ColoredEnderChests-CN:master": {
         "options": {
             "target": {
-                "name": "下载ColoredEnderChests",
+                "name": "ColoredEnderChests",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
