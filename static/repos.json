@@ -142,5 +142,21 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/DyedBackpacks-CN:master": {
+        "options": {
+            "target": {
+                "name": "DyedBackpacks",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/下载ColoredEnderChests-CN:master": {
+        "options": {
+            "target": {
+                "name": "下载ColoredEnderChests",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
