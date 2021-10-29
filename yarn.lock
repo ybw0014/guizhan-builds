@@ -6683,10 +6683,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.npm.taobao.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-lazy-load@1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.8.tgz#68dd65441e7e3c3df9be58da9ca2b4e09ea91c20"
-  integrity sha512-zH86YNKE4FBce7KY8M/nImCly5CcfF5ThAcgVWgrmdwt2t15nl5FPVLQ3frFH2DS2qmkods0+prEB4exaf9BVw==
+nuxt-lazy-load@1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/nuxt-lazy-load/-/nuxt-lazy-load-1.2.9.tgz#cad74b0efbb106545d39c84c2277bc18841226aa"
+  integrity sha512-TB9k4s9d/M1k3hLasBQChkHFTSDlkov2AQNcE1d6vFuLuy4cjvVnoVO8VRHaVtIKPETbwmsDyc+mmi87LJZ7pg==
   dependencies:
     intersection-observer "^0.7.0"
     string-replace-loader "^2.1.1"
