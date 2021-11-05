@@ -9,3 +9,5 @@
 ~~只会用 Bootstrap 整了个丑陋的页面，能用就行。~~
 
 GitHub 仓库: [https://github.com/ybw0014/maven-builds](https://github.com/ybw0014/maven-builds)
+
+由 ybw0014 整合的粘液科技材质包推荐: [点击查看](https://ybw0014.net/post/guizhancraft-resource-pack)
