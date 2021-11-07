@@ -7,7 +7,6 @@ on:
 
 jobs:
   lint:
-    if: startsWith(github.event.head_commit.message, '[build skip]') == false
     name: ESLint
     runs-on: ubuntu-latest
 
