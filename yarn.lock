@@ -3300,10 +3300,10 @@ core-util-is@~1.0.0:
   resolved "https://registry.nlark.com/core-util-is/download/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U=
 
-cos-nodejs-sdk-v5@2.10.6:
-  version "2.10.6"
-  resolved "https://registry.yarnpkg.com/cos-nodejs-sdk-v5/-/cos-nodejs-sdk-v5-2.10.6.tgz#3df44b68eed079a3636e91b236cd1edf321f2b2b"
-  integrity sha512-557EbD5WObUzBfYyUAapRAsBdhjiM+YhyVCAn0Q4T5RnPaXJeqUjN0dz2uAeZZMuFIOEs8/BG2aJr8fAh+lDOA==
+cos-nodejs-sdk-v5@2.10.7:
+  version "2.10.7"
+  resolved "https://registry.yarnpkg.com/cos-nodejs-sdk-v5/-/cos-nodejs-sdk-v5-2.10.7.tgz#29cf4a132015cb3667a44f968872dbeece519565"
+  integrity sha512-PWZ0KzwLSeIUFbgq5onbWlg0qXavEEa/M5BoN8TT7trnCrJlNesBHcHqmaZSchrVkxF0V2Op14xlkEUbkFEC+w==
   dependencies:
     "@types/node" "^14.14.20"
     conf "^9.0.0"
