@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< io.github.thebusybiscuit:ElectricSpawners >--------------
+[INFO] Building ElectricSpawners Build 3 zh-CN(ybw0014) (git 6daf122)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ElectricSpawners ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ElectricSpawners ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ElectricSpawners ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/src/main/java/io/github/thebusybiscuit/electricspawners/ElectricSpawner.java: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/src/main/java/io/github/thebusybiscuit/electricspawners/ElectricSpawner.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/src/main/java/io/github/thebusybiscuit/electricspawners/ElectricSpawner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ElectricSpawners ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ElectricSpawners ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ElectricSpawners ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ElectricSpawners ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/target/ElectricSpawners-Build 3 zh-CN(ybw0014) (git 6daf122).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ ElectricSpawners ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Including com.github.ybw0014:ChineseLib:jar:0.2.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/target/ElectricSpawners-Build 3 zh-CN(ybw0014) (git 6daf122).jar with /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/target/ElectricSpawners-Build 3 zh-CN(ybw0014) (git 6daf122)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ElectricSpawners-CN/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.144 s
+[INFO] Finished at: 2021-10-24T07:16:52Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,186 @@
+{
+    "ybw0014/SlimeTinker-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimeTinker",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ExoticGarden-CN:master": {
+        "options": {
+            "target": {
+                "name": "ExoticGarden",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/MobCapturer-CN:master": {
+        "options": {
+            "target": {
+                "name": "MobCapturer",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/InfinityExpansion-CN:master": {
+        "options": {
+            "target": {
+                "name": "InfinityExpansion",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/FluffyMachines-CN:master": {
+        "options": {
+            "target": {
+                "name": "FluffyMachines",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ChestTerminal-CN:master": {
+        "options": {
+            "target": {
+                "name": "ChestTerminal",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/HotbarPets-CN:master": {
+        "options": {
+            "target": {
+                "name": "HotbarPets",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SoulJars-CN:master": {
+        "options": {
+            "target": {
+                "name": "SoulJars",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/LiteXpansion-CN:master": {
+        "options": {
+            "target": {
+                "name": "LiteXpansion",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SimpleUtils-CN:master": {
+        "options": {
+            "target": {
+                "name": "SimpleUtils",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/DynaTech-CN:master": {
+        "options": {
+            "target": {
+                "name": "DynaTech",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SimpleStorage-CN:master": {
+        "options": {
+            "target": {
+                "name": "SimpleStorage",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/HeadLimiter-CN:master": {
+        "options": {
+            "target": {
+                "name": "HeadLimiter",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ElectricSpawners-CN:master": {
+        "options": {
+            "target": {
+                "name": "ElectricSpawners",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SlimyTreeTaps-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimyTreeTaps",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ExtraGear-CN:master": {
+        "options": {
+            "target": {
+                "name": "ExtraGear",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/EcoPower-CN:master": {
+        "options": {
+            "target": {
+                "name": "EcoPower",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ExtraHeads-CN:master": {
+        "options": {
+            "target": {
+                "name": "ExtraHeads",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/DyedBackpacks-CN:master": {
+        "options": {
+            "target": {
+                "name": "DyedBackpacks",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/ColoredEnderChests-CN:master": {
+        "options": {
+            "target": {
+                "name": "ColoredEnderChests",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SlimefunOreChunks-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimefunOreChunks",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/FoxyMachines-CN:master": {
+        "options": {
+            "target": {
+                "name": "FoxyMachines",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SlimefunWarfare-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimefunWarfare",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    }
+}

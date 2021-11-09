@@ -1,0 +1,55 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "patternProperties": {
+        "^[A-Za-z0-9_-]+/[A-Za-z0-9_-]+:[A-Za-z0-9_-]+$": {
+            "type": "object",
+            "required": [
+                "options"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "options": {
+                    "type": "object",
+                    "required": [
+                        "target"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "target": {
+                            "type": "object",
+                            "required": [
+                                "name",
+                                "version"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "version": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "abandoned": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "dependencies": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "patternProperties": {
+                            "^[0-9]+$": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

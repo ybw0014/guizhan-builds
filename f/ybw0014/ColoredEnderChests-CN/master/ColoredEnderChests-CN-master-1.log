@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< io.github.thebusybiscuit:ColoredEnderChests >-------------
+[INFO] Building ColoredEnderChests Build 1 zh-CN(ybw0014) (git b2c82c2)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from codemc-repo: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.pom (3.5 kB at 5.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/ChineseLib/0.2.4/ChineseLib-0.2.4.jar (44 kB at 61 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ColoredEnderChests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ColoredEnderChests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ColoredEnderChests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ColoredEnderChests-CN/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ColoredEnderChests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ColoredEnderChests-CN/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ColoredEnderChests ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ColoredEnderChests ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ColoredEnderChests ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ColoredEnderChests-CN/master/workspace/target/ColoredEnderChests-Build 1 zh-CN(ybw0014) (git b2c82c2).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ ColoredEnderChests ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Including com.github.ybw0014:ChineseLib:jar:0.2.4 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ColoredEnderChests-CN/master/workspace/target/ColoredEnderChests-Build 1 zh-CN(ybw0014) (git b2c82c2).jar with /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ColoredEnderChests-CN/master/workspace/target/ColoredEnderChests-Build 1 zh-CN(ybw0014) (git b2c82c2)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/ColoredEnderChests-CN/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.686 s
+[INFO] Finished at: 2021-10-24T09:47:48Z
+[INFO] ------------------------------------------------------------------------
