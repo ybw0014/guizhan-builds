@@ -174,5 +174,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/SlimefunWarfare-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimefunWarfare",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
