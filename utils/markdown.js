@@ -6,8 +6,6 @@ renderer.link = (href, title, text) => `<a href="${href}" title="${title}" targe
 
 export default {
     render (source) {
-        return marked(source, {
-            renderer
-        })
+        return marked.parse(source, { renderer })
     }
 }

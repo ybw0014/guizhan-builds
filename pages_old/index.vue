@@ -1,19 +1,51 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-10">
-        <div class="col-span-3 my-4 lg:mx-4">
-            <div class="card">
-                <h3 class="text-xl font-bold mb-4">
-                    <fa-icon icon="bell" />
-                    公告
-                </h3>
-                <div v-if="announcement === ''" class="flex justify-center items-center">
-                    <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
+    <div>
+        <b-breadcrumb class="mb-0">
+            <b-breadcrumb-item to="/" active>
+                <b-icon icon="house-fill" scale="1.25" shift-v="1.25" aria-hidden="true" />
+                首页
+            </b-breadcrumb-item>
+        </b-breadcrumb>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 pt-2">
+                    <h3 class="sidebar-title">
+                        <b-icon icon="bell" />
+                        公告
+                    </h3>
+                    <div class="announcement" v-html="announcement" />
                 </div>
-                <div v-else class="announcement" v-html="announcement"></div>
+                <div class="col-md-9 pt-2 border-left">
+                    <b-tabs v-model="listTab" content-class="mt-3" lazy>
+                        <b-tab title="所有仓库">
+                            <b-table striped hover :items="listRepos" :fields="reposFields" head-variant="dark">
+                                <template #cell(repo)="data">
+                                    <nuxt-link :to="'/' + data.item.user + '/' + data.value + '/' + data.item.branch">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                                <template #cell(user)="data">
+                                    <nuxt-link :to="'/' + data.value">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                                <template #cell(status)="data">
+                                    <build-status :info="data.item" />
+                                </template>
+                            </b-table>
+                        </b-tab>
+                        <b-tab title="所有用户">
+                            <b-table striped hover :items="listUsers" :fields="usersFields" head-variant="dark">
+                                <template #cell(name)="data">
+                                    <nuxt-link :to="'/' + data.value">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                            </b-table>
+                        </b-tab>
+                    </b-tabs>
+                </div>
             </div>
-        </div>
-        <div class="col-span-7 my-4 lg:mr-4">
-            <div class="card"></div>
         </div>
     </div>
 </template>
@@ -22,12 +54,11 @@
 import markdown from '~/utils/markdown'
 import request from '~/utils/request'
 import reposUtil from '~/utils/repos'
-
 export default {
     layout: 'main',
     data: () => {
         return {
-            announcement: '',
+            announcement: '公告加载中',
             listTab: 1,
             repos: null,
             users: null,
@@ -92,7 +123,7 @@ export default {
     },
     mounted () {
         // announcement
-        request.getAnnouncement(this)
+        request.getAnnouncement()
             .then((response) => {
                 this.announcement = markdown.render(response.data)
             })
@@ -109,9 +140,11 @@ export default {
     }
 }
 </script>
-<style lang="scss" scoped>
+<style scoped>
 .announcement{
-    @apply font-light;
-    @apply dark:text-gray-100;
+    font-weight: 300;
+}
+.sidebar-title{
+    font-size: 1.4rem;
 }
 </style>

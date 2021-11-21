@@ -16,13 +16,16 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro/css/all.min.css' }
+        ],
+        script: [
         ]
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
-        '@/assets/styles/app.scss'
+        '@/assets/styles/builds.scss'
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -35,29 +38,28 @@ export default {
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
     buildModules: [
         // https://go.nuxtjs.dev/eslint
-        '@nuxtjs/eslint-module'
+        '@nuxtjs/eslint-module',
+        '@nuxtjs/tailwindcss'
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
-        // https://go.nuxtjs.dev/bootstrap
-        'bootstrap-vue/nuxt',
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
         // https://www.npmjs.com/package/nuxt-lazy-load
         ['nuxt-lazy-load', {
             directiveOnly: true,
-            defaultImage: '/images/badge.svg'
+            defaultImage: '/images/default_badge.svg'
         }]
     ],
 
-    bootstrapVue: {
-        // Install the `IconsPlugin` plugin (in addition to `BootstrapVue` plugin)
-        icons: true
+    // Axios module configuration: https://go.nuxtjs.dev/config-axios
+    axios: {
     },
 
-    // Axios module configuration: https://go.nuxtjs.dev/config-axios
-    axios: {},
+    tailwindcss: {
+        // cssPath: '@/assets/styles/tailwind.css'
+    },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
