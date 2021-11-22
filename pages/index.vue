@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-1 lg:grid-cols-10">
-        <div class="col-span-3 my-4 lg:mx-4">
+        <div class="col-span-3 m-4">
             <div class="card">
                 <h3 class="text-xl font-bold mb-4">
                     <fa-icon icon="bell" />
@@ -12,8 +12,17 @@
                 <div v-else class="announcement" v-html="announcement"></div>
             </div>
         </div>
-        <div class="col-span-7 my-4 lg:mr-4">
-            <div class="card"></div>
+        <div class="col-span-7 m-4 lg:ml-0">
+            <div class="card">
+                <ul class="flex items-center mb-4">
+                    <li class="tab-title">
+                        所有仓库
+                    </li>
+                    <li class="tab-title">
+                        所有用户
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
@@ -113,5 +122,8 @@ export default {
 .announcement{
     @apply font-light;
     @apply dark:text-gray-100;
+}
+.tab-title{
+    @apply cursor-pointer py-2 px-4 text-gray-500 border-b-4;
 }
 </style>
