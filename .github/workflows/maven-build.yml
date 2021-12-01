@@ -22,9 +22,7 @@ jobs:
       uses: actions/setup-java@v2.4.0
       with:
         distribution: 'adopt'
-        java-version: '16'
-        java-package: jdk
-        architecture: x64
+        java-version: '17'
 
     - name: Setting up node.js
       uses: actions/setup-node@v2.5.0
