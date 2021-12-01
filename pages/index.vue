@@ -1,6 +1,6 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-10">
-        <div class="col-span-3 m-4">
+    <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
+        <div class="col-span-3 xl:col-span-3 m-4">
             <div class="card">
                 <h3 class="text-xl font-bold mb-4">
                     <fa-icon icon="bell" />
@@ -12,16 +12,22 @@
                 <div v-else class="announcement" v-html="announcement"></div>
             </div>
         </div>
-        <div class="col-span-7 m-4 lg:ml-0">
+        <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
             <div class="card">
-                <ul class="flex items-center mb-4">
-                    <li class="tab-title">
-                        所有仓库
-                    </li>
-                    <li class="tab-title">
-                        所有用户
-                    </li>
-                </ul>
+                <div v-if="repos === null" class="flex justify-center items-center">
+                    <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
+                </div>
+                <div v-else>
+                    <ul class="flex items-center mb-4">
+                        <li class="tab-title">
+                            所有仓库
+                        </li>
+                        <li class="tab-title">
+                            所有用户
+                        </li>
+                    </ul>
+                    <!--grid-js :cols="reposCols" :rows="listRepos" /-->
+                </div>
             </div>
         </div>
     </div>
@@ -52,6 +58,7 @@ export default {
                     sortable: true
                 }
             ],
+            reposCols: ['项目名称', '用户', '分支', '最新构建状态'],
             reposFields: [
                 {
                     key: 'repo',
@@ -81,7 +88,7 @@ export default {
                 const user = repoInfo.split('/')[0]
                 const repo = repoInfo.split('/')[1].split(':')[0]
                 const branch = repoInfo.split(':')[1]
-                lRepos.push({ repo, user, branch })
+                lRepos.push([repo, user, branch])
             }
             return lRepos
         },
