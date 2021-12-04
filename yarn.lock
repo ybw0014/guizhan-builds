@@ -4063,14 +4063,6 @@ electron-to-chromium@^1.3.896:
   resolved "https://registry.npmmirror.com/electron-to-chromium/download/electron-to-chromium-1.4.5.tgz#912e8fd1645edee2f0f212558f40916eb538b1f9"
   integrity sha512-YKaB+t8ul5crdh6OeqT2qXdxJGI0fAYb6/X8pDIyye+c3a7ndOCk5gVeKX+ABwivCGNS56vOAif3TN0qJMpEHw==
 
-element-ready@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmmirror.com/element-ready/download/element-ready-5.0.0.tgz#5a47318c4b2c018f697e21ef22edd284f87d18f8"
-  integrity sha1-WkcxjEssAY9pfiHvIu3ShPh9GPg=
-  dependencies:
-    many-keys-map "^1.0.3"
-    p-defer "^3.0.0"
-
 elliptic@^6.5.3:
   version "6.5.4"
   resolved "https://registry.nlark.com/elliptic/download/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
@@ -5061,24 +5053,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.2.8"
   resolved "https://registry.npmmirror.com/graceful-fs/download/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha1-5BK40z9eAGWTy9PO5t+fLOu+gCo=
-
-gridjs-vue@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/gridjs-vue/download/gridjs-vue-4.0.0.tgz#14689957836fadee033c7a10bd17c4a0594ea4f7"
-  integrity sha1-FGiZV4Nvre4DPHoQvRfEoFlOpPc=
-  dependencies:
-    element-ready "^5.0.0"
-    gridjs "^4.0.0"
-    nanoid "^3.1.10"
-    vue-runtime-helpers "1.1.2"
-
-gridjs@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/gridjs/download/gridjs-4.0.0.tgz#a6dc682349f0a28ecb278531c001a2c90c0edd4b"
-  integrity sha1-ptxoI0nwoo7LJ4UxwAGiyQwO3Us=
-  dependencies:
-    preact "^10.5.12"
-    tslib "^2.0.1"
 
 gzip-size@^6.0.0:
   version "6.0.0"
@@ -6389,11 +6363,6 @@ make-dir@^3.0.2, make-dir@^3.1.0, make-dir@~3.1.0:
   dependencies:
     semver "^6.0.0"
 
-many-keys-map@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmmirror.com/many-keys-map/download/many-keys-map-1.0.3.tgz#718f407dea882c23ab75d48280c7d5be2fbf57a0"
-  integrity sha1-cY9AfeqILCOrddSCgMfVvi+/V6A=
-
 map-age-cleaner@^0.1.3:
   version "0.1.3"
   resolved "https://registry.nlark.com/map-age-cleaner/download/map-age-cleaner-0.1.3.tgz#7d583a7306434c055fe474b0f45078e6e1b4b92a"
@@ -6413,10 +6382,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@3.0.8:
-  version "3.0.8"
-  resolved "https://registry.npmmirror.com/marked/download/marked-3.0.8.tgz?cache=0&sync_timestamp=1636779011902&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmarked%2Fdownload%2Fmarked-3.0.8.tgz#2785f0dc79cbdc6034be4bb4f0f0a396bd3f8aeb"
-  integrity sha1-J4Xw3HnL3GA0vku08PCjlr0/ius=
+marked@4.0.5:
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/marked/download/marked-4.0.5.tgz#85f46937f6a4616de7cbe0e1433e1640c320c729"
+  integrity sha512-eUToMA5d5lunnipkCN7zFD0RiunCF2Uo6bImEt/Qx8LZMW7oPXTw7R+f+M5V3eS7164HjEDPfW8/TrefuFhDfw==
 
 maven@5.0.0:
   version "5.0.0"
@@ -6733,7 +6702,7 @@ nan@^2.12.1:
   resolved "https://registry.nlark.com/nan/download/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha1-PzSkc/8Y4VwbVia2KQO1rW5mX+4=
 
-nanoid@^3.1.10, nanoid@^3.1.23, nanoid@^3.1.30:
+nanoid@^3.1.23, nanoid@^3.1.30:
   version "3.1.30"
   resolved "https://registry.npmmirror.com/nanoid/download/nanoid-3.1.30.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
   integrity sha1-Y/k8xUjSoRPcXfvGO/oJ4rm2Q2I=
@@ -7118,11 +7087,6 @@ p-defer@^1.0.0:
   version "1.0.0"
   resolved "https://registry.nlark.com/p-defer/download/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
   integrity sha1-n26xgvbJqozXQwBKfU+WsZaw+ww=
-
-p-defer@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.nlark.com/p-defer/download/p-defer-3.0.0.tgz#d1dceb4ee9b2b604b1d94ffec83760175d4e6f83"
-  integrity sha1-0dzrTumytgSx2U/+yDdgF11Ob4M=
 
 p-limit@^1.1.0:
   version "1.3.0"
@@ -8206,11 +8170,6 @@ postcss@8.3.11, postcss@^8.1.10, postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.15
     nanoid "^3.1.30"
     picocolors "^1.0.0"
     source-map-js "^0.6.2"
-
-preact@^10.5.12:
-  version "10.6.2"
-  resolved "https://registry.npmmirror.com/preact/download/preact-10.6.2.tgz#c849f91df9ad36bfa64d1a5d5880977f767c69e5"
-  integrity sha512-ppDjurt75nSxyikpyali+uKwRl8CK9N6ntOPovGIEGQagjMLVzEgVqFEsUUyUrqyE9Ch90KE0jmFc9q2QcPLBA==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -9722,7 +9681,7 @@ tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.1, tslib@^2.0.3:
+tslib@^2.0.3:
   version "2.3.1"
   resolved "https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
@@ -10104,11 +10063,6 @@ vue-router@^3.5.1:
   version "3.5.3"
   resolved "https://registry.npmmirror.com/vue-router/download/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
   integrity sha1-BBBIBT4zaCnQXa+s9qj7ZpoueZk=
-
-vue-runtime-helpers@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npmmirror.com/vue-runtime-helpers/download/vue-runtime-helpers-1.1.2.tgz#446b7b820888ab0c5264d2c3a32468e72e4100f3"
-  integrity sha1-RGt7ggiIqwxSZNLDoyRo5y5BAPM=
 
 vue-server-renderer@^2.6.12:
   version "2.6.14"

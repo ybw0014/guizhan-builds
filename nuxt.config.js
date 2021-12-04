@@ -6,7 +6,8 @@ export default {
     head: {
         title: '鬼斩的 Maven 构建页面',
         htmlAttrs: {
-            lang: 'zh-CN'
+            lang: 'zh-CN',
+            class: 'darkx'
         },
         meta: [
             { charset: 'utf-8' },
@@ -17,7 +18,8 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro/css/all.min.css' }
+            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro/css/all.min.css' },
+            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/ybw0014/fonts/AlibabaPuHuiTi.css' }
         ],
         script: [
         ]
@@ -58,7 +60,7 @@ export default {
     },
 
     tailwindcss: {
-        // cssPath: '@/assets/styles/tailwind.css'
+        cssPath: '@/assets/styles/builds.css'
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build

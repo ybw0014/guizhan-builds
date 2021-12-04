@@ -16,7 +16,7 @@ export default {
     },
     computed: {
         iconClass () {
-            let classes = []
+            let classes = ['fa-' + this.icon]
             switch (this.type) {
             case 'solid':
                 classes.push('fas')
@@ -33,7 +33,6 @@ export default {
             default:
                 break
             }
-            classes.push('fa-' + this.icon)
             return _.join(classes, ' ')
         }
     }

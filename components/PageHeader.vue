@@ -1,7 +1,7 @@
 <template>
     <div class="page-header">
         <a href="/" title="返回首页" class="text-inherit">
-            ybw0014 的 Maven 构建页面
+            鬼斩的 Maven 构建页面
         </a>
     </div>
 </template>

@@ -1,34 +1,52 @@
 <template>
     <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
         <div class="col-span-3 xl:col-span-3 m-4">
-            <div class="card">
-                <h3 class="text-xl font-bold mb-4">
+            <card>
+                <template #title>
                     <fa-icon icon="bell" />
                     公告
-                </h3>
+                </template>
+
                 <div v-if="announcement === ''" class="flex justify-center items-center">
                     <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
                 </div>
-                <div v-else class="announcement" v-html="announcement"></div>
-            </div>
+                <div v-else v-lazy-load="announcement" class="announcement" />
+            </card>
         </div>
         <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
-            <div class="card">
+            <card>
                 <div v-if="repos === null" class="flex justify-center items-center">
                     <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
                 </div>
-                <div v-else>
-                    <ul class="flex items-center mb-4">
-                        <li class="tab-title">
-                            所有仓库
-                        </li>
-                        <li class="tab-title">
-                            所有用户
-                        </li>
-                    </ul>
-                    <!--grid-js :cols="reposCols" :rows="listRepos" /-->
-                </div>
-            </div>
+                <tabs v-else>
+                    <tab key="repos" :active="selectedTab === 'repos'" title="所有仓库">
+                        <data-table :fields="reposFields" :data="listRepos">
+                            <template #cell(repo)="data">
+                                <nuxt-link :to="'/' + data.row.user + '/' + data.row.repo + '/' + data.row.branch">
+                                    {{ data.value }}
+                                </nuxt-link>
+                            </template>
+                            <template #cell(user)="data">
+                                <nuxt-link :to="'/' + data.row.user">
+                                    {{ data.value }}
+                                </nuxt-link>
+                            </template>
+                            <template #cell(status)="data">
+                                <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
+                            </template>
+                        </data-table>
+                    </tab>
+                    <tab key="users" :active="selectedTab === 'users'" title="所有用户">
+                        <data-table :fields="usersFields" :data="listUsers">
+                            <template #cell(name)="data">
+                                <nuxt-link :to="'/' + data.value">
+                                    {{ data.value }}
+                                </nuxt-link>
+                            </template>
+                        </data-table>
+                    </tab>
+                </tabs>
+            </card>
         </div>
     </div>
 </template>
@@ -43,7 +61,7 @@ export default {
     data: () => {
         return {
             announcement: '',
-            listTab: 1,
+            selectedTab: 'users',
             repos: null,
             users: null,
             usersFields: [
@@ -58,7 +76,6 @@ export default {
                     sortable: true
                 }
             ],
-            reposCols: ['项目名称', '用户', '分支', '最新构建状态'],
             reposFields: [
                 {
                     key: 'repo',
@@ -88,7 +105,7 @@ export default {
                 const user = repoInfo.split('/')[0]
                 const repo = repoInfo.split('/')[1].split(':')[0]
                 const branch = repoInfo.split(':')[1]
-                lRepos.push([repo, user, branch])
+                lRepos.push({ repo, user, branch })
             }
             return lRepos
         },
@@ -100,10 +117,10 @@ export default {
             return lUsers
         }
     },
-    created() {
+    created () {
         // tab
-        if (this.$route.query.tab === 'all') {
-            this.listTab = 0
+        if (this.$route.query.tab === 'repos') {
+            this.selectedTab = 'repos'
         }
     },
     mounted () {
@@ -129,8 +146,11 @@ export default {
 .announcement{
     @apply font-light;
     @apply dark:text-gray-100;
-}
-.tab-title{
-    @apply cursor-pointer py-2 px-4 text-gray-500 border-b-4;
+
+    &::v-deep {
+        p {
+            @apply mb-4;
+        }
+    }
 }
 </style>
