@@ -39,6 +39,11 @@ export default {
         // eslint-disable-next-line vue/require-default-prop
         data: Array
     },
+    data () {
+        return {
+
+        }
+    },
     computed: {
         tableContent () {
             return this.data

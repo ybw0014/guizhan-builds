@@ -1,52 +1,60 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
-        <div class="col-span-3 xl:col-span-3 m-4">
-            <card>
-                <template #title>
-                    <fa-icon icon="bell" />
-                    公告
-                </template>
+    <div>
+        <breadcrumb class="mt-2">
+            <breadcrumb-item to="/" active>
+                <fa-icon icon="home" aria-hidden="true" />
+                首页
+            </breadcrumb-item>
+        </breadcrumb>
+        <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
+            <div class="col-span-3 xl:col-span-3 m-4">
+                <card>
+                    <template #title>
+                        <fa-icon icon="bell" />
+                        公告
+                    </template>
 
-                <div v-if="announcement === ''" class="flex justify-center items-center">
-                    <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
-                </div>
-                <div v-else v-lazy-load="announcement" class="announcement" />
-            </card>
-        </div>
-        <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
-            <card>
-                <div v-if="repos === null" class="flex justify-center items-center">
-                    <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
-                </div>
-                <tabs v-else>
-                    <tab key="repos" :active="selectedTab === 'repos'" title="所有仓库">
-                        <data-table :fields="reposFields" :data="listRepos">
-                            <template #cell(repo)="data">
-                                <nuxt-link :to="'/' + data.row.user + '/' + data.row.repo + '/' + data.row.branch">
-                                    {{ data.value }}
-                                </nuxt-link>
-                            </template>
-                            <template #cell(user)="data">
-                                <nuxt-link :to="'/' + data.row.user">
-                                    {{ data.value }}
-                                </nuxt-link>
-                            </template>
-                            <template #cell(status)="data">
-                                <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
-                            </template>
-                        </data-table>
-                    </tab>
-                    <tab key="users" :active="selectedTab === 'users'" title="所有用户">
-                        <data-table :fields="usersFields" :data="listUsers">
-                            <template #cell(name)="data">
-                                <nuxt-link :to="'/' + data.value">
-                                    {{ data.value }}
-                                </nuxt-link>
-                            </template>
-                        </data-table>
-                    </tab>
-                </tabs>
-            </card>
+                    <div v-if="announcement === ''" class="flex justify-center items-center">
+                        <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
+                    </div>
+                    <div v-else v-lazy-load="announcement" class="announcement" />
+                </card>
+            </div>
+            <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
+                <card>
+                    <div v-if="repos === null" class="flex justify-center items-center">
+                        <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
+                    </div>
+                    <tabs v-else>
+                        <tab key="repos" :active="selectedTab === 'repos'" title="所有仓库">
+                            <data-table :fields="reposFields" :data="listRepos">
+                                <template #cell(repo)="data">
+                                    <nuxt-link :to="'/' + data.row.user + '/' + data.row.repo + '/' + data.row.branch">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                                <template #cell(user)="data">
+                                    <nuxt-link :to="'/' + data.row.user">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                                <template #cell(status)="data">
+                                    <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
+                                </template>
+                            </data-table>
+                        </tab>
+                        <tab key="users" :active="selectedTab === 'users'" title="所有用户">
+                            <data-table :fields="usersFields" :data="listUsers">
+                                <template #cell(name)="data">
+                                    <nuxt-link :to="'/' + data.value">
+                                        {{ data.value }}
+                                    </nuxt-link>
+                                </template>
+                            </data-table>
+                        </tab>
+                    </tabs>
+                </card>
+            </div>
         </div>
     </div>
 </template>
