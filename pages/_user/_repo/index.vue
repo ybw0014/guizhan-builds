@@ -16,7 +16,7 @@
             <div class="col-span-3 xl:col-span-3 m-4">
                 <card>
                     <list-group>
-                        <list-group-item to="/?tab=all">
+                        <list-group-item to="/?tab=repos">
                             <fa-icon icon="arrow-left" />
                             返回仓库列表
                         </list-group-item>
