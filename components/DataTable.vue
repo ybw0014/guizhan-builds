@@ -63,6 +63,7 @@ export default {
 
     table{
         @apply min-w-full divide-y divide-gray-200;
+        @apply dark:divide-gray-700;
 
         thead{
             @apply bg-gray-50;
@@ -74,8 +75,12 @@ export default {
             }
         }
         tbody{
+            tr{
+                @apply border-b border-gray-200;
+                @apply dark:border-gray-700;
+            }
             td{
-                @apply px-2 md:px-6  py-2 border-b border-gray-200;
+                @apply px-2 md:px-6 py-2;
             }
         }
     }

@@ -69,8 +69,9 @@ export default {
     @apply flex items-center mb-4;
 }
 .tab-title {
-    @apply cursor-pointer py-2 px-4 text-gray-500 border-b-4;
+    @apply cursor-pointer py-2 px-4 text-gray-500 border-b-4 border-gray-200;
     @apply hover:text-gray-400;
+    @apply dark:border-gray-600;
 
     &.tab-title--active {
         @apply border-b-blue-500 text-blue-500;

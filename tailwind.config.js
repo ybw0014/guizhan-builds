@@ -7,7 +7,7 @@ module.exports = {
         './nuxt.config.{js,ts}'
     ],
     mode: 'jit',
-    darkMode: 'class', // false or 'media' or 'class'
+    darkMode: 'media', // false or 'media' or 'class'
     theme: {
         extend: {
             textColor: {

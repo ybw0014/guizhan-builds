@@ -41,6 +41,7 @@ export default {
     }
     &.active{
         @apply text-gray-500;
+        @apply dark:text-gray-400;
     }
 }
 .breadcrumb-item:not(:first-child):before{

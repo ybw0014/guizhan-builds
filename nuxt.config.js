@@ -7,7 +7,7 @@ export default {
         title: '鬼斩的 Maven 构建页面',
         htmlAttrs: {
             lang: 'zh-CN',
-            class: 'darkx'
+            // class: 'dark'
         },
         meta: [
             { charset: 'utf-8' },

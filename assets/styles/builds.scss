@@ -24,6 +24,10 @@ a{
     @apply text-blue-500;
 }
 
+hr{
+    @apply border-gray-300;
+    @apply dark:border-gray-600;
+}
 .page-wrapper{
     @apply bg-gray-100 min-h-screen;
     @apply dark:bg-gray-700;

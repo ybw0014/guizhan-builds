@@ -39,6 +39,7 @@ export default {
 <style lang="scss" scoped>
 .list-group-item{
     @apply px-2 py-3 text-gray-900 bg-white;
+    @apply dark:bg-gray-800 dark:text-gray-200;
     @apply flex flex-row items-center;
     @apply transition-colors;
 
@@ -48,10 +49,12 @@ export default {
 
     &:not(:last-child){
         @apply border-b border-gray-200;
+        @apply dark:border-gray-700;
     }
 
     &:hover{
         @apply bg-gray-50;
+        @apply dark:bg-gray-700;
     }
 
     &::v-deep{
