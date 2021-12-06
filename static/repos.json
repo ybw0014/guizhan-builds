@@ -182,5 +182,21 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/PrivateStorage-CN:master": {
+        "options": {
+            "target": {
+                "name": "PrivateStorage",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "GuizhanCraft/GlobalWarming-CN:master": {
+        "options": {
+            "target": {
+                "name": "GlobalWarming",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
