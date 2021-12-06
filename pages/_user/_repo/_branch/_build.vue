@@ -69,7 +69,7 @@
                             </a>
                         </p>
                         <div class="my-4">
-                            <a-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank"  title="由Github Pages + Cloudflare提供下载">
+                            <a-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank" title="由Github Pages + Cloudflare提供下载">
                                 直接下载
                             </a-button>
                             <a-button disabled variant="primary" target="_blank">

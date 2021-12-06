@@ -43,3 +43,6 @@ jobs:
       - name: Run ESLint
         run: yarn lint
 
+      - name: Run ESLint without no-console
+        run: yarn lint:no-console
+
