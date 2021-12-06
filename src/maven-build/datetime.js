@@ -9,7 +9,7 @@ module.exports = {
      * @param isotime iso时间
      * @returns {number} 时间戳
      */
-    isoToTimestamp(isotime) {
+    isoToTimestamp (isotime) {
         return Date.parse(isotime)
     },
     /**
@@ -17,7 +17,7 @@ module.exports = {
      * @param isotime iso时间
      * @returns {string} 标准时间格式
      */
-    isoToString(isotime) {
+    isoToString (isotime) {
         return Date.parse(isotime).toString()
     },
     /**
@@ -25,7 +25,7 @@ module.exports = {
      * @param timestamp 时间戳
      * @returns {string} 标准时间格式
      */
-    timestampToString(timestamp) {
+    timestampToString (timestamp) {
         return new Date(timestamp).toString()
     }
 }

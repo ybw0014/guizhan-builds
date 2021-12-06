@@ -18,7 +18,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} 设置成功则resolve
      */
-    setVersion(task) {
+    setVersion (task) {
         return new Promise((resolve, reject) => {
             const pomFile = path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir, './pom.xml')
 
@@ -57,7 +57,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} promise
      */
-    build(task) {
+    build (task) {
         return new Promise((resolve, reject) => {
             console.log('> 构建项目: ' + task.directory)
 
@@ -77,7 +77,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} 总是resolve
      */
-    relocateTarget(task) {
+    relocateTarget (task) {
         if (!task.success) {
             return Promise.resolve()
         }

@@ -6,7 +6,7 @@ export default {
     head: {
         title: '鬼斩的 Maven 构建页面',
         htmlAttrs: {
-            lang: 'zh-CN',
+            lang: 'zh-CN'
             // class: 'dark'
         },
         meta: [

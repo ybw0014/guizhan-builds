@@ -11,7 +11,7 @@ module.exports = {
      * @param data xml string
      * @returns {Promise} resolve json
      */
-    toJSON(data) {
+    toJSON (data) {
         return new Promise((resolve, reject) => {
             resolve(convert.xml2js(data, {
                 compact: true
@@ -23,7 +23,7 @@ module.exports = {
      * @param data js object
      * @returns {Promise} resolve xml
      */
-    toXML(data) {
+    toXML (data) {
         return new Promise((resolve, reject) => {
             resolve(convert.js2xml(data, {
                 compact: true

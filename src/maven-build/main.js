@@ -14,7 +14,7 @@ module.exports = {
      * 开始工作流
      * @returns {Promise} 处理完工作流中所有任务后返回的 Promise
      */
-    start() {
+    start () {
         return new Promise((resolve, reject) => {
             console.log('正在加载所有项目')
 
@@ -64,7 +64,7 @@ module.exports = {
      * @param task 需要检查的任务
      * @returns {Promise} 如需新构建则resolve
      */
-    check(task) {
+    check (task) {
         task.status = '获取最新commit'
 
         return new Promise((resolve, reject) => {
@@ -97,7 +97,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} 更新信息成功则resolve
      */
-    update(task) {
+    update (task) {
         task.status = '更新仓库中'
         return new Promise((resolve, reject) => {
             github.clone(task).then(() => {
@@ -110,7 +110,7 @@ module.exports = {
      * @param task 项目
      * @returns {Promise} 构建成功则resolve
      */
-    build(task) {
+    build (task) {
         task.status = '编译项目中'
         return new Promise((resolve, reject) => {
             maven.build(task).then(() => {
@@ -130,7 +130,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} 上传成功则resolve
      */
-    upload(task) {
+    upload (task) {
         task.status = '上传构建结果'
         return new Promise((resolve, reject) => {
             console.log('> 上传构建文件')
@@ -163,7 +163,7 @@ module.exports = {
      * @param index 任务索引
      * @param status 状态
      */
-    updateStatus(index, status) {
+    updateStatus (index, status) {
         global.status.tasks[index].status = status
     }
 }

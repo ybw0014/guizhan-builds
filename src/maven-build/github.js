@@ -16,7 +16,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} 包含最新commit
      */
-    getLatestCommit(task) {
+    getLatestCommit (task) {
         return new Promise((resolve, reject) => {
             console.log('> 获取最新commit...')
 
@@ -42,7 +42,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise} 如果任务均执行成功则resolve
      */
-    clone(task) {
+    clone (task) {
         return new Promise((resolve, reject) => {
             let dir = projects.getWorkingDirectory(task)
 
@@ -93,7 +93,7 @@ module.exports = {
      * @param task 任务
      * @returns {Promise<unknown>}
      */
-    pushChanges(task) {
+    pushChanges (task) {
         return new Promise((resolve, reject) => {
             console.log('> 推送更改')
 
