@@ -26,7 +26,7 @@ export default {
         },
         isLink () {
             return (_.isString(this.to) && this.to !== '') ||
-                (_.isObject(this.to) && _.isEmpty(this.to))
+                (_.isObject(this.to) && !_.isEmpty(this.to))
         }
     }
 }
