@@ -3,6 +3,7 @@
 </template>
 <script>
 export default {
+    name: 'BuildStatus',
     props: {
         user: {
             type: String,

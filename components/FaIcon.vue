@@ -1,9 +1,10 @@
 <template>
-    <span :class="iconClass" />
+    <span class="fa-icon" :class="iconClass" />
 </template>
 <script>
 import _ from 'lodash'
 export default {
+    name: 'FaIcon',
     props: {
         type: {
             type: String,
@@ -29,6 +30,9 @@ export default {
                 break
             case 'duotone':
                 classes.push('fad')
+                break
+            case 'brands':
+                classes.push('fab')
                 break
             default:
                 break

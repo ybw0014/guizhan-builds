@@ -1,86 +1,98 @@
 <template>
     <div>
-        <b-breadcrumb class="mb-0">
-            <b-breadcrumb-item to="/">
-                <b-icon icon="house-fill" scale="1.25" shift-v="1.25" aria-hidden="true" />
+        <breadcrumb class="mt-2">
+            <breadcrumb-item to="/">
+                <fa-icon icon="home" aria-hidden="true" />
                 首页
-            </b-breadcrumb-item>
-            <b-breadcrumb-item :to="'/' + user">
+            </breadcrumb-item>
+            <breadcrumb-item :to="'/' + user" target="_blank">
                 {{ user }}
-            </b-breadcrumb-item>
-            <b-breadcrumb-item :to="'/' + user + '/' + repo">
+            </breadcrumb-item>
+            <breadcrumb-item :to="'/' + user + '/' + repo">
                 {{ repo }}
-            </b-breadcrumb-item>
-            <b-breadcrumb-item active>
+            </breadcrumb-item>
+            <breadcrumb-item active>
                 {{ branch }}
-            </b-breadcrumb-item>
-        </b-breadcrumb>
-        <b-container fluid>
-            <b-row>
-                <b-list-group class="col-md-3 pr-0" flush>
-                    <b-list-group-item to="/?tab=all">
-                        <b-icon icon="arrow-left" />
-                        返回仓库列表
-                    </b-list-group-item>
-                    <b-list-group-item :href="'https://github.com/' + user + '/' + repo + '/tree/' + branch" target="_blank">
-                        <b-icon icon="github" />
-                        项目 GitHub 主页
-                    </b-list-group-item>
-                    <b-list-group-item :href="'https://github.com/' + user + '/' + repo + '/issues'" target="_blank">
-                        <b-icon icon="bug" />
-                        问题追踪器
-                    </b-list-group-item>
-                    <b-list-group-item :href="'/f/' + repoDir + '/badge.svg'" target="_blank">
-                        <b-icon icon="cloud" />
-                        <build-status :info="{ user, repo, branch }" />
-                    </b-list-group-item>
-                </b-list-group>
-                <b-col md="9" class="pt-2 border-left">
-                    <h3 class="repo-name">
-                        {{ repo }}
+            </breadcrumb-item>
+        </breadcrumb>
+        <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
+            <div class="col-span-3 xl:col-span-3 m-4">
+                <card class="mb-6">
+                    <list-group>
+                        <list-group-item to="/?tab=all">
+                            <fa-icon icon="arrow-left" />
+                            返回仓库列表
+                        </list-group-item>
+                        <list-group-item :href="'https://github.com/' + user + '/' + repo" target="_blank">
+                            <fa-icon icon="github" type="brands" />
+                            项目 GitHub 主页
+                        </list-group-item>
+                        <list-group-item :href="'https://github.com/' + user + '/' + repo + '/issues'" target="_blank">
+                            <fa-icon icon="bug" />
+                            问题追踪器
+                        </list-group-item>
+                        <list-group-item :href="'/f/' + repoDir + '/badge.svg'" target="_blank">
+                            <fa-icon icon="cloud" />
+                            <build-status :user="user" :repo="repo" :branch="branch" />
+                        </list-group-item>
+                    </list-group>
+                </card>
+                <collapsable-card title="所有构建">
+                    <list-group>
+                        <list-group-item
+                            v-for="histBuild in builds"
+                            :key="histBuild.id"
+                            :to="{ params: {build: histBuild.id} }"
+                            class="flex-col"
+                        >
+                            <span>构建 #{{ histBuild.id }} <build-icon :success="histBuild.success" /></span>
+                            <span class="text-sm text-gray-400">{{ new Date(histBuild.build_timestamp).toLocaleString() }}</span>
+                        </list-group-item>
+                    </list-group>
+                </collapsable-card>
+            </div>
+            <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
+                <card>
+                    <template #title>
+                        <span class="repo-name">{{ repo }}</span>
                         <small class="repo-branch">{{ branch }}</small>
-                    </h3>
-                    <b-container fluid class="mt-4">
-                        <b-row>
-                            <b-col xs="12" md="8" offset-md="2" class="">
-                                <b-card v-if="buildInfo !== null">
-                                    <slot name="header">
-                                        <h4 class="card-title">
-                                            {{ buildTitle }}
-                                            <b-icon v-if="buildInfo.success" icon="check-circle-fill" class="text-success" />
-                                            <b-icon v-else icon="x-circle-fill" class="text-danger" />
-                                        </h4>
-                                    </slot>
-                                    <b-card-text>
-                                        构建于 {{ buildTime }}
-                                        <a :href="'/f/' + repoDir + '/' + repo + '-' + branch + '-' + buildInfo.id + '.log'" target="_blank">
-                                            日志
-                                        </a>
-                                    </b-card-text>
-
-                                    <b-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank">
-                                        直接下载
-                                    </b-button>
-                                    <b-button disabled variant="primary" target="_blank">
-                                        网盘下载(即将推出)
-                                    </b-button>
-
-                                    <b-card class="mt-4 text-center">
-                                        <b-card-text>
-                                            {{ buildInfo.author }} 于 {{ commitTime }} 提交
-                                            (<a :href="'https://github.com/' + user + '/' + repo + '/commit/' + buildInfo.commit" target="_blank">{{ buildInfo.commit.substr(0, 7) }}</a>):
-                                        </b-card-text>
-                                        <b-card-text>
-                                            {{ buildInfo.message }}
-                                        </b-card-text>
-                                    </b-card>
-                                </b-card>
-                            </b-col>
-                        </b-row>
-                    </b-container>
-                </b-col>
-            </b-row>
-        </b-container>
+                    </template>
+                    <div v-if="buildInfo !== null" class="flex flex-col">
+                        <p class="text-xl font-bold mb-2">
+                            {{ buildTitle }}
+                            <build-icon :success="buildInfo.success" />
+                        </p>
+                        <p>
+                            构建于 {{ buildTime }}
+                            <a :href="'/f/' + repoDir + '/' + repo + '-' + branch + '-' + buildInfo.id + '.log'" target="_blank">
+                                日志
+                            </a>
+                        </p>
+                        <div class="my-4">
+                            <a-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank">
+                                直接下载
+                            </a-button>
+                            <a-button disabled variant="primary" target="_blank">
+                                网盘下载(即将推出)
+                            </a-button>
+                        </div>
+                        <p class="mt-3 text-sm">
+                            SHA256: {{ buildFileSha256 }}
+                        </p>
+                        <hr class="my-4">
+                        <div class="text-center">
+                            <p class="text-gray-500">
+                                {{ buildInfo.author }} 于 {{ commitTime }} 提交
+                                (<a :href="'https://github.com/' + user + '/' + repo + '/commit/' + buildInfo.commit" target="_blank">{{ buildInfo.commit.substr(0, 7) }}</a>):
+                            </p>
+                            <p>
+                                {{ buildInfo.message }}
+                            </p>
+                        </div>
+                    </div>
+                </card>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -88,6 +100,7 @@
 import _ from 'lodash'
 import reposUtil from '~/utils/repos'
 import buildsUtil from '~/utils/builds'
+
 export default {
     layout: 'main',
     data () {
@@ -114,6 +127,9 @@ export default {
         },
         repoStr () {
             return `${this.user}/${this.repo}:${this.branch}`
+        },
+        buildFileSha256 () {
+            return '不可用'
         }
     },
     mounted () {
@@ -139,7 +155,7 @@ export default {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             }
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
-                this.builds = buildsUtil.getBuilds(this, this.repoStr)
+                this.builds = buildsUtil.getBuilds(this, this.repoStr, true)
                 if (!buildsUtil.exists(this.builds, { id: this.build })) {
                     this.$router.push({
                         name: 'user-repo-branch'
@@ -156,18 +172,14 @@ export default {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
         })
-    },
-    methods: {
     }
 }
 </script>
 <style scoped>
 .repo-name{
-    font-weight: 500;
-    font-size: 1.8rem;
+    @apply font-medium text-3xl;
 }
 .repo-branch{
-    font-weight: 300;
-    font-size: 0.9rem;
+    @apply font-thin text-sm;
 }
 </style>

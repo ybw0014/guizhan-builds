@@ -1,10 +1,16 @@
 <template>
     <div class="page-header">
         <a href="/" title="返回首页" class="text-inherit">
-            鬼斩的 Maven 构建页面
+            {{ $consts.title }}
         </a>
     </div>
 </template>
+
+<script>
+export default {
+    name: 'PageHeader'
+}
+</script>
 
 <style lang="scss" scoped>
 .page-header {

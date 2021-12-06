@@ -10,6 +10,7 @@
 import _ from 'lodash'
 
 export default {
+    name: 'Tab',
     props: {
         title: {
             type: String,

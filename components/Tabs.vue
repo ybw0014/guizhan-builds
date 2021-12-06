@@ -19,8 +19,7 @@
 import _ from 'lodash'
 
 export default {
-    props: {
-    },
+    name: 'Tabs',
     data () {
         return {
             tabs: [],

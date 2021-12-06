@@ -33,11 +33,16 @@
 </template>
 <script>
 export default {
+    name: 'DataTable',
     props: {
-        // eslint-disable-next-line vue/require-default-prop
-        fields: Array,
-        // eslint-disable-next-line vue/require-default-prop
-        data: Array
+        fields: {
+            type: Array,
+            default: () => []
+        },
+        data: {
+            type: Array,
+            default: () => []
+        }
     },
     data () {
         return {

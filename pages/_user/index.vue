@@ -1,42 +1,42 @@
 <template>
     <div>
-        <b-breadcrumb class="mb-0">
-            <b-breadcrumb-item to="/">
-                <b-icon icon="house-fill" scale="1.25" shift-v="1.25" aria-hidden="true" />
+        <breadcrumb class="mt-2">
+            <breadcrumb-item to="/">
+                <fa-icon icon="home" aria-hidden="true" />
                 首页
-            </b-breadcrumb-item>
-            <b-breadcrumb-item active>
+            </breadcrumb-item>
+            <breadcrumb-item active>
                 {{ user }}
-            </b-breadcrumb-item>
-        </b-breadcrumb>
-        <div class="container-fluid">
-            <div class="row">
-                <b-list-group class="col-md-3 pr-0" flush>
-                    <b-list-group-item to="/?tab=all">
-                        <b-icon icon="arrow-left" />
-                        返回仓库列表
-                    </b-list-group-item>
-                    <b-list-group-item :href="'https://github.com/' + user" target="_blank">
-                        <b-icon icon="github" />
-                        访问用户 GitHub 主页
-                    </b-list-group-item>
-                </b-list-group>
-                <div class="col-md-9 pt-2 border-left">
-                    <b-tabs content-class="mt-3">
-                        <b-tab :title="user + ' 的所有仓库'" active>
-                            <b-table striped hover :items="listRepos" :fields="reposFields" head-variant="dark">
-                                <template #cell(repo)="data">
-                                    <nuxt-link :to="'/' + user + '/' + data.value + '/' + data.item.branch">
-                                        {{ data.value }}
-                                    </nuxt-link>
-                                </template>
-                                <template #cell(status)="data">
-                                    <build-status :info="data.item" />
-                                </template>
-                            </b-table>
-                        </b-tab>
-                    </b-tabs>
-                </div>
+            </breadcrumb-item>
+        </breadcrumb>
+        <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
+            <div class="col-span-3 xl:col-span-3 m-4">
+                <card>
+                    <list-group>
+                        <list-group-item to="/?tab=all">
+                            <fa-icon icon="arrow-left" />
+                            返回仓库列表
+                        </list-group-item>
+                        <list-group-item :href="'https://github.com/' + user" target="_blank">
+                            <fa-icon icon="github" type="brands" />
+                            访问用户 GitHub 主页
+                        </list-group-item>
+                    </list-group>
+                </card>
+            </div>
+            <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
+                <card :title="user + ' 的所有仓库'">
+                    <data-table :data="listRepos" :fields="reposFields">
+                        <template #cell(repo)="data">
+                            <nuxt-link :to="'/' + user + '/' + data.value + '/' + data.row.branch">
+                                {{ data.value }}
+                            </nuxt-link>
+                        </template>
+                        <template #cell(status)="data">
+                            <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
+                        </template>
+                    </data-table>
+                </card>
             </div>
         </div>
     </div>
@@ -44,6 +44,7 @@
 
 <script>
 import reposUtil from '~/utils/repos'
+
 export default {
     layout: 'main',
     data () {
@@ -69,7 +70,7 @@ export default {
     },
     head () {
         return {
-            title: this.user + ' - ybw0014 的 Maven 构建页面'
+            title: this.user + ' - ' + this.$consts.title
         }
     },
     computed: {

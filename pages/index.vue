@@ -1,7 +1,7 @@
 <template>
     <div>
         <breadcrumb class="mt-2">
-            <breadcrumb-item to="/" active>
+            <breadcrumb-item active>
                 <fa-icon icon="home" aria-hidden="true" />
                 首页
             </breadcrumb-item>
@@ -96,7 +96,9 @@ export default {
                 },
                 {
                     key: 'branch',
-                    label: '分支'
+                    label: '分支',
+                    headerClass: '',
+                    contentClass: ''
                 },
                 {
                     key: 'status',

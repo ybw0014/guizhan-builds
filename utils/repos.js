@@ -7,7 +7,7 @@ export default {
      * @param vueInst vue实例
      * @returns {Promise} 加载成功则resolve, 否则reject
      */
-    loadRepos(vueInst) {
+    loadRepos (vueInst) {
         return new Promise((resolve, reject) => {
             if (_.isNil(vueInst.$store.getters['repos/getRepos'])) {
                 request.getRepos().then((response) => {
@@ -37,7 +37,7 @@ export default {
      * @param vueInst vue实例
      * @returns {any}
      */
-    getRepos(vueInst) {
+    getRepos (vueInst) {
         return vueInst.$store.getters['repos/getRepos']
     },
     /**
@@ -45,7 +45,7 @@ export default {
      * @param vueInst vue实例
      * @returns {any}
      */
-    getUsers(vueInst) {
+    getUsers (vueInst) {
         return vueInst.$store.getters['repos/getUsers']
     },
     /**
@@ -54,7 +54,7 @@ export default {
      * @param options {Object} 搜索选项
      * @returns {boolean} 是否存在
      */
-    exists(repos, options) {
+    exists (repos, options) {
         let found = false
         _.forEach(repos, (repo) => {
             if (!_.isNil(options.user) && options.user !== repo.split('/')[0]) {

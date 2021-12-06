@@ -15,6 +15,7 @@
 
 <script>
 export default {
+    name: 'Card',
     props: {
         title: {
             type: String,
@@ -35,7 +36,7 @@ export default {
     @apply dark:bg-gray-800 dark:text-gray-200;
 
     .card-title{
-        @apply text-xl font-bold mb-4;
+        @apply text-lg font-bold mb-4;
     }
 }
 </style>

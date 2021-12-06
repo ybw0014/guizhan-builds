@@ -91,3 +91,6 @@ sw.*
 
 # VSCode
 .vscode
+
+# Nuxt storm
+.components.gen.js

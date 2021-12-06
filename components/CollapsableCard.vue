@@ -9,6 +9,7 @@
 
 <script>
 export default {
+    name: 'CollapsableCard',
     props: {
         title: {
             type: String,
