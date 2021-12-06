@@ -16,7 +16,7 @@
     "@tailwindcss/forms": "0.3.4",
     "autoprefixer": "10.4.0",
     "core-js": "3.19.2",
-    "cos-nodejs-sdk-v5": "2.10.10",
+    "cos-nodejs-sdk-v5": "2.11.4",
     "lodash": "4.17.21",
     "marked": "4.0.5",
     "maven": "5.0.0",
