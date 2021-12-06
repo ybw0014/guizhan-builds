@@ -6912,10 +6912,10 @@ nuxt-lazy-load@1.2.7:
     intersection-observer "^0.7.0"
     string-replace-loader "^2.1.1"
 
-nuxt-storm@^1.1.2:
+nuxt-storm@1.1.2:
   version "1.1.2"
-  resolved "https://registry.npmmirror.com/nuxt-storm/download/nuxt-storm-1.1.2.tgz#783c744640546ccdadcfa2e15a0bbca1354aed33"
-  integrity sha1-eDx0RkBUbM2tz6LhWgu8oTVK7TM=
+  resolved "https://registry.yarnpkg.com/nuxt-storm/-/nuxt-storm-1.1.2.tgz#783c744640546ccdadcfa2e15a0bbca1354aed33"
+  integrity sha512-///OsEMPOtVWVJXba3q1v+hsSDSBzNVpnuEgn/bmlZ1xtGxhNWDf0Lk4+M1WtAkRjl3G4OjCTd74cwIZGHs+kQ==
   dependencies:
     consola "^2.15.3"
 
