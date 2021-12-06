@@ -1,13 +1,13 @@
 import axios from 'axios'
 
 export default {
-    getAnnouncement() {
+    getAnnouncement () {
         return axios.get('/announcement.md')
     },
-    getRepos() {
+    getRepos () {
         return axios.get('/repos.json')
     },
-    getBuilds(repoDir) {
+    getBuilds (repoDir) {
         return axios.get(`/f/${repoDir}/builds.json`)
     }
 }

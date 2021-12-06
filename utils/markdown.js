@@ -1,13 +1,19 @@
-import marked from 'marked'
+import { marked } from 'marked'
 
-// eslint-disable-next-line import/no-named-as-default-member
-const renderer = new marked.Renderer()
-renderer.link = (href, title, text) => `<a href="${href}" title="${title}" target="_blank">${text}</a>`
+const renderer = {
+    link (href, title, text) {
+        if (title === null) {
+            return `<a href="${href}" target="_blank">${text}</a>`
+        } else {
+            return `<a href="${href}" title="${title}" target="_blank">${text}</a>`
+        }
+    }
+}
+
+marked.use({ renderer })
 
 export default {
     render (source) {
-        return marked(source, {
-            renderer
-        })
+        return marked.parse(source)
     }
 }

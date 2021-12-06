@@ -19,17 +19,15 @@ jobs:
       uses: actions/checkout@master
 
     - name: Setting up Java
-      uses: actions/setup-java@v2.3.1
+      uses: actions/setup-java@v2.4.0
       with:
         distribution: 'adopt'
-        java-version: '16'
-        java-package: jdk
-        architecture: x64
+        java-version: '17'
 
     - name: Setting up node.js
-      uses: actions/setup-node@v2.4.1
+      uses: actions/setup-node@v2.5.0
       with:
-        node-version: '14.18.0'
+        node-version: '16.13.0'
 
     - name: Installing dependencies
       run: yarn

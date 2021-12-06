@@ -1,7 +1,21 @@
 <template>
-    <b-navbar type="dark" variant="dark">
-        <b-navbar-brand to="/">
-            ybw0014 的 Maven 构建页面
-        </b-navbar-brand>
-    </b-navbar>
+    <div class="page-header">
+        <a href="/" title="返回首页" class="text-inherit">
+            {{ $consts.title }}
+        </a>
+    </div>
 </template>
+
+<script>
+export default {
+    name: 'PageHeader'
+}
+</script>
+
+<style lang="scss" scoped>
+.page-header {
+    @apply flex justify-between items-center bg-white border-b p-4 text-gray-700 text-lg font-bold mx-auto;
+    @apply sm:text-xl sm:mx-0;
+    @apply dark:bg-gray-900 dark:border-gray-900 dark:text-gray-300;
+}
+</style>

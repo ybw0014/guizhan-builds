@@ -1,13 +1,13 @@
 <template>
-    <div class="container mt-4">
-        <b-card class="text-center mx-auto">
-            <div class="error mx-auto d-inline-block" :data-text="code" v-text="code" />
-            <div class="error-title mb-5" v-text="reason" />
-            <div class="text-muted error-info" v-text="description" />
-            <b-link class="error-info" to="/">
+    <div class="container mt-4 mx-auto">
+        <div class="card text-center flex flex-auto flex-col">
+            <div class="error mx-auto inline-block" :data-text="code" v-text="code" />
+            <div class="mb-12 text-2xl font-bold" v-text="reason" />
+            <div class="error-info text-gray-500" v-text="description" />
+            <NuxtLink class="error-info mt-2 text-blue-500" to="/">
                 返回首页
-            </b-link>
-        </b-card>
+            </NuxtLink>
+        </div>
     </div>
 </template>
 <script>
@@ -31,11 +31,13 @@ export default {
             this.code = 500
             this.reason = '内部错误'
             this.description = '发生了内部错误'
+            // eslint-disable-next-line no-console
             console.error('发生内部错误: ', this.error.message)
         } else {
             this.code = NaN
             this.reason = '未知错误'
             this.description = '发生了未知错误'
+            // eslint-disable-next-line no-console
             console.error(`发生位置错误(代码: ${this.error.statusCode}): `, this.error.message)
         }
     }
@@ -44,9 +46,7 @@ export default {
 <style scoped>
 .error {
     color: rgb(186, 188, 196);
-    font-size: 7rem;
-    position: relative;
-    line-height: 1;
+    @apply text-9xl relative;
 }
 @keyframes noise-anim {
     0% {
@@ -242,12 +242,7 @@ export default {
     overflow: hidden;
     animation: 2s linear 0s infinite alternate-reverse none running noise-anim;
 }
-
-.error-title{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 .error-info{
-    font-size: .8rem;
+    @apply text-sm;
 }
 </style>

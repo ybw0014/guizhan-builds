@@ -1,50 +1,59 @@
 <template>
     <div>
-        <b-breadcrumb class="mb-0">
-            <b-breadcrumb-item to="/" active>
-                <b-icon icon="house-fill" scale="1.25" shift-v="1.25" aria-hidden="true" />
+        <breadcrumb class="mt-2">
+            <breadcrumb-item active>
+                <fa-icon icon="home" aria-hidden="true" />
                 首页
-            </b-breadcrumb-item>
-        </b-breadcrumb>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3 pt-2">
-                    <h3 class="sidebar-title">
-                        <b-icon icon="bell" />
+            </breadcrumb-item>
+        </breadcrumb>
+        <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
+            <div class="col-span-3 xl:col-span-3 m-4">
+                <card>
+                    <template #title>
+                        <fa-icon icon="bell" />
                         公告
-                    </h3>
-                    <div class="announcement" v-html="announcement" />
-                </div>
-                <div class="col-md-9 pt-2 border-left">
-                    <b-tabs v-model="listTab" content-class="mt-3" lazy>
-                        <b-tab title="所有仓库">
-                            <b-table striped hover :items="listRepos" :fields="reposFields" head-variant="dark">
+                    </template>
+
+                    <div v-if="announcement === ''" class="flex justify-center items-center">
+                        <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
+                    </div>
+                    <div v-else v-lazy-load="announcement" class="announcement" />
+                </card>
+            </div>
+            <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
+                <card>
+                    <div v-if="repos === null" class="flex justify-center items-center">
+                        <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
+                    </div>
+                    <tabs v-else>
+                        <tab key="repos" :active="selectedTab === 'repos'" title="所有仓库">
+                            <data-table :fields="reposFields" :data="listRepos">
                                 <template #cell(repo)="data">
-                                    <nuxt-link :to="'/' + data.item.user + '/' + data.value + '/' + data.item.branch">
+                                    <nuxt-link :to="'/' + data.row.user + '/' + data.row.repo + '/' + data.row.branch">
                                         {{ data.value }}
                                     </nuxt-link>
                                 </template>
                                 <template #cell(user)="data">
-                                    <nuxt-link :to="'/' + data.value">
+                                    <nuxt-link :to="'/' + data.row.user">
                                         {{ data.value }}
                                     </nuxt-link>
                                 </template>
                                 <template #cell(status)="data">
-                                    <build-status :info="data.item" />
+                                    <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
                                 </template>
-                            </b-table>
-                        </b-tab>
-                        <b-tab title="所有用户">
-                            <b-table striped hover :items="listUsers" :fields="usersFields" head-variant="dark">
+                            </data-table>
+                        </tab>
+                        <tab key="users" :active="selectedTab === 'users'" title="所有用户">
+                            <data-table :fields="usersFields" :data="listUsers">
                                 <template #cell(name)="data">
                                     <nuxt-link :to="'/' + data.value">
                                         {{ data.value }}
                                     </nuxt-link>
                                 </template>
-                            </b-table>
-                        </b-tab>
-                    </b-tabs>
-                </div>
+                            </data-table>
+                        </tab>
+                    </tabs>
+                </card>
             </div>
         </div>
     </div>
@@ -54,12 +63,13 @@
 import markdown from '~/utils/markdown'
 import request from '~/utils/request'
 import reposUtil from '~/utils/repos'
+
 export default {
     layout: 'main',
     data: () => {
         return {
-            announcement: '公告加载中',
-            listTab: 1,
+            announcement: '',
+            selectedTab: 'users',
             repos: null,
             users: null,
             usersFields: [
@@ -86,7 +96,9 @@ export default {
                 },
                 {
                     key: 'branch',
-                    label: '分支'
+                    label: '分支',
+                    headerClass: '',
+                    contentClass: ''
                 },
                 {
                     key: 'status',
@@ -115,15 +127,15 @@ export default {
             return lUsers
         }
     },
-    created() {
+    created () {
         // tab
-        if (this.$route.query.tab === 'all') {
-            this.listTab = 0
+        if (this.$route.query.tab === 'repos') {
+            this.selectedTab = 'repos'
         }
     },
     mounted () {
         // announcement
-        request.getAnnouncement()
+        request.getAnnouncement(this)
             .then((response) => {
                 this.announcement = markdown.render(response.data)
             })
@@ -140,11 +152,15 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .announcement{
-    font-weight: 300;
-}
-.sidebar-title{
-    font-size: 1.4rem;
+    @apply font-light;
+    @apply dark:text-gray-100;
+
+    &::v-deep {
+        p {
+            @apply mb-4;
+        }
+    }
 }
 </style>
