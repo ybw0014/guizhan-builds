@@ -25,7 +25,7 @@
     "nuxt-lazy-load": "1.2.7",
     "postcss": "8.3.11",
     "qcloud-cos-sts": "3.0.6",
-    "sass": "1.43.4",
+    "sass": "1.44.0",
     "sass-loader": "10.2.0",
     "tailwindcss": "2.2.19",
     "vue": "2.6.14",
