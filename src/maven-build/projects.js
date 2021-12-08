@@ -9,6 +9,7 @@ const path = require('path')
 const _ = require('lodash')
 
 const config = require('./config')
+const logger = require('./logger')
 
 module.exports = {
     /**
@@ -23,7 +24,7 @@ module.exports = {
                     const json = JSON.parse(repos)
 
                     for (const repo in json) {
-                        console.log(`> 已加载项目 ${repo}`)
+                        logger.log(`> 已加载项目 ${repo}`)
 
                         let taskInfo = {
                             user: repo.split('/')[0],
@@ -56,7 +57,7 @@ module.exports = {
             const filePath = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
             // 检查文件是否存在
             if (!fileSystem.existsSync(filePath)) {
-                console.log('> 全新构建 #1')
+                logger.log('> 全新构建 #1')
                 resolve(1)
                 return
             }
@@ -64,10 +65,10 @@ module.exports = {
                 let json = JSON.parse(builds)
                 if (json.latest < timestamp) {
                     let version = _.last(json.builds).id + 1
-                    console.log('> 构建新版本 #' + version)
+                    logger.log('> 构建新版本 #' + version)
                     resolve(version)
                 } else {
-                    console.log('> 无更新内容')
+                    logger.log('> 无更新内容')
                     reject(new Error('无更新内容'))
                 }
             }).catch(reject)
@@ -101,7 +102,7 @@ module.exports = {
                 target: task.finalName + '.jar'
             }
 
-            console.log('> 保存构建信息')
+            logger.log('> 保存构建信息')
             // 检查文件是否存在
             if (!fileSystem.existsSync(filePath)) {
                 let builds = {
@@ -131,19 +132,17 @@ module.exports = {
             let badgeTemplate = path.resolve(__dirname, '../../assets/images/badge.svg')
             let badgeTarget = path.resolve(this.getWorkingDirectory(task), '../badge.svg')
 
-            console.log('> 生成任务标识')
+            logger.log('> 生成任务标识')
             fs.readFile(badgeTemplate, 'utf-8').then((badge) => {
+                /* eslint-disable no-template-curly-in-string */
                 if (task.success) {
-                    // eslint-disable-next-line no-template-curly-in-string
                     badge = badge.replace('${status}', '成功')
-                        // eslint-disable-next-line no-template-curly-in-string
                         .replace('${color}', '#009688')
                 } else {
-                    // eslint-disable-next-line no-template-curly-in-string
                     badge = badge.replace('${status}', '失败')
-                        // eslint-disable-next-line no-template-curly-in-string
                         .replace('${color}', '#f34436')
                 }
+                /* eslint-enable no-template-curly-in-string */
                 fs.writeFile(badgeTarget, badge).then(resolve, reject)
             })
         })

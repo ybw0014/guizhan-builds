@@ -4,8 +4,10 @@
  */
 
 const core = require('@actions/core')
+
 const datetime = require('./datetime')
 const github = require('./github')
+const logger = require('./logger')
 const maven = require('./maven')
 const projects = require('./projects')
 
@@ -16,7 +18,7 @@ module.exports = {
      */
     start () {
         return new Promise((resolve, reject) => {
-            console.log('正在加载所有项目')
+            logger.log('正在加载所有项目')
 
             projects.getProjects().then((tasks) => {
                 global.status.tasks = tasks.slice()
@@ -32,13 +34,13 @@ module.exports = {
                 const nextTask = () => {
                     i++
                     if (!global.status.running || i >= tasks.length) {
-                        console.log('')
-                        console.log('已完成所有任务')
+                        logger.log('')
+                        logger.log('已完成所有任务')
                         resolve()
                     } else {
                         let currentTask = tasks[i]
-                        console.log('')
-                        console.log(`正在运行 ${currentTask.directory} (${i + 1}/${tasks.length})`)
+                        logger.log('')
+                        logger.log(`正在运行 ${currentTask.directory} (${i + 1}/${tasks.length})`)
 
                         this.check(currentTask)
                             .then(() => this.update(currentTask)
@@ -70,7 +72,7 @@ module.exports = {
         return new Promise((resolve, reject) => {
             github.getLatestCommit(task).then((commit) => {
                 if (commit.commit.message.toLowerCase().startsWith('[ci skip]')) {
-                    console.log('> 跳过构建')
+                    logger.log('> 跳过构建')
                     reject(new Error('跳过构建'))
                     return
                 }
@@ -114,12 +116,12 @@ module.exports = {
         task.status = '编译项目中'
         return new Promise((resolve, reject) => {
             maven.build(task).then(() => {
-                console.log('> 编译成功')
+                logger.log('> 编译成功')
                 task.success = true
                 resolve()
             }).catch((error) => {
-                console.log('> 编译失败')
-                console.error(error)
+                logger.log('> 编译失败')
+                logger.error(error)
                 task.success = false
                 resolve()
             })
@@ -133,7 +135,7 @@ module.exports = {
     upload (task) {
         task.status = '上传构建结果'
         return new Promise((resolve, reject) => {
-            console.log('> 上传构建文件')
+            logger.log('> 上传构建文件')
 
             Promise.all([
                 projects.addBuild(task),
@@ -152,7 +154,7 @@ module.exports = {
      */
     finish (task) {
         return new Promise((resolve, reject) => {
-            console.log('> 提交改动')
+            logger.log('> 提交改动')
             github.pushChanges(task)
             projects.clearWorkspace(task)
             resolve()

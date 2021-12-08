@@ -9,6 +9,7 @@ const path = require('path')
 const maven = require('maven')
 
 const config = require('./config')
+const logger = require('./logger')
 const projects = require('./projects')
 const xml = require('./xml')
 
@@ -59,7 +60,7 @@ module.exports = {
      */
     build (task) {
         return new Promise((resolve, reject) => {
-            console.log('> 构建项目: ' + task.directory)
+            logger.log('> 构建项目: ' + task.directory)
 
             let dir = projects.getWorkingDirectory(task)
             let logFile = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)

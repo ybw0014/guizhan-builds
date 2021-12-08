@@ -1,3 +1,4 @@
+const logger = require('./maven-build/logger')
 const main = require('./maven-build/main')
 
 global.status = {
@@ -6,7 +7,7 @@ global.status = {
 }
 
 main.start().then(() => {
-    console.log('运行完成')
+    logger.log('运行完成')
 
     process.exit()
 })

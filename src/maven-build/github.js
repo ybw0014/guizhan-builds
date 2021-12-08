@@ -6,6 +6,7 @@
 const path = require('path')
 const childProcess = require('child_process')
 
+const logger = require('./logger')
 const projects = require('./projects')
 const request = require('./request')
 request.defaults.baseURL = 'https://api.github.com/'
@@ -18,7 +19,7 @@ module.exports = {
      */
     getLatestCommit (task) {
         return new Promise((resolve, reject) => {
-            console.log('> 获取最新commit...')
+            logger.log('> 获取最新commit...')
 
             request({
                 url: `/repos/${task.user}/${task.repo}/commits`,
@@ -28,11 +29,11 @@ module.exports = {
                     sha: `${task.branch}`
                 }
             }).then((response) => {
-                console.log('> 已获取最新commit')
+                logger.log('> 已获取最新commit')
                 resolve(response.data[0])
             }).catch((error) => {
-                console.log('> 获取最新commit失败,跳过构建')
-                console.log('> 错误信息: ', error.data ? error.data.message : error.response.statusText)
+                logger.log('> 获取最新commit失败,跳过构建')
+                logger.log('> 错误信息: ', error.data ? error.data.message : error.response.statusText)
                 reject(error)
             })
         })
@@ -46,7 +47,7 @@ module.exports = {
         return new Promise((resolve, reject) => {
             let dir = projects.getWorkingDirectory(task)
 
-            console.log('> 正在克隆仓库')
+            logger.log('> 正在克隆仓库')
 
             const gitClone = childProcess.spawn('git', [
                 'clone',
@@ -57,14 +58,14 @@ module.exports = {
             ])
 
             gitClone.stdout.on('data', (data) => {
-                console.log('git> ' + data)
+                logger.log('git> ' + data)
             })
             gitClone.stderr.on('data', (data) => {
-                console.log('git> ' + data)
+                logger.log('git> ' + data)
             })
 
             gitClone.on('close', () => {
-                console.log('> 已克隆仓库,正在将分支重置到commit:', task.commit.hash)
+                logger.log('> 已克隆仓库,正在将分支重置到commit:', task.commit.hash)
 
                 const gitReset = childProcess.spawn('git', [
                     'reset',
@@ -75,14 +76,14 @@ module.exports = {
                 })
 
                 gitReset.stdout.on('data', (data) => {
-                    console.log('git> ' + data)
+                    logger.log('git> ' + data)
                 })
                 gitReset.stderr.on('data', (data) => {
-                    console.log('git> ' + data)
+                    logger.log('git> ' + data)
                 })
 
                 gitReset.on('close', () => {
-                    console.log('> 已重置该分支')
+                    logger.log('> 已重置该分支')
                     resolve()
                 })
             })
@@ -95,34 +96,34 @@ module.exports = {
      */
     pushChanges (task) {
         return new Promise((resolve, reject) => {
-            console.log('> 推送更改')
+            logger.log('> 推送更改')
 
             let addFiles = path.resolve(projects.getWorkingDirectory(task), '../') + '/*'
             let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.directory + ' (' + task.version + ')'
 
-            console.log(`>> git add ${addFiles}`)
+            logger.log(`>> git add ${addFiles}`)
             let gitAdd = childProcess.spawnSync('git', [
                 'add',
                 addFiles
             ])
-            console.log('git > ', gitAdd.stdout.toString())
-            console.log('git > ', gitAdd.stderr.toString())
+            logger.log('git > ', gitAdd.stdout.toString())
+            logger.log('git > ', gitAdd.stderr.toString())
 
-            console.log(`>> git commit -m "${commitMsg}"`)
+            logger.log(`>> git commit -m "${commitMsg}"`)
             let gitCommit = childProcess.spawnSync('git', [
                 'commit',
                 '-m',
                 commitMsg
             ])
-            console.log('git > ', gitCommit.stdout.toString())
-            console.log('git > ', gitCommit.stderr.toString())
+            logger.log('git > ', gitCommit.stdout.toString())
+            logger.log('git > ', gitCommit.stderr.toString())
 
-            console.log('>> git push origin --force')
+            logger.log('>> git push origin --force')
             let gitPush = childProcess.spawnSync('git', ['push', 'origin', '--force'])
-            console.log('git > ', gitPush.stdout.toString())
-            console.log('git > ', gitPush.stderr.toString())
+            logger.log('git > ', gitPush.stdout.toString())
+            logger.log('git > ', gitPush.stderr.toString())
 
-            console.log('> 已推送至远程仓库')
+            logger.log('> 已推送至远程仓库')
             resolve()
         })
     }
