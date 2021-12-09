@@ -38,6 +38,7 @@ module.exports = {
             })
         })
     },
+
     /**
      * 克隆仓库并重制到任务commit
      * @param task 任务
@@ -89,6 +90,7 @@ module.exports = {
             })
         })
     },
+
     /**
      * 推送任务更改
      * @param task 任务

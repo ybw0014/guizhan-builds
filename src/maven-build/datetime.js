@@ -12,6 +12,7 @@ module.exports = {
     isoToTimestamp (isotime) {
         return Date.parse(isotime)
     },
+
     /**
      * ISO时间转为标准时间格式
      * @param isotime iso时间
@@ -20,6 +21,7 @@ module.exports = {
     isoToString (isotime) {
         return Date.parse(isotime).toString()
     },
+
     /**
      * 时间戳转换为标准时间格式
      * @param timestamp 时间戳

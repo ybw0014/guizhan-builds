@@ -45,6 +45,7 @@ module.exports = {
                 }, reject)
         })
     },
+
     /**
      * 与本地存储对比，查询是否有更新内容
      *
@@ -74,6 +75,7 @@ module.exports = {
             }).catch(reject)
         })
     },
+
     /**
      * 获取任务工作目录
      * @param task 任务
@@ -82,6 +84,7 @@ module.exports = {
     getWorkingDirectory (task) {
         return path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir)
     },
+
     /**
      * 新增构建
      * @param task 任务
@@ -122,6 +125,7 @@ module.exports = {
             }
         })
     },
+
     /**
      * 生成任务标识
      * @param task 任务
@@ -147,6 +151,7 @@ module.exports = {
             })
         })
     },
+
     /**
      * 清理任务工作区
      * @param task

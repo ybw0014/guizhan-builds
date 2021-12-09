@@ -18,6 +18,7 @@ module.exports = {
             }))
         })
     },
+
     /**
      * JSON object to XML
      * @param data js object

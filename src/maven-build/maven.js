@@ -53,6 +53,7 @@ module.exports = {
             }, reject)
         })
     },
+
     /**
      * 构建任务项目
      * @param task 任务
@@ -73,6 +74,7 @@ module.exports = {
             mvn.execute(['clean', 'package']).then(resolve, reject)
         })
     },
+
     /**
      * 将构建目标文件移动
      * @param task 任务

@@ -94,6 +94,7 @@ module.exports = {
             }).catch(reject)
         })
     },
+
     /**
      * 获取并更新仓库内容
      * @param task 任务
@@ -107,6 +108,7 @@ module.exports = {
             })
         })
     },
+
     /**
      * 构建项目
      * @param task 项目
@@ -127,6 +129,7 @@ module.exports = {
             })
         })
     },
+
     /**
      * 将构建完成的文件上传并更新构建信息
      * @param task 任务
@@ -147,6 +150,7 @@ module.exports = {
             }, reject)
         })
     },
+
     /**
      * 完成任务的清理工作
      * @param task 任务
@@ -160,6 +164,7 @@ module.exports = {
             resolve()
         })
     },
+
     /**
      * 更新任务状态
      * @param index 任务索引
