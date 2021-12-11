@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'static/repos.json'
   pull_request:
     branches:
       - master
+    paths:
+      - 'static/repos.json'
 
 jobs:
   validate-repos:
