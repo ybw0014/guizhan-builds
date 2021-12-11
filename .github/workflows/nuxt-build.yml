@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    if: startsWith(github.event.head_commit.message, '[build skip]') == false
+    if: startsWith(github.event.head_commit.message, '[CI skip]') == false
     name: Nuxt build
     runs-on: ubuntu-latest
 
@@ -49,4 +49,3 @@ jobs:
           publish_dir: ./dist
           user_name: 'GuizhanCraft'
           user_email: ${{ secrets.GIT_EMAIL }}
-

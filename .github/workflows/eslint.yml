@@ -10,7 +10,7 @@ on:
 
 jobs:
   lint:
-    if: startsWith(github.event.head_commit.message, '[build skip]') == false
+    if: startsWith(github.event.head_commit.message, '[CI skip]') == false
     name: ESLint
     runs-on: ubuntu-latest
 
@@ -45,4 +45,3 @@ jobs:
 
       - name: Run ESLint without no-console
         run: yarn lint:no-console
-
