@@ -44,7 +44,9 @@ export default {
             reversed = false
         }
         let result = vueInst.$store.getters['builds/getBuilds'](repoStr)
-        return reversed ? result.reverse() : result
+        // TODO: 缓存
+        let reversedRes = _.reverse(_.cloneDeep(result))
+        return reversed ? reversedRes : result
     },
     /**
      * builds中是否存在指定项
