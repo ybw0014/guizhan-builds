@@ -6,7 +6,13 @@
 
 <script>
 export default {
-    name: 'ListGroup'
+    name: 'ListGroup',
+    props: {
+        itemClass: {
+            type: [String, Object],
+            default: ''
+        }
+    }
 }
 </script>
 

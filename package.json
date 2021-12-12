@@ -12,7 +12,7 @@
   "dependencies": {
     "@actions/core": "1.6.0",
     "@nuxtjs/axios": "5.13.6",
-    "@tailwindcss/forms": "0.3.4",
+    "@tailwindcss/forms": "0.4.0",
     "autoprefixer": "10.4.0",
     "core-js": "3.19.3",
     "cos-nodejs-sdk-v5": "2.11.4",
@@ -26,7 +26,7 @@
     "qcloud-cos-sts": "3.0.6",
     "sass": "1.44.0",
     "sass-loader": "10.2.0",
-    "tailwindcss": "2.2.19",
+    "tailwindcss": "3.0.1",
     "vue": "2.6.14",
     "vue-tailwind": "2.5.0",
     "xml-js": "1.6.11"

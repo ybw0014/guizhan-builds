@@ -14,7 +14,8 @@ export default {
 
 <style lang="scss" scoped>
 .page-header {
-    @apply flex justify-between items-center bg-white border-b p-4 text-gray-700 text-lg font-bold mx-auto;
+    @apply flex justify-between items-center text-lg font-bold mx-auto p-4;
+    @apply bg-white text-gray-700 border-b border-gray-200;
     @apply sm:text-xl sm:mx-0;
     @apply dark:bg-gray-900 dark:border-gray-900 dark:text-gray-300;
 }

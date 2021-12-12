@@ -18,7 +18,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
             <div class="col-span-3 xl:col-span-3 m-4">
                 <card class="mb-6">
-                    <list-group>
+                    <list-group item-class="flex items-center">
                         <list-group-item to="/?tab=repos">
                             <fa-icon icon="arrow-left" />
                             返回仓库列表
@@ -38,7 +38,7 @@
                     </list-group>
                 </card>
                 <collapsable-card title="所有构建">
-                    <list-group>
+                    <list-group item-class="flex flex-col items-center">
                         <list-group-item
                             v-for="histBuild in builds"
                             :key="histBuild.id"

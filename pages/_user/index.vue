@@ -12,7 +12,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
             <div class="col-span-3 xl:col-span-3 m-4">
                 <card>
-                    <list-group>
+                    <list-group item-class="flex items-center">
                         <list-group-item to="/?tab=repos">
                             <fa-icon icon="arrow-left" />
                             返回仓库列表

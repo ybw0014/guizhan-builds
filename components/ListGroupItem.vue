@@ -1,8 +1,8 @@
 <template>
-    <nuxt-link v-if="isNuxtLink" :to="to" class="list-group-item">
+    <nuxt-link v-if="isNuxtLink" :to="to" class="list-group-item" :class="itemClass">
         <slot />
     </nuxt-link>
-    <a v-else :href="href" class="list-group-item">
+    <a v-else :href="href" class="list-group-item" :class="itemClass">
         <slot />
     </a>
 </template>
@@ -22,16 +22,19 @@ export default {
             default: ''
         }
     },
+    data () {
+        return {
+            itemClass: ''
+        }
+    },
     computed: {
-        classes () {
-            return {
-                active: _.has(this.$attrs, 'active')
-            }
-        },
         isNuxtLink () {
             return (_.isString(this.to) && this.to !== '') ||
                 (_.isObject(this.to) && !_.isEmpty(this.to))
         }
+    },
+    created () {
+        this.itemClass = this.$parent.itemClass
     }
 }
 </script>
@@ -40,12 +43,7 @@ export default {
 .list-group-item{
     @apply px-2 py-3 text-gray-900 bg-white;
     @apply dark:bg-gray-800 dark:text-gray-200;
-    @apply flex flex-row items-center;
     @apply transition-colors;
-
-    &.flex-col{
-        @apply flex-col;
-    }
 
     &:not(:last-child){
         @apply border-b border-gray-200;
