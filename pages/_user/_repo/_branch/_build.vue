@@ -5,7 +5,7 @@
                 <fa-icon icon="home" aria-hidden="true" />
                 首页
             </breadcrumb-item>
-            <breadcrumb-item :to="'/' + user" target="_blank">
+            <breadcrumb-item :to="'/' + user">
                 {{ user }}
             </breadcrumb-item>
             <breadcrumb-item :to="'/' + user + '/' + repo">
