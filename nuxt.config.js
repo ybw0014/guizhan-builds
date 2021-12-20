@@ -18,8 +18,8 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro/css/all.min.css' },
-            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/ybw0014/fonts/AlibabaPuHuiTi.css' }
+            { rel: 'stylesheet', href: 'https://jslib.gzassets.cn/gh/hung1001/font-awesome-pro/css/all.min.css' },
+            { rel: 'stylesheet', href: 'https://gzassets.cn/fonts/AlibabaPuHuiTi.css' }
         ],
         script: [
         ]
