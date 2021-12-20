@@ -191,10 +191,18 @@
             }
         }
     },
-    "GuizhanCraft/GlobalWarming-CN:master": {
+    "ybw0014/GlobalWarming-CN:master": {
         "options": {
             "target": {
                 "name": "GlobalWarming",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/HardcoreSlimefun-CN:master": {
+        "options": {
+            "target": {
+                "name": "HardcoreSlimefun",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
