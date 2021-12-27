@@ -33,7 +33,7 @@ module.exports = {
                 resolve(response.data[0])
             }).catch((error) => {
                 logger.log('> 获取最新commit失败,跳过构建')
-                logger.log('> 错误信息: ', error.data ? error.data.message : error.response.statusText)
+                logger.axiosError(error)
                 reject(error)
             })
         })

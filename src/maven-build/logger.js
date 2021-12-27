@@ -30,5 +30,13 @@ module.exports = {
      */
     error (...messages) {
         console.error(messages)
+    },
+
+    /**
+     * axios 错误输出
+     * @param error
+     */
+    axiosError (error) {
+        console.error('axios错误: ', error.data ? error.data.message : error.response ? error.response.statusText : '无响应')
     }
 }
