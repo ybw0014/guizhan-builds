@@ -214,5 +214,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/SfChunkInfo-CN:main": {
+        "options": {
+            "target": {
+                "name": "SfChunkInfo",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
