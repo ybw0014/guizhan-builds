@@ -17,31 +17,30 @@
     "core-js": "3.20.3",
     "cos-nodejs-sdk-v5": "2.11.6",
     "lodash": "4.17.21",
-    "marked": "4.0.10",
+    "marked": "4.0.12",
     "maven": "5.0.0",
     "nuxt": "2.15.8",
     "nuxt-cloudflare-analytics": "0.1.5",
     "nuxt-lazy-load": "1.2.9",
     "postcss": "8.4.5",
     "qcloud-cos-sts": "3.0.6",
-    "sass": "1.48.0",
+    "sass": "1.49.0",
     "sass-loader": "10.2.1",
-    "tailwindcss": "3.0.15",
+    "tailwindcss": "3.0.17",
     "vue": "2.6.14",
     "vue-tailwind": "2.5.0",
     "xml-js": "1.6.11"
   },
   "devDependencies": {
-    "@babel/core": "7.16.7",
+    "@babel/core": "7.16.12",
     "@babel/eslint-parser": "7.16.5",
     "@nuxt/types": "2.15.8",
     "@nuxtjs/eslint-config": "8.0.0",
     "@nuxtjs/eslint-module": "3.0.2",
     "@nuxtjs/tailwindcss": "4.2.1",
-    "axios": "0.24.0",
+    "axios": "0.25.0",
     "eslint": "8.7.0",
     "eslint-plugin-nuxt": "3.1.0",
-    "eslint-plugin-vue": "8.3.0",
-    "nuxt-storm": "1.1.2"
+    "eslint-plugin-vue": "8.4.0"
   }
 }

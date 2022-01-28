@@ -46,8 +46,8 @@ module.exports = {
                         .replace('${project.version}', version)
 
                     // write pom.xml
-                    xml.toXML(json).then((data) => {
-                        fs.writeFile(pomFile, data, 'utf8').then(resolve, reject)
+                    xml.toXML(json).then((xmlData) => {
+                        fs.writeFile(pomFile, xmlData, 'utf8').then(resolve, reject)
                     }, reject)
                 }, reject)
             }, reject)
