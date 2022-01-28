@@ -15,7 +15,6 @@ module.exports = {
         return Promise.resolve(convert.xml2js(data, {
             compact: true
         }))
-        
     },
 
     /**
