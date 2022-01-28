@@ -4,9 +4,15 @@ on:
   push:
     branches:
       - master
+    paths:
+      - '**/*.js'
+      - '**/*.vue'
   pull_request:
     branches:
       - master
+    paths:
+      - '**/*.js'
+      - '**/*.vue'
 
 jobs:
   lint:
