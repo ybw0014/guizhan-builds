@@ -12,11 +12,10 @@ module.exports = {
      * @returns {Promise} resolve json
      */
     toJSON (data) {
-        return new Promise((resolve, reject) => {
-            resolve(convert.xml2js(data, {
-                compact: true
-            }))
-        })
+        return Promise.resolve(convert.xml2js(data, {
+            compact: true
+        }))
+        
     },
 
     /**
@@ -25,10 +24,8 @@ module.exports = {
      * @returns {Promise} resolve xml
      */
     toXML (data) {
-        return new Promise((resolve, reject) => {
-            resolve(convert.js2xml(data, {
-                compact: true
-            }))
-        })
+        return Promise.resolve(convert.js2xml(data, {
+            compact: true
+        }))
     }
 }
