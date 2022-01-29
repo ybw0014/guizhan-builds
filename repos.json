@@ -222,5 +222,13 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/VillagerUtil-CN:main": {
+        "options": {
+            "target": {
+                "name": "VillagerUtil",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
