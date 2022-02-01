@@ -1,0 +1,79 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.sfiguz7:TranscEndence >----------------------
+[INFO] Building TranscEndence Build 1 zh-CN(baoad) (git 22f5456)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloaded from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom (953 B at 2.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloaded from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.7/bstats-1.7.pom (7.3 kB at 20 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 5.1 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.pom (9.4 kB at 4.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom (38 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.pom (13 kB at 17 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar (303 kB at 78 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.jar (1.2 MB at 293 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.jar (4.3 MB at 3.9 MB/s)
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloaded from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar (20 kB at 40 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TranscEndence ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ TranscEndence ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java: /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ TranscEndence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ TranscEndence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ TranscEndence ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/target/TranscEndence-Build 1 zh-CN(baoad) (git 22f5456).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ TranscEndence ---
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/target/TranscEndence-Build 1 zh-CN(baoad) (git 22f5456).jar with /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/target/TranscEndence-Build 1 zh-CN(baoad) (git 22f5456)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/baoad/TranscEndence/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.567 s
+[INFO] Finished at: 2022-02-01T04:59:08Z
+[INFO] ------------------------------------------------------------------------

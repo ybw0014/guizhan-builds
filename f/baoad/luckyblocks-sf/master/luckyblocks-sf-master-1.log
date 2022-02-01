@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< io.github.thebusybiscuit:SlimefunLuckyBlocks >------------
+[INFO] Building SlimefunLuckyBlocks Build 1 zh-CN(baoad) (git d435fa3)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from codemc-repo: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 624 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom (1.7 kB at 883 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom (1.5 kB at 771 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar (4.1 kB at 2.2 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar (22 kB at 8.1 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar (310 kB at 96 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.jar (1.3 MB at 373 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimefunLuckyBlocks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimefunLuckyBlocks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimefunLuckyBlocks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/src/main/java/io/github/thebusybiscuit/slimefunluckyblocks/SlimefunLuckyBlocks.java: /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/src/main/java/io/github/thebusybiscuit/slimefunluckyblocks/SlimefunLuckyBlocks.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/src/main/java/io/github/thebusybiscuit/slimefunluckyblocks/SlimefunLuckyBlocks.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimefunLuckyBlocks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimefunLuckyBlocks ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimefunLuckyBlocks ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimefunLuckyBlocks ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/target/SlimefunLuckyBlocks-Build 1 zh-CN(baoad) (git d435fa3).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SlimefunLuckyBlocks ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/target/SlimefunLuckyBlocks-Build 1 zh-CN(baoad) (git d435fa3).jar with /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/target/SlimefunLuckyBlocks-Build 1 zh-CN(baoad) (git d435fa3)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/baoad/luckyblocks-sf/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.052 s
+[INFO] Finished at: 2022-02-01T05:01:17Z
+[INFO] ------------------------------------------------------------------------

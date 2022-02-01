@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< io.github.seggan.liquid:Liquid >-------------------
+[INFO] Building Liquid Build 1 zh-CN(baoad) (git 972b8dc)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Liquid ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Liquid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Liquid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/src/main/java/io/github/seggan/liquid/objects/LContainer.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/src/main/java/io/github/seggan/liquid/objects/LContainer.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Liquid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Liquid ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Liquid ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Liquid ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/target/Liquid-Build 1 zh-CN(baoad) (git 972b8dc).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ Liquid ---
+[INFO] Including org.projectlombok:lombok:jar:1.18.20 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.8 in the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Liquid-Build 1 zh-CN(baoad) (git 972b8dc).jar, bstats-bukkit-1.8.jar, lombok-1.18.20.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/target/Liquid-Build 1 zh-CN(baoad) (git 972b8dc).jar with /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/target/Liquid-Build 1 zh-CN(baoad) (git 972b8dc)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/baoad/Liquid/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.521 s
+[INFO] Finished at: 2022-02-01T05:01:41Z
+[INFO] ------------------------------------------------------------------------
