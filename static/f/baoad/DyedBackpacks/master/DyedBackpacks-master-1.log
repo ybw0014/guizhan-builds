@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:DyedBackpacks >---------------
+[INFO] Building DyedBackpacks Build 1 zh-CN(baoad) (git 823de85)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DyedBackpacks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DyedBackpacks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ DyedBackpacks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/maven-builds/maven-builds/static/f/baoad/DyedBackpacks/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DyedBackpacks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/baoad/DyedBackpacks/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ DyedBackpacks ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DyedBackpacks ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DyedBackpacks ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/baoad/DyedBackpacks/master/workspace/target/DyedBackpacks-Build 1 zh-CN(baoad) (git 823de85).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ DyedBackpacks ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/baoad/DyedBackpacks/master/workspace/target/DyedBackpacks-Build 1 zh-CN(baoad) (git 823de85).jar with /home/runner/work/maven-builds/maven-builds/static/f/baoad/DyedBackpacks/master/workspace/target/DyedBackpacks-Build 1 zh-CN(baoad) (git 823de85)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/baoad/DyedBackpacks/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.133 s
+[INFO] Finished at: 2022-02-01T05:01:47Z
+[INFO] ------------------------------------------------------------------------
