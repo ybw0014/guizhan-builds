@@ -230,5 +230,85 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "baoad/InfinityExpansion:master": {
+        "options": {
+            "target": {
+                "name": "InfinityExpansion",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/Galactifun:master": {
+        "options": {
+            "target": {
+                "name": "Galactifun",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/TranscEndence:master": {
+        "options": {
+            "target": {
+                "name": "TranscEndence",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/FluffyMachines:master": {
+        "options": {
+            "target": {
+                "name": "FluffyMachines",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/SimpleUtils:master": {
+        "options": {
+            "target": {
+                "name": "SimpleUtils",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/ExtraTools:master": {
+        "options": {
+            "target": {
+                "name": "ExtraTools",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/luckyblocks-sf:master": {
+        "options": {
+            "target": {
+                "name": "SlimefunLuckyBlocks",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/PotionExpansion:master": {
+        "options": {
+            "target": {
+                "name": "PotionExpansion",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/Liquid:master": {
+        "options": {
+            "target": {
+                "name": "Liquid",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/DyedBackpacks:master": {
+        "options": {
+            "target": {
+                "name": "DyedBackpacks",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
     }
 }
