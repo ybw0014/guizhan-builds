@@ -1,0 +1,28 @@
+name: 接入申请
+description: 申请接入构建站
+labels: ["接入申请"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 欢迎来到鬼斩的构建站!
+        你可以在这里申请将你的任何Maven项目接入构建站。
+        这里目前大部分是Slimefun附属插件，但你也可以将其他项目接入构建站。
+
+        <strong><i>你必须填写标注为星号（*）的表单项</i></strong>
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 项目地址以及描述
+      description: |
+        请按照以下格式填写项目地址，然后在下一行对你的项目进行一些描述：
+        user/repo:branch
+        说明...
+      placeholder: |
+        示例:
+
+        ybw0014/SlimeTinker-CN:master
+        粘液匠魂汉化版
+    validations:
+      required: true
