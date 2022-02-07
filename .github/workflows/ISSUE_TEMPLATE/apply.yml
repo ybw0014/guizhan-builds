@@ -16,8 +16,8 @@ body:
     attributes:
       label: 项目地址以及描述
       description: |
-        请按照以下格式填写项目地址，然后在下一行对你的项目进行一些描述（分支后保留2个空格以换行）：
-        user/repo:branch  
+        请按照以下格式填写项目地址，然后在下一行对你的项目进行一些描述：
+        user/repo:branch
         说明...
       placeholder: |
         示例:  
