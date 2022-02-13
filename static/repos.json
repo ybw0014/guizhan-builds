@@ -231,6 +231,14 @@
             }
         }
     },
+    "ybw0014/SlimefunAdvancements-CN:main": {
+        "options": {
+            "target": {
+                "name": "SlimefunAdvancements",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
     "baoad/InfinityExpansion:master": {
         "options": {
             "target": {
@@ -311,7 +319,31 @@
             }
         }
     },
-    "haiman233/Ex-Limus-CN:master": {
+    "baoad/SoundMuffler:master": {
+        "options": {
+            "target": {
+                "name": "SoundMuffler",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+	"baoad/SlimyRepair:master": {
+        "options": {
+            "target": {
+                "name": "SlimyRepair",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+	"baoad/FlowerPower:master": {
+        "options": {
+            "target": {
+                "name": "FlowerPower",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+    "haiman233/Ex-Limus-CN:main": {
         "options": {
             "target": {
                 "name": "Ex-Limus",
@@ -358,5 +390,69 @@
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
             }
         }
-    }
+    },
+    "haiman233/RandomExpansion-CN:master": {
+        "options": {
+            "target": {
+                "name": "RandomExpansion",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+	"LobbyTech-MC/MoreTools:master": {
+        "options": {
+            "target": {
+                "name": "MoreTools",
+                "version": "Build {version} zh-CN(LobbyTech-MC) (git {git_commit})"
+            }
+        }
+    },
+	"CrispyXYZ/GeneticChickengineering-CN-RC30-Extended:master": {
+        "options": {
+            "target": {
+                "name": "GeneticChickengineering",
+                "version": "Build {version} zh-CN(CrispyXYZ) (git {git_commit})"
+            }
+        }
+    },
+	"SlimeTraditionalTranslation/LuckyPandas:master": {
+        "options": {
+            "target": {
+                "name": "LuckyPandas",
+                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
+            }
+        }
+    },
+	"SlimeTraditionalTranslation/DankTech2:master": {
+        "options": {
+            "target": {
+                "name": "DankTech2",
+                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
+            }
+        }
+    },
+	"SlimeTraditionalTranslation/EMC2:master": {
+        "options": {
+            "target": {
+                "name": "EMC2",
+                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
+            }
+        }
+    },
+	"SlimeTraditionalTranslation/AlchimiaVitae:master": {
+        "options": {
+            "target": {
+                "name": "AlchimiaVitae",
+                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
+            }
+        }
+    },
+	"SlimeTraditionalTranslation/SMG:master": {
+        "options": {
+            "target": {
+                "name": "SMG",
+                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
+            }
+        }
+    },
 }
