@@ -1,5 +1,5 @@
 <template>
-    <card :title="title">
+    <card :title="title" class="collapsable">
         <template v-if="!!$slots.title" #title>
             <slot name="title" />
         </template>
@@ -23,3 +23,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.collapsable {
+    @apply overflow-y-auto;
+}
+</style>
