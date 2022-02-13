@@ -311,7 +311,7 @@
             }
         }
     },
-    "haiman233/Ex-Limus-CN:master": {
+    "haiman233/Ex-Limus-CN:main": {
         "options": {
             "target": {
                 "name": "Ex-Limus",
@@ -356,6 +356,14 @@
             "target": {
                 "name": "Money-and-Things-SLIMEFUN",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "ybw0014/SlimefunAdvancements-CN:master": {
+        "options": {
+            "target": {
+                "name": "SlimefunAdvancements",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
     }
