@@ -310,5 +310,53 @@
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
         }
+    },
+    "haiman233/Ex-Limus-CN:master": {
+        "options": {
+            "target": {
+                "name": "Ex-Limus",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "haiman233/Element-Manipulation-CN:master": {
+        "options": {
+            "target": {
+                "name": "Element-Manipulation",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "haiman233/MissileWarfare-CN:master": {
+        "options": {
+            "target": {
+                "name": "MissileWarfare",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "haiman233/EzTech-CN:master": {
+        "options": {
+            "target": {
+                "name": "EzTech",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "haiman233/InfinityExpansion-changed-CN:master": {
+        "options": {
+            "target": {
+                "name": "InfinityExpansion-changed",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "haiman233/Money-and-Things-SLIMEFUN-CN:master": {
+        "options": {
+            "target": {
+                "name": "Money-and-Things-SLIMEFUN",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
     }
 }
