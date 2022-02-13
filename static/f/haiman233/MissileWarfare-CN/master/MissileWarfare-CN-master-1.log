@@ -1,0 +1,108 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< me.kaiyan.missilewarefare:MissileWarfare >--------------
+[INFO] Building MissileWarfare Build 1 zh-CN(haiman233) (git 27b585a)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MissileWarfare ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MissileWarfare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MissileWarfare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Missiles/ElytraMissileController.java:[116,25] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Missiles/ElytraMissileController.java:[120,25] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Missiles/ElytraMissileController.java:[126,21] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[78,75] incompatible types: java.util.List<org.bukkit.entity.Player> cannot be converted to java.util.List<org.bukkit.OfflinePlayer>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[80,41] incompatible types: inference variable Z has incompatible bounds
+    equality constraints: java.lang.String
+    lower bounds: java.lang.Integer,java.lang.Object
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[99,75] incompatible types: java.util.List<org.bukkit.entity.Player> cannot be converted to java.util.List<org.bukkit.OfflinePlayer>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[101,41] incompatible types: inference variable Z has incompatible bounds
+    equality constraints: java.lang.String
+    lower bounds: java.lang.Integer,java.lang.Object
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[152,46] incompatible types: java.lang.String cannot be converted to java.lang.Integer
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[91,68] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[92,86] incompatible types: java.util.List<org.bukkit.entity.Player> cannot be converted to java.util.List<org.bukkit.OfflinePlayer>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[107,33] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[116,45] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[154,44] cannot find symbol
+  symbol:   method getOtherFirstMissile(org.bukkit.inventory.Inventory,io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem)
+  location: class me.kaiyan.missilewarfare.VariantsAPI
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[161,21] cannot find symbol
+  symbol:   variable targets
+  location: class me.kaiyan.missilewarfare.PlayerID
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.912 s
+[INFO] Finished at: 2022-02-13T03:46:53Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project MissileWarfare: Compilation failure: Compilation failure: 
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Missiles/ElytraMissileController.java:[116,25] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Missiles/ElytraMissileController.java:[120,25] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Missiles/ElytraMissileController.java:[126,21] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[78,75] incompatible types: java.util.List<org.bukkit.entity.Player> cannot be converted to java.util.List<org.bukkit.OfflinePlayer>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[80,41] incompatible types: inference variable Z has incompatible bounds
+[ERROR]     equality constraints: java.lang.String
+[ERROR]     lower bounds: java.lang.Integer,java.lang.Object
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[99,75] incompatible types: java.util.List<org.bukkit.entity.Player> cannot be converted to java.util.List<org.bukkit.OfflinePlayer>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[101,41] incompatible types: inference variable Z has incompatible bounds
+[ERROR]     equality constraints: java.lang.String
+[ERROR]     lower bounds: java.lang.Integer,java.lang.Object
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Items/PlayerList.java:[152,46] incompatible types: java.lang.String cannot be converted to java.lang.Integer
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[91,68] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[92,86] incompatible types: java.util.List<org.bukkit.entity.Player> cannot be converted to java.util.List<org.bukkit.OfflinePlayer>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[107,33] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[116,45] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[154,44] cannot find symbol
+[ERROR]   symbol:   method getOtherFirstMissile(org.bukkit.inventory.Inventory,io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem)
+[ERROR]   location: class me.kaiyan.missilewarfare.VariantsAPI
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/haiman233/MissileWarfare-CN/master/workspace/src/main/java/me/kaiyan/missilewarfare/Blocks/AntiElytraLauncher.java:[161,21] cannot find symbol
+[ERROR]   symbol:   variable targets
+[ERROR]   location: class me.kaiyan.missilewarfare.PlayerID
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
