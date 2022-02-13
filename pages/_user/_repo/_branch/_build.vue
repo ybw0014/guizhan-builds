@@ -37,8 +37,8 @@
                         </list-group-item>
                     </list-group>
                 </card>
-                <collapsable-card title="所有构建">
-                    <list-group item-class="flex flex-col items-center">
+                <card title="所有构建">
+                    <list-group item-class="flex flex-col items-center" class="builds-list">
                         <list-group-item
                             v-for="histBuild in builds"
                             :key="histBuild.id"
@@ -49,10 +49,10 @@
                             <span class="text-sm text-gray-400">{{ new Date(histBuild.build_timestamp).toLocaleString() }}</span>
                         </list-group-item>
                     </list-group>
-                </collapsable-card>
+                </card>
             </div>
             <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
-                <card>
+                <card class="mb-4">
                     <template #title>
                         <span class="repo-name">{{ repo }}</span>
                         <small class="repo-branch">{{ branch }}</small>
@@ -181,5 +181,9 @@ export default {
 }
 .repo-branch{
     @apply font-thin text-sm;
+}
+.builds-list {
+    @apply overflow-y-auto;
+    max-height: 45vh;
 }
 </style>
