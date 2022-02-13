@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< me.cullendoran:MoneyAndThings >--------------------
+[INFO] Building MoneyAndThings Build 1 zh-CN(haiman233) (git abd30d5)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MoneyAndThings ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MoneyAndThings ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MoneyAndThings ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/runner/work/maven-builds/maven-builds/static/f/haiman233/Money-and-Things-SLIMEFUN-CN/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MoneyAndThings ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/haiman233/Money-and-Things-SLIMEFUN-CN/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MoneyAndThings ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MoneyAndThings ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MoneyAndThings ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/haiman233/Money-and-Things-SLIMEFUN-CN/master/workspace/target/MoneyAndThings-Build 1 zh-CN(haiman233) (git abd30d5).jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.342 s
+[INFO] Finished at: 2022-02-13T03:47:14Z
+[INFO] ------------------------------------------------------------------------
