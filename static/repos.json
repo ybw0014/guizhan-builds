@@ -231,14 +231,6 @@
             }
         }
     },
-    "ybw0014/SlimefunAdvancements-CN:main": {
-        "options": {
-            "target": {
-                "name": "SlimefunAdvancements",
-                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
-            }
-        }
-    },
     "baoad/InfinityExpansion:master": {
         "options": {
             "target": {
@@ -319,30 +311,6 @@
             }
         }
     },
-    "baoad/SoundMuffler:master": {
-        "options": {
-            "target": {
-                "name": "SoundMuffler",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
-            }
-        }
-    },
-	"baoad/SlimyRepair:master": {
-        "options": {
-            "target": {
-                "name": "SlimyRepair",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
-            }
-        }
-    },
-	"baoad/FlowerPower:master": {
-        "options": {
-            "target": {
-                "name": "FlowerPower",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
-            }
-        }
-    },
     "haiman233/Ex-Limus-CN:main": {
         "options": {
             "target": {
@@ -391,11 +359,43 @@
             }
         }
     },
+    "ybw0014/SlimefunAdvancements-CN:main": {
+        "options": {
+            "target": {
+                "name": "SlimefunAdvancements",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
+    },
     "haiman233/RandomExpansion-CN:master": {
         "options": {
             "target": {
                 "name": "RandomExpansion",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
+    "baoad/SoundMuffler:master": {
+        "options": {
+            "target": {
+                "name": "SoundMuffler",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+	"baoad/SlimyRepair:master": {
+        "options": {
+            "target": {
+                "name": "SlimyRepair",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
+    },
+	"baoad/FlowerPower:master": {
+        "options": {
+            "target": {
+                "name": "FlowerPower",
+                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
         }
     },
