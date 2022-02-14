@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< io.github.linoxgh:MoreTools >---------------------
+[INFO] Building MoreTools Build 1 zh-CN(LobbyTech-MC) (git 3bfb764)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.pom (13 kB at 37 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/thebusybiscuit/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 5.0 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MoreTools ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MoreTools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MoreTools ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/runner/work/maven-builds/maven-builds/static/f/LobbyTech-MC/MoreTools/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MoreTools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/LobbyTech-MC/MoreTools/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MoreTools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MoreTools ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MoreTools ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/LobbyTech-MC/MoreTools/master/workspace/target/MoreTools-Build 1 zh-CN(LobbyTech-MC) (git 3bfb764).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ MoreTools ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/LobbyTech-MC/MoreTools/master/workspace/target/MoreTools-Build 1 zh-CN(LobbyTech-MC) (git 3bfb764).jar with /home/runner/work/maven-builds/maven-builds/static/f/LobbyTech-MC/MoreTools/master/workspace/target/MoreTools-Build 1 zh-CN(LobbyTech-MC) (git 3bfb764)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/LobbyTech-MC/MoreTools/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.923 s
+[INFO] Finished at: 2022-02-14T03:23:39Z
+[INFO] ------------------------------------------------------------------------
