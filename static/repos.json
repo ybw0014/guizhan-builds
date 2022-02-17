@@ -462,5 +462,13 @@
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "baoad/InfinityExpansion:fix": {
+        "options": {
+            "target": {
+                "name": "InfinityExpansion",
+                "version": "Test {version} zh-CN(baoad) (git {git_commit})"
+            }
+        }
     }
 }
