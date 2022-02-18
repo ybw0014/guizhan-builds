@@ -470,5 +470,13 @@
                 "version": "Test {version} zh-CN(baoad) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/Networks-CN:test": {
+        "options": {
+            "target": {
+                "name": "Networks",
+                "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        }
     }
 }
