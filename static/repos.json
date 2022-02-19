@@ -478,5 +478,13 @@
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "buiawpkgew1/FN-FAL-s-Amplifications-zh:main": {
+        "options": {
+            "target": {
+                "name": "FN-FAL-s-Amplifications",
+                "version": "Build {version} zh-CN(buiawpkgew1) (git {git_commit})"
+            }
+        }
     }
 }
