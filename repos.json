@@ -486,5 +486,13 @@
                 "version": "Build {version} zh-CN(buiawpkgew1) (git {git_commit})"
             }
         }
+    },
+    "SlimefunGuguProject/CrystamaeHistoria:master": {
+        "options": {
+            "target": {
+                "name": "CrystamaeHistoria",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        }
     }
 }
