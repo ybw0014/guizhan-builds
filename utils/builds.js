@@ -23,6 +23,7 @@ export default {
             }
         })
     },
+
     /**
      * 从state中获取latest
      * @param vueInst vue实例
@@ -32,6 +33,7 @@ export default {
     getLatest (vueInst, repoStr) {
         return vueInst.$store.getters['builds/getLatest'](repoStr)
     },
+
     /**
      * 从state中获取builds
      * @param vueInst vue实例
@@ -48,6 +50,7 @@ export default {
         let reversedRes = _.reverse(_.cloneDeep(result))
         return reversed ? reversedRes : result
     },
+
     /**
      * builds中是否存在指定项
      * @param builds {Array<String>} builds

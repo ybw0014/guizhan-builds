@@ -32,6 +32,7 @@ export default {
             }
         })
     },
+
     /**
      * 从state中获取repos
      * @param vueInst vue实例
@@ -40,6 +41,7 @@ export default {
     getRepos (vueInst) {
         return vueInst.$store.getters['repos/getRepos']
     },
+
     /**
      * 从state中获取users
      * @param vueInst vue实例
@@ -48,6 +50,7 @@ export default {
     getUsers (vueInst) {
         return vueInst.$store.getters['repos/getUsers']
     },
+
     /**
      * repos中是否存在指定项
      * @param repos {Array<String>} repos

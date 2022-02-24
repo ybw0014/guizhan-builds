@@ -1,21 +1,30 @@
 {
     "ybw0014/SlimeTinker-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimeTinker",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "minecraft": "1.16+"
         }
     },
     "ybw0014/ExoticGarden-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ExoticGarden",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "minecraft": "1.14+"
         }
     },
     "ybw0014/MobCapturer-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "MobCapturer",
@@ -24,7 +33,9 @@
         }
     },
     "ybw0014/InfinityExpansion-CN:master": {
+        "type": "maven",
         "options": {
+            "abandoned": "true",
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
@@ -32,6 +43,7 @@
         }
     },
     "ybw0014/FluffyMachines-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "FluffyMachines",
@@ -40,6 +52,7 @@
         }
     },
     "ybw0014/ChestTerminal-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ChestTerminal",
@@ -48,6 +61,7 @@
         }
     },
     "ybw0014/HotbarPets-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "HotbarPets",
@@ -56,6 +70,7 @@
         }
     },
     "ybw0014/SoulJars-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SoulJars",
@@ -64,6 +79,7 @@
         }
     },
     "ybw0014/LiteXpansion-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "LiteXpansion",
@@ -72,6 +88,7 @@
         }
     },
     "ybw0014/SimpleUtils-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SimpleUtils",
@@ -80,6 +97,7 @@
         }
     },
     "ybw0014/DynaTech-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "DynaTech",
@@ -88,6 +106,7 @@
         }
     },
     "ybw0014/SimpleStorage-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SimpleStorage",
@@ -96,6 +115,7 @@
         }
     },
     "ybw0014/HeadLimiter-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "HeadLimiter",
@@ -104,6 +124,7 @@
         }
     },
     "ybw0014/ElectricSpawners-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ElectricSpawners",
@@ -112,6 +133,7 @@
         }
     },
     "ybw0014/SlimyTreeTaps-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimyTreeTaps",
@@ -120,6 +142,7 @@
         }
     },
     "ybw0014/ExtraGear-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ExtraGear",
@@ -128,6 +151,7 @@
         }
     },
     "ybw0014/EcoPower-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "EcoPower",
@@ -136,6 +160,7 @@
         }
     },
     "ybw0014/ExtraHeads-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ExtraHeads",
@@ -144,6 +169,7 @@
         }
     },
     "ybw0014/DyedBackpacks-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "DyedBackpacks",
@@ -152,6 +178,7 @@
         }
     },
     "ybw0014/ColoredEnderChests-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ColoredEnderChests",
@@ -160,6 +187,7 @@
         }
     },
     "ybw0014/SlimefunOreChunks-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimefunOreChunks",
@@ -168,6 +196,7 @@
         }
     },
     "ybw0014/FoxyMachines-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "FoxyMachines",
@@ -176,6 +205,7 @@
         }
     },
     "ybw0014/SlimefunWarfare-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimefunWarfare",
@@ -184,6 +214,7 @@
         }
     },
     "ybw0014/PrivateStorage-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "PrivateStorage",
@@ -192,6 +223,7 @@
         }
     },
     "ybw0014/GlobalWarming-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "GlobalWarming",
@@ -200,6 +232,7 @@
         }
     },
     "ybw0014/HardcoreSlimefun-CN:main": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "HardcoreSlimefun",
@@ -208,6 +241,7 @@
         }
     },
     "ybw0014/Networks-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Networks",
@@ -216,6 +250,7 @@
         }
     },
     "ybw0014/SfChunkInfo-CN:main": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SfChunkInfo",
@@ -224,6 +259,7 @@
         }
     },
     "ybw0014/VillagerUtil-CN:main": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "VillagerUtil",
@@ -232,6 +268,7 @@
         }
     },
     "baoad/InfinityExpansion:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "InfinityExpansion",
@@ -240,6 +277,7 @@
         }
     },
     "baoad/Galactifun:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Galactifun",
@@ -248,6 +286,7 @@
         }
     },
     "baoad/TranscEndence:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "TranscEndence",
@@ -256,6 +295,7 @@
         }
     },
     "baoad/FluffyMachines:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "FluffyMachines",
@@ -264,6 +304,7 @@
         }
     },
     "baoad/SimpleUtils:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SimpleUtils",
@@ -272,6 +313,7 @@
         }
     },
     "baoad/ExtraTools:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "ExtraTools",
@@ -280,6 +322,7 @@
         }
     },
     "baoad/luckyblocks-sf:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimefunLuckyBlocks",
@@ -288,6 +331,7 @@
         }
     },
     "baoad/PotionExpansion:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "PotionExpansion",
@@ -296,6 +340,7 @@
         }
     },
     "baoad/Liquid:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Liquid",
@@ -304,6 +349,7 @@
         }
     },
     "baoad/DyedBackpacks:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "DyedBackpacks",
@@ -312,6 +358,7 @@
         }
     },
     "haiman233/Ex-Limus-CN:main": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Ex-Limus",
@@ -320,6 +367,7 @@
         }
     },
     "haiman233/Element-Manipulation-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Element-Manipulation",
@@ -328,6 +376,7 @@
         }
     },
     "haiman233/MissileWarfare-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "MissileWarfare",
@@ -336,6 +385,7 @@
         }
     },
     "haiman233/EzTech-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "EzTech",
@@ -344,6 +394,7 @@
         }
     },
     "haiman233/InfinityExpansion-changed-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "InfinityExpansion-changed",
@@ -352,6 +403,7 @@
         }
     },
     "haiman233/Money-and-Things-SLIMEFUN-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Money-and-Things-SLIMEFUN",
@@ -360,6 +412,7 @@
         }
     },
     "ybw0014/SlimefunAdvancements-CN:main": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimefunAdvancements",
