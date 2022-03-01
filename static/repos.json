@@ -569,6 +569,7 @@
         }
     },
     "ybw0014/SFCalc:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SFCalc",
