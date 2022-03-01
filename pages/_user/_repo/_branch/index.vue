@@ -38,6 +38,7 @@ export default {
             }
             if (!reposUtil.exists(reposUtil.getRepos(this), queryOption)) {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
+                return
             }
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
                 let builds = buildsUtil.getBuilds(this, this.repoStr)
@@ -49,8 +50,6 @@ export default {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
         })
-    },
-    methods: {
     }
 }
 </script>

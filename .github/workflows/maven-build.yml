@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
-      GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
+      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
+      BOT_EMAIL: ${{ secrets.BOT_EMAIL }}
 
     steps:
     - name: Checking out Repository
@@ -43,5 +44,5 @@ jobs:
       if: steps.maven-build.outputs.HAS_UPDATE == 'true'
       uses: peter-evans/repository-dispatch@v1
       with:
-        token: ${{ secrets.REPO_ACCESS_TOKEN }}
-        event-type: after-auto-build
+        token: ${{ secrets.BOT_TOKEN }}
+        event-type: nuxt-build

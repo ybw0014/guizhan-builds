@@ -11,8 +11,8 @@ module.exports = {
      * @param messages
      */
     debug (...messages) {
-        if (process.env.DEBUG === 1) {
-            console.log(messages)
+        if (process.env.DEBUG === '1') {
+            console.log('[DEBUG] ', ...messages)
         }
     },
 
@@ -21,7 +21,7 @@ module.exports = {
      * @param messages
      */
     log (...messages) {
-        console.log(messages)
+        console.log(...messages)
     },
 
     /**
@@ -29,7 +29,7 @@ module.exports = {
      * @param messages
      */
     error (...messages) {
-        console.error(messages)
+        console.error(...messages)
     },
 
     /**

@@ -6,7 +6,7 @@ on:
     branches:
       - master
   repository_dispatch:
-    types: [after-auto-build]
+    types: [nuxt-build]
 
 jobs:
   build:
@@ -47,5 +47,5 @@ jobs:
         with:
           personal_token: ${{ secrets.REPO_ACCESS_TOKEN }}
           publish_dir: ./dist
-          user_name: 'GuizhanCraft'
-          user_email: ${{ secrets.GIT_EMAIL }}
+          user_name: ${{ secrets.BOT_USERNAME }}
+          user_email: ${{ secrets.BOT_EMAIL }}
