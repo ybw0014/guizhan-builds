@@ -5,10 +5,14 @@
         "^[A-Za-z0-9_-]+/[A-Za-z0-9_-]+:[A-Za-z0-9_-]+$": {
             "type": "object",
             "required": [
-                "options"
+                "options",
+                "type"
             ],
             "additionalProperties": false,
             "properties": {
+                "type": {
+                    "type": "string"
+                },
                 "options": {
                     "type": "object",
                     "required": [
