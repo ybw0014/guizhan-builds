@@ -425,6 +425,7 @@
         }
     },
     "haiman233/RandomExpansion-CN:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "RandomExpansion",
@@ -433,6 +434,7 @@
         }
     },
     "baoad/SoundMuffler:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SoundMuffler",
@@ -441,6 +443,7 @@
         }
     },
     "baoad/SlimyRepair:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SlimyRepair",
@@ -449,6 +452,7 @@
         }
     },
     "baoad/FlowerPower:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "FlowerPower",
@@ -457,6 +461,7 @@
         }
     },
     "LobbyTech-MC/MoreTools:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "MoreTools",
@@ -465,6 +470,7 @@
         }
     },
     "CrispyXYZ/GeneticChickengineering-CN-RC30-Extended:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "GeneticChickengineering",
@@ -473,6 +479,7 @@
         }
     },
     "SlimeTraditionalTranslation/LuckyPandas:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "LuckyPandas",
@@ -481,6 +488,7 @@
         }
     },
     "SlimeTraditionalTranslation/DankTech2:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "DankTech2",
@@ -489,6 +497,7 @@
         }
     },
     "SlimeTraditionalTranslation/EMC2:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "EMC2",
@@ -497,6 +506,7 @@
         }
     },
     "SlimeTraditionalTranslation/AlchimiaVitae:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "AlchimiaVitae",
@@ -505,6 +515,7 @@
         }
     },
     "SlimeTraditionalTranslation/SMG:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "SMG",
@@ -513,6 +524,7 @@
         }
     },
     "ybw0014/InfinityExpansion-CN:test": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "InfinityExpansion",
@@ -521,6 +533,7 @@
         }
     },
     "baoad/InfinityExpansion:fix": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "InfinityExpansion",
@@ -529,6 +542,7 @@
         }
     },
     "ybw0014/Networks-CN:test": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "Networks",
@@ -537,6 +551,7 @@
         }
     },
     "buiawpkgew1/FN-FAL-s-Amplifications-zh:main": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "FN-FAL-s-Amplifications",
@@ -545,6 +560,7 @@
         }
     },
     "SlimefunGuguProject/CrystamaeHistoria:master": {
+        "type": "maven",
         "options": {
             "target": {
                 "name": "CrystamaeHistoria",
