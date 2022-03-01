@@ -8,7 +8,9 @@
             }
         },
         "dependencies": {
-            "minecraft": "1.16+"
+            "minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/ExoticGarden-CN:master": {
@@ -20,7 +22,9 @@
             }
         },
         "dependencies": {
-            "minecraft": "1.14+"
+            "minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/MobCapturer-CN:master": {
@@ -35,11 +39,7 @@
     "ybw0014/InfinityExpansion-CN:master": {
         "type": "maven",
         "options": {
-            "abandoned": {
-                "enabled": true,
-                "message": "该项目已停止更新，请使用baoad汉化版",
-                "project": "baoad/InfinityExpansion:master"
-            },
+            "abandoned": true,
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
