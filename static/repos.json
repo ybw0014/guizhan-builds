@@ -576,5 +576,19 @@
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         }
+    },
+    "ybw0014/AlchimiaVitae:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "AlchimiaVitae",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "minecraft": {
+                "1": "1.16+"
+            }
+        }
     }
 }
