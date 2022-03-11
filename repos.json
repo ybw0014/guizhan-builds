@@ -505,15 +505,6 @@
             }
         }
     },
-    "SlimeTraditionalTranslation/AlchimiaVitae:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "AlchimiaVitae",
-                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
-            }
-        }
-    },
     "SlimeTraditionalTranslation/SMG:master": {
         "type": "maven",
         "options": {
