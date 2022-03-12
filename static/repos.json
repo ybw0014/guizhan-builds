@@ -586,5 +586,33 @@
                 "1": "1.16+"
             }
         }
+    },
+    "StarWishsama/Slimefun4:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Slimefun",
+                "version": "4.9-canary-{git_commit}"
+            }
+        },
+        "dependencies": {
+            "minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "StarWishsama/Slimefun4:test/cargo_stacking_items": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Slimefun",
+                "version": "4.9-test_cargo_stacking_items-{git_commit}"
+            }
+        },
+        "dependencies": {
+            "minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
