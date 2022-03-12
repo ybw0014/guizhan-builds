@@ -487,15 +487,6 @@
             }
         }
     },
-    "SlimeTraditionalTranslation/DankTech2:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "DankTech2",
-                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
-            }
-        }
-    },
     "SlimeTraditionalTranslation/EMC2:master": {
         "type": "maven",
         "options": {
@@ -573,6 +564,20 @@
         "options": {
             "target": {
                 "name": "AlchimiaVitae",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "ybw0014/DankTech2:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DankTech2",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         },
