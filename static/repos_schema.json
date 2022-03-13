@@ -38,6 +38,9 @@
                         },
                         "customDir": {
                             "type": "string"
+                        },
+                        "repo": {
+                            "type": "string"
                         }
                     }
                 },
