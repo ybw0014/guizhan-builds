@@ -26,6 +26,11 @@ module.exports = {
                     for (const repo in json) {
                         logger.log(`> 已加载项目 ${repo}`)
 
+                        if (json[repo].type === 'redirect') {
+                            logger.log(`> ${repo} 为重定向仓库，跳过`)
+                            continue
+                        }
+
                         let taskInfo = {
                             user: repo.split('/')[0],
                             repo: repo.split('/')[1].split(':')[0],
@@ -34,12 +39,10 @@ module.exports = {
 
                         taskInfo.directory = taskInfo.user + '/' + taskInfo.repo + '/' + taskInfo.branch
 
-                        if (json[repo].options) {
-                            taskInfo.options = json[repo].options
+                        taskInfo.options = json[repo].options
 
-                            if (taskInfo.options.customDir) {
-                                taskInfo.directory = taskInfo.options.customDir
-                            }
+                        if (taskInfo.options.customDir) {
+                            taskInfo.directory = taskInfo.options.customDir
                         }
 
                         tasks.push(taskInfo)
