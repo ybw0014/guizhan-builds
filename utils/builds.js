@@ -42,9 +42,6 @@ export default {
      * @returns {Array<Object>} builds列表
      */
     getBuilds (vueInst, repoStr, reversed) {
-        if (_.isUndefined(reversed)) {
-            reversed = false
-        }
         let result = vueInst.$store.getters['builds/getBuilds'](repoStr)
         // TODO: 缓存
         let reversedRes = _.reverse(_.cloneDeep(result))

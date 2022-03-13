@@ -26,9 +26,14 @@ module.exports = {
             fs.readFile(pomFile, 'utf-8').then((data) => { // read pom.xml
                 xml.toJSON(data).then((json) => { // xml to json
                     // version
+                    let date = new Date(task.commit.timestamp)
+
                     let version = task.options.target.version
                         .replace('{version}', task.version)
                         .replace('{git_commit}', task.commit.hash.substr(0, 7))
+                        .replace('{year}', date.getFullYear())
+                        .replace('{month}', date.getMonth())
+                        .replace('{day}', date.getDay())
 
                     json.project.version = version
 
@@ -36,14 +41,15 @@ module.exports = {
                     if (!json.project.build) {
                         json.project.build = {}
                     }
-                    // eslint-disable-next-line no-template-curly-in-string
+
+                    /* eslint-disable no-template-curly-in-string */
+                    json.project.name = task.options.target.name
                     json.project.build.finalName = '${project.name}-${project.version}'
 
                     task.finalName = json.project.build.finalName
-                        // eslint-disable-next-line no-template-curly-in-string
-                        .replace('${project.name}', json.project.artifactId._text)
-                        // eslint-disable-next-line no-template-curly-in-string
+                        .replace('${project.name}', json.project.name)
                         .replace('${project.version}', version)
+                    /* eslint-disable no-template-curly-in-string */
 
                     // write pom.xml
                     xml.toXML(json).then((xmlData) => {

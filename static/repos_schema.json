@@ -15,9 +15,6 @@
                 },
                 "options": {
                     "type": "object",
-                    "required": [
-                        "target"
-                    ],
                     "additionalProperties": false,
                     "properties": {
                         "target": {
@@ -36,8 +33,14 @@
                                 }
                             }
                         },
-                        "abandoned": {
+                        "hidden": {
                             "type": "boolean"
+                        },
+                        "customDir": {
+                            "type": "string"
+                        },
+                        "repo": {
+                            "type": "string"
                         }
                     }
                 },

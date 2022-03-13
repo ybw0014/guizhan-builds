@@ -40,7 +40,7 @@
                             </nuxt-link>
                         </template>
                         <template #cell(status)="data">
-                            <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
+                            <build-status :dir="data.row.dir" />
                         </template>
                     </data-table>
                 </card>
@@ -81,17 +81,22 @@ export default {
         repoInfo () {
             try {
                 for (const repoIndex in this.repos) {
-                    const repoInfo = this.repos[repoIndex]
-                    const user = repoInfo.split('/')[0]
-                    if (user !== this.user) {
+                    const repoStr = this.repos[repoIndex]
+                    const repoInfo = reposUtil.getInfoByRepoStr(repoStr)
+                    const repoSettings = reposUtil.getRepoInfo(this, repoStr)
+                    repoInfo.dir = reposUtil.getDir(this, repoStr)
+
+                    if (repoInfo.user !== this.user) {
                         continue
                     }
-                    const repo = repoInfo.split('/')[1].split(':')[0]
-                    if (repo !== this.repo) {
+                    if (repoInfo.repo !== this.repo) {
                         continue
                     }
-                    const branch = repoInfo.split(':')[1]
-                    return { user, repo, branch }
+                    if (repoSettings.type === 'redirect') {
+                        continue
+                    }
+
+                    return repoInfo
                 }
                 return null
             } catch (ex) {
@@ -101,17 +106,22 @@ export default {
         listBranches () {
             let lBranches = []
             for (const repoIndex in this.repos) {
-                const repoInfo = this.repos[repoIndex]
-                const user = repoInfo.split('/')[0]
-                if (user !== this.user) {
+                const repoStr = this.repos[repoIndex]
+                const repoInfo = reposUtil.getInfoByRepoStr(repoStr)
+                const repoSettings = reposUtil.getRepoInfo(this, repoStr)
+                repoInfo.dir = reposUtil.getDir(this, repoStr)
+
+                if (repoInfo.user !== this.user) {
                     continue
                 }
-                const repo = repoInfo.split('/')[1].split(':')[0]
-                if (repo !== this.repo) {
+                if (repoInfo.repo !== this.repo) {
                     continue
                 }
-                const branch = repoInfo.split(':')[1]
-                lBranches.push({ user, repo, branch })
+                if (repoSettings.options?.hidden) {
+                    continue
+                }
+
+                lBranches.push(repoInfo)
             }
             return lBranches
         }
@@ -124,8 +134,6 @@ export default {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             }
         })
-    },
-    methods: {
     }
 }
 </script>

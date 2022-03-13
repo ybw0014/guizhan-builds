@@ -5,17 +5,9 @@
 export default {
     name: 'BuildStatus',
     props: {
-        user: {
+        dir: {
             type: String,
             default: ''
-        },
-        repo: {
-            type: String,
-            default: ''
-        },
-        branch: {
-            type: String,
-            default: 'master'
         }
     },
     data () {
@@ -25,7 +17,7 @@ export default {
     },
     computed: {
         source () {
-            return '/f/' + this.user + '/' + this.repo + '/' + this.branch + '/badge.svg'
+            return '/f/' + this.dir + '/badge.svg'
         }
     },
     mounted () {

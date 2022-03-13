@@ -76,5 +76,11 @@ export default {
 
     generate: {
         fallback: true
+    },
+
+    watchers: {
+        webpack: {
+            ignored: /(node_modules)|(.git)|(.eslintcache)|(.nuxt)/
+        }
     }
 }
