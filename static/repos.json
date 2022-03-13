@@ -180,6 +180,7 @@
     "ybw0014/DynaTech-CN:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo": "ybw0014/DynaTech:master"
         }
     },
@@ -553,15 +554,6 @@
             }
         }
     },
-    "SlimefunGuguProject/VoidHarvesters:main": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "VoidHarvesters",
-                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
-            }
-        }
-    },
     "baoad/SoundMuffler:master": {
         "type": "maven",
         "options": {
@@ -642,6 +634,14 @@
                 "name": "InfinityExpansion",
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
+            }
         }
     },
     "baoad/InfinityExpansion:fix": {
@@ -650,6 +650,14 @@
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Test {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
     },
@@ -694,6 +702,11 @@
                 "name": "CrystamaeHistoria",
                 "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
         }
     },
     "ybw0014/SFCalc:master": {
@@ -702,6 +715,11 @@
             "target": {
                 "name": "SFCalc",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.15+"
             }
         }
     },
@@ -744,6 +762,15 @@
         "dependencies": {
             "minecraft": {
                 "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/VoidHarvesters:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "VoidHarvesters",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
             }
         }
     }
