@@ -239,7 +239,7 @@ export default {
 
     td {
         @apply border border-gray-600 px-4 py-2;
-        @apply dark:border-gray-400
+        @apply dark:border-gray-400;
     }
 }
 </style>
