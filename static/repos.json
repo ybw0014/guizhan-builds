@@ -553,6 +553,15 @@
             }
         }
     },
+    "SlimefunGuguProject/VoidHarvesters:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "VoidHarvesters",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        }
+    },
     "baoad/SoundMuffler:master": {
         "type": "maven",
         "options": {
