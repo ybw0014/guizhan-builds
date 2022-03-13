@@ -36,6 +36,10 @@ module.exports = {
 
                         if (json[repo].options) {
                             taskInfo.options = json[repo].options
+
+                            if (taskInfo.options.customDir) {
+                                taskInfo.directory = taskInfo.options.customDir
+                            }
                         }
 
                         tasks.push(taskInfo)

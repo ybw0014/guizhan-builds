@@ -1,28 +1,44 @@
 {
     "ybw0014/SlimeTinker-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/SlimeTinker:master"
+        }
+    },
+    "ybw0014/SlimeTinker:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/SlimeTinker-CN/master",
             "target": {
                 "name": "SlimeTinker",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.16+"
             }
         }
     },
     "ybw0014/ExoticGarden-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/ExoticGarden:master"
+        }
+    },
+    "ybw0014/ExoticGarden:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/ExoticGarden-CN/master",
             "target": {
                 "name": "ExoticGarden",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.14+"
             }
         }
@@ -34,33 +50,65 @@
                 "name": "MobCapturer",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/InfinityExpansion-CN:master": {
         "type": "maven",
         "options": {
-            "abandoned": true,
+            "hidden": true,
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/FluffyMachines-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/FluffyMachines:master"
+        }
+    },
+    "ybw0014/FluffyMachines:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/FluffyMachines-CN/master",
             "target": {
                 "name": "FluffyMachines",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
     "ybw0014/ChestTerminal-CN:master": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "ChestTerminal",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            },
+            "公告": {
+                "1": "该附属已停止支持，不建议下载使用。官方推荐使用[网络](https://www.mcbbs.net/thread-1290053-1-1.html)作为替代"
             }
         }
     },
@@ -71,6 +119,11 @@
                 "name": "HotbarPets",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/SoulJars-CN:master": {
@@ -80,32 +133,73 @@
                 "name": "SoulJars",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/LiteXpansion-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo": "ybw0014/LiteXpansion:master"
+        }
+    },
+    "ybw0014/LiteXpansion:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/LiteXpansion-CN/master",
             "target": {
                 "name": "LiteXpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
     "ybw0014/SimpleUtils-CN:master": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "SimpleUtils",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/DynaTech-CN:master": {
+        "type": "redirect",
+        "options": {
+            "repo": "ybw0014/DynaTech:master"
+        }
+    },
+    "ybw0014/DynaTech:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/DynaTech-CN/master",
             "target": {
                 "name": "DynaTech",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "12": "Java 16+",
+                "1": "Java 11+"
+            },
+            "Minecraft": {
+                "12": "1.17+",
+                "1": "1.14+"
             }
         }
     },
@@ -236,8 +330,16 @@
         }
     },
     "ybw0014/HardcoreSlimefun-CN:main": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/HardcoreSlimefun:main"
+        }
+    },
+    "ybw0014/HardcoreSlimefun:main": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/HardcoreSlimefun-CN/main",
             "target": {
                 "name": "HardcoreSlimefun",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
@@ -245,11 +347,24 @@
         }
     },
     "ybw0014/Networks-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/Networks:master"
+        }
+    },
+    "ybw0014/Networks:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/Networks-CN/master",
             "target": {
                 "name": "Networks",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
             }
         }
     },
@@ -313,6 +428,11 @@
             "target": {
                 "name": "SimpleUtils",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     },
@@ -508,6 +628,7 @@
     "ybw0014/InfinityExpansion-CN:test": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
@@ -524,11 +645,27 @@
         }
     },
     "ybw0014/Networks-CN:test": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo": "ybw0014/Networks:test"
+        }
+    },
+    "ybw0014/Networks:test": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/Networks-CN/test",
             "target": {
                 "name": "Networks",
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
     },
@@ -568,7 +705,7 @@
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.16+"
             }
         }
@@ -582,36 +719,8 @@
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.16+"
-            }
-        }
-    },
-    "StarWishsama/Slimefun4:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "Slimefun",
-                "version": "4.9-canary-{git_commit}"
-            }
-        },
-        "dependencies": {
-            "minecraft": {
-                "1": "1.14+"
-            }
-        }
-    },
-    "StarWishsama/Slimefun4:test/cargo_stacking_items": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "Slimefun",
-                "version": "4.9-test_cargo_stacking_items-{git_commit}"
-            }
-        },
-        "dependencies": {
-            "minecraft": {
-                "1": "1.14+"
             }
         }
     }
