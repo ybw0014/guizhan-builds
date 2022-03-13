@@ -31,9 +31,9 @@
                             <fa-icon icon="bug" />
                             问题追踪器
                         </list-group-item>
-                        <list-group-item :href="'/f/' + repoDir + '/badge.svg'" target="_blank">
+                        <list-group-item v-if="repoDir !== ''" :href="'/f/' + repoDir + '/badge.svg'" target="_blank">
                             <fa-icon icon="cloud" />
-                            <build-status :user="user" :repo="repo" :branch="branch" />
+                            <build-status :dir="repoDir" />
                         </list-group-item>
                     </list-group>
                 </card>
@@ -72,13 +72,13 @@
                             <a-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank" title="由Github Pages + Cloudflare提供下载">
                                 直接下载
                             </a-button>
-                            <a-button disabled variant="primary" target="_blank">
+                            <!--a-button disabled variant="primary" target="_blank">
                                 网盘下载(即将推出)
-                            </a-button>
+                            </a-button-->
                         </div>
-                        <p class="mt-3 text-sm">
+                        <!--p class="mt-3 text-sm">
                             SHA256: {{ buildFileSha256 }}
-                        </p>
+                        </p-->
                         <hr class="my-4">
                         <div class="text-center">
                             <p class="text-gray-500">
@@ -87,6 +87,12 @@
                             </p>
                             <p>
                                 {{ buildInfo.message }}
+                            </p>
+                        </div>
+                        <hr class="my-4">
+                        <div class="">
+                            <p class="font-bold text-lg">
+                                运行需求
                             </p>
                         </div>
                     </div>
@@ -108,6 +114,8 @@ export default {
             user: this.$route.params.user,
             repo: this.$route.params.repo,
             branch: this.$route.params.branch,
+            repoDir: '',
+            repoInfo: null,
             build: this.$route.params.build,
             builds: null,
             buildInfo: null,
@@ -122,9 +130,6 @@ export default {
         }
     },
     computed: {
-        repoDir () {
-            return `${this.user}/${this.repo}/${this.branch}`
-        },
         repoStr () {
             return `${this.user}/${this.repo}:${this.branch}`
         },
@@ -133,10 +138,11 @@ export default {
         }
     },
     mounted () {
+        // 检测版本号是否合法
         try {
             let build = parseInt(this.build)
             if (build.toString() !== this.build.toString()) {
-                throw new Error('无效的构建版本')
+                throw new Error('Invald build number')
             }
             this.build = build
         } catch (ex) {
@@ -144,22 +150,42 @@ export default {
                 name: 'user-repo-branch'
             })
         }
-        // repos
+        // 获取仓库列表
         reposUtil.loadRepos(this).then(() => {
             let queryOption = {
                 user: this.user,
                 repo: this.repo,
                 branch: this.branch
             }
+
+            // 查询仓库是否存在
             if (!reposUtil.exists(reposUtil.getRepos(this), queryOption)) {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
+                return
             }
+
+            // 获取仓库配置
+            this.repoInfo = reposUtil.getRepoInfo(this, this.repoStr)
+            // 检测重定向
+            if (this.repoInfo.type === 'redirect') {
+                let params = reposUtil.getInfoByRepoStr(this.repoInfo.options.repo)
+                this.$router.push({
+                    name: 'user-repo-branch',
+                    params
+                })
+                return
+            }
+
+            // 获取工作目录
+            this.repoDir = reposUtil.getDir(this, this.repoStr)
+            // 加载构建列表
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
                 this.builds = buildsUtil.getBuilds(this, this.repoStr, true)
                 if (!buildsUtil.exists(this.builds, { id: this.build })) {
                     this.$router.push({
                         name: 'user-repo-branch'
                     })
+                    return
                 }
 
                 this.buildInfo = _.find(this.builds, (build) => {

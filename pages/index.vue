@@ -39,7 +39,7 @@
                                     </nuxt-link>
                                 </template>
                                 <template #cell(status)="data">
-                                    <build-status :user="data.row.user" :repo="data.row.repo" :branch="data.row.branch" />
+                                    <build-status :dir="data.row.dir" />
                                 </template>
                             </data-table>
                         </tab>
@@ -111,11 +111,19 @@ export default {
         listRepos () {
             let lRepos = []
             for (const repoIndex in this.repos) {
-                const repoInfo = this.repos[repoIndex]
-                const user = repoInfo.split('/')[0]
-                const repo = repoInfo.split('/')[1].split(':')[0]
-                const branch = repoInfo.split(':')[1]
-                lRepos.push({ repo, user, branch })
+                const repoStr = this.repos[repoIndex]
+                const repoInfo = reposUtil.getInfoByRepoStr(repoStr)
+                const repoSettings = reposUtil.getRepoInfo(this, repoStr)
+                repoInfo.dir = reposUtil.getDir(this, repoStr)
+
+                if (repoSettings.type === 'redirect') {
+                    continue
+                }
+                if (repoSettings.options?.hidden) {
+                    continue
+                }
+
+                lRepos.push(repoInfo)
             }
             return lRepos
         },

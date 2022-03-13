@@ -1,28 +1,42 @@
 {
     "ybw0014/SlimeTinker-CN:master": {
+        "type": "redirect",
+        "options": {
+            "repo" : "ybw0014/SlimeTinker:master"
+        }
+    },
+    "ybw0014/SlimeTinker:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/SlimeTinker-CN/master",
             "target": {
                 "name": "SlimeTinker",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.16+"
             }
         }
     },
     "ybw0014/ExoticGarden-CN:master": {
+        "type": "redirect",
+        "options": {
+            "repo" : "ybw0014/ExoticGarden:master"
+        }
+    },
+    "ybw0014/ExoticGarden:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/ExoticGarden-CN/master",
             "target": {
                 "name": "ExoticGarden",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.14+"
             }
         }
@@ -39,7 +53,7 @@
     "ybw0014/InfinityExpansion-CN:master": {
         "type": "maven",
         "options": {
-            "abandoned": true,
+            "hidden": true,
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
@@ -58,6 +72,7 @@
     "ybw0014/ChestTerminal-CN:master": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "ChestTerminal",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
@@ -236,8 +251,15 @@
         }
     },
     "ybw0014/HardcoreSlimefun-CN:main": {
+        "type": "redirect",
+        "options": {
+            "repo" : "ybw0014/HardcoreSlimefun:main"
+        }
+    },
+    "ybw0014/HardcoreSlimefun:main": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/HardcoreSlimefun-CN/main",
             "target": {
                 "name": "HardcoreSlimefun",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
@@ -245,11 +267,23 @@
         }
     },
     "ybw0014/Networks-CN:master": {
+        "type": "redirect",
+        "options": {
+            "repo" : "ybw0014/Networks:master"
+        }
+    },
+    "ybw0014/Networks:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/Networks-CN/master",
             "target": {
                 "name": "Networks",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
             }
         }
     },
@@ -508,6 +542,7 @@
     "ybw0014/InfinityExpansion-CN:test": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
@@ -524,11 +559,26 @@
         }
     },
     "ybw0014/Networks-CN:test": {
+        "type": "redirect",
+        "options": {
+            "repo": "ybw0014/Networks:test"
+        }
+    },
+    "ybw0014/Networks:test": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/Networks-CN/test",
             "target": {
                 "name": "Networks",
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
     },
@@ -568,7 +618,7 @@
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.16+"
             }
         }
@@ -582,36 +632,8 @@
             }
         },
         "dependencies": {
-            "minecraft": {
+            "Minecraft": {
                 "1": "1.16+"
-            }
-        }
-    },
-    "StarWishsama/Slimefun4:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "Slimefun",
-                "version": "4.9-canary-{git_commit}"
-            }
-        },
-        "dependencies": {
-            "minecraft": {
-                "1": "1.14+"
-            }
-        }
-    },
-    "StarWishsama/Slimefun4:test/cargo_stacking_items": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "Slimefun",
-                "version": "4.9-test_cargo_stacking_items-{git_commit}"
-            }
-        },
-        "dependencies": {
-            "minecraft": {
-                "1": "1.14+"
             }
         }
     }

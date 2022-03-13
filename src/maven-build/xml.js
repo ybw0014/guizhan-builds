@@ -20,7 +20,7 @@ module.exports = {
     /**
      * JSON object to XML
      * @param data js object
-     * @returns {Promise} resolve xml
+     * @returns {Promise<String>} resolve xml
      */
     toXML (data) {
         return Promise.resolve(convert.js2xml(data, {
