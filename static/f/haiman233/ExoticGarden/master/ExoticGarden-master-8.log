@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:ExoticGarden >----------------
+[INFO] Building ExoticGarden Build 8 zh-CN(haiman233) (git b897f7e)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.pom (4.2 kB at 26 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.5.3/GuizhanLib-0.5.3.jar (128 kB at 304 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ExoticGarden ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExoticGarden ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 33 source files to /home/runner/work/maven-builds/maven-builds/static/f/haiman233/ExoticGarden/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/haiman233/ExoticGarden/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ExoticGarden ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ExoticGarden ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ExoticGarden ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/haiman233/ExoticGarden/master/workspace/target/ExoticGarden-Build 8 zh-CN(haiman233) (git b897f7e).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ ExoticGarden ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Including net.guizhanss:GuizhanLib:jar:0.5.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/haiman233/ExoticGarden/master/workspace/target/ExoticGarden-Build 8 zh-CN(haiman233) (git b897f7e).jar with /home/runner/work/maven-builds/maven-builds/static/f/haiman233/ExoticGarden/master/workspace/target/ExoticGarden-Build 8 zh-CN(haiman233) (git b897f7e)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/haiman233/ExoticGarden/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.164 s
+[INFO] Finished at: 2022-03-13T13:31:28Z
+[INFO] ------------------------------------------------------------------------
