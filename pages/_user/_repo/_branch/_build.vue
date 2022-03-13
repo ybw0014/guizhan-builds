@@ -90,10 +90,16 @@
                             </p>
                         </div>
                         <hr class="my-4">
-                        <div class="">
+                        <div v-if="dependencyInfo != null" class="">
                             <p class="font-bold text-lg">
                                 运行需求
                             </p>
+                            <table class="dependency-info">
+                                <tr v-for="(info, key) in dependencyInfo" :key="key">
+                                    <td>{{ key }}</td>
+                                    <td v-html="info"></td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </card>
@@ -104,6 +110,7 @@
 
 <script>
 import _ from 'lodash'
+import markdown from '~/utils/markdown'
 import reposUtil from '~/utils/repos'
 import buildsUtil from '~/utils/builds'
 
@@ -121,7 +128,8 @@ export default {
             buildInfo: null,
             buildTitle: '',
             buildTime: '',
-            commitTime: ''
+            commitTime: '',
+            dependencyInfo: null
         }
     },
     head () {
@@ -194,6 +202,21 @@ export default {
                 this.buildTitle = '构建 #' + this.buildInfo.id
                 this.buildTime = new Date(this.buildInfo.build_timestamp).toLocaleString()
                 this.commitTime = new Date(this.buildInfo.timestamp).toLocaleString()
+
+                // dependencies
+                if (this.repoInfo.dependencies) {
+                    let depsInfo = {}
+                    for (const dep in this.repoInfo.dependencies) {
+                        const depInfo = this.repoInfo.dependencies[dep]
+                        for (const v in depInfo) {
+                            if (this.buildInfo.id >= v) {
+                                depsInfo[dep] = markdown.render(depInfo[v])
+                                break
+                            }
+                        }
+                    }
+                    this.dependencyInfo = depsInfo
+                }
             }).catch(() => {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
@@ -201,7 +224,7 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .repo-name{
     @apply font-medium text-3xl;
 }
@@ -211,5 +234,13 @@ export default {
 .builds-list {
     @apply overflow-y-auto;
     max-height: 45vh;
+}
+.dependency-info {
+    @apply border-collapse mt-2;
+
+    td {
+        @apply border border-gray-600 px-4 py-2;
+        @apply dark:border-gray-400
+    }
 }
 </style>
