@@ -35,7 +35,7 @@
     "@babel/core": "7.17.5",
     "@babel/eslint-parser": "7.17.0",
     "@nuxt/types": "2.15.8",
-    "@nuxtjs/eslint-config": "8.0.0",
+    "@nuxtjs/eslint-config": "9.0.0",
     "@nuxtjs/eslint-module": "3.0.2",
     "@nuxtjs/tailwindcss": "5.0.0",
     "axios": "0.26.1",
