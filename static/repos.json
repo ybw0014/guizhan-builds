@@ -614,5 +614,19 @@
                 "1": "1.14+"
             }
         }
+    },
+    "haiman233/ExoticGarden:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "ExoticGarden",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
