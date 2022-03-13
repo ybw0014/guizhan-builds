@@ -978,7 +978,7 @@
                 "1": "1.17+"
             }
         }
-    }
+    },
     "SlimefunGuguProject/SMG:master": {
         "type": "maven",
         "options": {
