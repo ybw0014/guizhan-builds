@@ -1,0 +1,97 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.profelements:DynaTech >----------------------
+[INFO] Building DynaTech Build 25 zh-CN(ybw0014) (git 02b26bf)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom (13 kB at 35 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.pom (4.4 kB at 21 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.pom (4.9 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom (952 B at 2.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom (7.3 kB at 21 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/ExoticGarden-CN/804eb8fea2/ExoticGarden-CN-804eb8fea2.jar (132 kB at 291 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/ybw0014/InfinityExpansion-CN/27411de398/InfinityExpansion-CN-27411de398.jar (290 kB at 319 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar (4.3 MB at 4.6 MB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar (20 kB at 41 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DynaTech ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DynaTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ DynaTech ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 58 source files to /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/src/main/java/me/profelements/dynatech/items/electric/abstracts/AbstractMachine.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/src/main/java/me/profelements/dynatech/items/electric/abstracts/AbstractMachine.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DynaTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ DynaTech ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DynaTech ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DynaTech ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/target/DynaTech-Build 25 zh-CN(ybw0014) (git 02b26bf).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ DynaTech ---
+[INFO] Including com.google.code.findbugs:jsr305:jar:2.0.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.8 in the shaded jar.
+[INFO] Including com.github.ybw0014:extrautils:jar:bf89aee6ae in the shaded jar.
+[INFO] Including net.guizhanss:GuizhanLib:jar:0.6.0 in the shaded jar.
+[INFO] Minimizing jar me.profelements:DynaTech:jar:Build 25 zh-CN(ybw0014) (git 02b26bf)
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/target/classes (Is a directory)
+[WARNING] DynaTech-Build 25 zh-CN(ybw0014) (git 02b26bf).jar, bstats-bukkit-1.8.jar, extrautils-bf89aee6ae.jar, jsr305-2.0.1.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Minimized 220 -> 163 (74%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/target/DynaTech-Build 25 zh-CN(ybw0014) (git 02b26bf).jar with /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/target/DynaTech-Build 25 zh-CN(ybw0014) (git 02b26bf)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/ybw0014/DynaTech-CN/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.120 s
+[INFO] Finished at: 2022-03-13T13:30:12Z
+[INFO] ------------------------------------------------------------------------
