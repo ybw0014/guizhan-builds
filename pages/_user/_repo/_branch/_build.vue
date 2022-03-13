@@ -211,7 +211,6 @@ export default {
                         for (const v in depInfo) {
                             if (this.buildInfo.id >= v) {
                                 depsInfo[dep] = markdown.render(depInfo[v])
-                                break
                             }
                         }
                     }

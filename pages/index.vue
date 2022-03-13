@@ -116,9 +116,6 @@ export default {
                 const repoSettings = reposUtil.getRepoInfo(this, repoStr)
                 repoInfo.dir = reposUtil.getDir(this, repoStr)
 
-                if (repoSettings.type === 'redirect') {
-                    continue
-                }
                 if (repoSettings.options?.hidden) {
                     continue
                 }

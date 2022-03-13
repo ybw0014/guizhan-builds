@@ -117,9 +117,6 @@ export default {
                 if (repoInfo.repo !== this.repo) {
                     continue
                 }
-                if (repoSettings.type === 'redirect') {
-                    continue
-                }
                 if (repoSettings.options?.hidden) {
                     continue
                 }

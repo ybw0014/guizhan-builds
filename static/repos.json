@@ -2,6 +2,7 @@
     "ybw0014/SlimeTinker-CN:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo" : "ybw0014/SlimeTinker:master"
         }
     },
@@ -23,6 +24,7 @@
     "ybw0014/ExoticGarden-CN:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo" : "ybw0014/ExoticGarden:master"
         }
     },
@@ -48,6 +50,11 @@
                 "name": "MobCapturer",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/InfinityExpansion-CN:master": {
@@ -58,14 +65,32 @@
                 "name": "InfinityExpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/FluffyMachines-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/FluffyMachines:master"
+        }
+    },
+    "ybw0014/FluffyMachines:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/FluffyMachines-CN/master",
             "target": {
                 "name": "FluffyMachines",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -77,6 +102,14 @@
                 "name": "ChestTerminal",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            },
+            "公告": {
+                "1": "该附属已停止支持，不建议下载使用。官方推荐使用[网络](https://www.mcbbs.net/thread-1290053-1-1.html)作为替代"
+            }
         }
     },
     "ybw0014/HotbarPets-CN:master": {
@@ -85,6 +118,11 @@
             "target": {
                 "name": "HotbarPets",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -95,32 +133,73 @@
                 "name": "SoulJars",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/LiteXpansion-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo": "ybw0014/LiteXpansion:master"
+        }
+    },
+    "ybw0014/LiteXpansion:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/LiteXpansion-CN/master",
             "target": {
                 "name": "LiteXpansion",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
     "ybw0014/SimpleUtils-CN:master": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "SimpleUtils",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/DynaTech-CN:master": {
+        "type": "redirect",
+        "options": {
+            "repo": "ybw0014/DynaTech:master"
+        }
+    },
+    "ybw0014/DynaTech:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/DynaTech-CN/master",
             "target": {
                 "name": "DynaTech",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "12": "Java 16+",
+                "1": "Java 11+"
+            },
+            "Minecraft": {
+                "12": "1.17+",
+                "1": "1.14+"
             }
         }
     },
@@ -253,6 +332,7 @@
     "ybw0014/HardcoreSlimefun-CN:main": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo" : "ybw0014/HardcoreSlimefun:main"
         }
     },
@@ -269,6 +349,7 @@
     "ybw0014/Networks-CN:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo" : "ybw0014/Networks:master"
         }
     },
@@ -347,6 +428,11 @@
             "target": {
                 "name": "SimpleUtils",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     },
@@ -561,6 +647,7 @@
     "ybw0014/Networks-CN:test": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo": "ybw0014/Networks:test"
         }
     },

@@ -85,9 +85,6 @@ export default {
                 if (repoInfo.user !== this.user) {
                     continue
                 }
-                if (repoSettings.type === 'redirect') {
-                    continue
-                }
                 if (repoSettings.options?.hidden) {
                     continue
                 }
