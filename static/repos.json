@@ -180,6 +180,7 @@
     "ybw0014/DynaTech-CN:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo": "ybw0014/DynaTech:master"
         }
     },
@@ -210,6 +211,11 @@
                 "name": "SimpleStorage",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/HeadLimiter-CN:master": {
@@ -218,6 +224,11 @@
             "target": {
                 "name": "HeadLimiter",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     },
@@ -228,6 +239,11 @@
                 "name": "ElectricSpawners",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/SlimyTreeTaps-CN:master": {
@@ -236,6 +252,11 @@
             "target": {
                 "name": "SlimyTreeTaps",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -246,6 +267,11 @@
                 "name": "ExtraGear",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/EcoPower-CN:master": {
@@ -254,6 +280,11 @@
             "target": {
                 "name": "EcoPower",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -264,14 +295,25 @@
                 "name": "ExtraHeads",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/DyedBackpacks-CN:master": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "target": {
                 "name": "DyedBackpacks",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -282,6 +324,11 @@
                 "name": "ColoredEnderChests",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/SlimefunOreChunks-CN:master": {
@@ -290,6 +337,11 @@
             "target": {
                 "name": "SlimefunOreChunks",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -300,6 +352,14 @@
                 "name": "FoxyMachines",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/SlimefunWarfare-CN:master": {
@@ -308,6 +368,11 @@
             "target": {
                 "name": "SlimefunWarfare",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.15+"
             }
         }
     },
@@ -318,6 +383,11 @@
                 "name": "PrivateStorage",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/GlobalWarming-CN:master": {
@@ -326,6 +396,11 @@
             "target": {
                 "name": "GlobalWarming",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -343,6 +418,16 @@
             "target": {
                 "name": "HardcoreSlimefun",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -375,6 +460,11 @@
                 "name": "SfChunkInfo",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "ybw0014/VillagerUtil-CN:main": {
@@ -383,6 +473,11 @@
             "target": {
                 "name": "VillagerUtil",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
             }
         }
     },
@@ -393,6 +488,11 @@
                 "name": "InfinityExpansion",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "baoad/Galactifun:master": {
@@ -401,6 +501,11 @@
             "target": {
                 "name": "Galactifun",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     },
@@ -411,6 +516,11 @@
                 "name": "TranscEndence",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "baoad/FluffyMachines:master": {
@@ -419,6 +529,11 @@
             "target": {
                 "name": "FluffyMachines",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -443,6 +558,11 @@
                 "name": "ExtraTools",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "baoad/luckyblocks-sf:master": {
@@ -451,6 +571,11 @@
             "target": {
                 "name": "SlimefunLuckyBlocks",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -461,6 +586,11 @@
                 "name": "PotionExpansion",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "baoad/Liquid:master": {
@@ -469,6 +599,11 @@
             "target": {
                 "name": "Liquid",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -479,6 +614,11 @@
                 "name": "DyedBackpacks",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "haiman233/Ex-Limus-CN:main": {
@@ -487,6 +627,11 @@
             "target": {
                 "name": "Ex-Limus",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
             }
         }
     },
@@ -497,6 +642,11 @@
                 "name": "Element-Manipulation",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
         }
     },
     "haiman233/MissileWarfare-CN:master": {
@@ -505,6 +655,11 @@
             "target": {
                 "name": "MissileWarfare",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -515,6 +670,11 @@
                 "name": "EzTech",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "haiman233/InfinityExpansion-changed-CN:master": {
@@ -523,6 +683,11 @@
             "target": {
                 "name": "InfinityExpansion-changed",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     },
@@ -533,6 +698,11 @@
                 "name": "Money-and-Things-SLIMEFUN",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "ybw0014/SlimefunAdvancements-CN:main": {
@@ -541,6 +711,11 @@
             "target": {
                 "name": "SlimefunAdvancements",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.18+"
             }
         }
     },
@@ -551,14 +726,10 @@
                 "name": "RandomExpansion",
                 "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
             }
-        }
-    },
-    "SlimefunGuguProject/VoidHarvesters:main": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "VoidHarvesters",
-                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -569,6 +740,11 @@
                 "name": "SoundMuffler",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "baoad/SlimyRepair:master": {
@@ -577,6 +753,11 @@
             "target": {
                 "name": "SlimyRepair",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     },
@@ -587,6 +768,11 @@
                 "name": "FlowerPower",
                 "version": "Build {version} zh-CN(baoad) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
         }
     },
     "LobbyTech-MC/MoreTools:master": {
@@ -596,6 +782,11 @@
                 "name": "MoreTools",
                 "version": "Build {version} zh-CN(LobbyTech-MC) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
         }
     },
     "CrispyXYZ/GeneticChickengineering-CN-RC30-Extended:master": {
@@ -604,6 +795,11 @@
             "target": {
                 "name": "GeneticChickengineering",
                 "version": "Build {version} zh-CN(CrispyXYZ) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     },
@@ -625,15 +821,6 @@
             }
         }
     },
-    "SlimeTraditionalTranslation/SMG:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "SMG",
-                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
-            }
-        }
-    },
     "ybw0014/InfinityExpansion-CN:test": {
         "type": "maven",
         "options": {
@@ -641,6 +828,14 @@
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
     },
@@ -650,6 +845,14 @@
             "target": {
                 "name": "InfinityExpansion",
                 "version": "Test {version} zh-CN(baoad) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
     },
@@ -685,6 +888,11 @@
                 "name": "FN-FAL-s-Amplifications",
                 "version": "Build {version} zh-CN(buiawpkgew1) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.15+"
+            }
         }
     },
     "SlimefunGuguProject/CrystamaeHistoria:master": {
@@ -694,6 +902,11 @@
                 "name": "CrystamaeHistoria",
                 "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
         }
     },
     "ybw0014/SFCalc:master": {
@@ -702,6 +915,11 @@
             "target": {
                 "name": "SFCalc",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.15+"
             }
         }
     },
@@ -744,6 +962,34 @@
         "dependencies": {
             "minecraft": {
                 "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/VoidHarvesters:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "VoidHarvesters",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SMG:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SMG",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
             }
         }
     }
