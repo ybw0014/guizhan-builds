@@ -821,6 +821,20 @@
             }
         }
     },
+    "SlimeTraditionalTranslation/SMG:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo": "SlimefunGuguProject/SMG:master"
+        }
+    },
+    "SlimeTraditionalTranslation/DankTech2:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo": "ybw0014/DankTech2:master"
+        }
+    },
     "ybw0014/InfinityExpansion-CN:test": {
         "type": "maven",
         "options": {
