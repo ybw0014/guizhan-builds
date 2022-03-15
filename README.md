@@ -16,6 +16,53 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 * 在本仓库的问题追踪器中提交接入[申请](https://github.com/ybw0014/maven-builds/issues)
 * fork 仓库，修改 `/static/repos.json`，添加你的仓库，然后提交 Pull Request
 
+### 构建站配置
+
+你可以在 `/static/repos.json` 中修改项目的构建设置，一个样例配置如下：
+
+```yaml
+    "ybw0014/DynaTech:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "ybw0014/DynaTech-CN/master",
+            "target": {
+                "name": "DynaTech",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "12": "Java 16+",
+                "1": "Java 11+"
+            },
+            "Minecraft": {
+                "12": "1.17+",
+                "1": "1.14+"
+            }
+        }
+    }
+```
+
+说明:
+
+- `ybw0014/DynaTech:master` 部分为仓库信息，格式为`用户名/仓库名:分支`，需要完全按照这个格式来填写。
+- `type` **(必填)** 配置类型，可填写以下内容：
+    - `maven`: Maven 项目，将读取 pom.xml 并构建项目
+    - `redirect`: 重定向项目，访问构建站时将重定向至新的仓库。在`options.repo`中设置仓库
+- `options` **(必填)** 构建设置
+    - `customDir` *(可选)* 自定义构建目录，如果不指定则会使用默认的`用户名/仓库名/分支`作为构建目录
+    - `target` **(必填)** 构建文件设置
+        - `name` **(必填)** 构建名称，建议与 `plugin.yml` 中的 `name` 一致
+        - `version` **(必填)** 版本格式，目前支持以下变量:
+            - `{version}` 数字版本号
+            - `{git_commit}` 7位的commit hash
+            - `{year}` 构建时间的年份
+            - `{month}` 构建时间的月份
+            - `{day}` 构建时间为一个月中的第几天
+- `dependencies` 为依赖信息，将显示于构建站的下载页面
+    - 信息前面的数字为最低版本。例如，样例中的，12及以上的版本会显示Java 16+，而12以下的版本则会显示 Java 11+
+
+
 ## 接入自动更新
 
 构建站支持自动更新功能，就像 Slimefun 及附属插件的官方版本那样。  
@@ -47,7 +94,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
     </dependency>
 ```
 
-在`build`中，你需要将GuizhanLib迁移到你的包中，避免与其他插件冲突:
+在`build`中，你需要将GuizhanLib迁移到你的包中，避免与其他插件冲突（如果已有`maven-shade-plugin`，只需要添加`relocation`即可）:
 
 ```
         <plugins>
