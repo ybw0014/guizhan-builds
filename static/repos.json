@@ -552,17 +552,9 @@
         }
     },
     "baoad/ExtraTools:master": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "target": {
-                "name": "ExtraTools",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.14+"
-            }
+            "repo": "SlimefunGuguProject/ExtraTools:master"
         }
     },
     "baoad/luckyblocks-sf:master": {
@@ -1007,4 +999,18 @@
             }
         }
     }
+    "SlimefunGuguProject/ExtraTools:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "ExtraTools",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
 }
