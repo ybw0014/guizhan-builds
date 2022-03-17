@@ -998,7 +998,7 @@
                 "1": "1.16+"
             }
         }
-    }
+    },
     "SlimefunGuguProject/ExtraTools:master": {
         "type": "maven",
         "options": {
@@ -1012,5 +1012,5 @@
                 "1": "1.14+"
             }
         }
-    },
+    }
 }
