@@ -725,12 +725,88 @@
             }
         }
     },
-    "baoad/SoundMuffler:master": {
+    "SlimefunGuguProject/Galactifun:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Galactifun",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/TranscEndence:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "TranscEndence",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/ExtraTools:master": {
+        "type": "redirect",
+        "options": {
+            "repo": "SlimefunGuguProject/ExtraTools:master"
+        }
+    },
+    "SlimefunGuguProject/luckyblocks-sf:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SlimefunLuckyBlocks",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Liquid:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Liquid",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/DyedBackpacks:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DyedBackpacks",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SoundMuffler:master": {
         "type": "maven",
         "options": {
             "target": {
                 "name": "SoundMuffler",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
@@ -739,12 +815,12 @@
             }
         }
     },
-    "baoad/SlimyRepair:master": {
+    "SlimefunGuguProject/SlimyRepair:master": {
         "type": "maven",
         "options": {
             "target": {
                 "name": "SlimyRepair",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
@@ -753,12 +829,12 @@
             }
         }
     },
-    "baoad/FlowerPower:master": {
+    "SlimefunGuguProject/FlowerPower:master": {
         "type": "maven",
         "options": {
             "target": {
                 "name": "FlowerPower",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
