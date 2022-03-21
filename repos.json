@@ -1012,5 +1012,19 @@
                 "1": "1.14+"
             }
         }
+    },
+    "SlimefunGuguProject/UltimateGenerators-RC27:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "UltimateGenerators-RC27",
+                "version": "Build {version} RC-27(LittleQiu233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
     }
 }
