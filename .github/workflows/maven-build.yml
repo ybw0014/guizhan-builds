@@ -55,7 +55,7 @@ jobs:
 
     - name: Trigger nuxt build
       if: steps.maven-build.outputs.HAS_UPDATE == 'true'
-      uses: peter-evans/repository-dispatch@v1
+      uses: peter-evans/repository-dispatch@v2
       with:
         token: ${{ secrets.BOT_TOKEN }}
         event-type: nuxt-build
