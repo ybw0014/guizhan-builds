@@ -32,6 +32,7 @@ module.exports = {
                         }
 
                         let taskInfo = {
+                            repoStr: repo,
                             user: repo.split('/')[0],
                             repo: repo.split('/')[1].split(':')[0],
                             branch: repo.split(':')[1]

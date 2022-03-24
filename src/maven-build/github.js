@@ -101,7 +101,7 @@ module.exports = {
             logger.log('> 推送更改')
 
             let addFiles = path.resolve(projects.getWorkingDirectory(task), '../') + '/*'
-            let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.directory + ' (' + task.version + ')'
+            let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.repoStr + ' (' + task.version + ')'
 
             logger.log(`>> git add ${addFiles}`)
             let gitAdd = childProcess.spawnSync('git', [
