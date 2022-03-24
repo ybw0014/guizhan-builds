@@ -554,6 +554,7 @@
     "baoad/ExtraTools:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo": "SlimefunGuguProject/ExtraTools:master"
         }
     },
@@ -672,6 +673,7 @@
     "haiman233/InfinityExpansion-changed-CN:master": {
         "type": "redirect",
         "options": {
+            "hidden": true,
             "repo": "SlimefunGuguProject/InfinityExpansion-changed-CN:master"
         }
     },
