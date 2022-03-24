@@ -912,6 +912,9 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.17+"
+            },
+            "Paper": {
+                "1": "261+"
             }
         }
     },
