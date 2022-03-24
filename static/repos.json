@@ -670,17 +670,9 @@
         }
     },
     "haiman233/InfinityExpansion-changed-CN:master": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "target": {
-                "name": "InfinityExpansion-changed",
-                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.16+"
-            }
+            "repo": "SlimefunGuguProject/InfinityExpansion-changed-CN:master"
         }
     },
     "haiman233/Money-and-Things-SLIMEFUN-CN:master": {
@@ -1041,6 +1033,25 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/InfinityExpansion-changed-CN:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "haiman233/InfinityExpansion-changed-CN/master",
+            "target": {
+                "name": "InfinityExpansion-changed",
+                "version": "Build {version} zh-CN(haiman233) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "4": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)",
+                "1": "RC-27+"
             }
         }
     }
