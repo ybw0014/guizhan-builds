@@ -1056,5 +1056,19 @@
                 "1": "RC-27+"
             }
         }
+    },
+    "ybw0014/GuizhanCraft:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "GuizhanCraft",
+                "version": "Build {version} (ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
