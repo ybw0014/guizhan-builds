@@ -949,6 +949,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
             "Minecraft": {
                 "1": "1.16+"
             }
@@ -1068,6 +1071,26 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
+            }
+        }
+    },
+    "ybw0014/DankTech2:test": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DankTech2",
+                "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {,
+            "Java": {
+                "1": "16+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
     }
