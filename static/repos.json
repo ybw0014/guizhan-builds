@@ -1082,7 +1082,7 @@
                 "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
             }
         },
-        "dependencies": {,
+        "dependencies": {
             "Java": {
                 "1": "16+"
             },
