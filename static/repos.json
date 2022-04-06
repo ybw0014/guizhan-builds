@@ -1104,6 +1104,9 @@
             }
         },
         "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            },
             "Holographic Displays": {
                 "4": "buckkit(https://dev.bukkit.org/projects/holographic-displays)",
             },
