@@ -1093,5 +1093,53 @@
                 "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
             }
         }
+    },
+    "SlimefunGuguProject/DracFun:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DracFun",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            },
+            "Holographic Displays": {
+                "4": "[bukkit下载](https://www.mcbbs.net/thread-377628-1-1.html)"
+            },
+            "ProtocolLib": {
+                "4": "[spigot下载](https://www.mcbbs.net/thread-922525-1-1.html)"
+            }
+        }
+    },
+    "SlimefunGuguProject/Chocohills:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Chocohills",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Bump:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Bump",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
