@@ -1097,7 +1097,6 @@
     "SlimefunGuguProject/DracFun:master": {
         "type": "maven",
         "options": {
-            "customDir": "SlimefunGuguProject/DracFun/master",
             "target": {
                 "name": "DracFun",
                 "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
@@ -1108,10 +1107,10 @@
                 "1": "1.17+"
             },
             "Holographic Displays": {
-                "4": "[bukkit下载](https://dev.bukkit.org/projects/holographic-displays)"
+                "4": "[bukkit下载](https://www.mcbbs.net/thread-377628-1-1.html)"
             },
             "ProtocolLib": {
-                "4": "[spigot下载](https://www.spigotmc.org/resources/protocollib.1997/)"
+                "4": "[spigot下载](https://www.mcbbs.net/thread-922525-1-1.html)"
             }
         }
     },
