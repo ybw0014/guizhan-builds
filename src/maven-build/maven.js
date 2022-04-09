@@ -6,6 +6,7 @@
 const fileSystem = require('fs')
 const fs = fileSystem.promises
 const path = require('path')
+const fse = require('fs-extra')
 const maven = require('maven')
 
 const config = require('./config')
@@ -71,6 +72,12 @@ module.exports = {
 
             let dir = projects.getWorkingDirectory(task)
             let logFile = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)
+            let mvnDir = path.join(dir, './.mvn')
+
+            // 如有.mvn目录则移除
+            if (fileSystem.existsSync(mvnDir)) {
+                fse.emptyDirSync(mvnDir)
+            }
 
             const mvn = maven.create({
                 cwd: dir,
@@ -92,10 +99,8 @@ module.exports = {
         }
 
         let dir = projects.getWorkingDirectory(task)
+        let src = path.resolve(dir, './target/', `${task.finalName}.jar`)
 
-        return fs.rename(
-            path.resolve(dir, './target/', `${task.finalName}.jar`),
-            path.resolve(dir, '../', `${task.finalName}.jar`)
-        )
+        return fs.rename(src, path.resolve(dir, '../', `${task.finalName}.jar`))
     }
 }
