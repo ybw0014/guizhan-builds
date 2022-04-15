@@ -8842,10 +8842,10 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qcloud-cos-sts@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/qcloud-cos-sts/-/qcloud-cos-sts-3.0.6.tgz#8993df432e090653ada7c92a57cf95e2a3cf2af1"
-  integrity sha512-wR+GQfuHdL+KGEUPmmBUKWlDeFN56e9SlQznC5qod/YAKrX3GsGJex8/JJBd/vpDfum/8Kt07ORrfWwrTcY71Q==
+qcloud-cos-sts@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/qcloud-cos-sts/-/qcloud-cos-sts-3.1.0.tgz#02e3198b5c2b100b87182414edcd3fce98c592a0"
+  integrity sha512-qZvW6jVJuIjmhqNrsJAKJ9RtWOHaaWzZ/mVWF3+yRJIaIV0+L08IFfFLgS7g3MRHHRoYYU5Cnv8R071c+2py8A==
   dependencies:
     request "^2.88.0"
 
