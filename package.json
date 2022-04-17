@@ -16,7 +16,7 @@
     "autoprefixer": "10.4.4",
     "core-js": "3.22.0",
     "cos-nodejs-sdk-v5": "2.11.6",
-    "fs-extra": "10.0.1",
+    "fs-extra": "10.1.0",
     "lodash": "4.17.21",
     "marked": "4.0.14",
     "maven": "5.0.0",
