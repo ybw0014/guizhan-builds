@@ -1156,7 +1156,7 @@
                 "1": "1.14+"
             }
         }
-    }，
+    },
     "SlimefunGuguProject/SlimeCustomizer:master": {
         "type": "maven",
         "options": {
