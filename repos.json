@@ -1108,10 +1108,10 @@
                 "1": "1.17+"
             },
             "Holographic Displays": {
-                "4": "[bukkit下载](https://www.mcbbs.net/thread-377628-1-1.html)"
+                "1": "[bukkit下载](https://www.mcbbs.net/thread-377628-1-1.html)"
             },
             "ProtocolLib": {
-                "4": "[spigot下载](https://www.mcbbs.net/thread-922525-1-1.html)"
+                "1": "[spigot下载](https://www.mcbbs.net/thread-922525-1-1.html)"
             }
         }
     },
@@ -1149,6 +1149,36 @@
             "target": {
                 "name": "Slimefun",
                 "version": "Build {version} zh-CN(StarWishsama) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SlimeCustomizer:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "SlimefunGuguProject/SlimeCustomizer/master",
+            "target": {
+                "name": "SlimeCustomizer",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SlimefunNukes:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "SlimefunGuguProject/SlimefunNukes/master",
+            "target": {
+                "name": "SlimefunNukes",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
