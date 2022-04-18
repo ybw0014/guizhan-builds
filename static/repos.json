@@ -82,6 +82,7 @@
     "ybw0014/FluffyMachines:master": {
         "type": "maven",
         "options": {
+            "hidden": true,
             "customDir": "ybw0014/FluffyMachines-CN/master",
             "target": {
                 "name": "FluffyMachines",
@@ -450,6 +451,10 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.17+"
+            },
+            "Slimefun": {
+                "46": "汉化版[release-2022.4](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)及以上",
+                "1": "RC-27+"
             }
         }
     },
@@ -955,6 +960,10 @@
             },
             "Minecraft": {
                 "1": "1.16+"
+            },
+            "Slimefun": {
+                "2": "汉化版[release-2022.4](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)及以上",
+                "1": "RC-27+"
             }
         }
     },
