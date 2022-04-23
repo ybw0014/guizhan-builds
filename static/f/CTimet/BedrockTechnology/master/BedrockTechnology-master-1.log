@@ -1,0 +1,224 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.ctimet:bedrocktechnology:jar:Build 1 zh-CN(CTimet) (git 3ade724)
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 1, column 971
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------< io.github.ctimet:bedrocktechnology >-----------------
+[INFO] Building BedrockTechnology Build 1 zh-CN(CTimet) (git 3ade724)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 919 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 1.7 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 3.3 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom (10 kB at 14 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom (37 kB at 40 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom (14 kB at 152 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom (1.5 kB at 1.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (232 kB at 119 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar (327 kB at 167 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar (2.5 MB at 1.2 MB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar (1.4 MB at 567 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar (1.9 MB at 408 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 19 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bedrocktechnology ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bedrocktechnology ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bedrocktechnology ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/abstractClass/BektAContainerOneSlot.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/abstractClass/BektAContainerOneSlot.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/initial/BektItems.java:[588,30] cannot find symbol
+  symbol:   variable BEKT_EYHGT
+  location: class io.github.ctimet.bedrocktechnology.core.BektItems.BaseItem.BektItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[621,21] cannot find symbol
+  symbol:   variable 烟火之星_橙色
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[635,21] cannot find symbol
+  symbol:   variable 烟火之星_粉色
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[642,21] cannot find symbol
+  symbol:   variable 烟火之星_黑色
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[650,21] cannot find symbol
+  symbol:   variable 烟火之星_青绿色
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[657,21] cannot find symbol
+  symbol:   variable 恶魂之泪
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[664,21] cannot find symbol
+  symbol:   variable 拴绳
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1071,21] cannot find symbol
+  symbol:   variable 錾制石砖块
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1080,21] cannot find symbol
+  symbol:   variable 熔炉
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1089,21] cannot find symbol
+  symbol:   variable 红色陶瓦
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1098,21] cannot find symbol
+  symbol:   variable 高炉
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1116,21] cannot find symbol
+  symbol:   variable 石英砖
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1126,21] cannot find symbol
+  symbol:   variable 錾制磨制深板岩
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1136,21] cannot find symbol
+  symbol:   variable 錾制红砂岩
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1162,21] cannot find symbol
+  symbol:   variable 制箭台
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1171,21] cannot find symbol
+  symbol:   variable 苔石砖
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1180,21] cannot find symbol
+  symbol:   variable 哭泣的黑曜石
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1189,21] cannot find symbol
+  symbol:   variable 金盔甲
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1199,21] cannot find symbol
+  symbol:   variable 钻石胸甲
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1209,21] cannot find symbol
+  symbol:   variable 下界合金胸甲
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1219,21] cannot find symbol
+  symbol:   variable 信标
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1230,21] cannot find symbol
+  symbol:   variable 下界合金锄
+  location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/SpecialRecipeType/BektRecipeType.java:[108,30] cannot find symbol
+  symbol:   variable BEKT_EYHGT
+  location: class io.github.ctimet.bedrocktechnology.core.BektItems.BaseItem.BektItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/material/JcjqBasicMachine/Flfdj.java:[5,8] io.github.ctimet.bedrocktechnology.core.BektItems.material.JcjqBasicMachine.Flfdj is not abstract and does not override abstract method registerDefaultFuelTypes() in io.github.thebusybiscuit.slimefun4.implementation.items.electric.AbstractEnergyProvider
+[INFO] 24 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.666 s
+[INFO] Finished at: 2022-04-23T21:24:36Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project bedrocktechnology: Compilation failure: Compilation failure: 
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/initial/BektItems.java:[588,30] cannot find symbol
+[ERROR]   symbol:   variable BEKT_EYHGT
+[ERROR]   location: class io.github.ctimet.bedrocktechnology.core.BektItems.BaseItem.BektItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[621,21] cannot find symbol
+[ERROR]   symbol:   variable 烟火之星_橙色
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[635,21] cannot find symbol
+[ERROR]   symbol:   variable 烟火之星_粉色
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[642,21] cannot find symbol
+[ERROR]   symbol:   variable 烟火之星_黑色
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[650,21] cannot find symbol
+[ERROR]   symbol:   variable 烟火之星_青绿色
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[657,21] cannot find symbol
+[ERROR]   symbol:   variable 恶魂之泪
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[664,21] cannot find symbol
+[ERROR]   symbol:   variable 拴绳
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1071,21] cannot find symbol
+[ERROR]   symbol:   variable 錾制石砖块
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1080,21] cannot find symbol
+[ERROR]   symbol:   variable 熔炉
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1089,21] cannot find symbol
+[ERROR]   symbol:   variable 红色陶瓦
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1098,21] cannot find symbol
+[ERROR]   symbol:   variable 高炉
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1116,21] cannot find symbol
+[ERROR]   symbol:   variable 石英砖
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1126,21] cannot find symbol
+[ERROR]   symbol:   variable 錾制磨制深板岩
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1136,21] cannot find symbol
+[ERROR]   symbol:   variable 錾制红砂岩
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1162,21] cannot find symbol
+[ERROR]   symbol:   variable 制箭台
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1171,21] cannot find symbol
+[ERROR]   symbol:   variable 苔石砖
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1180,21] cannot find symbol
+[ERROR]   symbol:   variable 哭泣的黑曜石
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1189,21] cannot find symbol
+[ERROR]   symbol:   variable 金盔甲
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1199,21] cannot find symbol
+[ERROR]   symbol:   variable 钻石胸甲
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1209,21] cannot find symbol
+[ERROR]   symbol:   variable 下界合金胸甲
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1219,21] cannot find symbol
+[ERROR]   symbol:   variable 信标
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/BektItemStack.java:[1230,21] cannot find symbol
+[ERROR]   symbol:   variable 下界合金锄
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/BaseItem/SpecialRecipeType/BektRecipeType.java:[108,30] cannot find symbol
+[ERROR]   symbol:   variable BEKT_EYHGT
+[ERROR]   location: class io.github.ctimet.bedrocktechnology.core.BektItems.BaseItem.BektItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/core/BektItems/material/JcjqBasicMachine/Flfdj.java:[5,8] io.github.ctimet.bedrocktechnology.core.BektItems.material.JcjqBasicMachine.Flfdj is not abstract and does not override abstract method registerDefaultFuelTypes() in io.github.thebusybiscuit.slimefun4.implementation.items.electric.AbstractEnergyProvider
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
