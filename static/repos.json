@@ -1223,5 +1223,19 @@
                 "1": "1.17+"
             }
         }
+    },
+    "ybw0014/SfItemsExporter:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SfItemsExporter",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
