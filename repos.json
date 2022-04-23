@@ -1195,5 +1195,47 @@
                 "1": "1.14+"
             }
         }
+    },
+    "SlimefunGuguProject/SupremeExpansion:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SupremeExpansion",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "CTimet/BedrockTechnology:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "BedrockTechnology",
+                "version": "Build {version} zh-CN(CTimet) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "ybw0014/SfItemsExporter:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SfItemsExporter",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
