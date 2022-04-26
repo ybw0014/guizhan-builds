@@ -4,3 +4,11 @@
         <nuxt />
     </div>
 </template>
+
+<script>
+export default {
+    head: {
+        // title: this.$t('title')
+    }
+}
+</script>

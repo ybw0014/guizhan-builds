@@ -3,7 +3,7 @@
         <breadcrumb class="mt-2">
             <breadcrumb-item active>
                 <fa-icon icon="home" aria-hidden="true" />
-                首页
+                {{ $t('nav.home') }}
             </breadcrumb-item>
         </breadcrumb>
         <div class="grid grid-cols-1 lg:grid-cols-10 xl:grid-cols-12">
@@ -11,7 +11,7 @@
                 <card>
                     <template #title>
                         <fa-icon icon="bell" />
-                        公告
+                        {{ $t('pages.home.announcement') }}
                     </template>
 
                     <div v-if="announcement === ''" class="flex justify-center items-center">
@@ -26,7 +26,7 @@
                         <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500" />
                     </div>
                     <tabs v-else>
-                        <tab key="repos" :active="selectedTab === 'repos'" title="所有仓库">
+                        <tab key="repos" :active="selectedTab === 'repos'" :title="$t('pages.home.tabs.repos.title')">
                             <data-table :fields="reposFields" :data="listRepos">
                                 <template #cell(repo)="data">
                                     <nuxt-link :to="'/' + data.row.user + '/' + data.row.repo + '/' + data.row.branch">
@@ -43,7 +43,7 @@
                                 </template>
                             </data-table>
                         </tab>
-                        <tab key="users" :active="selectedTab === 'users'" title="所有用户">
+                        <tab key="users" :active="selectedTab === 'users'" :title="$t('pages.home.tabs.users.title')">
                             <data-table :fields="usersFields" :data="listUsers">
                                 <template #cell(name)="data">
                                     <nuxt-link :to="'/' + data.value">
@@ -75,7 +75,7 @@ export default {
             usersFields: [
                 {
                     key: 'name',
-                    label: '用户',
+                    label: this.$t('home'),
                     sortable: true
                 },
                 {

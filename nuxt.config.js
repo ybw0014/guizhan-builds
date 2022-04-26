@@ -4,15 +4,11 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: '鬼斩的 Maven 构建页面',
-        htmlAttrs: {
-            lang: 'zh-CN'
-            // class: 'dark'
-        },
+        title: 'Guizhan Builds',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,shrink-to-fit=no' },
-            { hid: 'description', name: 'description', content: '鬼斩的 Maven 构建页面' },
+            { hid: 'description', name: 'description', content: 'Guizhan Builds' },
             { hid: 'author', name: 'author', content: 'ybw0014' },
             { name: 'format-detection', content: 'telephone=no' }
         ],
@@ -56,6 +52,27 @@ export default {
         ['nuxt-lazy-load', {
             directiveOnly: true,
             defaultImage: '/images/default_badge.svg'
+        }],
+        // https://i18n.nuxtjs.org/
+        ['@nuxtjs/i18n', {
+            locales: [
+                {
+                    code: 'en',
+                    file: 'en-US.js'
+                },
+                {
+                    code: 'zh-CN',
+                    file: 'zh-CN.js'
+                }
+            ],
+            lazy: true,
+            langDir: 'lang/',
+            defaultLocale: 'en',
+            strategy: 'no_prefix',
+            detectBrowserLanguage: {
+                useCookie: true,
+                alwaysRedirect: true
+            }
         }]
     ],
 
