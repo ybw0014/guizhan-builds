@@ -870,21 +870,10 @@
         }
     },
     "ybw0014/Networks:test": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "customDir": "ybw0014/Networks-CN/test",
-            "target": {
-                "name": "Networks",
-                "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.17+"
-            },
-            "Slimefun": {
-                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
-            }
+            "hidden": true,
+            "repo": "ybw0014/Networks:master"
         }
     },
     "buiawpkgew1/FN-FAL-s-Amplifications-zh:main": {
@@ -1065,7 +1054,7 @@
                 "1": "1.16+"
             },
             "Slimefun": {
-                "4": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)",
+                "4": "汉化版[release-2022.04](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)",
                 "1": "RC-27+"
             }
         }
@@ -1085,23 +1074,10 @@
         }
     },
     "ybw0014/DankTech2:test": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "target": {
-                "name": "DankTech2",
-                "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Java": {
-                "1": "16+"
-            },
-            "Minecraft": {
-                "1": "1.16+"
-            },
-            "Slimefun": {
-                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
-            }
+            "hidden": true,
+            "repo": "ybw0014/DankTech2:master"
         }
     },
     "SlimefunGuguProject/DracFun:master": {
