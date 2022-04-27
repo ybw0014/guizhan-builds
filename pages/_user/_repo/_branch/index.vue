@@ -19,7 +19,7 @@ export default {
     },
     head () {
         return {
-            title: `${this.repo}(${this.branch}) - ybw0014 的 Maven 构建页面`
+            title: `${this.repo} (${this.branch}) - ${this.$t('title')}`
         }
     },
     computed: {

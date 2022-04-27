@@ -3,7 +3,7 @@
         <breadcrumb class="mt-2">
             <breadcrumb-item to="/">
                 <fa-icon icon="home" aria-hidden="true" />
-                首页
+                {{ $t('nav.home') }}
             </breadcrumb-item>
             <breadcrumb-item active>
                 {{ user }}
@@ -15,17 +15,17 @@
                     <list-group item-class="flex items-center">
                         <list-group-item to="/?tab=repos">
                             <fa-icon icon="arrow-left" />
-                            返回仓库列表
+                            {{ $t('pages.user.back') }}
                         </list-group-item>
                         <list-group-item :href="'https://github.com/' + user" target="_blank">
                             <fa-icon icon="github" type="brands" />
-                            访问用户 GitHub 主页
+                            {{ $t('pages.user.github', { user: user }) }}
                         </list-group-item>
                     </list-group>
                 </card>
             </div>
             <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
-                <card :title="user + ' 的所有仓库'">
+                <card :title="$t('pages.user.repos', { user: user })">
                     <data-table :data="listRepos" :fields="reposFields">
                         <template #cell(repo)="data">
                             <nuxt-link :to="'/' + user + '/' + data.value + '/' + data.row.branch">
@@ -54,23 +54,23 @@ export default {
             reposFields: [
                 {
                     key: 'repo',
-                    label: '项目名称',
+                    label: 'labels.repo',
                     sortable: true
                 },
                 {
                     key: 'branch',
-                    label: '分支'
+                    label: 'labels.branch'
                 },
                 {
                     key: 'status',
-                    label: '最新构建状态'
+                    label: 'labels.status'
                 }
             ]
         }
     },
     head () {
         return {
-            title: this.user + ' - ' + this.$consts.title
+            title: this.user + ' - ' + this.$t('title')
         }
     },
     computed: {

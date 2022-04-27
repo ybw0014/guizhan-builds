@@ -9,7 +9,7 @@
                         scope="col"
                         :class="field.class"
                     >
-                        {{ field.label }}
+                        {{ $t(field.label) }}
                     </th>
                 </tr>
             </thead>

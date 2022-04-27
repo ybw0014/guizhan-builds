@@ -1,7 +1,7 @@
 <template>
     <div class="page-header">
-        <a href="/" title="返回首页" class="text-inherit">
-            {{ $consts.title }}
+        <a href="/" :title="$t('nav.back_home')" class="text-inherit">
+            {{ $t('title') }}
         </a>
     </div>
 </template>

@@ -3,7 +3,7 @@
         <breadcrumb class="mt-2">
             <breadcrumb-item to="/">
                 <fa-icon icon="home" aria-hidden="true" />
-                首页
+                {{ $t('nav.home') }}
             </breadcrumb-item>
             <breadcrumb-item :to="'/' + user">
                 {{ user }}
@@ -18,21 +18,21 @@
                     <list-group item-class="flex items-center">
                         <list-group-item to="/?tab=repos">
                             <fa-icon icon="arrow-left" />
-                            返回仓库列表
+                            {{ $t('pages.repo.back') }}
                         </list-group-item>
                         <list-group-item :href="'https://github.com/' + user + '/' + repo" target="_blank">
                             <fa-icon icon="github" type="brands" />
-                            项目 GitHub 主页
+                            {{ $t('pages.repo.github') }}
                         </list-group-item>
                         <list-group-item :href="'https://github.com/' + user + '/' + repo + '/issues'" target="_blank">
                             <fa-icon icon="bug" />
-                            问题追踪器
+                            {{ $t('pages.repo.issues') }}
                         </list-group-item>
                     </list-group>
                 </card>
             </div>
             <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
-                <card :title="repo + ' 的所有分支'">
+                <card :title="$t('pages.repo.branches', { repo: repo })">
                     <data-table :data="listBranches" :fields="branchesFields">
                         <template #cell(branch)="data">
                             <nuxt-link :to="'/' + user + '/' + repo + '/' + data.value">
@@ -62,19 +62,19 @@ export default {
             branchesFields: [
                 {
                     key: 'branch',
-                    label: '分支',
+                    label: 'labels.branch',
                     sortable: true
                 },
                 {
                     key: 'status',
-                    label: '最新构建状态'
+                    label: 'labels.status'
                 }
             ]
         }
     },
     head () {
         return {
-            title: this.repo + ' - ybw0014 的 Maven 构建页面'
+            title: this.repo + ' - ' + this.$t('title')
         }
     },
     computed: {
