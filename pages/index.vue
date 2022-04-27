@@ -75,36 +75,41 @@ export default {
             usersFields: [
                 {
                     key: 'name',
-                    label: this.$t('home'),
+                    label: 'labels.user',
                     sortable: true
                 },
                 {
                     key: 'amount',
-                    label: '仓库数量',
+                    label: 'labels.repos',
                     sortable: true
                 }
             ],
             reposFields: [
                 {
                     key: 'repo',
-                    label: '项目名称',
+                    label: 'labels.repo',
                     sortable: true
                 },
                 {
                     key: 'user',
-                    label: '用户'
+                    label: 'labels.user'
                 },
                 {
                     key: 'branch',
-                    label: '分支',
+                    label: 'labels.branch',
                     headerClass: '',
                     contentClass: ''
                 },
                 {
                     key: 'status',
-                    label: '最新构建状态'
+                    label: 'labels.status'
                 }
             ]
+        }
+    },
+    head () {
+        return {
+            title: this.$t('title')
         }
     },
     computed: {

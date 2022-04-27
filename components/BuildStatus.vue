@@ -1,5 +1,5 @@
 <template>
-    <img v-lazy-load :data-src="imgSource" alt="构建状态" @load="imageLoaded">
+    <img v-lazy-load :data-src="imgSource" alt="Build status" @load="imageLoaded">
 </template>
 <script>
 export default {

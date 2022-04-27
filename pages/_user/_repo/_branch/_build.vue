@@ -3,7 +3,7 @@
         <breadcrumb class="mt-2">
             <breadcrumb-item to="/">
                 <fa-icon icon="home" aria-hidden="true" />
-                首页
+                {{ $t('nav.home') }}
             </breadcrumb-item>
             <breadcrumb-item :to="'/' + user">
                 {{ user }}
@@ -21,15 +21,15 @@
                     <list-group item-class="flex items-center">
                         <list-group-item to="/?tab=repos">
                             <fa-icon icon="arrow-left" />
-                            返回仓库列表
+                            {{ $t('pages.branch.back') }}
                         </list-group-item>
                         <list-group-item :href="'https://github.com/' + user + '/' + repo" target="_blank">
                             <fa-icon icon="github" type="brands" />
-                            项目 GitHub 主页
+                            {{ $t('pages.branch.github') }}
                         </list-group-item>
                         <list-group-item :href="'https://github.com/' + user + '/' + repo + '/issues'" target="_blank">
                             <fa-icon icon="bug" />
-                            问题追踪器
+                            {{ $t('pages.branch.issues') }}
                         </list-group-item>
                         <list-group-item v-if="repoDir !== ''" :href="'/f/' + repoDir + '/badge.svg'" target="_blank">
                             <fa-icon icon="cloud" />
@@ -37,7 +37,7 @@
                         </list-group-item>
                     </list-group>
                 </card>
-                <card title="所有构建">
+                <card :title="$t('pages.branch.builds')">
                     <list-group item-class="flex flex-col items-center" class="builds-list">
                         <list-group-item
                             v-for="histBuild in builds"
@@ -45,7 +45,7 @@
                             :to="{ params: {build: histBuild.id} }"
                             class="flex-col"
                         >
-                            <span>构建 #{{ histBuild.id }} <build-icon :success="histBuild.success" /></span>
+                            <span>{{ $t('pages.branch.build', { build: histBuild.id }) }} <build-icon :success="histBuild.success" /></span>
                             <span class="text-sm text-gray-400">{{ new Date(histBuild.build_timestamp).toLocaleString() }}</span>
                         </list-group-item>
                     </list-group>
@@ -59,30 +59,27 @@
                     </template>
                     <div v-if="buildInfo !== null" class="flex flex-col">
                         <p class="text-xl font-bold mb-2">
-                            {{ buildTitle }}
+                            {{ $t('pages.branch.build', { build: buildInfo.id }) }}
                             <build-icon :success="buildInfo.success" />
                         </p>
                         <p>
-                            构建于 {{ buildTime }}
+                            {{ $t('pages.branch.build_time', { time: buildTime }) }}
                             <a :href="'/f/' + repoDir + '/' + repo + '-' + branch + '-' + buildInfo.id + '.log'" target="_blank">
-                                日志
+                                {{ $t('pages.branch.log') }}
                             </a>
                         </p>
                         <div class="my-4">
-                            <a-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank" title="由Github Pages + Cloudflare提供下载">
-                                直接下载
+                            <a-button :href="'/f/' + repoDir + '/' + buildInfo.target" :disabled="!buildInfo.success" variant="primary" target="_blank" :title="$t('pages.branch.download_direct_tip')">
+                                {{ $t('pages.branch.download_direct') }}
                             </a-button>
                             <!--a-button disabled variant="primary" target="_blank">
-                                网盘下载(即将推出)
+                                {{ $t('pages.branch.download_webdrive') }}
                             </a-button-->
                         </div>
-                        <!--p class="mt-3 text-sm">
-                            SHA256: {{ buildFileSha256 }}
-                        </p-->
                         <hr class="my-4">
                         <div class="text-center">
                             <p class="text-gray-500">
-                                {{ buildInfo.author }} 于 {{ commitTime }} 提交
+                                {{ $t('pages.branch.commit_info', { author: buildInfo.author, time: buildTime }) }}
                                 (<a :href="'https://github.com/' + user + '/' + repo + '/commit/' + buildInfo.commit" target="_blank">{{ buildInfo.commit.substr(0, 7) }}</a>):
                             </p>
                             <p>
@@ -92,7 +89,7 @@
                         <hr class="my-4">
                         <div v-if="dependencyInfo != null" class="">
                             <p class="font-bold text-lg">
-                                运行需求
+                                {{ $t('pages.branch.requirement') }}
                             </p>
                             <table class="dependency-info">
                                 <tr v-for="(info, key) in dependencyInfo" :key="key">
@@ -126,7 +123,6 @@ export default {
             build: this.$route.params.build,
             builds: null,
             buildInfo: null,
-            buildTitle: '',
             buildTime: '',
             commitTime: '',
             dependencyInfo: null
@@ -134,15 +130,12 @@ export default {
     },
     head () {
         return {
-            title: `${this.repo}(${this.branch}) - ybw0014 的 Maven 构建页面`
+            title: `${this.repo} (${this.branch}) - ${this.$t('title')}`
         }
     },
     computed: {
         repoStr () {
             return `${this.user}/${this.repo}:${this.branch}`
-        },
-        buildFileSha256 () {
-            return '不可用'
         }
     },
     mounted () {
@@ -199,7 +192,6 @@ export default {
                 this.buildInfo = _.find(this.builds, (build) => {
                     return build.id === this.build
                 })
-                this.buildTitle = '构建 #' + this.buildInfo.id
                 this.buildTime = new Date(this.buildInfo.build_timestamp).toLocaleString()
                 this.commitTime = new Date(this.buildInfo.timestamp).toLocaleString()
 

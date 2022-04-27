@@ -5,7 +5,7 @@
             <div class="mb-12 text-2xl font-bold" v-text="reason" />
             <div class="error-info text-gray-500" v-text="description" />
             <NuxtLink class="error-info mt-2 text-blue-500" to="/">
-                返回首页
+                {{ $t('nav.home') }}
             </NuxtLink>
         </div>
     </div>
@@ -25,20 +25,20 @@ export default {
     mounted () {
         if (this.error.statusCode === 404) {
             this.code = 404
-            this.reason = '页面不存在'
-            this.description = '你正在访问的页面不存在'
+            this.reason = this.$t('error.404.title')
+            this.description = this.$t('error.404.message')
         } else if (this.error.statusCode === 500) {
             this.code = 500
-            this.reason = '内部错误'
-            this.description = '发生了内部错误'
+            this.reason = this.$t('error.500.title')
+            this.description = this.$t('error.500.message')
             // eslint-disable-next-line no-console
-            console.error('发生内部错误: ', this.error.message)
+            console.error('Internal error: ', this.error.message)
         } else {
             this.code = NaN
-            this.reason = '未知错误'
-            this.description = '发生了未知错误'
+            this.reason = this.$t('error.unknown.title')
+            this.description = this.$t('error.unknown.title')
             // eslint-disable-next-line no-console
-            console.error(`发生位置错误(代码: ${this.error.statusCode}): `, this.error.message)
+            console.error(`Unknown error (code: ${this.error.statusCode}): `, this.error.message)
         }
     }
 }
