@@ -60,7 +60,7 @@ export default {
                     file: 'en-US.js'
                 },
                 {
-                    code: 'zh-CN',
+                    code: 'zh',
                     file: 'zh-CN.js'
                 }
             ],
