@@ -9,6 +9,10 @@ export default {
         500: {
             title: '内部错误',
             message: '发生了内部错误'
+        },
+        unknown: {
+            title: '未知错误',
+            message: '发生了未知错误'
         }
     },
     nav: {
