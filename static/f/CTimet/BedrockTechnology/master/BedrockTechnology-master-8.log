@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.ctimet:bedrocktechnology:jar:Build 8 zh-CN(CTimet) (git 1f1f3a6)
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 1, column 971
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------< io.github.ctimet:bedrocktechnology >-----------------
+[INFO] Building BedrockTechnology Build 8 zh-CN(CTimet) (git 1f1f3a6)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 2.5 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 684 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom (10 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom (37 kB at 40 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom (14 kB at 123 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom (1.5 kB at 2.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar (327 kB at 130 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar (1.4 MB at 466 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar (1.9 MB at 621 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 20 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bedrocktechnology ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bedrocktechnology ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bedrocktechnology ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/abstractClass/BektAContainerOneSlot.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/main/java/io/github/ctimet/bedrocktechnology/abstractClass/BektAContainerOneSlot.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bedrocktechnology ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bedrocktechnology ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bedrocktechnology ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ bedrocktechnology ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/CTimet/BedrockTechnology/master/workspace/target/BedrockTechnology-Build 8 zh-CN(CTimet) (git 1f1f3a6).jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.617 s
+[INFO] Finished at: 2022-05-04T02:48:11Z
+[INFO] ------------------------------------------------------------------------
