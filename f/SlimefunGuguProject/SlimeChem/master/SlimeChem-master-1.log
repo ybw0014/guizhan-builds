@@ -1,0 +1,648 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.github.addoncommunity:SlimeChem >-----------------
+[INFO] Building SlimeChem Build 1 zh-CN(SlimefunGuguProject) (git 16d37db)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.12/lombok-1.18.12.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.12/lombok-1.18.12.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/projectlombok/lombok/1.18.12/lombok-1.18.12.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.pom (1.5 kB at 17 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom (2.4 kB at 89 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom (1.2 kB at 53 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom (2.4 kB at 104 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom (1.7 kB at 76 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom (2.0 kB at 84 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom (2.4 kB at 58 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.pom (953 B at 2.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.7/bstats-1.7.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.7/bstats-1.7.pom (7.3 kB at 21 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/62e7d30/InfinityLib-62e7d30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/62e7d30/InfinityLib-62e7d30.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/62e7d30/InfinityLib-62e7d30.pom (2.5 kB at 8.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/62e7d30/InfinityLib-62e7d30.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/62e7d30/InfinityLib-62e7d30.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/62e7d30/InfinityLib-62e7d30.jar (54 kB at 104 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.7/bstats-bukkit-1.7.jar (20 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar (2.2 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar (178 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar (89 kB at 1.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar (7.1 kB at 81 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar (142 kB at 1.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar (134 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar (1.8 MB at 10 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimeChem ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimeChem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimeChem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java: Recompile with -Xlint:deprecation for details.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[39,8] cannot access me.mrCookieSlime.Slimefun.Objects.SlimefunItem.SlimefunItem
+  class file for me.mrCookieSlime.Slimefun.Objects.SlimefunItem.SlimefunItem not found
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[6,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/attributes/Itemable.java:[3,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[6,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[90,19] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.Molecule
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/attributes/Itemable.java:[15,5] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: interface io.github.addoncommunity.slimechem.implementation.attributes.Itemable
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[9,39] package me.mrCookieSlime.Slimefun.Lists does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[10,41] package me.mrCookieSlime.Slimefun.Objects does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[11,54] package me.mrCookieSlime.Slimefun.Objects.SlimefunItem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[12,54] package me.mrCookieSlime.Slimefun.cscorelib2.inventory does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[29,37] cannot find symbol
+  symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[41,27] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[41,69] cannot find symbol
+  symbol:   class RecipeType
+  location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[16,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/DecayType.java:[8,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[54,19] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/DecayType.java:[37,24] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.isotopes.DecayType
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[259,76] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package io.github.addoncommunity.slimechem.implementation.attributes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Nucleon.java:[7,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Nucleon.java:[26,19] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.subatomic.Nucleon
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[7,58] package io.github.thebusybiscuit.slimefun4.core.categories does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[10,57] cannot find symbol
+  symbol:   class SlimefunPlugin
+  location: package io.github.thebusybiscuit.slimefun4.implementation
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[13,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[34,44] cannot find symbol
+  symbol: class FlexCategory
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/utils/Util.java:[5,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/utils/Util.java:[24,19] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.utils.Util
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[8,39] package me.mrCookieSlime.Slimefun.Lists does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[9,54] package me.mrCookieSlime.Slimefun.Objects.SlimefunItem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[10,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[21,39] cannot find symbol
+  symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[11,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[17,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[25,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[34,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[43,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[54,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[65,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[12,57] cannot find symbol
+  symbol:   class SlimefunPlugin
+  location: package io.github.thebusybiscuit.slimefun4.implementation
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[15,39] package me.mrCookieSlime.Slimefun.Lists does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[16,54] package me.mrCookieSlime.Slimefun.Objects.SlimefunItem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[22,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[7,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[16,25] cannot find symbol
+  symbol:   class RecipeType
+  location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[22,25] cannot find symbol
+  symbol:   class RecipeType
+  location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[23,25] cannot find symbol
+  symbol:   class RecipeType
+  location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[24,25] cannot find symbol
+  symbol:   class RecipeType
+  location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/Cyclotron.java:[11,37] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/Cyclotron.java:[16,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/Cyclotron.java:[36,40] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.machines.Cyclotron
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Lepton.java:[25,19] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.subatomic.Lepton
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Boson.java:[26,19] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.subatomic.Boson
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalDissolver.java:[20,56] package me.mrCookieSlime.Slimefun.cscorelib2.collections does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalDissolver.java:[47,20] cannot find symbol
+  symbol:   class RandomizedSet
+  location: class io.github.addoncommunity.slimechem.implementation.machines.ChemicalDissolver
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[6,57] cannot find symbol
+  symbol:   class SlimefunPlugin
+  location: package io.github.thebusybiscuit.slimefun4.implementation
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[18,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[19,55] package me.mrCookieSlime.Slimefun.cscorelib2.protection does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[39,26] cannot find symbol
+  symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[60,16] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.generators.RTG
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/Registry.java:[26,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/Registry.java:[43,30] cannot find symbol
+  symbol:   class SlimefunItem
+  location: class io.github.addoncommunity.slimechem.setup.Registry
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[8,41] package me.mrCookieSlime.Slimefun.Objects does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[13,38] cannot find symbol
+  symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[18,28] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.objects.RadioactiveItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[18,70] cannot find symbol
+  symbol:   class RecipeType
+  location: class io.github.addoncommunity.slimechem.objects.RadioactiveItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[6,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[14,25] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[15,25] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[16,25] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[17,25] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[18,25] cannot find symbol
+  symbol:   class Category
+  location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/utils/StringUtil.java:[52,16] constructor NumberAndString in class io.github.addoncommunity.slimechem.utils.StringUtil.NumberAndString cannot be applied to given types;
+  required: no arguments
+  found:    int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[20,8] io.github.addoncommunity.slimechem.implementation.atomic.Molecule is not abstract and does not override abstract method getItem() in io.github.addoncommunity.slimechem.implementation.attributes.Itemable
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[99,38] cannot find symbol
+  symbol:   method getFormula()
+  location: variable ingredient of type io.github.addoncommunity.slimechem.implementation.atomic.MoleculeIngredient
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[104,25] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.Molecule
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[54,28] cannot find symbol
+  symbol:   class CustomItem
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.MoleculeIngredient
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[56,31] cannot find symbol
+  symbol:   class CustomItem
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.MoleculeIngredient
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[56,46] cannot find symbol
+  symbol: method getIngredient()
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[29,8] io.github.addoncommunity.slimechem.objects.IngredientItem is not abstract and does not override abstract method getId() in io.github.thebusybiscuit.slimefun4.core.attributes.ItemAttribute
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[45,9] cannot find symbol
+  symbol:   method addItemHandler(io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler)
+  location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[46,9] cannot find symbol
+  symbol:   method addItemHandler(io.github.thebusybiscuit.slimefun4.core.handlers.EntityInteractHandler)
+  location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[56,21] cannot find symbol
+  symbol:   variable ItemUtils
+  location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[72,21] cannot find symbol
+  symbol:   variable ItemUtils
+  location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[35,8] io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope is not abstract and does not override abstract method getItem() in io.github.addoncommunity.slimechem.implementation.attributes.Itemable
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[65,33] cannot find symbol
+  symbol:   method getName()
+  location: variable element of type io.github.addoncommunity.slimechem.implementation.atomic.Element
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[81,33] cannot find symbol
+  symbol:   class SlimefunItemStack
+  location: class io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[83,77] cannot find symbol
+  symbol:   method getSeries()
+  location: variable element of type io.github.addoncommunity.slimechem.implementation.atomic.Element
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[100,34] cannot find symbol
+  symbol:   method getElement()
+  location: variable isotope of type io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[109,24] cannot find symbol
+  symbol:   method getElement()
+  location: variable isotope of type io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[195,28] cannot find symbol
+  symbol:   method getName()
+  location: variable element of type io.github.addoncommunity.slimechem.implementation.atomic.Element
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[181,67] cannot find symbol
+  symbol:   method getColor()
+  location: variable series of type io.github.addoncommunity.slimechem.implementation.atomic.Element.Series
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[239,22] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[240,30] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[241,20] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[242,18] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[243,26] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[244,31] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[245,19] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[246,18] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[247,20] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[248,16] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.963 s
+[INFO] Finished at: 2022-05-15T23:31:53Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project SlimeChem: Compilation failure: Compilation failure: 
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[39,8] cannot access me.mrCookieSlime.Slimefun.Objects.SlimefunItem.SlimefunItem
+[ERROR]   class file for me.mrCookieSlime.Slimefun.Objects.SlimefunItem.SlimefunItem not found
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[6,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/attributes/Itemable.java:[3,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[6,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[90,19] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.Molecule
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/attributes/Itemable.java:[15,5] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: interface io.github.addoncommunity.slimechem.implementation.attributes.Itemable
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[9,39] package me.mrCookieSlime.Slimefun.Lists does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[10,41] package me.mrCookieSlime.Slimefun.Objects does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[11,54] package me.mrCookieSlime.Slimefun.Objects.SlimefunItem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[12,54] package me.mrCookieSlime.Slimefun.cscorelib2.inventory does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[29,37] cannot find symbol
+[ERROR]   symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[41,27] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[41,69] cannot find symbol
+[ERROR]   symbol:   class RecipeType
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[16,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/DecayType.java:[8,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[54,19] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/DecayType.java:[37,24] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.isotopes.DecayType
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[259,76] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package io.github.addoncommunity.slimechem.implementation.attributes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Nucleon.java:[7,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Nucleon.java:[26,19] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.subatomic.Nucleon
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[7,58] package io.github.thebusybiscuit.slimefun4.core.categories does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[10,57] cannot find symbol
+[ERROR]   symbol:   class SlimefunPlugin
+[ERROR]   location: package io.github.thebusybiscuit.slimefun4.implementation
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[13,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/ElementCategory.java:[34,44] cannot find symbol
+[ERROR]   symbol: class FlexCategory
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/utils/Util.java:[5,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/utils/Util.java:[24,19] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.utils.Util
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[8,39] package me.mrCookieSlime.Slimefun.Lists does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[9,54] package me.mrCookieSlime.Slimefun.Objects.SlimefunItem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[10,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalCombiner.java:[21,39] cannot find symbol
+[ERROR]   symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[11,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[17,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[25,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[34,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[43,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[54,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Items.java:[65,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Items
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[12,57] cannot find symbol
+[ERROR]   symbol:   class SlimefunPlugin
+[ERROR]   location: package io.github.thebusybiscuit.slimefun4.implementation
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[15,39] package me.mrCookieSlime.Slimefun.Lists does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[16,54] package me.mrCookieSlime.Slimefun.Objects.SlimefunItem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/NuclearFurnace.java:[22,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[7,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[16,25] cannot find symbol
+[ERROR]   symbol:   class RecipeType
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[22,25] cannot find symbol
+[ERROR]   symbol:   class RecipeType
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[23,25] cannot find symbol
+[ERROR]   symbol:   class RecipeType
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/RecipeTypes.java:[24,25] cannot find symbol
+[ERROR]   symbol:   class RecipeType
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.RecipeTypes
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/Cyclotron.java:[11,37] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: package me.mrCookieSlime.Slimefun.api
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/Cyclotron.java:[16,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/Cyclotron.java:[36,40] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.machines.Cyclotron
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Lepton.java:[25,19] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.subatomic.Lepton
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/subatomic/Boson.java:[26,19] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.subatomic.Boson
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalDissolver.java:[20,56] package me.mrCookieSlime.Slimefun.cscorelib2.collections does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/machines/ChemicalDissolver.java:[47,20] cannot find symbol
+[ERROR]   symbol:   class RandomizedSet
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.machines.ChemicalDissolver
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[6,57] cannot find symbol
+[ERROR]   symbol:   class SlimefunPlugin
+[ERROR]   location: package io.github.thebusybiscuit.slimefun4.implementation
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[18,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[19,55] package me.mrCookieSlime.Slimefun.cscorelib2.protection does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[39,26] cannot find symbol
+[ERROR]   symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/generators/RTG.java:[60,16] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.generators.RTG
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/Registry.java:[26,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/setup/Registry.java:[43,30] cannot find symbol
+[ERROR]   symbol:   class SlimefunItem
+[ERROR]   location: class io.github.addoncommunity.slimechem.setup.Registry
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[8,41] package me.mrCookieSlime.Slimefun.Objects does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[13,38] cannot find symbol
+[ERROR]   symbol: class SlimefunItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[18,28] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.RadioactiveItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/RadioactiveItem.java:[18,70] cannot find symbol
+[ERROR]   symbol:   class RecipeType
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.RadioactiveItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[6,49] package me.mrCookieSlime.Slimefun.cscorelib2.item does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[14,25] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[15,25] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[16,25] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[17,25] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/lists/Categories.java:[18,25] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class io.github.addoncommunity.slimechem.lists.Categories
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/utils/StringUtil.java:[52,16] constructor NumberAndString in class io.github.addoncommunity.slimechem.utils.StringUtil.NumberAndString cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    int,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[20,8] io.github.addoncommunity.slimechem.implementation.atomic.Molecule is not abstract and does not override abstract method getItem() in io.github.addoncommunity.slimechem.implementation.attributes.Itemable
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[99,38] cannot find symbol
+[ERROR]   symbol:   method getFormula()
+[ERROR]   location: variable ingredient of type io.github.addoncommunity.slimechem.implementation.atomic.MoleculeIngredient
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Molecule.java:[104,25] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.Molecule
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[54,28] cannot find symbol
+[ERROR]   symbol:   class CustomItem
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.MoleculeIngredient
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[56,31] cannot find symbol
+[ERROR]   symbol:   class CustomItem
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.MoleculeIngredient
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/MoleculeIngredient.java:[56,46] cannot find symbol
+[ERROR]   symbol: method getIngredient()
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[29,8] io.github.addoncommunity.slimechem.objects.IngredientItem is not abstract and does not override abstract method getId() in io.github.thebusybiscuit.slimefun4.core.attributes.ItemAttribute
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[45,9] cannot find symbol
+[ERROR]   symbol:   method addItemHandler(io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler)
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[46,9] cannot find symbol
+[ERROR]   symbol:   method addItemHandler(io.github.thebusybiscuit.slimefun4.core.handlers.EntityInteractHandler)
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[56,21] cannot find symbol
+[ERROR]   symbol:   variable ItemUtils
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/objects/IngredientItem.java:[72,21] cannot find symbol
+[ERROR]   symbol:   variable ItemUtils
+[ERROR]   location: class io.github.addoncommunity.slimechem.objects.IngredientItem
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[35,8] io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope is not abstract and does not override abstract method getItem() in io.github.addoncommunity.slimechem.implementation.attributes.Itemable
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[65,33] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable element of type io.github.addoncommunity.slimechem.implementation.atomic.Element
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[81,33] cannot find symbol
+[ERROR]   symbol:   class SlimefunItemStack
+[ERROR]   location: class io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[83,77] cannot find symbol
+[ERROR]   symbol:   method getSeries()
+[ERROR]   location: variable element of type io.github.addoncommunity.slimechem.implementation.atomic.Element
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[100,34] cannot find symbol
+[ERROR]   symbol:   method getElement()
+[ERROR]   location: variable isotope of type io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[109,24] cannot find symbol
+[ERROR]   symbol:   method getElement()
+[ERROR]   location: variable isotope of type io.github.addoncommunity.slimechem.implementation.atomic.isotopes.Isotope
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/isotopes/Isotope.java:[195,28] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable element of type io.github.addoncommunity.slimechem.implementation.atomic.Element
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[181,67] cannot find symbol
+[ERROR]   symbol:   method getColor()
+[ERROR]   location: variable series of type io.github.addoncommunity.slimechem.implementation.atomic.Element.Series
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[239,22] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[240,30] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[241,20] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[242,18] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[243,26] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[244,31] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[245,19] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[246,18] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[247,20] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/SlimeChem/master/workspace/src/main/java/io/github/addoncommunity/slimechem/implementation/atomic/Element.java:[248,16] constructor Series in enum io.github.addoncommunity.slimechem.implementation.atomic.Element.Series cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

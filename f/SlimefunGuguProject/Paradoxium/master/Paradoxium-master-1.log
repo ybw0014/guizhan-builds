@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.ncoder:Paradoxium >------------------------
+[INFO] Building Paradoxium Build 1 zh-CN(SlimefunGuguProject) (git 8e368e3)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.9 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/spigot-api-1.17-R0.1-20210706.122143-68.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/spigot-api-1.17-R0.1-20210706.122143-68.pom (10 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.pom (6.1 kB at 8.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/spigot-api-1.17-R0.1-20210706.122143-68.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/spigot-api-1.17-R0.1-20210706.122143-68.jar (1.4 MB at 460 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/MrNickCoder/ParadoxLib/1.0.8/ParadoxLib-1.0.8.jar (113 kB at 169 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Paradoxium ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Paradoxium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ Paradoxium ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 35 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/target/classes
+[INFO] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/src/main/java/com/ncoder/paradoxium/api/WarpConnections.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/src/main/java/com/ncoder/paradoxium/api/WarpConnections.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Paradoxium ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ Paradoxium ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Paradoxium ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Paradoxium ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/target/Paradoxium-Build 1 zh-CN(SlimefunGuguProject) (git 8e368e3).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ Paradoxium ---
+[INFO] Including com.github.MrNickCoder:ParadoxLib:jar:1.0.8 in the shaded jar.
+[INFO] Minimizing jar com.ncoder:Paradoxium:jar:Build 1 zh-CN(SlimefunGuguProject) (git 8e368e3)
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/target/classes (Is a directory)
+[INFO] Minimized 108 -> 88 (81%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/target/Paradoxium-Build 1 zh-CN(SlimefunGuguProject) (git 8e368e3).jar with /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Paradoxium/master/workspace/target/Paradoxium-Build 1 zh-CN(SlimefunGuguProject) (git 8e368e3)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.185 s
+[INFO] Finished at: 2022-05-15T23:32:08Z
+[INFO] ------------------------------------------------------------------------

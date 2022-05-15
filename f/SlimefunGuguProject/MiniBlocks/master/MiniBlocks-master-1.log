@@ -1,0 +1,137 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< me.EzCoins:MiniBlocks >------------------------
+[INFO] Building MiniBlocks Build 1 zh-CN(SlimefunGuguProject) (git 8f5ac4b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/arcaniax/HeadDatabase-API/1.3.0/HeadDatabase-API-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/arcaniax/HeadDatabase-API/1.3.0/HeadDatabase-API-1.3.0.pom (2.1 kB at 1.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/paper-api-1.17.1-R0.1-20220414.034903-311.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/paper-api-1.17.1-R0.1-20220414.034903-311.pom (3.9 kB at 4.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-bom/4.9.3/adventure-bom-4.9.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-bom/4.9.3/adventure-bom-4.9.3.pom (4.0 kB at 5.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 4.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom (2.3 kB at 3.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 603 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 7.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.2.2/fastutil-8.2.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.2.2/fastutil-8.2.2.pom (1.4 kB at 1.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.pom (14 kB at 15 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.14.1/log4j-2.14.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.14.1/log4j-2.14.1.pom (68 kB at 60 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/logging-parent/3/logging-parent-3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/logging-parent/3/logging-parent-3.pom (3.1 kB at 4.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.9.3/adventure-api-4.9.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.9.3/adventure-api-4.9.3.pom (3.2 kB at 4.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.9.3/adventure-key-4.9.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.9.3/adventure-key-4.9.3.pom (3.0 kB at 3.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom (2.1 kB at 2.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 1.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom (2.1 kB at 2.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.3/adventure-text-serializer-gson-4.9.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.3/adventure-text-serializer-gson-4.9.3.pom (2.9 kB at 3.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.3/adventure-text-serializer-legacy-4.9.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.3/adventure-text-serializer-legacy-4.9.3.pom (2.7 kB at 3.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.9.3/adventure-text-serializer-plain-4.9.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.9.3/adventure-text-serializer-plain-4.9.3.pom (2.7 kB at 3.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/checkerframework/checker-qual/3.18.0/checker-qual-3.18.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/checkerframework/checker-qual/3.18.0/checker-qual-3.18.0.pom (2.1 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.pom (5.1 kB at 20 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/moe/pine/nonnull/0.1.1/nonnull-0.1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/moe/pine/nonnull/0.1.1/nonnull-0.1.1.pom (1.6 kB at 1.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/arcaniax/HeadDatabase-API/1.3.0/HeadDatabase-API-1.3.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/paper-api-1.17.1-R0.1-20220414.034903-311.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (24 kB at 17 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.2.2/fastutil-8.2.2.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar (77 kB at 39 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paper/paper-api/1.17.1-R0.1-SNAPSHOT/paper-api-1.17.1-R0.1-20220414.034903-311.jar (1.7 MB at 855 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.9.3/adventure-api-4.9.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/arcaniax/HeadDatabase-API/1.3.0/HeadDatabase-API-1.3.0.jar (24 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.9.3/adventure-key-4.9.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.jar (253 kB at 120 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.9.3/adventure-key-4.9.3.jar (8.2 kB at 2.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar (23 kB at 5.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar (300 kB at 68 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.3/adventure-text-serializer-gson-4.9.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.9.3/adventure-api-4.9.3.jar (286 kB at 64 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.3/adventure-text-serializer-legacy-4.9.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.2.2/fastutil-8.2.2.jar (19 MB at 3.5 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.9.3/adventure-text-serializer-plain-4.9.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar (13 kB at 2.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/checkerframework/checker-qual/3.18.0/checker-qual-3.18.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.3/adventure-text-serializer-gson-4.9.3.jar (38 kB at 6.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar (28 kB at 4.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/moe/pine/nonnull/0.1.1/nonnull-0.1.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.3/adventure-text-serializer-legacy-4.9.3.jar (24 kB at 3.8 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.9.3/adventure-text-serializer-plain-4.9.3.jar (13 kB at 1.8 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/moe/pine/nonnull/0.1.1/nonnull-0.1.1.jar (2.4 kB at 309 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/checkerframework/checker-qual/3.18.0/checker-qual-3.18.0.jar (222 kB at 27 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/7e03c79/InfinityLib-7e03c79.jar (91 kB at 151 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MiniBlocks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiniBlocks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MiniBlocks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MiniBlocks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MiniBlocks ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MiniBlocks ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MiniBlocks ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/target/MiniBlocks-Build 1 zh-CN(SlimefunGuguProject) (git 8f5ac4b).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ MiniBlocks ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:7e03c79 in the shaded jar.
+[INFO] Including moe.pine:nonnull:jar:0.1.1 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Minimizing jar me.EzCoins:MiniBlocks:jar:Build 1 zh-CN(SlimefunGuguProject) (git 8f5ac4b)
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/target/classes (Is a directory)
+[INFO] Minimized 108 -> 44 (40%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/target/MiniBlocks-Build 1 zh-CN(SlimefunGuguProject) (git 8f5ac4b).jar with /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/target/MiniBlocks-Build 1 zh-CN(SlimefunGuguProject) (git 8f5ac4b)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/MiniBlocks/master/workspace/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.134 s
+[INFO] Finished at: 2022-05-15T23:31:37Z
+[INFO] ------------------------------------------------------------------------
