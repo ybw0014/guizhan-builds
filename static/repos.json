@@ -1213,5 +1213,117 @@
                 "1": "1.14+"
             }
         }
+    },
+    "SlimefunGuguProject/ExampleCriteria:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "ExampleCriteria",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/GlobiaMachines:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "GlobiaMachines",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Drugfun:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Drugfun",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SlimyBees:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SlimyBees",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
+    },
+    "SlimefunGuguProject/security-slimefun:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SFsecurity",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/MiniBlocks:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "MiniBlocks",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SlimeChem:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SlimeChem",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/ObsidianExpansion:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "ObsidianExpansion",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
     }
 }
