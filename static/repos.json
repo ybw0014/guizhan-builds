@@ -1312,6 +1312,20 @@
             }
         }
     },
+    "SlimefunGuguProject/Paradoxium:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Paradoxium",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
     "SlimefunGuguProject/ObsidianExpansion:master": {
         "type": "maven",
         "options": {
