@@ -1,0 +1,297 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< me.lucasgithuber:ObsidianExpansion >-----------------
+[INFO] Building ObsidianExpansion Build 1 zh-CN(SlimefunGuguProject) (git 1b932d5)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-metadata.xml (1.0 kB at 1.3 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20220504.184706-49.pom
+[INFO] Downloaded from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20220504.184706-49.pom (13 kB at 45 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/35/maven-plugins-35.pom (9.9 kB at 114 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/35/maven-parent-35.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/35/maven-parent-35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/35/maven-parent-35.pom (45 kB at 1.3 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/25/apache-25.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/25/apache-25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/25/apache-25.pom (21 kB at 822 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20220504.184706-49.jar
+[INFO] Downloaded from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20220504.184706-49.jar (142 kB at 169 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots1: https://s01.oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom (5.8 kB at 20 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom (14 kB at 26 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/java/jvnet-parent/3/jvnet-parent-3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 12 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-bukkit/4.1.0/adventure-platform-bukkit-4.1.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-bukkit/4.1.0/adventure-platform-bukkit-4.1.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-bukkit/4.1.0/adventure-platform-bukkit-4.1.0.pom (4.1 kB at 9.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-api/4.1.0/adventure-platform-api-4.1.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-api/4.1.0/adventure-platform-api-4.1.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-api/4.1.0/adventure-platform-api-4.1.0.pom (2.4 kB at 6.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.10.0/adventure-api-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.0/adventure-api-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.0/adventure-api-4.10.0.pom (3.5 kB at 8.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-bom/4.10.0/adventure-bom-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.10.0/adventure-bom-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.10.0/adventure-bom-4.10.0.pom (4.4 kB at 11 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.10.0/adventure-key-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.0/adventure-key-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.0/adventure-key-4.10.0.pom (3.3 kB at 8.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.1.0/adventure-text-serializer-bungeecord-4.1.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.1.0/adventure-text-serializer-bungeecord-4.1.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.1.0/adventure-text-serializer-bungeecord-4.1.0.pom (3.0 kB at 7.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.10.0/adventure-text-serializer-legacy-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.0/adventure-text-serializer-legacy-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.0/adventure-text-serializer-legacy-4.10.0.pom (2.9 kB at 7.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.10.0/adventure-text-serializer-gson-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.0/adventure-text-serializer-gson-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.0/adventure-text-serializer-gson-4.10.0.pom (3.1 kB at 7.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-nbt/4.10.0/adventure-nbt-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-nbt/4.10.0/adventure-nbt-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-nbt/4.10.0/adventure-nbt-4.10.0.pom (3.3 kB at 8.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson-legacy-impl/4.10.0/adventure-text-serializer-gson-legacy-impl-4.10.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.10.0/adventure-text-serializer-gson-legacy-impl-4.10.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.10.0/adventure-text-serializer-gson-legacy-impl-4.10.0.pom (3.3 kB at 8.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.1.0/adventure-platform-facet-4.1.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-facet/4.1.0/adventure-platform-facet-4.1.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-facet/4.1.0/adventure-platform-facet-4.1.0.pom (2.6 kB at 6.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.1.0/adventure-platform-viaversion-4.1.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-viaversion/4.1.0/adventure-platform-viaversion-4.1.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-viaversion/4.1.0/adventure-platform-viaversion-4.1.0.pom (3.0 kB at 7.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.pom (3.0 kB at 7.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-bom/4.10.1/adventure-bom-4.10.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.10.1/adventure-bom-4.10.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.10.1/adventure-bom-4.10.1.pom (4.4 kB at 11 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.pom (3.5 kB at 8.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.pom (3.3 kB at 8.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough-api/1.1.2/dough-api-1.1.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough-api/1.1.2/dough-api-1.1.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough-api/1.1.2/dough-api-1.1.2.pom (16 kB at 41 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough/1.1.2/dough-1.1.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough/1.1.2/dough-1.1.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough/1.1.2/dough-1.1.2.pom (11 kB at 26 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/xyz/xenondevs/particle/1.7.1/particle-1.7.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/xyz/xenondevs/particle/1.7.1/particle-1.7.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/xyz/xenondevs/particle/1.7.1/particle-1.7.1.pom (4.8 kB at 12 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/papermc/paperlib/1.0.7/paperlib-1.0.7.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.pom (1.3 kB at 3.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-bukkit/4.1.0/adventure-platform-bukkit-4.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-api/4.1.0/adventure-platform-api-4.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.1.0/adventure-text-serializer-bungeecord-4.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.10.0/adventure-text-serializer-legacy-4.10.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-nbt/4.10.0/adventure-nbt-4.10.0.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.10.0/adventure-text-serializer-gson-4.10.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson-legacy-impl/4.10.0/adventure-text-serializer-gson-legacy-impl-4.10.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.1.0/adventure-platform-facet-4.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.1.0/adventure-platform-viaversion-4.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough-api/1.1.2/dough-api-1.1.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/xyz/xenondevs/particle/1.7.1/particle-1.7.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/papermc/paperlib/1.0.7/paperlib-1.0.7.jar
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-bukkit/4.1.0/adventure-platform-bukkit-4.1.0.jar
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-api/4.1.0/adventure-platform-api-4.1.0.jar
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.1.0/adventure-text-serializer-bungeecord-4.1.0.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.1.0/adventure-text-serializer-bungeecord-4.1.0.jar (9.6 kB at 10 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.0/adventure-text-serializer-legacy-4.10.0.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-api/4.1.0/adventure-platform-api-4.1.0.jar (2.5 kB at 2.5 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-nbt/4.10.0/adventure-nbt-4.10.0.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar (27 kB at 22 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.0/adventure-text-serializer-gson-4.10.0.jar
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.10.0/adventure-text-serializer-gson-legacy-impl-4.10.0.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-bukkit/4.1.0/adventure-platform-bukkit-4.1.0.jar (111 kB at 74 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-facet/4.1.0/adventure-platform-facet-4.1.0.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.0/adventure-text-serializer-legacy-4.10.0.jar (24 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-viaversion/4.1.0/adventure-platform-viaversion-4.1.0.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-nbt/4.10.0/adventure-nbt-4.10.0.jar (93 kB at 41 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.0/adventure-text-serializer-gson-4.10.0.jar (39 kB at 17 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-facet/4.1.0/adventure-platform-facet-4.1.0.jar (43 kB at 16 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.10.0/adventure-text-serializer-gson-legacy-impl-4.10.0.jar (4.9 kB at 1.7 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough-api/1.1.2/dough-api-1.1.2.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-platform-viaversion/4.1.0/adventure-platform-viaversion-4.1.0.jar (20 kB at 6.2 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/xyz/xenondevs/particle/1.7.1/particle-1.7.1.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.jar (144 kB at 45 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.jar
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.jar (309 kB at 94 kB/s)
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.jar (8.5 kB at 2.3 kB/s)
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.jar (23 kB at 6.1 kB/s)
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough-api/1.1.2/dough-api-1.1.2.jar (189 kB at 44 kB/s)
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/xyz/xenondevs/particle/1.7.1/particle-1.7.1.jar (54 kB at 12 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar (91 kB at 222 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ObsidianExpansion ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ObsidianExpansion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObsidianExpansion ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/target/classes
+[INFO] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/src/main/java/me/lucasgithuber/obsidianexpansion/machines/ObsidianForge.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/src/main/java/me/lucasgithuber/obsidianexpansion/machines/ObsidianForge.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ObsidianExpansion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ObsidianExpansion ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ObsidianExpansion ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ObsidianExpansion ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/target/ObsidianExpansion-Build 1 zh-CN(SlimefunGuguProject) (git 1b932d5).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.3.1-SNAPSHOT:shade (default) @ ObsidianExpansion ---
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom (11 kB at 489 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom (5.1 kB at 232 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.pom (770 B at 37 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/codehaus/plexus/plexus-containers/2.1.1/plexus-containers-2.1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.1/plexus-containers-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.1/plexus-containers-2.1.1.pom (6.0 kB at 287 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.5/plexus-6.5.pom (26 kB at 1.1 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom (3.8 kB at 183 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.32/slf4j-parent-1.7.32.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.32/slf4j-parent-1.7.32.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.32/slf4j-parent-1.7.32.pom (14 kB at 511 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm/9.2/asm-9.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.pom (2.4 kB at 103 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom (3.0 kB at 148 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom (2.6 kB at 118 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom (2.6 kB at 131 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom (4.6 kB at 184 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/vafer/jdependency/2.7.0/jdependency-2.7.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.pom (14 kB at 347 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom (0 B at 0 B/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom (0 B at 0 B/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/19/apache-19.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (0 B at 0 B/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom (23 kB at 1.1 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm/9.2/asm-9.2.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/vafer/jdependency/2.7.0/jdependency-2.7.0.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar (159 kB at 4.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.jar (4.1 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar (53 kB at 924 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar (42 kB at 649 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar (122 kB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar (34 kB at 469 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar (73 kB at 920 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.jar (233 kB at 2.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar (328 kB at 3.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar (753 kB at 5.9 MB/s)
+[INFO] Including io.github.mooy1:InfinityLib:jar:1.3.9 in the shaded jar.
+[INFO] Including javax.annotation:javax.annotation-api:jar:1.3.2 in the shaded jar.
+[INFO] Including net.kyori:adventure-platform-bukkit:jar:4.1.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-platform-api:jar:4.1.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-text-serializer-bungeecord:jar:4.1.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-text-serializer-legacy:jar:4.10.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-nbt:jar:4.10.0 in the shaded jar.
+[INFO] Including net.kyori:examination-api:jar:1.3.0 in the shaded jar.
+[INFO] Including net.kyori:examination-string:jar:1.3.0 in the shaded jar.
+[INFO] Including org.jetbrains:annotations:jar:23.0.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-text-serializer-gson:jar:4.10.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-text-serializer-gson-legacy-impl:jar:4.10.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-platform-facet:jar:4.1.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-platform-viaversion:jar:4.1.0 in the shaded jar.
+[INFO] Including net.kyori:adventure-text-minimessage:jar:4.10.1 in the shaded jar.
+[INFO] Including net.kyori:adventure-api:jar:4.10.1 in the shaded jar.
+[INFO] Including net.kyori:adventure-key:jar:4.10.1 in the shaded jar.
+[INFO] Including io.github.baked-libs:dough-api:jar:1.1.2 in the shaded jar.
+[INFO] Including xyz.xenondevs:particle:jar:1.7.1 in the shaded jar.
+[INFO] Including io.papermc:paperlib:jar:1.0.7 in the shaded jar.
+[INFO] Minimizing jar me.lucasgithuber:ObsidianExpansion:jar:Build 1 zh-CN(SlimefunGuguProject) (git 1b932d5)
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/target/classes (Is a directory)
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/dependency-reduced-pom.xml
+[WARNING] annotations-23.0.0.jar, examination-api-1.3.0.jar, examination-string-1.3.0.jar define 1 overlapping classes: 
+[WARNING]   - META-INF.versions.9.module-info
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Minimized 909 -> 692 (76%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/target/ObsidianExpansion-Build 1 zh-CN(SlimefunGuguProject) (git 1b932d5).jar with /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/ObsidianExpansion/master/workspace/target/ObsidianExpansion-Build 1 zh-CN(SlimefunGuguProject) (git 1b932d5)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.253 s
+[INFO] Finished at: 2022-05-15T23:32:43Z
+[INFO] ------------------------------------------------------------------------
