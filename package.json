@@ -13,7 +13,7 @@
     "@actions/core": "1.8.2",
     "@nuxtjs/axios": "5.13.6",
     "@nuxtjs/i18n": "7.2.2",
-    "@tailwindcss/forms": "0.5.1",
+    "@tailwindcss/forms": "0.5.2",
     "autoprefixer": "10.4.7",
     "core-js": "3.22.4",
     "cos-nodejs-sdk-v5": "2.11.9",
