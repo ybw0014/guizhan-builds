@@ -14,7 +14,7 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', href: 'https://jslib.gzassets.cn/gh/hung1001/font-awesome-pro/css/all.min.css' },
+            { rel: 'stylesheet', href: 'https://gzassets.cn/fonts/font-awesome/v5/css/all.min.css' },
             { rel: 'stylesheet', href: 'https://gzassets.cn/fonts/AlibabaPuHuiTi.css' }
         ],
         script: [
