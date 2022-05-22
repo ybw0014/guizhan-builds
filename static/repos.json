@@ -1133,7 +1133,7 @@
         "options": {
             "target": {
                 "name": "Slimefun",
-                "version": "Build {version} zh-CN(StarWishsama) (git {git_commit})"
+                "version": "{git_commit}-canary"
             }
         },
         "dependencies": {
