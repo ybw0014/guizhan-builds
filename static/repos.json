@@ -1340,7 +1340,7 @@
             }
         }
     },
-    "SlimefunGuguProject/NotEnoughAddons": {
+    "SlimefunGuguProject/NotEnoughAddons:master": {
         "type": "maven",
         "options": {
             "target": {
@@ -1354,7 +1354,7 @@
             }
         }
     },
-    "SlimefunGuguProject/SlimefunNotchApple": {
+    "SlimefunGuguProject/SlimefunNotchApple:master": {
         "type": "maven",
         "options": {
             "target": {
@@ -1368,7 +1368,7 @@
             }
         }
     },
-    "SlimefunGuguProject/Ender-Cargo": {
+    "SlimefunGuguProject/Ender-Cargo:master": {
         "type": "maven",
         "options": {
             "target": {
