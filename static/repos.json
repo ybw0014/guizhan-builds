@@ -1119,7 +1119,7 @@
         "options": {
             "target": {
                 "name": "Bump",
-                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+                "version": "Build {version} (SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
@@ -1337,6 +1337,48 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/NotEnoughAddons": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "NotEnoughAddons",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SlimefunNotchApple": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SlimefunNotchApple",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Ender-Cargo": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Ender-Cargo",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
             }
         }
     }
