@@ -1119,7 +1119,7 @@
         "options": {
             "target": {
                 "name": "Bump",
-                "version": "Build {version} (SlimefunGuguProject) (git {git_commit})"
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
