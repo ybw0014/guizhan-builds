@@ -1367,19 +1367,5 @@
                 "1": "1.14+"
             }
         }
-    },
-    "SlimefunGuguProject/Ender-Cargo:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "Ender-Cargo",
-                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.14+"
-            }
-        }
     }
 }
