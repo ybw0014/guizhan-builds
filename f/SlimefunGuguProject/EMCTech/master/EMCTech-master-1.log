@@ -1,0 +1,465 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< io.github.sefiraat:EMCTech >---------------------
+[INFO] Building EMCTech Build 1 zh-CN(SlimefunGuguProject) (git 2085e35)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom (13 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar (62 kB at 1.7 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 9.7 kB/s)
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.pom (11 kB at 122 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/apache/apache/7/apache-7.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (6.0 kB at 83 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (4.6 kB at 64 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom (14 kB at 85 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom (1.7 kB at 25 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom (1.5 kB at 21 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom (7.0 kB at 98 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom (491 B at 7.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (4.3 kB at 60 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloaded from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom (2.2 kB at 14 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom (16 kB at 223 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom (11 kB at 157 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml (985 B at 14 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.pom (3.8 kB at 54 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml (597 B at 8.4 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/acf-parent-0.5.1-20220427.222428-13.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/acf-parent-0.5.1-20220427.222428-13.pom (8.4 kB at 119 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/simplix-softworks/SimplixStorage/3.2.4/SimplixStorage-3.2.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/simplix-softworks/SimplixStorage/3.2.4/SimplixStorage-3.2.4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/simplix-softworks/SimplixStorage/3.2.4/SimplixStorage-3.2.4.pom (6.5 kB at 84 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom (6.2 kB at 89 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/json/json/20210307/json-20210307.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/json/json/20210307/json-20210307.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/json/json/20210307/json-20210307.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/json/json/20210307/json-20210307.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/json/json/20210307/json-20210307.pom (7.8 kB at 112 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 19 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloaded from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom (5.1 kB at 33 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.pom (5.0 kB at 61 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.pom (5.4 kB at 68 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib/0.9.3/GuizhanLib-0.9.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.9.3/GuizhanLib-0.9.3.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.9.3/GuizhanLib-0.9.3.pom (5.7 kB at 119 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.jar (1.4 MB at 6.4 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/simplix-softworks/SimplixStorage/3.2.4/SimplixStorage-3.2.4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/json/json/20210307/json-20210307.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib/0.9.3/GuizhanLib-0.9.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/simplix-softworks/SimplixStorage/3.2.4/SimplixStorage-3.2.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/json/json/20210307/json-20210307.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.9.3/GuizhanLib-0.9.3.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/simplix-softworks/SimplixStorage/3.2.4/SimplixStorage-3.2.4.jar (298 kB at 1.1 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/0.9.3/GuizhanLib-0.9.3.jar (199 kB at 629 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.jar (182 kB at 544 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.jar (281 kB at 743 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.jar (4.3 MB at 7.3 MB/s)
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/json/json/20210307/json-20210307.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.jar
+[INFO] Downloaded from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.jar (39 kB at 64 kB/s)
+[INFO] Downloaded from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.jar (326 kB at 219 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar (0 B at 0 B/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar (4.1 kB at 20 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar (2.3 kB at 11 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar (22 kB at 92 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar (40 kB at 162 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar (20 kB at 65 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/json/json/20210307/json-20210307.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar (242 kB at 718 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.jar (165 kB at 424 kB/s)
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar (28 kB at 70 kB/s)
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/json/json/20210307/json-20210307.jar (70 kB at 171 kB/s)
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar (183 kB at 448 kB/s)
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20220427.222428-13.jar (332 kB at 677 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ EMCTech ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ EMCTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ EMCTech ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom (5.8 kB at 389 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.pom (5.0 kB at 292 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.1/plexus-languages-1.1.1.pom (4.6 kB at 171 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom (25 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom (16 kB at 942 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom (1.1 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom (8.1 kB at 451 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom (2.7 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom (5.6 kB at 375 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom (8.0 kB at 569 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.pom (1.1 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.pom (1.2 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.11.1/plexus-compilers-2.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.11.1/plexus-compilers-2.11.1.pom (1.3 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar (54 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar (153 kB at 3.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar (4.7 kB at 103 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar (23 kB at 448 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar (334 kB at 6.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar (264 kB at 3.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar (27 kB at 115 kB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/target/classes
+[INFO] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/src/main/java/io/github/sefiraat/emctech/slimefun/groups/MainFlexGroup.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/src/main/java/io/github/sefiraat/emctech/slimefun/groups/MainFlexGroup.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ EMCTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ EMCTech ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ EMCTech ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ EMCTech ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/target/EMCTech-Build 1 zh-CN(SlimefunGuguProject) (git 2085e35).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.3.0:shade (default) @ EMCTech ---
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Including com.google.code.findbugs:annotations:jar:3.0.1u2 in the shaded jar.
+[INFO] Including net.jcip:jcip-annotations:jar:1.0 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.1 in the shaded jar.
+[INFO] Including io.github.sefiraat:SefiLib:jar:0.1.0 in the shaded jar.
+[INFO] Including io.github.baked-libs:dough-api:jar:1.0.3 in the shaded jar.
+[INFO] Including co.aikar:acf-paper:jar:0.5.1-SNAPSHOT in the shaded jar.
+[INFO] Including com.github.simplix-softworks:SimplixStorage:jar:3.2.4 in the shaded jar.
+[INFO] Including com.esotericsoftware.yamlbeans:yamlbeans:jar:1.15 in the shaded jar.
+[INFO] Including org.json:json:jar:20210307 in the shaded jar.
+[INFO] Including org.jetbrains:annotations:jar:22.0.0 in the shaded jar.
+[INFO] Including com.github.Sefiraat:DankTech2:jar:d2465ae845 in the shaded jar.
+[INFO] Including com.github.Mooy1:InfinityExpansion:jar:1e83e7afa0 in the shaded jar.
+[INFO] Including net.guizhanss:GuizhanLib:jar:0.9.3 in the shaded jar.
+[INFO] Minimizing jar io.github.sefiraat:EMCTech:jar:Build 1 zh-CN(SlimefunGuguProject) (git 2085e35)
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/target/classes (Is a directory)
+[INFO] Dependency-reduced POM written at: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/dependency-reduced-pom.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (0 B at 0 B/s)
+[WARNING] DankTech2-d2465ae845.jar, annotations-3.0.1u2.jar, jsr305-3.0.1.jar define 9 overlapping classes: 
+[WARNING]   - javax.annotation.Nonnull
+[WARNING]   - javax.annotation.Nonnull$Checker
+[WARNING]   - javax.annotation.Nullable
+[WARNING]   - javax.annotation.ParametersAreNonnullByDefault
+[WARNING]   - javax.annotation.meta.TypeQualifier
+[WARNING]   - javax.annotation.meta.TypeQualifierDefault
+[WARNING]   - javax.annotation.meta.TypeQualifierNickname
+[WARNING]   - javax.annotation.meta.TypeQualifierValidator
+[WARNING]   - javax.annotation.meta.When
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Minimized 1200 -> 366 (30%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/target/EMCTech-Build 1 zh-CN(SlimefunGuguProject) (git 2085e35).jar with /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/EMCTech/master/workspace/target/EMCTech-Build 1 zh-CN(SlimefunGuguProject) (git 2085e35)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.200 s
+[INFO] Finished at: 2022-05-30T01:11:36Z
+[INFO] ------------------------------------------------------------------------
