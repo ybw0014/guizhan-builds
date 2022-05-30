@@ -1367,5 +1367,36 @@
                 "1": "1.14+"
             }
         }
+    },
+    "SlimefunGuguProject/EnderCargo:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "EnderCargo",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/EMCTech:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "EMCTech",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
     }
 }
