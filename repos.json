@@ -1398,5 +1398,22 @@
                 "1": "1.16+"
             }
         }
+    },
+    "zomx127/FinalTECH:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "FinalTech",
+                "version": "Build {version} zh-CN(zomx127) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
     }
 }
