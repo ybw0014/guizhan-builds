@@ -85,6 +85,8 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 
 并将GuizhanLib添加为附属:
 
+最新版本为: ![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
+
 ```
     <dependency>
         <groupId>net.guizhanss</groupId>
@@ -101,7 +103,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version>
+                <version>3.3.0</version>
 
                 <configuration>
                     <!-- 你可以添加下面这一行，去除所有库中未使用的类，来减少生成jar的大小，非必须，但建议开启 -->
@@ -145,7 +147,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 ```java
         if (getConfig().getBoolean("options.auto-update") && // 注意这里，如果config.yml中直接是`auto-config`那就得把前面的`options.`去掉
             getDescription().getVersion().startsWith("Build")) { // 如果你修改了版本格式，按需修改。你也可以去除这一部分
-            new GuizhanBuildsUpdater(this, getFile(), "你的用户名", "仓库名", "分支", false).start(); // 必须修改
+            new GuizhanBuildsUpdater(this, getFile(), "你的用户名", "仓库名", "分支", false, "zh-CN").start(); // 必须修改
         }
 ```
 
