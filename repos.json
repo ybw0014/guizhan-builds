@@ -1419,5 +1419,158 @@
                 "1": "1.17+"
             }
         }
+    },
+    "SlimefunGuguProject/Cringle-Bosses:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Cringle-Bosses",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Cakecraft:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Cakecraft",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Endrex:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Endrex",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "zimzaza4/RedstoneConnector:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "RedstoneConnector",
+                "version": "Build {version} zh-CN(zimzaza4) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/SCrafter:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SCrafter",
+                "version": "Build {version} zh-CN(zimzaza4) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/DimensionTraveler:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DimensionTraveler",
+                "version": "Build {version} zh-CN(Ironnoob73) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "haiman233/CrispyMachines:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "CrispyMachines",
+                "version": "Build {version} zh-CN(CrispyXYZ) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "bxx2004/FutureTech:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "FutureTech",
+                "version": "Build {version} zh-CN(bxx2004) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
+    },
+    "JinOuYongGu/EnchanterLimit:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "EnchanterLimit",
+                "version": "Build {version} zh-CN(JinOuYongGu) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "11+"
+            },
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }

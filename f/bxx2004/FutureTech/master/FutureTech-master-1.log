@@ -1,0 +1,506 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< net.bxx2004:FutureTech >-----------------------
+[INFO] Building FutureTech Build 1 zh-CN(bxx2004) (git 7321608)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.4 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220607.005826-161.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220607.005826-161.pom (4.2 kB at 14 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.10.1/adventure-bom-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.10.1/adventure-bom-4.10.1.pom (4.4 kB at 15 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (6.3 kB at 21 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (4.7 kB at 16 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom (1.2 kB at 4.1 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom (1.5 kB at 5.2 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom (14 kB at 33 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom (69 kB at 129 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom (1.7 kB at 5.8 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom (17 kB at 42 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.pom (3.5 kB at 12 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.pom (3.3 kB at 11 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom (2.1 kB at 7.2 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 4.6 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom (2.1 kB at 7.2 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom (1.4 kB at 4.8 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.pom (3.0 kB at 10 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.1/adventure-text-serializer-gson-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.1/adventure-text-serializer-gson-4.10.1.pom (3.1 kB at 9.7 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.1/adventure-text-serializer-legacy-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.1/adventure-text-serializer-legacy-4.10.1.pom (2.9 kB at 10 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.10.1/adventure-text-serializer-plain-4.10.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.10.1/adventure-text-serializer-plain-4.10.1.pom (2.9 kB at 10 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom (2.1 kB at 6.9 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.pom (2.4 kB at 7.8 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom (3.0 kB at 9.7 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom (2.6 kB at 8.4 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom (2.6 kB at 8.2 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220607.005826-161.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.jar (151 kB at 583 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar (258 kB at 329 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar (302 kB at 392 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220607.005826-161.jar (1.7 MB at 2.2 MB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar (44 kB at 49 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar (23 kB at 25 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.10.1/adventure-key-4.10.1.jar (8.5 kB at 9.1 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.10.1/adventure-api-4.10.1.jar (309 kB at 327 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.1/adventure-text-serializer-gson-4.10.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar (29 kB at 27 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.1/adventure-text-serializer-legacy-4.10.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.10.1/adventure-text-serializer-gson-4.10.1.jar (39 kB at 34 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.10.1/adventure-text-serializer-plain-4.10.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.10.1/adventure-text-minimessage-4.10.1.jar (144 kB at 115 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.jar (222 kB at 156 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar (24 MB at 15 MB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.10.1/adventure-text-serializer-legacy-4.10.1.jar (24 kB at 15 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar (13 kB at 8.3 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.10.1/adventure-text-serializer-plain-4.10.1.jar (13 kB at 7.1 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar (73 kB at 33 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar (53 kB at 24 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar (34 kB at 15 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.jar (122 kB at 49 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ FutureTech ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ FutureTech ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ FutureTech ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 27 source files to /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java: /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java uses unchecked or unsafe operations.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java: Recompile with -Xlint:unchecked for details.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 5 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[12,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[13,48] package net.bxx2004.pandalib.bukkit.ptask.depend does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[14,48] package net.bxx2004.pandalib.bukkit.ptask.depend does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[15,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[16,34] package net.bxx2004.pandalibloader does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[22,23] package org.reflections does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[26,33] cannot find symbol
+  symbol: class BukkitPlugin
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[28,19] cannot find symbol
+  symbol:   class PLangNode
+  location: class net.bxx2004.futuretech.FutureTech
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[32,19] cannot find symbol
+  symbol:   class PCooldown
+  location: class net.bxx2004.futuretech.FutureTech
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[16,32] package net.bxx2004.java.reflect does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[17,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[18,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[19,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[20,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[21,40] package net.bxx2004.pandalib.bukkit.pgui does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[22,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[23,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[24,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[25,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/Item.java:[10,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/Item.java:[11,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[78,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.robot.FT_SIRIROBOT
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/Item.java:[40,21] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.Item<T>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[11,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[17,34] cannot find symbol
+  symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[22,12] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_CPU
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[48,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_CPU
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ENERGYORE.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ENERGYORE.java:[40,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_ENERGYORE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[11,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[13,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[21,40] cannot find symbol
+  symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[26,12] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_SIRIMODEL
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[52,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_SIRIMODEL
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[13,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[14,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[21,36] cannot find symbol
+  symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[26,12] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_GUIDE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[52,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_GUIDE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[12,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[13,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[14,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[15,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[16,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[27,35] cannot find symbol
+  symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[32,12] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_CORE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[57,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_CORE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[12,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[13,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[14,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[15,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[16,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[58,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_ROBOTARM
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureWorldGenerator.java:[3,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[6,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[7,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[8,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[9,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[10,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[3,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[4,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[5,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[50,46] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.Menu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[52,38] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.Menu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[7,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[21,24] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[23,34] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[42,38] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[89,29] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/data/ConfigManager.java:[4,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/data/ConfigManager.java:[5,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/data/ConfigManager.java:[8,20] cannot find symbol
+  symbol:   class PYml
+  location: class net.bxx2004.futuretech.core.data.ConfigManager
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_MAKER.java:[19,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[11,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[16,35] cannot find symbol
+  symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[22,12] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_DOOR
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[47,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_DOOR
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/SlimefunFactory.java:[8,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/SlimefunFactory.java:[9,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/SlimefunFactory.java:[10,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRICPU.java:[13,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRICPU.java:[48,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_SIRICPU
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[7,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[22,34] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[33,38] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[60,47] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[60,20] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[71,36] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[71,53] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[87,29] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[14,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[15,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[26,39] cannot find symbol
+  symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[33,12] cannot find symbol
+  symbol:   class PItemStack
+  location: class net.bxx2004.futuretech.slimefun.main.machine.FT_CPUMAKER
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[59,12] cannot find symbol
+  symbol:   class PListener
+  location: class net.bxx2004.futuretech.slimefun.main.machine.FT_CPUMAKER
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[33,5] method does not override or implement a method from a supertype
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[38,5] method does not override or implement a method from a supertype
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.687 s
+[INFO] Finished at: 2022-06-08T23:10:09Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project FutureTech: Compilation failure: Compilation failure: 
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[12,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[13,48] package net.bxx2004.pandalib.bukkit.ptask.depend does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[14,48] package net.bxx2004.pandalib.bukkit.ptask.depend does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[15,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[16,34] package net.bxx2004.pandalibloader does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[22,23] package org.reflections does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[26,33] cannot find symbol
+[ERROR]   symbol: class BukkitPlugin
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[28,19] cannot find symbol
+[ERROR]   symbol:   class PLangNode
+[ERROR]   location: class net.bxx2004.futuretech.FutureTech
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[32,19] cannot find symbol
+[ERROR]   symbol:   class PCooldown
+[ERROR]   location: class net.bxx2004.futuretech.FutureTech
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[16,32] package net.bxx2004.java.reflect does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[17,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[18,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[19,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[20,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[21,40] package net.bxx2004.pandalib.bukkit.pgui does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[22,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[23,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[24,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[25,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/Item.java:[10,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/Item.java:[11,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/robot/FT_SIRIROBOT.java:[78,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.robot.FT_SIRIROBOT
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/Item.java:[40,21] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.Item<T>
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[11,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[17,34] cannot find symbol
+[ERROR]   symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[22,12] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_CPU
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_CPU.java:[48,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_CPU
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ENERGYORE.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ENERGYORE.java:[40,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_ENERGYORE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[11,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[13,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[21,40] cannot find symbol
+[ERROR]   symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[26,12] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_SIRIMODEL
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRIMODEL.java:[52,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_SIRIMODEL
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[13,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[14,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[21,36] cannot find symbol
+[ERROR]   symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[26,12] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_GUIDE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_GUIDE.java:[52,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_GUIDE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[12,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[13,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[14,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[15,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[16,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[27,35] cannot find symbol
+[ERROR]   symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[32,12] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_CORE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_CORE.java:[57,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_CORE
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[12,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[13,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[14,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[15,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[16,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_ROBOTARM.java:[58,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_ROBOTARM
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureWorldGenerator.java:[3,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[6,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[7,43] package net.bxx2004.pandalib.bukkit.pentity does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[8,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[9,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/world/FutureBlockPopulator.java:[10,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[3,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[4,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[5,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[50,46] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.Menu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/Menu.java:[52,38] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.Menu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[7,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[21,24] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[23,34] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[42,38] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/GuideMenu.java:[89,29] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.GuideMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/data/ConfigManager.java:[4,41] package net.bxx2004.pandalib.bukkit.pfile does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/data/ConfigManager.java:[5,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/core/data/ConfigManager.java:[8,20] cannot find symbol
+[ERROR]   symbol:   class PYml
+[ERROR]   location: class net.bxx2004.futuretech.core.data.ConfigManager
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_MAKER.java:[19,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[11,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[12,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[16,35] cannot find symbol
+[ERROR]   symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[22,12] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_DOOR
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/basic/FT_DOOR.java:[47,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.basic.FT_DOOR
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/SlimefunFactory.java:[8,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/SlimefunFactory.java:[9,45] package net.bxx2004.pandalib.bukkit.planguage does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/SlimefunFactory.java:[10,41] package net.bxx2004.pandalib.bukkit.putil does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRICPU.java:[13,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/items/materials/cpu/FT_SIRICPU.java:[48,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.items.materials.cpu.FT_SIRICPU
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[7,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[22,34] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[33,38] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[60,47] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[60,20] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[71,36] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[71,53] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/inventory/CraftMenu.java:[87,29] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.inventory.CraftMenu
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[14,41] package net.bxx2004.pandalib.bukkit.pitem does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[15,45] package net.bxx2004.pandalib.bukkit.plistener does not exist
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[26,39] cannot find symbol
+[ERROR]   symbol: class PItemStack
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[33,12] cannot find symbol
+[ERROR]   symbol:   class PItemStack
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.machine.FT_CPUMAKER
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/slimefun/main/machine/FT_CPUMAKER.java:[59,12] cannot find symbol
+[ERROR]   symbol:   class PListener
+[ERROR]   location: class net.bxx2004.futuretech.slimefun.main.machine.FT_CPUMAKER
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[33,5] method does not override or implement a method from a supertype
+[ERROR] /home/runner/work/maven-builds/maven-builds/static/f/bxx2004/FutureTech/master/workspace/src/main/java/net/bxx2004/futuretech/FutureTech.java:[38,5] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
