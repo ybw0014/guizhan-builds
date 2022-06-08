@@ -1,0 +1,104 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< me.jinou:EnchantLimit >------------------------
+[INFO] Building EnchanterLimit Build 1 zh-CN(JinOuYongGu) (git 881ae2f)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 3.7 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.pom
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.22/lombok-1.18.22.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.jar (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (0 B at 0 B/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar (0 B at 0 B/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar (0 B at 0 B/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar (0 B at 0 B/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ EnchantLimit ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ EnchantLimit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ EnchantLimit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/maven-builds/maven-builds/static/f/JinOuYongGu/EnchanterLimit/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ EnchantLimit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/JinOuYongGu/EnchanterLimit/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ EnchantLimit ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ EnchantLimit ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ EnchantLimit ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/JinOuYongGu/EnchanterLimit/master/workspace/target/EnchanterLimit-Build 1 zh-CN(JinOuYongGu) (git 881ae2f).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ EnchantLimit ---
+[INFO] Including com.github.Slimefun:Slimefun4:jar:RC-31 in the shaded jar.
+[WARNING] EnchanterLimit-Build 1 zh-CN(JinOuYongGu) (git 881ae2f).jar, Slimefun4-RC-31.jar define 2 overlapping resources: 
+[WARNING]   - config.yml
+[WARNING]   - plugin.yml
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/maven-builds/maven-builds/static/f/JinOuYongGu/EnchanterLimit/master/workspace/target/EnchanterLimit-Build 1 zh-CN(JinOuYongGu) (git 881ae2f).jar with /home/runner/work/maven-builds/maven-builds/static/f/JinOuYongGu/EnchanterLimit/master/workspace/target/EnchantLimit-Build 1 zh-CN(JinOuYongGu) (git 881ae2f)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.398 s
+[INFO] Finished at: 2022-06-08T23:10:17Z
+[INFO] ------------------------------------------------------------------------
