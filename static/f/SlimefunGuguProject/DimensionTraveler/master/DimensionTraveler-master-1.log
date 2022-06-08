@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< idv.hailelectronic:DimensionTraveler >----------------
+[INFO] Building DimensionTraveler Build 1 zh-CN(Ironnoob73) (git d627b94)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom (14 kB at 55 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.pom (1.5 kB at 2.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.5.8/fastutil-8.5.8.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.5.8/fastutil-8.5.8.pom (1.6 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.5.8/fastutil-8.5.8.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar (2.0 MB at 697 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/it/unimi/dsi/fastutil/8.5.8/fastutil-8.5.8.jar (23 MB at 6.6 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar (4.3 MB at 14 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DimensionTraveler ---
+[INFO] Deleting /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DimensionTraveler ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ DimensionTraveler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/target/classes
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/src/main/java/idv/hailelectronic/dimensiontraveler/dimensions/MirrorOfTheVoid.java: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/src/main/java/idv/hailelectronic/dimensiontraveler/dimensions/MirrorOfTheVoid.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/src/main/java/idv/hailelectronic/dimensiontraveler/dimensions/MirrorOfTheVoid.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DimensionTraveler ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ DimensionTraveler ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DimensionTraveler ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DimensionTraveler ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/DimensionTraveler/master/workspace/target/DimensionTraveler-Build 1 zh-CN(Ironnoob73) (git d627b94).jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.150 s
+[INFO] Finished at: 2022-06-08T23:09:37Z
+[INFO] ------------------------------------------------------------------------
