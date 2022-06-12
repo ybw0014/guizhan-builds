@@ -57,13 +57,13 @@
             }
         }
     },
-    "ybw0014/InfinityExpansion-CN:master": {
+    "SlimefunGuguProject/InfinityExpansion-CN:master": {
         "type": "maven",
         "options": {
             "hidden": true,
             "target": {
                 "name": "InfinityExpansion",
-                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
@@ -483,20 +483,6 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.17+"
-            }
-        }
-    },
-    "baoad/InfinityExpansion:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "InfinityExpansion",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.16+"
             }
         }
     },
