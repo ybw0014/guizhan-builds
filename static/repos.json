@@ -57,7 +57,7 @@
             }
         }
     },
-    "SlimefunGuguProject/InfinityExpansion-CN:master": {
+    "SlimefunGuguProject/InfinityExpansion:master": {
         "type": "maven",
         "options": {
             "hidden": true,
