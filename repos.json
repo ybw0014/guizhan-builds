@@ -57,13 +57,12 @@
             }
         }
     },
-    "ybw0014/InfinityExpansion-CN:master": {
+    "SlimefunGuguProject/InfinityExpansion:master": {
         "type": "maven",
         "options": {
-            "hidden": true,
             "target": {
                 "name": "InfinityExpansion",
-                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
             }
         },
         "dependencies": {
@@ -425,11 +424,6 @@
             "Minecraft": {
                 "1": "1.14+"
             }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.14+"
-            }
         }
     },
     "ybw0014/Networks-CN:master": {
@@ -487,17 +481,10 @@
         }
     },
     "baoad/InfinityExpansion:master": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "target": {
-                "name": "InfinityExpansion",
-                "version": "Build {version} zh-CN(baoad) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.16+"
-            }
+            "hidden": true,
+            "repo": "SlimefunGuguProject/InfinityExpansion:master"
         }
     },
     "baoad/Galactifun:master": {
@@ -828,38 +815,17 @@
         }
     },
     "ybw0014/InfinityExpansion-CN:test": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
             "hidden": true,
-            "target": {
-                "name": "InfinityExpansion",
-                "version": "Test {version} zh-CN(ybw0014) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.16+"
-            },
-            "Slimefun": {
-                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
-            }
+            "repo": "SlimefunGuguProject/InfinityExpansion:master"
         }
     },
     "baoad/InfinityExpansion:fix": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "target": {
-                "name": "InfinityExpansion",
-                "version": "Test {version} zh-CN(baoad) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.16+"
-            },
-            "Slimefun": {
-                "1": "汉化版[货运修复分支](https://github.com/StarWishsama/Slimefun4/releases/tag/test%2Fcargo_stacking_item)"
-            }
+            "hidden": true,
+            "repo": "SlimefunGuguProject/InfinityExpansion:master"
         }
     },
     "ybw0014/Networks-CN:test": {
