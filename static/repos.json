@@ -1531,11 +1531,22 @@
             }
         },
         "dependencies": {
-            "Java": {
-                "1": "11+"
-            },
             "Minecraft": {
                 "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Netheopoiesis:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Netheopoiesis",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.18+"
             }
         }
     }
