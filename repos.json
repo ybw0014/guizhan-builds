@@ -16,6 +16,10 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "39": "16+",
+                "1": "8+"
+            },
             "Minecraft": {
                 "1": "1.16+"
             }
@@ -54,20 +58,6 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
-            }
-        }
-    },
-    "SlimefunGuguProject/InfinityExpansion:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "InfinityExpansion",
-                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.16+"
             }
         }
     },
@@ -157,6 +147,10 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "20": "16+",
+                "1": "8+"
+            },
             "Minecraft": {
                 "1": "1.14+"
             }
@@ -213,6 +207,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
             "Minecraft": {
                 "1": "1.16+"
             }
@@ -443,10 +440,14 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
             "Minecraft": {
                 "1": "1.17+"
             },
             "Slimefun": {
+                "52": "汉化版[release-2022.6](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上",
                 "46": "汉化版[release-2022.4](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)及以上",
                 "1": "RC-27+"
             }
@@ -496,6 +497,9 @@
             }
         },
         "dependencies": {
+            "Paper": {
+                "1": "必须"
+            },
             "Minecraft": {
                 "1": "1.16+"
             }
@@ -780,38 +784,6 @@
             "Minecraft": {
                 "1": "1.16+"
             }
-        }
-    },
-    "SlimeTraditionalTranslation/LuckyPandas:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "LuckyPandas",
-                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
-            }
-        }
-    },
-    "SlimeTraditionalTranslation/EMC2:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "EMC2",
-                "version": "Build {version} zh-TW(SlimeTraditionalTranslation) (git {git_commit})"
-            }
-        }
-    },
-    "SlimeTraditionalTranslation/SMG:master": {
-        "type": "redirect",
-        "options": {
-            "hidden": true,
-            "repo": "SlimefunGuguProject/SMG:master"
-        }
-    },
-    "SlimeTraditionalTranslation/DankTech2:master": {
-        "type": "redirect",
-        "options": {
-            "hidden": true,
-            "repo": "ybw0014/DankTech2:master"
         }
     },
     "ybw0014/InfinityExpansion-CN:test": {
@@ -1531,11 +1503,39 @@
             }
         },
         "dependencies": {
-            "Java": {
-                "1": "11+"
-            },
             "Minecraft": {
                 "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/InfinityExpansion:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "InfinityExpansion",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Netheopoiesis:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Netheopoiesis",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
+            "Minecraft": {
+                "1": "1.18+"
             }
         }
     }
