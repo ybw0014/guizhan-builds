@@ -1569,5 +1569,19 @@
                 "1": "1.18+"
             }
         }
+    },
+    "SlimefunGuguProject/Magmanimous:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Magmanimous",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
     }
 }
