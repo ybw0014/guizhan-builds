@@ -1555,5 +1555,19 @@
                 "1": "1.16+"
             }
         }
+    },
+    "SlimefunGuguProject/CompressionCraft:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "CompressionCraft",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
     }
 }
