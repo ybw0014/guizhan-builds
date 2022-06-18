@@ -1583,5 +1583,84 @@
                 "1": "1.18+"
             }
         }
+    },
+    "SlimefunGuguProject/Wildernether:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Wildernether",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
+    "SlimefunGuguProject/DemonicExpansion:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DemonicExpansion",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.18.2+"
+            }
+        }
+    },
+    "SlimefunGuguProject/InfernalExpansion:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "InfernalExpansion",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Nexcavate:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Nexcavate",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Azap:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Azap",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
     }
 }
