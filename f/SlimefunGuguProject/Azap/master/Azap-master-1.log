@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< io.github.terslenk.azap:Azap >--------------------
+[INFO] Building Azap Build 1 zh-CN(SlimefunGuguProject) (git 10a1270)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom (14 kB at 67 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 2.6 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Azap ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Azap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Azap ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Azap/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Azap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Azap/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Azap ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Azap ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Azap ---
+[INFO] Building jar: /home/runner/work/maven-builds/maven-builds/static/f/SlimefunGuguProject/Azap/master/workspace/target/Azap-Build 1 zh-CN(SlimefunGuguProject) (git 10a1270).jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.162 s
+[INFO] Finished at: 2022-06-18T08:51:19Z
+[INFO] ------------------------------------------------------------------------
