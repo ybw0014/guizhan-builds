@@ -1579,12 +1579,15 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
             "Minecraft": {
                 "1": "1.18+"
             }
         }
     },
-    "SchnTgaiSpock/Wildernether:master": {
+    "SlimefunGuguProject/Wildernether:master": {
         "type": "maven",
         "options": {
             "target": {
@@ -1593,6 +1596,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
             "Minecraft": {
                 "1": "1.17+"
             }
@@ -1607,6 +1613,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
             "Minecraft": {
                 "1": "1.18.2+"
             }
@@ -1621,6 +1630,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
             "Minecraft": {
                 "1": "1.18+"
             }
@@ -1635,6 +1647,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
             "Minecraft": {
                 "1": "1.18+"
             }
@@ -1649,6 +1664,9 @@
             }
         },
         "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
             "Minecraft": {
                 "1": "1.17+"
             }
