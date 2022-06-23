@@ -1667,5 +1667,19 @@
                 "1": "1.17+"
             }
         }
+    },
+    "zimzaza4/SlimefunWarfare:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SlimefunWarfare-changed",
+                "version": "Build {version} zh-CN(zimzaza4) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
     }
 }
