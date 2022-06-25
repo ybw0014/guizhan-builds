@@ -170,7 +170,7 @@ export default {
             // 检测重定向
             if (this.repoInfo.type === 'redirect') {
                 let params = reposUtil.getInfoByRepoStr(this.repoInfo.options.repo)
-                this.$router.push({
+                this.$router.replace({
                     name: 'user-repo-branch',
                     params
                 })
@@ -183,7 +183,7 @@ export default {
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
                 this.builds = buildsUtil.getBuilds(this, this.repoStr)
                 if (!buildsUtil.exists(this.builds, { id: this.build })) {
-                    this.$router.push({
+                    this.$router.replace({
                         name: 'user-repo-branch'
                     })
                     return
