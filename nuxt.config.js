@@ -98,5 +98,7 @@ export default {
         webpack: {
             ignored: /(node_modules)|(.git)|(.eslintcache)|(.nuxt)/
         }
-    }
+    },
+
+    devServerHandlers: []
 }

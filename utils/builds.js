@@ -13,9 +13,11 @@ export default {
         return new Promise((resolve, reject) => {
             if (_.isNil(vueInst.$store.getters['builds/getBuilds'](repoStr))) {
                 request.getBuilds(repoDir).then((response) => {
-                    // get latest and builds
+                    // 获取 latest & builds
                     vueInst.$store.commit('builds/setLatest', { repoStr, latest: response.data.latest })
-                    vueInst.$store.commit('builds/setBuilds', { repoStr, builds: response.data.builds })
+                    // 存储倒序 builds 列表
+                    let reversedBuilds = _.reverse(_.cloneDeep(response.data.builds))
+                    vueInst.$store.commit('builds/setBuilds', { repoStr, builds: reversedBuilds })
                     resolve()
                 }).catch(reject)
             } else {
@@ -38,14 +40,10 @@ export default {
      * 从state中获取builds
      * @param vueInst vue实例
      * @param repoStr {string} 仓库名称 (user/repo:branch)
-     * @param reversed {boolean} 反转
      * @returns {Array<Object>} builds列表
      */
-    getBuilds (vueInst, repoStr, reversed) {
-        let result = vueInst.$store.getters['builds/getBuilds'](repoStr)
-        // TODO: 缓存
-        let reversedRes = _.reverse(_.cloneDeep(result))
-        return reversed ? reversedRes : result
+    getBuilds (vueInst, repoStr) {
+        return vueInst.$store.getters['builds/getBuilds'](repoStr)
     },
 
     /**

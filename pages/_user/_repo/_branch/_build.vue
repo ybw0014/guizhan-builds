@@ -94,7 +94,7 @@
                             <table class="dependency-info">
                                 <tr v-for="(info, key) in dependencyInfo" :key="key">
                                     <td>{{ key }}</td>
-                                    <td v-html="info"></td>
+                                    <td v-html="info" />
                                 </tr>
                             </table>
                         </div>
@@ -170,7 +170,7 @@ export default {
             // 检测重定向
             if (this.repoInfo.type === 'redirect') {
                 let params = reposUtil.getInfoByRepoStr(this.repoInfo.options.repo)
-                this.$router.push({
+                this.$router.replace({
                     name: 'user-repo-branch',
                     params
                 })
@@ -181,9 +181,9 @@ export default {
             this.repoDir = reposUtil.getDir(this, this.repoStr)
             // 加载构建列表
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
-                this.builds = buildsUtil.getBuilds(this, this.repoStr, true)
+                this.builds = buildsUtil.getBuilds(this, this.repoStr)
                 if (!buildsUtil.exists(this.builds, { id: this.build })) {
-                    this.$router.push({
+                    this.$router.replace({
                         name: 'user-repo-branch'
                     })
                     return
