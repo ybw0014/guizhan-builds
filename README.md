@@ -2,6 +2,9 @@
 
 此仓库包含构建页面前端代码，以及构建结果（也许以后会搬迁）。
 
+全球访问地址: https://builds.guizhanss.net/
+中国大陆镜像: https://builds.guizhanss.cn/
+
 ## 关于本项目
 
 Github Actions 提供了一定的自动构建功能，但下载构建结果需要GitHub账号，且构建结果90天后就过期了。  
