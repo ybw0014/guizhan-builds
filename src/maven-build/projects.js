@@ -35,7 +35,8 @@ module.exports = {
                             repoStr: repo,
                             user: repo.split('/')[0],
                             repo: repo.split('/')[1].split(':')[0],
-                            branch: repo.split(':')[1]
+                            branch: repo.split(':')[1],
+                            buildTool: json[repo].type
                         }
 
                         taskInfo.directory = taskInfo.user + '/' + taskInfo.repo + '/' + taskInfo.branch
@@ -91,6 +92,20 @@ module.exports = {
      */
     getWorkingDirectory (task) {
         return path.resolve(__dirname, '../../', config.projects_dir, task.directory, config.project_workspace_dir)
+    },
+
+    /**
+     * 构建前的准备工作
+     * @param task 任务
+     */
+    prepareBuild (task) {
+        return new Promise((resolve, reject) => {
+            logger.log('> 执行构建前准备任务')
+
+            Promise.all([
+                this.clearWorkspace(task)
+            ]).then(resolve, reject)
+        })
     },
 
     /**
@@ -161,7 +176,7 @@ module.exports = {
     },
 
     /**
-     * 清理任务工作区
+     * 清理任务工作目录
      * @param task
      */
     clearWorkspace (task) {

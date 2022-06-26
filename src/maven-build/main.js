@@ -88,8 +88,8 @@ module.exports = {
 
                 projects.hasUpdate(task, timestamp).then((version) => {
                     task.version = version
-                    task.status = '清理工作区'
-                    projects.clearWorkspace(task).then(resolve, reject)
+                    task.status = '构建前准备中'
+                    projects.prepareBuild(task).then(resolve, reject)
                 }, reject)
             }).catch(reject)
         })
@@ -115,7 +115,7 @@ module.exports = {
      * @returns {Promise} 构建成功则resolve
      */
     build (task) {
-        task.status = '编译项目中'
+        task.status = '构建项目中'
         return new Promise((resolve, reject) => {
             maven.build(task).then(() => {
                 logger.log('> 编译成功')
