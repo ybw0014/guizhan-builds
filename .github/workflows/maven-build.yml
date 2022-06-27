@@ -47,14 +47,14 @@ jobs:
       run: yarn
 
     - name: Setup environment
-      run: sh src/maven-build-setup.sh
+      run: sh src/guizhan-build-setup.sh
 
     - name: Run automatic build
-      id: maven-build
-      run: node src/maven-build.js
+      id: guizhan-build
+      run: node src/guizhan-build.js
 
     - name: Trigger nuxt build
-      if: steps.maven-build.outputs.HAS_UPDATE == 'true'
+      if: steps.guizhan-build.outputs.HAS_UPDATE == 'true'
       uses: peter-evans/repository-dispatch@v2
       with:
         token: ${{ secrets.BOT_TOKEN }}
