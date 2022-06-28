@@ -44,7 +44,7 @@ function setVersion (task) {
 
                 task.finalName = json.project.build.finalName
                     .replace('${project.name}', json.project.name)
-                    .replace('${project.version}', task.version)
+                    .replace('${project.version}', task.finalVersion)
                 /* eslint-disable no-template-curly-in-string */
 
                 // write pom.xml

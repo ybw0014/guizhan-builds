@@ -27,7 +27,8 @@ module.exports = {
  */
 function getProjects () {
     return new Promise((resolve, reject) => {
-        fs.readFile(path.resolve(process.cwd(), './static/repos.json'), 'utf-8')
+        const reposPath = !_.isNil(process.env.REPOS_PATH) ? process.env.REPOS_PATH : './static/repos.json'
+        fs.readFile(path.resolve(process.cwd(), reposPath), 'utf-8')
             .then((repos) => {
                 const tasks = []
                 const json = JSON.parse(repos)
@@ -112,7 +113,7 @@ function prepareBuild (task) {
         logger.log('> 执行构建前准备任务')
 
         let date = new Date(task.commit.timestamp)
-        task.version = task.options.target.version
+        task.finalVersion = task.options.target.version
             .replace('{version}', task.version)
             .replace('{git_commit}', task.commit.hash.substr(0, 7))
             .replace('{year}', date.getFullYear())
