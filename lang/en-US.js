@@ -1,5 +1,5 @@
 export default {
-    title: 'Guizhan Maven Builds',
+    title: 'Guizhan Builds',
     error: {
         back_home: 'Back to home page',
         404: {

@@ -1,5 +1,5 @@
-const logger = require('./maven-build/logger')
-const main = require('./maven-build/main')
+const logger = require('./guizhan-build/logger')
+const main = require('./guizhan-build/main')
 
 global.status = {
     tasks: {},

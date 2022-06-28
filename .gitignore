@@ -94,3 +94,6 @@ sw.*
 
 # Nuxt storm
 .components.gen.js
+
+# Local test
+/.local/
