@@ -1,5 +1,5 @@
 export default {
-    title: '鬼斩的 Maven 构建站',
+    title: '鬼斩的构建站',
     error: {
         back_home: '返回首页',
         404: {

@@ -1,4 +1,4 @@
-# 鬼斩的 Maven 构建页面
+# 鬼斩的构建页面
 
 此仓库包含构建页面前端代码，以及构建结果（也许以后会搬迁）。
 
@@ -48,6 +48,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 - `ybw0014/DynaTech:master` 部分为仓库信息，格式为`用户名/仓库名:分支`，需要完全按照这个格式来填写。
 - `type` **(必填)** 配置类型，可填写以下内容：
     - `maven`: Maven 项目，将读取 pom.xml 并构建项目
+    - `gradle`: Gradle 项目，将读取 build.gradle, settings.gradle, gradle.properties 并构建项目
     - `redirect`: 重定向项目，访问构建站时将重定向至新的仓库。在`options.repo`中设置仓库
 - `options` **(必填)** 构建设置
     - `customDir` *(可选)* 自定义构建目录，如果不指定则会使用默认的`用户名/仓库名/分支`作为构建目录
@@ -70,11 +71,13 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 
 要接入自动更新，你需要在`pom.xml`中添加[GuizhanLib](https://github.com/ybw0014/GuizhanLib)为前置，并在插件启用时启动自动更新检测。
 
-### 添加前置
+### 添加依赖
+
+#### Maven
 
 你需要在`pom.xml`中添加Jitpack的仓库:
 
-```
+```xml
     <repositories>
         <repository>
             <id>jitpack.io</id>
@@ -83,11 +86,11 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
     </repositories>
 ```
 
-并将GuizhanLib添加为附属:
+并将GuizhanLib添加为依赖:
 
 最新版本为: ![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
 
-```
+```xml
     <dependency>
         <groupId>net.guizhanss</groupId>
         <artifactId>GuizhanLib</artifactId>
@@ -98,7 +101,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 
 在`build`中，你需要将GuizhanLib迁移到你的包中，避免与其他插件冲突（如果已有`maven-shade-plugin`，只需要添加`relocation`即可）:
 
-```
+```xml
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -121,8 +124,6 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
                             <artifact>*:*</artifact>
                             <excludes>
                                 <exclude>META-INF/*</exclude>
-                                <!-- 重要: 如果你没有用到汉化库的语言功能，请保留下一行，否则请移除 -->
-                                <exclude>minecraft.*</exclude>
                             </excludes>
                         </filter>
                     </filters>
@@ -138,6 +139,42 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
                 </executions>
             </plugin>
         </plugins>
+```
+
+#### Gradle
+
+在`build.gradle`中添加JitPack仓库：
+```groovy
+repositories {
+    mavenCentral()
+    maven {
+        url = uri('https://jitpack.io')
+    }
+}
+```
+
+并将GuizhanLib添加为依赖:
+
+最新版本为: ![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
+
+```groovy
+dependencies {
+    implementation 'net.guizhanss:GuizhanLib:将此处替换为版本号'
+}
+```
+
+添加`shadowJar`插件，并迁移:
+
+```groovy
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java'
+}
+
+shadowJar {
+    relocate 'net.guizhanss.guizhanlib', '将此处替换为你的软件包.guizhanlib'
+    minimize()
+}
 ```
 
 ### 添加自动更新类

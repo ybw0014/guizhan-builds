@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         ## 欢迎来到鬼斩的构建站!
-        你可以在这里申请将你的任何Maven项目接入构建站。
+        你可以在这里申请将你的任何Maven/Gradle项目接入构建站。
         这里目前大部分是Slimefun附属插件，但你也可以将其他项目接入构建站。
 
         <strong><i>你必须填写标注为星号（*）的表单项</i></strong>
