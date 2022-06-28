@@ -498,10 +498,10 @@
         },
         "dependencies": {
             "Paper": {
-                "1": "必须"
+                "1": "需要Paper或其衍生服务端"
             },
             "Minecraft": {
-                "1": "1.16+"
+                "1": "1.17+"
             }
         }
     },
@@ -1710,6 +1710,20 @@
             },
             "Minecraft": {
                 "1": "1.18+"
+            }
+        }
+    },
+    "SlimefunGuguProject/Supreme:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Supreme",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
             }
         }
     }
