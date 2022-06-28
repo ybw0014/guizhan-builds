@@ -6,6 +6,7 @@
 const fileSystem = require('fs')
 const fs = fileSystem.promises
 const path = require('path')
+const childProcess = require('child_process')
 
 const logger = require('./logger')
 const projects = require('./projects')
@@ -62,7 +63,7 @@ function removeVersionFromBuild (task) {
  */
 function setProperties (task) {
     const propertiesPath = path.resolve(projects.getWorkingDirectory(task), './gradle.properties')
-    const line = 'version = ' + task.version
+    const line = 'version = ' + task.finalVersion
 
     return new Promise((resolve, reject) => {
         if (fileSystem.existsSync(propertiesPath)) {
@@ -127,12 +128,27 @@ function build (task) {
     return new Promise((resolve, reject) => {
         logger.log('> 构建项目: ' + task.directory)
 
-        // let dir = projects.getWorkingDirectory(task)
-        // let logFile = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)
-        //
-        // let isShadowJar = task.options.gradle.shadowJar
+        let dir = projects.getWorkingDirectory(task)
+        let logFilename = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)
+        let logFile = fileSystem.openSync(logFilename, 'w')
 
-        reject(new Error('not yet'))
+        // arguments
+        let args = ['clean', 'build']
+        if (task.options.gradle && task.options.gradle.shadowJar) {
+            args.push('shadowJar')
+        }
+
+        let gradleOptions = {
+            cwd: dir,
+            env: process.env,
+            stdio: [process.stdin, logFile, logFile],
+            encoding: 'utf-8'
+        }
+
+        // Call gradle wrapper
+        childProcess.spawnSync('gradlew', args, gradleOptions)
+
+        throw (new Error('not yet' + args.toString()))
     })
 }
 

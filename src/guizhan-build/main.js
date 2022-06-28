@@ -140,7 +140,7 @@ function build (task) {
             logger.log('> 编译失败')
             logger.error(error)
             task.success = false
-            resolve()
+            // resolve()
         })
     })
 }
