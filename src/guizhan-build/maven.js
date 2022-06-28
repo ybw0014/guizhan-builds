@@ -31,7 +31,7 @@ function setVersion (task) {
         fs.readFile(pomFile, 'utf-8').then((data) => { // read pom.xml
             xml.toJSON(data).then((json) => { // xml to json
                 // version
-                json.project.version = task.version
+                json.project.version = task.finalVersion
 
                 // target name
                 if (!json.project.build) {
