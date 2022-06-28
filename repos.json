@@ -1695,5 +1695,22 @@
                 "1": "1.16+"
             }
         }
+    },
+    "SlimefunGuguProject/ThermalFun:master": {
+        "type": "gradle",
+        "options": {
+            "target": {
+                "name": "ThermalFun",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "17+"
+            },
+            "Minecraft": {
+                "1": "1.18+"
+            }
+        }
     }
 }
