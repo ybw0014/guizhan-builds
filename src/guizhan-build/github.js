@@ -53,7 +53,7 @@ function clone (task) {
     return new Promise((resolve, reject) => {
         let dir = projects.getWorkingDirectory(task)
         let gitOptions = {
-            cwd: dir,
+            cwd: process.cwd(),
             env: process.env,
             stdio: [process.stdin, process.stdout, process.stderr],
             encoding: 'utf-8'
@@ -69,6 +69,7 @@ function clone (task) {
             '--single-branch'
         ], gitOptions)
 
+        gitOptions.cwd = dir
         logger.log('> 已克隆仓库,正在将分支重置到:', task.commit.hash)
         childProcess.spawnSync('git', [
             'reset',
@@ -111,7 +112,11 @@ function pushChanges (task) {
             commitMsg
         ], gitOptions)
 
-        childProcess.spawnSync('git', ['push', 'origin', '--force'], gitOptions)
+        childProcess.spawnSync('git', [
+            'push',
+            'origin',
+            '--force'
+        ], gitOptions)
 
         logger.log('> 已推送至远程仓库')
         resolve()

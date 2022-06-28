@@ -24,6 +24,7 @@ module.exports = {
  */
 function setVersion (task) {
     return new Promise((resolve, reject) => {
+        task.finalName = task.options.target.name + '-' + task.finalVersion
         Promise.all([
             removeVersionFromBuild(task),
             setProperties(task),
@@ -129,7 +130,8 @@ function build (task) {
         logger.log('> 构建项目: ' + task.directory)
 
         let dir = projects.getWorkingDirectory(task)
-        let logFilename = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)
+        let logBranch = task.branch.replace('/', '-')
+        let logFilename = path.resolve(dir, `../${task.repo}-${logBranch}-${task.version}.log`)
         let logFile = fileSystem.openSync(logFilename, 'w')
 
         // arguments
@@ -146,9 +148,8 @@ function build (task) {
         }
 
         // Call gradle wrapper
-        childProcess.spawnSync('gradlew', args, gradleOptions)
-
-        throw (new Error('not yet' + args.toString()))
+        childProcess.spawnSync('./gradlew', args, gradleOptions)
+        resolve()
     })
 }
 
@@ -163,7 +164,13 @@ function relocateTarget (task) {
     }
 
     let dir = projects.getWorkingDirectory(task)
-    let src = path.resolve(dir, './build/libs/', `${task.finalName}.jar`)
+    let buildName = task.finalName
+    if (task.options.gradle && task.options.gradle.shadowJar) {
+        buildName += '-all'
+    }
+    buildName += '.jar'
+
+    let src = path.resolve(dir, './build/libs/', `${buildName}`)
 
     return fs.rename(src, path.resolve(dir, '../', `${task.finalName}.jar`))
 }

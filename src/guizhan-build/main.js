@@ -140,7 +140,7 @@ function build (task) {
             logger.log('> 编译失败')
             logger.error(error)
             task.success = false
-            // resolve()
+            resolve()
         })
     })
 }
@@ -155,11 +155,17 @@ function upload (task) {
     return new Promise((resolve, reject) => {
         logger.log('> 上传构建文件')
 
-        Promise.all([
+        let workflows = [
             projects.addBuild(task),
-            projects.addBadge(task),
-            maven.relocateTarget(task)
-        ]).then(() => {
+            projects.addBadge(task)
+        ]
+        if (task.buildTool === 'gradle') {
+            workflows.push(gradle.relocateTarget(task))
+        } else {
+            workflows.push(maven.relocateTarget(task))
+        }
+
+        Promise.all(workflows).then(() => {
             core.setOutput('HAS_UPDATE', 'true')
             resolve()
         }, reject)

@@ -66,7 +66,8 @@ function build (task) {
         logger.log('> 构建项目: ' + task.directory)
 
         let dir = projects.getWorkingDirectory(task)
-        let logFile = path.resolve(dir, `../${task.repo}-${task.branch}-${task.version}.log`)
+        let logBranch = task.branch.replace('/', '-')
+        let logFilename = path.resolve(dir, `../${task.repo}-${logBranch}-${task.version}.log`)
 
         let mvnDir = path.join(dir, './.mvn')
         // 如有.mvn目录则移除
@@ -77,7 +78,7 @@ function build (task) {
         const mvn = maven.create({
             cwd: dir,
             batchMode: true,
-            logFile
+            logFilename
         })
         mvn.execute(['clean', 'package']).then(resolve, reject)
     })
