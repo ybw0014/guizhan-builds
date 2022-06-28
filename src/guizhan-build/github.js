@@ -53,7 +53,7 @@ function clone (task) {
     return new Promise((resolve, _reject) => {
         let dir = projects.getWorkingDirectory(task)
         let gitOptions = {
-            cwd: process.cwd(),
+            cwd: path.resolve(__dirname, '../../'),
             env: process.env,
             stdio: [process.stdin, process.stdout, process.stderr],
             encoding: 'utf-8'
@@ -95,7 +95,7 @@ function pushChanges (task) {
         let addFiles = path.resolve(dir, '../') + '/*'
         let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.repoStr + ' (' + task.version + ')'
         let gitOptions = {
-            cwd: dir,
+            cwd: path.resolve(__dirname, '../../'),
             env: process.env,
             stdio: [process.stdin, process.stdout, process.stderr],
             encoding: 'utf-8'

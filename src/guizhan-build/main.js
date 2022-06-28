@@ -4,6 +4,7 @@
  */
 
 const core = require('@actions/core')
+const childProcess = require('child_process')
 
 const datetime = require('./datetime')
 const github = require('./github')
@@ -11,6 +12,7 @@ const gradle = require('./gradle')
 const logger = require('./logger')
 const maven = require('./maven')
 const projects = require('./projects')
+const path = require('path')
 
 module.exports = {
     start
@@ -21,6 +23,32 @@ module.exports = {
  * @returns {Promise} 处理完工作流中所有任务后返回的 Promise
  */
 function start () {
+    // Setup
+    // let gitOptions = {
+    //     cwd: path.resolve(__dirname, '../../'),
+    //     env: process.env,
+    //     stdio: [process.stdin, process.stdout, process.stderr],
+    //     encoding: 'utf-8'
+    // }
+    // childProcess.spawnSync('git', [
+    //     'config',
+    //     'user.name',
+    //     process.env.BOT_USERNAME
+    // ], gitOptions)
+    // childProcess.spawnSync('git', [
+    //     'config',
+    //     'user.name',
+    //     process.env.BOT_EMAIL
+    // ], gitOptions)
+    // childProcess.spawnSync('git', [
+    //     'remote',
+    //     'set-url',
+    //     'origin',
+    //     `https://${process.env.BOT_TOKEN}@github.com/ybw0014/guizhan-builds.git`
+    // ], gitOptions)
+
+    logger.log('> 正在克隆仓库')
+
     return new Promise((resolve, reject) => {
         logger.log('正在加载所有项目')
 
