@@ -29,5 +29,5 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :build
 > Task :shadowJar
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 26s
 5 actionable tasks: 4 executed, 1 up-to-date
