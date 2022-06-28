@@ -41,6 +41,9 @@
                         },
                         "repo": {
                             "type": "string"
+                        },
+                        "gradle": {
+                            "type": "object"
                         }
                     }
                 },
