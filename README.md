@@ -2,6 +2,9 @@
 
 此仓库包含构建页面前端代码，以及构建结果（也许以后会搬迁）。
 
+全球访问地址: https://builds.guizhanss.net/
+中国大陆镜像: https://builds.guizhanss.cn/
+
 ## 关于本项目
 
 Github Actions 提供了一定的自动构建功能，但下载构建结果需要GitHub账号，且构建结果90天后就过期了。  
@@ -195,16 +198,3 @@ shadowJar {
 3. 从构建站下载最新版本的jar，存放于`/plugins/updates`目录中，并提示重启后更新
 
 目前更新版本不会更改文件名，所以需要在游戏内使用`/sf versions`来确认版本。
-
-**注意**: 如果插件使用了InfinityLib, 在`pom.xml`中修改 InfinityLib 依赖设置为：
-
-```
-    <dependency>
-        <groupId>net.guizhanss</groupId>
-        <artifactId>InfinityLib</artifactId>
-        <version>将此处替换为版本号</version>
-        <scope>compile</scope>
-    </dependency>
-```
-
-版本号选择`1.3.10`及以上的版本，仅需修改默认构造函数的参数即可。
