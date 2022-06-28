@@ -47,8 +47,8 @@ function removeVersionFromBuild (task) {
             let newConfig = config
                 .replace('\r\n', '\n')
                 .split('\n')
-                .filter((value, index) => {
-                    return !value.startsWith('version')
+                .filter((cfgLine) => {
+                    return !cfgLine.startsWith('version')
                 })
                 .join('\n')
 
@@ -72,8 +72,8 @@ function setProperties (task) {
                 let newConfigs = config
                     .replace('\r\n', '\n')
                     .split('\n')
-                    .filter((value, index) => {
-                        return !value.startsWith('version')
+                    .filter((cfgLine) => {
+                        return !cfgLine.startsWith('version')
                     })
 
                 newConfigs.push(line)
@@ -104,8 +104,8 @@ function setSettings (task) {
                 let newConfigs = config
                     .replace('\r\n', '\n')
                     .split('\n')
-                    .filter((value, index) => {
-                        return !value.startsWith('rootProject.name')
+                    .filter((cfgLine) => {
+                        return !cfgLine.startsWith('rootProject.name')
                     })
 
                 newConfigs.push(line)
@@ -126,7 +126,7 @@ function setSettings (task) {
  * @returns {Promise}
  */
 function build (task) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, _reject) => {
         logger.log('> 构建项目: ' + task.directory)
 
         let dir = projects.getWorkingDirectory(task)
@@ -146,7 +146,6 @@ function build (task) {
             stdio: [process.stdin, logFile, logFile],
             encoding: 'utf-8'
         }
-
         // Call gradle wrapper
         childProcess.spawnSync('./gradlew', args, gradleOptions)
         resolve()

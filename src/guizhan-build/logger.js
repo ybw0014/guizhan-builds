@@ -43,5 +43,11 @@ function error (...messages) {
  * @param error
  */
 function axiosError (error) {
-    console.error('axios错误: ', error.data ? error.data.message : error.response ? error.response.statusText : '无响应')
+    if (error.data) {
+        console.error('axios错误: ', error.data.message)
+    } else if (error.response) {
+        console.error('axios错误: ', error.response.statusText)
+    } else {
+        console.error('axios错误: 无响应')
+    }
 }

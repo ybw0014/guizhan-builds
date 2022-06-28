@@ -50,7 +50,7 @@ function getLatestCommit (task) {
  * @returns {Promise} 如果任务均执行成功则resolve
  */
 function clone (task) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, _reject) => {
         let dir = projects.getWorkingDirectory(task)
         let gitOptions = {
             cwd: process.cwd(),
@@ -88,7 +88,7 @@ function clone (task) {
  * @returns {Promise<unknown>}
  */
 function pushChanges (task) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, _reject) => {
         logger.log('> 推送更改')
 
         let dir = projects.getWorkingDirectory(task)
