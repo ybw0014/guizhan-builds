@@ -1733,5 +1733,22 @@
                 "1": "1.17+"
             }
         }
+    },
+    "SlimefunGuguProject/FN-FAL-s-Amplifications:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "FN-FAL-s-Amplifications",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
+            "Minecraft": {
+                "1": "1.15+"
+            }
+        }
     }
 }
