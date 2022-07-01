@@ -78,20 +78,10 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 
 #### Maven
 
-你需要在`pom.xml`中添加Jitpack的仓库:
+你需要添加GuizhanLib为依赖:
 
-```xml
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
-```
-
-并将GuizhanLib添加为依赖:
-
-最新版本为: ![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
+最新版本为: [![Maven Central](https://img.shields.io/maven-central/v/net.guizhanss/GuizhanLib.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22net.guizhanss%22%20AND%20a:%22GuizhanLib%22)
+![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
 
 ```xml
     <dependency>
@@ -146,19 +136,17 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 
 #### Gradle
 
-在`build.gradle`中添加JitPack仓库：
+在`build.gradle`中添加Maven Central：
 ```groovy
 repositories {
     mavenCentral()
-    maven {
-        url = uri('https://jitpack.io')
-    }
 }
 ```
 
 并将GuizhanLib添加为依赖:
 
-最新版本为: ![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
+最新版本为: [![Maven Central](https://img.shields.io/maven-central/v/net.guizhanss/GuizhanLib.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22net.guizhanss%22%20AND%20a:%22GuizhanLib%22)
+![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
 
 ```groovy
 dependencies {
