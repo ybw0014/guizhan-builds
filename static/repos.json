@@ -1751,7 +1751,7 @@
             }
         }
     },
-    "JasperChaseTOQ/DyeBench:master": {
+    "SlimefunGuguProject/DyeBench:master": {
         "type": "maven",
         "options": {
             "target": {
