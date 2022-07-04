@@ -1750,5 +1750,19 @@
                 "1": "1.15+"
             }
         }
+    },
+    "SlimefunGuguProject/DyeBench:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "DyeBench",
+                "version": "Build {version} zh-CN(LinYingLY) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
