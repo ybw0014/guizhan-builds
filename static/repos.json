@@ -1764,5 +1764,19 @@
                 "1": "1.14+"
             }
         }
+    },
+    "srlss123/PhoenixSciences:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "PhoenixSciences",
+                "version": "Build {version} zh-CN(srlss123) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
