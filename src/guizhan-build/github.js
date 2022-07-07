@@ -91,8 +91,8 @@ function pushChanges (task) {
     return new Promise((resolve, _reject) => {
         logger.log('> 推送更改')
 
-        let dir = projects.getWorkingDirectory(task)
-        let addFiles = path.resolve(dir, '../') + '/*'
+        // let dir = projects.getWorkingDirectory(task)
+        // let addFiles = path.resolve(dir, '../') + '/*'
         let commitMsg = (task.success ? '构建成功: ' : '构建失败: ') + task.repoStr + ' (' + task.version + ')'
         let gitOptions = {
             cwd: path.resolve(__dirname, '../../'),
@@ -103,7 +103,7 @@ function pushChanges (task) {
 
         childProcess.spawnSync('git', [
             'add',
-            addFiles
+            '.'
         ], gitOptions)
 
         childProcess.spawnSync('git', [
