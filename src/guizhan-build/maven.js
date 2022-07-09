@@ -78,7 +78,7 @@ function build (task) {
         const mvn = maven.create({
             cwd: dir,
             batchMode: true,
-            logFilename
+            logFile: logFilename
         })
         mvn.execute(['clean', 'package']).then(resolve, reject)
     })
