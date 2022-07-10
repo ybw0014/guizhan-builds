@@ -1778,5 +1778,19 @@
                 "1": "1.14+"
             }
         }
+    },
+    "ybw0014/GuizhanLibPlugin:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "GuizhanLibPlugin",
+                "version": "Build {version} (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
