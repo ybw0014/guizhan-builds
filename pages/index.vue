@@ -145,12 +145,12 @@ export default {
     },
     mounted () {
         // announcement
-        request.getAnnouncement(this)
+        request.getAnnouncement(this.$i18n.getBrowserLocale())
             .then((response) => {
                 this.announcement = markdown.render(response.data)
             })
             .catch(() => {
-                this.announcement = '公告加载失败'
+                this.announcement = 'Failed to load announcement'
             })
         // repos
         reposUtil.loadRepos(this).then(() => {
