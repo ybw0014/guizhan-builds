@@ -59,8 +59,10 @@ export default {
             // 加载构建列表
             buildsUtil.loadBuilds(this, this.repoStr, this.repoDir).then(() => {
                 let builds = buildsUtil.getBuilds(this, this.repoStr)
+                let foundSuccessfulBuild = false
                 _.forEach(builds, (build) => {
                     if (build.success) {
+                        foundSuccessfulBuild = true
                         this.$router.replace({
                             name: 'user-repo-branch-build',
                             params: { build: build.id }
@@ -69,11 +71,13 @@ export default {
                     }
                 })
 
-                // 未搜寻到最新的成功构建，则显示最新构建
-                this.$router.replace({
-                    name: 'user-repo-branch-build',
-                    params: { build: _.first(builds).id }
-                })
+                if (!foundSuccessfulBuild) {
+                    // 未搜寻到最新的成功构建，则显示最新构建
+                    this.$router.replace({
+                        name: 'user-repo-branch-build',
+                        params: { build: _.first(builds).id }
+                    })
+                }
             }).catch(() => {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
