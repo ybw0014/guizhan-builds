@@ -9,6 +9,11 @@ module.exports = {
     deliverBuildStatus
 }
 
+/**
+ * 通过QQ发送构建状态
+ * @param task 任务
+ * @returns {Promise}
+ */
 function deliverBuildStatus (task) {
     return new Promise((resolve, reject) => {
         let build = {
@@ -22,7 +27,7 @@ function deliverBuildStatus (task) {
         axios({
             url: process.env.WEBHOOK_URL,
             method: 'post',
-            headers: { Authorization: process.env.WEBHOOK_AUTHORIZATION },
+            headers: { Authorization: process.env.WEBHOOK_KEY },
             data: build
         }).then(resolve, reject)
     })
