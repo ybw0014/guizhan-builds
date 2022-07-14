@@ -13,6 +13,7 @@ const gradle = require('./gradle')
 const logger = require('./logger')
 const maven = require('./maven')
 const projects = require('./projects')
+const qq = require('./qq')
 
 module.exports = {
     start
@@ -185,7 +186,8 @@ function upload (task) {
 
         let workflows = [
             projects.addBuild(task),
-            projects.addBadge(task)
+            projects.addBadge(task),
+            qq.deliverBuildStatus(task)
         ]
         if (task.buildTool === 'gradle') {
             workflows.push(gradle.relocateTarget(task))
