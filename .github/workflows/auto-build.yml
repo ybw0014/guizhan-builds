@@ -14,6 +14,8 @@ jobs:
       BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
       BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
       BOT_EMAIL: ${{ secrets.BOT_EMAIL }}
+      WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}
 
     steps:
     - name: Checking out Repository
