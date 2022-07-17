@@ -1,0 +1,107 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< ne.fnfal113:FNAmplifications >--------------------
+[INFO] Building FN-FAL-s-Amplifications Build 8 zh-CN(SlimefunGuguProject) (git ea369ec)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.StarWishsama:Slimefun4:jar:2022.06 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/slimefun-addon-community/extrautils/73e76ac06c/extrautils-73e76ac06c.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/slimefun-addon-community/extrautils/73e76ac06c/extrautils-73e76ac06c.pom (2.9 kB at 4.8 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/MilkBowl/VaultAPI/1.7/VaultAPI-1.7.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/MilkBowl/VaultAPI/1.7/VaultAPI-1.7.pom (3.5 kB at 6.2 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/groups/public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/groups/public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 6.1 kB/s)
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.5 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.pom
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.pom (6.5 kB at 35 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 17 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/junit/junit/4.10/junit-4.10.pom (2.3 kB at 13 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 2.7 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 32 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom (38 kB at 211 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/slimefun-addon-community/extrautils/73e76ac06c/extrautils-73e76ac06c.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/MilkBowl/VaultAPI/1.7/VaultAPI-1.7.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/slimefun-addon-community/extrautils/73e76ac06c/extrautils-73e76ac06c.jar (24 kB at 84 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/MilkBowl/VaultAPI/1.7/VaultAPI-1.7.jar (13 kB at 42 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.jar (1.0 MB at 1.4 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (24 kB at 134 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar (77 kB at 176 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/junit/junit/4.10/junit-4.10.jar (253 kB at 546 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ FNAmplifications ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ FNAmplifications ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ FNAmplifications ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 179 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/target/classes
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/src/main/java/ne/fnfal113/fnamplifications/machines/ElectricBlockBreaker.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/src/main/java/ne/fnfal113/fnamplifications/machines/ElectricBlockBreaker.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/src/main/java/ne/fnfal113/fnamplifications/utils/pdc/ItemStackListPdcType.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/src/main/java/ne/fnfal113/fnamplifications/utils/pdc/ItemStackListPdcType.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ FNAmplifications ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ FNAmplifications ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ FNAmplifications ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ FNAmplifications ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/target/FN-FAL-s-Amplifications-Build 8 zh-CN(SlimefunGuguProject) (git ea369ec).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ FNAmplifications ---
+[INFO] Including com.github.slimefun-addon-community:extrautils:jar:73e76ac06c in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Including net.guizhanss:GuizhanLib:jar:0.9.9 in the shaded jar.
+[WARNING] FN-FAL-s-Amplifications-Build 8 zh-CN(SlimefunGuguProject) (git ea369ec).jar, bstats-base-3.0.0.jar, bstats-bukkit-3.0.0.jar, extrautils-73e76ac06c.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/target/FN-FAL-s-Amplifications-Build 8 zh-CN(SlimefunGuguProject) (git ea369ec).jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/FN-FAL-s-Amplifications/main/workspace/target/FNAmplifications-Build 8 zh-CN(SlimefunGuguProject) (git ea369ec)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.621 s
+[INFO] Finished at: 2022-07-17T01:12:23Z
+[INFO] ------------------------------------------------------------------------
