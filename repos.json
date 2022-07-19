@@ -1553,6 +1553,10 @@
             },
             "Minecraft": {
                 "1": "1.18+"
+            },
+            "Slimefun": {
+                "52": "汉化版[ccf6000-canary 构建#35](/StarWishsama/Slimefun4/master/35)及以上",
+                "1": "汉化版[2022.06-release](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
             }
         }
     },
