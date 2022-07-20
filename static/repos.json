@@ -1536,6 +1536,9 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "汉化版[2022.06-release](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
             }
         }
     },
