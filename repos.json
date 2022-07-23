@@ -1810,7 +1810,7 @@
         "options": {
             "target": {
                 "name": "Slimefun",
-                "version": "{year}.{month}-release"
+                "version": "{Year}.{Month}-release"
             }
         },
         "dependencies": {
