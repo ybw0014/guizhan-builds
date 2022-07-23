@@ -116,7 +116,7 @@ function check (task) {
                 hash: commit.sha,
                 timestamp,
                 message: commit.commit.message,
-                author: commit.author.login
+                author: commit.commit.author.name
             }
 
             projects.hasUpdate(task, timestamp).then((version) => {
