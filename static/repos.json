@@ -1804,5 +1804,22 @@
                 "1": "1.14+"
             }
         }
+    },
+    "StarWishsama/Slimefun4:release": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Slimefun",
+                "version": "{year}.{month}-release"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "1": "16+"
+            },
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
     }
 }
