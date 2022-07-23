@@ -116,9 +116,11 @@ function prepareBuild (task) {
         task.finalVersion = task.options.target.version
             .replace('{version}', task.version)
             .replace('{git_commit}', task.commit.hash.substr(0, 7))
-            .replace('{year}', date.getFullYear())
-            .replace('{month}', date.getMonth())
-            .replace('{day}', date.getDay())
+            .replace('{Year}', date.getFullYear())
+            .replace('{year}', date.getYear())
+            .replace('{Month}', (date.getMonth() + 1).toString().padStart(2, '0'))
+            .replace('{month}', date.getMonth() + 1)
+            .replace('{date}', date.getDate())
 
         Promise.all([
             this.clearWorkspace(task)
