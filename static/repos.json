@@ -1821,5 +1821,20 @@
                 "1": "1.14+"
             }
         }
-    }
+    },
+        "SlimefunGuguProject/SlimeHUD:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "ybw0014/SlimeHUD/master",
+            "target": {
+                "name": "SlimeHUD",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
 }
