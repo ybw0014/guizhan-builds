@@ -1822,7 +1822,7 @@
             }
         }
     },
-        "SlimefunGuguProject/SlimeHUD:master": {
+    "SlimefunGuguProject/SlimeHUD:master": {
         "type": "maven",
         "options": {
             "customDir": "ybw0014/SlimeHUD/master",
@@ -1837,4 +1837,19 @@
             }
         }
     },
+    "SlimefunGuguProject/MoStuff-WIP-:master":{
+        "type":"maven",
+        "options":{
+            "customDir":"ybw0014/MoStuff-WIP-/master",
+            "target":{
+                "name":"MoStuff-WIP-",
+                "version":"Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies":{
+            "Minecraft":{
+                "1":"1.14+"
+            }
+        }
+    }
 }
