@@ -1833,6 +1833,9 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
+            },
+            "GuizhanLib": {
+                "1": "[1.0.0 构建#7](/ybw0014/GuizhanLibPlugin/master)及以上"
             }
         }
     },
