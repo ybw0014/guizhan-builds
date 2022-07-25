@@ -1821,5 +1821,33 @@
                 "1": "1.14+"
             }
         }
+    },
+    "SlimefunGuguProject/SlimeHUD:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SlimeHUD",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/MoStuff:master":{
+        "type":"maven",
+        "options":{
+            "target":{
+                "name":"MoStuff",
+                "version":"Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies":{
+            "Minecraft":{
+                "1":"1.14+"
+            }
+        }
     }
 }
