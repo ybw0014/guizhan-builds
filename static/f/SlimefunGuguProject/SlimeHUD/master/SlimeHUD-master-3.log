@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< io.github.schntgaispock.slimehud:SlimeHUD >--------------
+[INFO] Building SlimeHUD Build 3 zh-CN(SlimefunGuguProject) (git db57c10)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.pom (13 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.jar (141 kB at 2.1 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype-snapshot: https://s01.oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom (5.8 kB at 14 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom (14 kB at 14 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 5.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.0.0/GuizhanLibPlugin-1.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.0.0/GuizhanLibPlugin-1.0.0.pom (10 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.0.0/GuizhanLib-api-1.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.0.0/GuizhanLib-api-1.0.0.pom (8.2 kB at 8.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib/1.0.0/GuizhanLib-1.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib/1.0.0/GuizhanLib-1.0.0.pom (9.6 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.0.0/GuizhanLibPlugin-1.0.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.0.0/GuizhanLib-api-1.0.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.jar (0 B at 0 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar (27 kB at 16 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.0.0/GuizhanLib-api-1.0.0.jar (366 kB at 134 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.0.0/GuizhanLibPlugin-1.0.0.jar (671 kB at 202 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar (91 kB at 195 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimeHUD ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimeHUD ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimeHUD ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimeHUD ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimeHUD ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimeHUD ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimeHUD ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/target/SlimeHUD-Build 3 zh-CN(SlimefunGuguProject) (git db57c10).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.3.0:shade (default) @ SlimeHUD ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:1.3.9 in the shaded jar.
+[INFO] Including org.projectlombok:lombok:jar:1.18.24 in the shaded jar.
+[INFO] Including javax.annotation:javax.annotation-api:jar:1.3.2 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Minimizing jar io.github.schntgaispock.slimehud:SlimeHUD:jar:Build 3 zh-CN(SlimefunGuguProject) (git db57c10)
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/target/classes (Is a directory)
+[INFO] Dependency-reduced POM written at: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/dependency-reduced-pom.xml
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[INFO] Minimized 1124 -> 876 (77%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/target/SlimeHUD-Build 3 zh-CN(SlimefunGuguProject) (git db57c10).jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/SlimeHUD/master/workspace/target/SlimeHUD-Build 3 zh-CN(SlimefunGuguProject) (git db57c10)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.227 s
+[INFO] Finished at: 2022-07-31T16:17:43Z
+[INFO] ------------------------------------------------------------------------
