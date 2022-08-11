@@ -1543,6 +1543,10 @@
             },
             "Slimefun": {
                 "1": "汉化版[2022.06-release](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
+            },
+            "GuizhanLib": {
+                "4": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
+                "1": "不需要"
             }
         }
     },
