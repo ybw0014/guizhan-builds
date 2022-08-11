@@ -1,0 +1,339 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.github.mooy1:InfinityExpansion >------------------
+[INFO] Building InfinityExpansion Build 4 zh-CN(SlimefunGuguProject) (git f090169)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/StarWishsama/Slimefun4/2022.06/Slimefun4-2022.06.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/StarWishsama/Slimefun4/2022.06/Slimefun4-2022.06.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/StarWishsama/Slimefun4/2022.06/Slimefun4-2022.06.pom (12 kB at 125 kB/s)
+[WARNING] The POM for com.github.StarWishsama:Slimefun4:jar:2022.06 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.pom (1.5 kB at 99 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/InfinityLib/1.3.4/InfinityLib-1.3.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/InfinityLib/1.3.4/InfinityLib-1.3.4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/InfinityLib/1.3.4/InfinityLib-1.3.4.pom (5.8 kB at 106 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom (3.2 kB at 200 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom (5.6 kB at 375 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom (3.2 kB at 212 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 99 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom (2.8 kB at 202 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom (1.5 kB at 109 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom (3.0 kB at 200 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom (3.2 kB at 228 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom (3.2 kB at 246 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.pom (2.5 kB at 134 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 26 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.pom (10 kB at 117 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom (37 kB at 2.1 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom (3.2 kB at 160 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom (5.1 kB at 392 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom (3.2 kB at 167 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom (1.2 kB at 83 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom (2.8 kB at 166 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom (3.0 kB at 188 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom (3.2 kB at 86 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom (3.2 kB at 51 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom (820 B at 55 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (2.0 kB at 141 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (766 B at 17 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom (640 B at 38 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom (9.7 kB at 540 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/3/commons-parent-3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/3/commons-parent-3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom (12 kB at 369 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom (1.4 kB at 90 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.pom (10 kB at 603 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom (1.7 kB at 41 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom (1.5 kB at 40 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib/1.0.1/GuizhanLib-1.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/1.0.1/GuizhanLib-1.0.1.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib/1.0.1/GuizhanLib-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/StarWishsama/Slimefun4/2022.06/Slimefun4-2022.06.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/InfinityLib/1.3.4/InfinityLib-1.3.4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/StarWishsama/Slimefun4/2022.06/Slimefun4-2022.06.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/InfinityLib/1.3.4/InfinityLib-1.3.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/net/guizhanss/InfinityLib/1.3.4/InfinityLib-1.3.4.jar (90 kB at 624 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/StarWishsama/Slimefun4/2022.06/Slimefun4-2022.06.jar (4.7 MB at 20 MB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar (6.4 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 153 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar (6.8 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar (194 kB at 2.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar (100 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar (230 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar (186 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar (53 kB at 458 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar (45 kB at 372 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.2/MockBukkit-v1.16-1.5.2.jar (271 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar (577 kB at 4.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar (88 kB at 670 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar (4.1 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar (25 kB at 176 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLib-api/1.0.1/GuizhanLib-api-1.0.1.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar (22 kB at 138 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar (2.0 MB at 11 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/guizhanss/GuizhanLibPlugin/1.0.1/GuizhanLibPlugin-1.0.1.jar (687 kB at 3.9 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ InfinityExpansion ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ InfinityExpansion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ InfinityExpansion ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 53 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/target/classes
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/src/main/java/io/github/mooy1/infinityexpansion/items/machines/PoweredBedrock.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/src/main/java/io/github/mooy1/infinityexpansion/items/machines/PoweredBedrock.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ InfinityExpansion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ InfinityExpansion ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ InfinityExpansion ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ InfinityExpansion ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/target/InfinityExpansion-Build 4 zh-CN(SlimefunGuguProject) (git f090169).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.3.0:shade (default) @ InfinityExpansion ---
+[INFO] Including net.guizhanss:InfinityLib:jar:1.3.4 in the shaded jar.
+[INFO] Minimizing jar io.github.mooy1:InfinityExpansion:jar:Build 4 zh-CN(SlimefunGuguProject) (git f090169)
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/target/classes (Is a directory)
+[INFO] Dependency-reduced POM written at: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/dependency-reduced-pom.xml
+[INFO] Minimized 128 -> 121 (94%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/target/InfinityExpansion-Build 4 zh-CN(SlimefunGuguProject) (git f090169).jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/InfinityExpansion/master/workspace/target/InfinityExpansion-Build 4 zh-CN(SlimefunGuguProject) (git f090169)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.987 s
+[INFO] Finished at: 2022-08-11T03:03:56Z
+[INFO] ------------------------------------------------------------------------
