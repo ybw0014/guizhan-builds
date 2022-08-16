@@ -48,17 +48,10 @@
         }
     },
     "ybw0014/MobCapturer-CN:master": {
-        "type": "maven",
+        "type": "redirect",
         "options": {
-            "target": {
-                "name": "MobCapturer",
-                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Minecraft": {
-                "1": "1.14+"
-            }
+            "hidden": true,
+            "repo" : "SlimefunGuguProject/MobCapturer:master"
         }
     },
     "ybw0014/FluffyMachines-CN:master": {
@@ -1877,6 +1870,29 @@
         "dependencies":{
             "Minecraft":{
                 "1":"1.14+"
+            }
+        }
+    },
+    "SlimefunGuguProject/MobCapturer:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "ybw0014/MobCapturer-CN/master",
+            "target": {
+                "name": "MobCapturer",
+                "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.14+"
+            },
+            "Slimefun": {
+                "5": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上",
+                "1": "RC-27+"
+            },
+            "GuizhanLib": {
+                "6": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
+                "1": "不需要"
             }
         }
     }
