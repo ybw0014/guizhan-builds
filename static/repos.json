@@ -991,8 +991,13 @@
                 "1": "1.16+"
             },
             "Slimefun": {
-                "4": "汉化版[release-2022.04](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)",
+                "8": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上",
+                "4": "汉化版[release-2022.04](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)及以上",
                 "1": "RC-27+"
+            },
+            "GuizhanLib": {
+                "8": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
+                "1": "不需要"
             }
         }
     },
