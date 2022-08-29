@@ -1915,7 +1915,24 @@
         },
         "dependencies":{
             "GuizhanLib":{
-                "1":"[1.0.2 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上"
+                "1":"[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上"
+            },
+            "Minecraft":{
+                "1":"1.16+"
+            }
+        }
+    },
+    "SlimefunGuguProject/MetalWorks:master":{
+        "type":"maven",
+        "options":{
+            "target":{
+                "name":"MetalWorks",
+                "version":"Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies":{
+            "GuizhanLib":{
+                "1":"[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上"
             },
             "Minecraft":{
                 "1":"1.16+"
