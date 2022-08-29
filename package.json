@@ -19,7 +19,7 @@
     "cos-nodejs-sdk-v5": "2.11.12",
     "fs-extra": "10.1.0",
     "lodash": "4.17.21",
-    "marked": "4.0.18",
+    "marked": "4.0.19",
     "maven": "5.0.0",
     "nuxt": "2.15.8",
     "nuxt-cloudflare-analytics": "0.1.5",
