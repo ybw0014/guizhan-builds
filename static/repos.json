@@ -1916,7 +1916,7 @@
         },
         "dependencies":{
             "GuizhanLib":{
-                "1":"[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上"
+                "1":"[1.0.3 构建#16](/ybw0014/GuizhanLibPlugin/master)及以上"
             },
             "Minecraft":{
                 "1":"1.16+"
@@ -1933,7 +1933,7 @@
         },
         "dependencies":{
             "GuizhanLib":{
-                "1":"[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上"
+                "1":"[1.0.3 构建#16](/ybw0014/GuizhanLibPlugin/master)及以上"
             },
             "Minecraft":{
                 "1":"1.16+"
