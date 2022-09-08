@@ -2509,7 +2509,7 @@ acorn@^7.0.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
-acorn@^8.0.4, acorn@^8.6.0:
+acorn@^8.0.4:
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.6.0.tgz#e3692ba0eb1a0c83eaa4f37f5fa7368dd7142895"
   integrity sha512-U1riIR+lBSNi3IbxtaHOIKdH8sLFv3NYfNv8sg7ZsNhcfl4HF2++BfqqrNAxoCLQW1iiylOj76ecnaUxz+z9yw==
@@ -4721,14 +4721,14 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-nuxt@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-nuxt/-/eslint-plugin-nuxt-3.2.0.tgz#5fbe95c8c7784c071d39adc848a695ef5e91fb34"
-  integrity sha512-SWpmJALwagdrlMooajFX9IFxFEKdBxD+e4NFOVw9FGc22HQpNKdiljRHchS/3O5e2R7sPZYv8xdCtoordqIXFQ==
+eslint-plugin-nuxt@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-nuxt/-/eslint-plugin-nuxt-4.0.0.tgz#f124b05c9038207ffaae74e2741f4a2e87472bae"
+  integrity sha512-v3Vwdk8YKe52bAz8eSIDqQuTtfL/T1r9dSl1uhC5SyR5pgLxgKkQdxXVf/Bf6Ax7uyd9rHqiAuYVdqqDb7ILdA==
   dependencies:
-    eslint-plugin-vue "^8.5.0"
-    semver "^7.3.5"
-    vue-eslint-parser "^8.3.0"
+    eslint-plugin-vue "^9.4.0"
+    semver "^7.3.7"
+    vue-eslint-parser "^9.0.3"
 
 eslint-plugin-promise@^6.0.1:
   version "6.0.1"
@@ -4768,16 +4768,6 @@ eslint-plugin-vue@9.4.0, eslint-plugin-vue@^9.4.0:
     vue-eslint-parser "^9.0.1"
     xml-name-validator "^4.0.0"
 
-eslint-plugin-vue@^8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.5.0.tgz#65832bba43ca713fa5da16bdfcf55d0095677f6f"
-  integrity sha512-i1uHCTAKOoEj12RDvdtONWrGzjFm/djkzqfhmQ0d6M/W8KM81mhswd/z+iTZ0jCpdUedW3YRgcVfQ37/J4zoYQ==
-  dependencies:
-    eslint-utils "^3.0.0"
-    natural-compare "^1.4.0"
-    semver "^7.3.5"
-    vue-eslint-parser "^8.0.1"
-
 eslint-scope@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
@@ -4794,15 +4784,7 @@ eslint-scope@^5.1.1:
     esrecurse "^4.3.0"
     estraverse "^4.1.1"
 
-eslint-scope@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-6.0.0.tgz#9cf45b13c5ac8f3d4c50f46a5121f61b3e318978"
-  integrity sha512-uRDL9MWmQCkaFus8RF5K9/L/2fn+80yoW3jkD53l4shjCh26fCtvJGasxjUqP5OT87SYTxCVA3BwTUzuELx9kA==
-  dependencies:
-    esrecurse "^4.3.0"
-    estraverse "^5.2.0"
-
-eslint-scope@^7.0.0, eslint-scope@^7.1.1:
+eslint-scope@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-7.1.1.tgz#fff34894c2f65e5226d3041ac480b4513a163642"
   integrity sha512-QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw==
@@ -4833,11 +4815,6 @@ eslint-visitor-keys@^2.0.0, eslint-visitor-keys@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
-
-eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.1.0.tgz#eee4acea891814cda67a7d8812d9647dd0179af2"
-  integrity sha512-yWJFpu4DtjsWKkt5GeNBBuZMlNcYVs6vRCLoCVEJrTjaSB6LC98gFipNK/erM2Heg/E8mIK+hXG/pJMLK+eRZA==
 
 eslint-visitor-keys@^3.3.0:
   version "3.3.0"
@@ -4900,15 +4877,6 @@ eslint@8.23.0:
     strip-ansi "^6.0.1"
     strip-json-comments "^3.1.0"
     text-table "^0.2.0"
-
-espree@^9.0.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/espree/-/espree-9.2.0.tgz#c50814e01611c2d0f8bd4daa83c369eabba80dbc"
-  integrity sha512-oP3utRkynpZWF/F2x/HZJ+AGtnIclaR7z1pYPxy7NYM2fSO6LgK/Rkny8anRSPK/VwEA1eqm2squui0T7ZMOBg==
-  dependencies:
-    acorn "^8.6.0"
-    acorn-jsx "^5.3.1"
-    eslint-visitor-keys "^3.1.0"
 
 espree@^9.3.1:
   version "9.3.1"
@@ -10833,36 +10801,23 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.1.0.tgz#1a67a47b8ecacfa86d75830173fffee3bf8a4ee3"
   integrity sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==
 
-vue-eslint-parser@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.0.1.tgz#25e08b20a414551531f3e19f999902e1ecf45f13"
-  integrity sha512-lhWjDXJhe3UZw2uu3ztX51SJAPGPey1Tff2RK3TyZURwbuI4vximQLzz4nQfCv8CZq4xx7uIiogHMMoSJPr33A==
-  dependencies:
-    debug "^4.3.2"
-    eslint-scope "^6.0.0"
-    eslint-visitor-keys "^3.0.0"
-    espree "^9.0.0"
-    esquery "^1.4.0"
-    lodash "^4.17.21"
-    semver "^7.3.5"
-
-vue-eslint-parser@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz#5d31129a1b3dd89c0069ca0a1c88f970c360bd0d"
-  integrity sha512-dzHGG3+sYwSf6zFBa0Gi9ZDshD7+ad14DGOdTLjruRVgZXe2J+DcZ9iUhyR48z5g1PqRa20yt3Njna/veLJL/g==
-  dependencies:
-    debug "^4.3.2"
-    eslint-scope "^7.0.0"
-    eslint-visitor-keys "^3.1.0"
-    espree "^9.0.0"
-    esquery "^1.4.0"
-    lodash "^4.17.21"
-    semver "^7.3.5"
-
 vue-eslint-parser@^9.0.1:
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-9.0.2.tgz#d2535516f3f55adb387939427fe741065eb7948a"
   integrity sha512-uCPQwTGjOtAYrwnU+76pYxalhjsh7iFBsHwBqDHiOPTxtICDaraO4Szw54WFTNZTAEsgHHzqFOu1mmnBOBRzDA==
+  dependencies:
+    debug "^4.3.4"
+    eslint-scope "^7.1.1"
+    eslint-visitor-keys "^3.3.0"
+    espree "^9.3.1"
+    esquery "^1.4.0"
+    lodash "^4.17.21"
+    semver "^7.3.6"
+
+vue-eslint-parser@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-9.0.3.tgz#0c17a89e0932cc94fa6a79f0726697e13bfe3c96"
+  integrity sha512-yL+ZDb+9T0ELG4VIFo/2anAOz8SvBdlqEnQnvJ3M7Scq56DvtjY0VY88bByRZB0D4J0u8olBcfrXTVONXsh4og==
   dependencies:
     debug "^4.3.4"
     eslint-scope "^7.1.1"
