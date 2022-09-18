@@ -1909,5 +1909,39 @@
                 "1": "不需要"
             }
         }
+    },
+    "SlimefunGuguProject/BlueSlime:master":{
+        "type": "maven",
+        "options":{
+            "target":{
+                "name":"BlueSlime",
+                "version":"Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies":{
+            "GuizhanLib":{
+                "1":"[1.0.3 构建#16](/ybw0014/GuizhanLibPlugin/master)及以上"
+            },
+            "Minecraft":{
+                "1":"1.16+"
+            }
+        }
+    },
+    "SlimefunGuguProject/MetalWorks:master":{
+        "type":"maven",
+        "options":{
+            "target":{
+                "name":"MetalWorks",
+                "version":"Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies":{
+            "GuizhanLib":{
+                "1":"[1.0.3 构建#16](/ybw0014/GuizhanLibPlugin/master)及以上"
+            },
+            "Minecraft":{
+                "1":"1.16+"
+            }
+        }
     }
 }
