@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 export default {
-    getAnnouncement (lang) {
-        return axios.get('/announcement/' + lang + '.md')
+    getAnnouncement (lang, folder) {
+        return axios.get('/announcement/' + folder + '/' + lang + '.md')
     },
     getRepos () {
         return axios.get('/repos.json')

@@ -52,6 +52,14 @@
                 </card>
             </div>
             <div class="col-span-7 xl:col-span-9 m-4 lg:ml-0">
+                <card v-if="announcement !== ''" class="mb-4">
+                    <template #title>
+                        <fa-icon icon="bell" />
+                        {{ $t('pages.home.announcement') }}
+                    </template>
+                    <div v-lazy-load="announcement" class="announcement" />
+                </card>
+                <div v-else />
                 <card class="mb-4">
                     <template #title>
                         <span class="repo-name">{{ repo }}</span>
@@ -110,11 +118,13 @@ import _ from 'lodash'
 import markdown from '~/utils/markdown'
 import reposUtil from '~/utils/repos'
 import buildsUtil from '~/utils/builds'
+import request from '~/utils/request'
 
 export default {
     layout: 'main',
     data () {
         return {
+            announcement: '',
             user: this.$route.params.user,
             repo: this.$route.params.repo,
             branch: this.$route.params.branch,
@@ -212,6 +222,15 @@ export default {
                 this.$nuxt.error({ statusCode: 404, message: 'Not found' })
             })
         })
+
+        // announcement
+        request.getAnnouncement(this.$i18n.getBrowserLocale(), 'build')
+            .then((response) => {
+                this.announcement = markdown.render(response.data)
+            })
+            .catch(() => {
+                this.announcement = 'Failed to load announcement'
+            })
     }
 }
 </script>

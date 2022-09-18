@@ -145,7 +145,7 @@ export default {
     },
     mounted () {
         // announcement
-        request.getAnnouncement(this.$i18n.getBrowserLocale())
+        request.getAnnouncement(this.$i18n.getBrowserLocale(), 'index')
             .then((response) => {
                 this.announcement = markdown.render(response.data)
             })
