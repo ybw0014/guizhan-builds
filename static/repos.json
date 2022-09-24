@@ -1886,6 +1886,20 @@
             }
         }
     },
+    "CTimet/SpecialBekt:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SpecialBekt",
+                "version": "Build {version} zh-CN(CTimet) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            }
+        }
+    },
     "SlimefunGuguProject/MobCapturer:master": {
         "type": "maven",
         "options": {
