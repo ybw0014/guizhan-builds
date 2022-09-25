@@ -1923,5 +1923,31 @@
                 "1": "不需要"
             }
         }
+    },
+        "SlimefunGuguProject/SFIllegalActivities:master": {
+        "type": "maven",
+        "options": {
+            "customDir": "",
+            "target": {
+                "name": "SFdrugs",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Java": {
+                "12": "Java 17+",
+            },
+            "Minecraft": {
+                "12": "1.19+",
+            },
+                        "Slimefun": {
+                "5": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.07)及以上",
+                "1": "RC-28+"
+            },
+            "GuizhanLib": {
+                "7": "[1.0.3 构建#15](/ybw0014/GuizhanLibPlugin/master)及以上",
+                "6": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
+                "1": "不需要"
+        }
     }
 }
