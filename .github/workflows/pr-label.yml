@@ -1,0 +1,25 @@
+name: Pull Request Labels
+
+on:
+  pull_request:
+    types:
+      - opened
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  pr-labeler:
+
+    name: Pull Request Labels
+    runs-on: ubuntu-latest
+    if: github.repository == 'ybw0014/guizhan-builds'
+
+    steps:
+      - uses: baked-libs/pull-request-labels@v1.1
+        id: labeller
+        name: Apply labels based on branch
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          renovate: 'dependency'
