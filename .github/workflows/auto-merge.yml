@@ -15,9 +15,9 @@ on:
   status: {}
 
 jobs:
-  autosquash-dependency:
+  autosquash-skip:
 
-    name: Auto squash (Dependency)
+    name: Auto squash (CI skip)
     runs-on: ubuntu-latest
 
     if: github.event.pull_request.head.repo.full_name == 'ybw0014/guizhan-builds'
@@ -31,5 +31,24 @@ jobs:
         MERGE_METHOD: squash
         MERGE_FORKS: false
         MERGE_DELETE_BRANCH: true
-        MERGE_LABELS: 'dependency, merge/skip'
+        MERGE_LABELS: 'merge/skip'
         MERGE_COMMIT_MESSAGE: '[CI skip] ${{ github.event.pull_request.title }}'
+        
+  autosquash-normal:
+
+    name: Auto squash (Normal)
+    runs-on: ubuntu-latest
+
+    if: github.event.pull_request.head.repo.full_name == 'ybw0014/guizhan-builds'
+
+    steps:
+    - name: Auto squash
+      uses: pascalgn/automerge-action@v0.15.3
+      env:
+        GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        UPDATE_RETRIES: 0
+        MERGE_METHOD: squash
+        MERGE_FORKS: false
+        MERGE_DELETE_BRANCH: true
+        MERGE_LABELS: 'merge/normal'
+        MERGE_COMMIT_MESSAGE: '${{ github.event.pull_request.title }}'
