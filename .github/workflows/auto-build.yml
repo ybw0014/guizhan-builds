@@ -28,7 +28,7 @@ jobs:
         java-version: '17'
 
     - name: Setting up node.js
-      uses: actions/setup-node@v3.4.1
+      uses: actions/setup-node@v3.5.0
       with:
         node-version: '16.13.0'
 
