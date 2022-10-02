@@ -1,10 +1,13 @@
 name: Auto merge pull requests
 
 on:
+  pull_request:
+    types:
+      - labeled
+      - unlabeled
   pull_request_review:
     types:
       - submitted
-
   check_suite:
     types:
       - completed
@@ -12,9 +15,9 @@ on:
   status: {}
 
 jobs:
-  autosquash-renovate:
+  autosquash-dependency:
 
-    name: Auto squash (Renovate)
+    name: Auto squash (Dependency)
     runs-on: ubuntu-latest
 
     if: github.event.pull_request.head.repo.full_name == 'ybw0014/guizhan-builds'
@@ -28,5 +31,5 @@ jobs:
         MERGE_METHOD: squash
         MERGE_FORKS: false
         MERGE_DELETE_BRANCH: true
-        MERGE_LABELS: 'dependency'
+        MERGE_LABELS: 'dependency, merge/skip'
         MERGE_COMMIT_MESSAGE: '[CI skip] ${{ github.event.pull_request.title }}'
