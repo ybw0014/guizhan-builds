@@ -337,8 +337,16 @@
         }
     },
     "ybw0014/FoxyMachines-CN:master": {
+        "type": "redirect",
+        "options": {
+            "hidden": true,
+            "repo" : "ybw0014/FoxyMachines:master"
+        }
+    },
+    "ybw0014/FoxyMachines:master": {
         "type": "maven",
         "options": {
+            "customDir": "ybw0014/FoxyMachines-CN/master",
             "target": {
                 "name": "FoxyMachines",
                 "version": "Build {version} zh-CN(ybw0014) (git {git_commit})"
