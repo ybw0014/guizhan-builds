@@ -2,7 +2,7 @@
 
 此仓库包含构建页面前端代码，以及构建结果（也许以后会搬迁）。
 
-全球访问地址: https://builds.guizhanss.net/
+全球访问地址: https://builds.guizhanss.net/  
 中国大陆镜像: https://builds.guizhanss.cn/
 
 ## 关于本项目
@@ -27,6 +27,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
     "ybw0014/DynaTech:master": {
         "type": "maven",
         "options": {
+            "hidden": false,
             "customDir": "ybw0014/DynaTech-CN/master",
             "target": {
                 "name": "DynaTech",
@@ -54,6 +55,7 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
     - `gradle`: Gradle 项目，将读取 build.gradle, settings.gradle, gradle.properties 并构建项目
     - `redirect`: 重定向项目，访问构建站时将重定向至新的仓库。在`options.repo`中设置仓库
 - `options` **(必填)** 构建设置
+    - `hidden` *(可选)* 是否在构建站列表中隐藏该仓库，默认为`false`。仅从构建站页面中的列表中隐藏，仍然可以通过输入网址访问
     - `customDir` *(可选)* 自定义构建目录，如果不指定则会使用默认的`用户名/仓库名/分支`作为构建目录
     - `target` **(必填)** 构建文件设置
         - `name` **(必填)** 构建名称，建议与 `plugin.yml` 中的 `name` 一致
@@ -71,115 +73,9 @@ Github Actions 提供了一定的自动构建功能，但下载构建结果需�
 
 ## 接入自动更新
 
-构建站支持自动更新功能，就像 Slimefun 及附属插件的官方版本那样。  
-接入构建站并不一定需要接入自动更新功能，这是可选的。  
+请访问[该文档](/Auto-Update-zh.md)。
 
-要接入自动更新，你需要在`pom.xml`中添加[GuizhanLib](https://github.com/ybw0014/GuizhanLib)为前置，并在插件启用时启动自动更新检测。
-
-### 添加依赖
-
-#### Maven
-
-你需要添加GuizhanLib为依赖:
-
-最新版本为: [![Maven Central](https://img.shields.io/maven-central/v/net.guizhanss/GuizhanLib.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22net.guizhanss%22%20AND%20a:%22GuizhanLib%22)
-![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
-
-```xml
-    <dependency>
-        <groupId>net.guizhanss</groupId>
-        <artifactId>GuizhanLib</artifactId>
-        <version>将此处替换为版本号</version>
-        <scope>compile</scope>
-    </dependency>
-```
-
-在`build`中，你需要将GuizhanLib迁移到你的包中，避免与其他插件冲突（如果已有`maven-shade-plugin`，只需要添加`relocation`即可）:
-
-```xml
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.3.0</version>
-
-                <configuration>
-                    <!-- 你可以添加下面这一行，去除所有库中未使用的类，来减少生成jar的大小，非必须，但建议开启 -->
-                    <minimizeJar>true</minimizeJar>
-                    <relocations>
-                        <!-- 重要: 你需要将以下relocation(迁移)部分添加到你的pom.xml中 -->
-                        <relocation>
-                            <pattern>net.guizhanss.guizhanlib</pattern>
-                            <shadedPattern>将此处替换为你的软件包.guizhanlib</shadedPattern>
-                        </relocation>
-                    </relocations>
-
-                    <filters>
-                        <filter>
-                            <artifact>*:*</artifact>
-                            <excludes>
-                                <exclude>META-INF/*</exclude>
-                            </excludes>
-                        </filter>
-                    </filters>
-                </configuration>
-
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-```
-
-#### Gradle
-
-在`build.gradle`中添加Maven Central：
-```groovy
-repositories {
-    mavenCentral()
-}
-```
-
-并将GuizhanLib添加为依赖:
-
-最新版本为: [![Maven Central](https://img.shields.io/maven-central/v/net.guizhanss/GuizhanLib.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22net.guizhanss%22%20AND%20a:%22GuizhanLib%22)
-![GuizhanLib status](https://jitpack.io/v/net.guizhanss/GuizhanLib.svg)
-
-```groovy
-dependencies {
-    implementation 'net.guizhanss:GuizhanLib:将此处替换为版本号'
-}
-```
-
-添加`shadowJar`插件，并迁移:
-
-```groovy
-plugins {
-    id 'com.github.johnrengelman.shadow' version '7.1.2'
-    id 'java'
-}
-
-shadowJar {
-    relocate 'net.guizhanss.guizhanlib', '将此处替换为你的软件包.guizhanlib'
-    minimize()
-}
-```
-
-### 添加自动更新类
-
-在插件的启用方法`onEnable`内，添加以下代码：
-
-```java
-        if (getConfig().getBoolean("options.auto-update") && // 注意这里，如果config.yml中直接是`auto-config`那就得把前面的`options.`去掉
-            getDescription().getVersion().startsWith("Build")) { // 如果你修改了版本格式，按需修改。你也可以去除这一部分
-            new GuizhanBuildsUpdater(this, getFile(), "你的用户名", "仓库名", "分支", false, "zh-CN").start(); // 必须修改
-        }
-```
+### 自动更新模块说明
 
 更新模块会：
 
@@ -187,4 +83,4 @@ shadowJar {
 2. 获取最新的成功构建的信息，并与当前版本比较，如果版本一致，则输出无需更新
 3. 从构建站下载最新版本的jar，存放于`/plugins/updates`目录中，并提示重启后更新
 
-目前更新版本不会更改文件名，所以需要在游戏内使用`/sf versions`来确认版本。
+自动更新不会更改文件名，所以需要在游戏内使用`/sf versions`来确认插件的版本。
