@@ -171,6 +171,16 @@ dependencies {
 }
 ```
 
+### 添加前置
+
+在`plugin.yml`中，添加`GuizhanLibPlugin`为前置：
+
+```yaml
+depend: [Slimefun, GuizhanLibPlugin]
+# 你也可以设置为软前置，不过这样需要检测 GuizhanLibPlugin 是否安装
+softdepend: [GuizhanLibPlugin]
+```
+
 ### 添加自动更新类
 
 在插件的启用方法`onEnable`内，添加以下代码：
