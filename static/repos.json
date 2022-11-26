@@ -1955,7 +1955,7 @@
                 "1": "不需要"
             }
         }
-    }
+    },
     "shixinzia/Mineralgenerator:master": {
         "type": "maven",
         "options": {
@@ -1970,7 +1970,7 @@
             },
             "Slimefun": {
                 "1": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.07)及以上"
-            },
+            }
         }
     }
 }
