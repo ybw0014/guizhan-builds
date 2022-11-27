@@ -1972,5 +1972,25 @@
                 "1": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.07)及以上"
             }
         }
+    },
+    "SlimefunGuguProject/SpiritsUnchained:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SpiritsUnchained",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.19+"
+            },
+            "Slimefun": {
+                "1": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
+            },
+            "GuizhanLib": {
+                "1": "[1.1.0 构建#18](/ybw0014/GuizhanLibPlugin/master)及以上"
+            }
+        }
     }
 }
