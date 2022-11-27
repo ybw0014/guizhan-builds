@@ -6,12 +6,11 @@
 const axios = require('axios')
 
 let request = axios.create({
-    timeout: 5000
+    timeout: 5000,
+    headers: {
+        Authorization: `Bearer ${process.env.BOT_TOKEN}`,
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    }
 })
-
-request.interceptors.request.use((config) => {
-    config.headers.Authorization = `Bearer ${process.env.BOT_TOKEN}`
-    return config
-}, null)
 
 module.exports = request

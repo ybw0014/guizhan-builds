@@ -26,8 +26,7 @@ function getLatestCommit (task) {
     return new Promise((resolve, reject) => {
         logger.log('> 获取最新commit...')
 
-        request({
-            url: `/repos/${task.user}/${task.repo}/commits`,
+        request.get(`/repos/${task.user}/${task.repo}/commits`, {
             params: {
                 per_page: 1,
                 page: 1,
