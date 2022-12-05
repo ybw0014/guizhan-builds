@@ -466,10 +466,6 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
-            },
-            "GuizhanLib": {
-                "5": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -536,10 +532,6 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
-            },
-            "GuizhanLib": {
-                "12": "[1.0.3 构建#15](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -836,10 +828,6 @@
             "Minecraft": {
                 "79": "1.16+",
                 "1": "1.15+"
-            },
-            "GuizhanLib": {
-                "80": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -1010,10 +998,6 @@
                 "8": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上",
                 "4": "汉化版[release-2022.04](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.04)及以上",
                 "1": "RC-27+"
-            },
-            "GuizhanLib": {
-                "8": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -1559,10 +1543,6 @@
             },
             "Slimefun": {
                 "1": "汉化版[2022.06-release](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
-            },
-            "GuizhanLib": {
-                "4": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -1861,9 +1841,6 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.14+"
-            },
-            "GuizhanLib": {
-                "1": "[1.0.0 构建#7](/ybw0014/GuizhanLibPlugin/master)及以上"
             }
         }
     },
@@ -1925,11 +1902,6 @@
             "Slimefun": {
                 "5": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上",
                 "1": "RC-27+"
-            },
-            "GuizhanLib": {
-                "7": "[1.0.3 构建#15](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "6": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -1948,11 +1920,6 @@
             "Slimefun": {
                 "5": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.07)及以上",
                 "1": "RC-28+"
-            },
-            "GuizhanLib": {
-                "7": "[1.0.3 构建#15](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "6": "[1.0.1 构建#11](/ybw0014/GuizhanLibPlugin/master)及以上",
-                "1": "不需要"
             }
         }
     },
@@ -1987,9 +1954,6 @@
             },
             "Slimefun": {
                 "1": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
-            },
-            "GuizhanLib": {
-                "1": "[1.1.0 构建#18](/ybw0014/GuizhanLibPlugin/master)及以上"
             }
         }
     }
