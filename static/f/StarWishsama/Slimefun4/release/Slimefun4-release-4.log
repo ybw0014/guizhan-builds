@@ -1,0 +1,325 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.slimefun:Slimefun:jar:2022.12-release
+[WARNING] 'dependencies.dependency.systemPath' for com.bekvon.bukkit:residence:jar should not point at files within the project directory, ${project.basedir}/lib/Residence.jar will be unresolvable by dependent projects @ line 1, column 9954
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< com.github.slimefun:Slimefun >--------------------
+[INFO] Building Slimefun 2022.12-release
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.maxgamer:QuickShop:jar:5.1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 267 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 569 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/classes
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 98 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ Slimefun ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.profiles.TestPlayerBackpacks
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.93 s - in io.github.thebusybiscuit.slimefun4.api.profiles.TestPlayerBackpacks
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.profiles.TestPlayerProfile
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in io.github.thebusybiscuit.slimefun4.api.profiles.TestPlayerProfile
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.profiles.TestGuideHistory
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s - in io.github.thebusybiscuit.slimefun4.api.profiles.TestGuideHistory
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.profiles.TestAsyncProfileLoadEvent
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.thebusybiscuit.slimefun4.api.profiles.TestAsyncProfileLoadEvent
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.gps.TestWaypoints
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in io.github.thebusybiscuit.slimefun4.api.gps.TestWaypoints
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.items.settings.TestIntRangeSetting
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.thebusybiscuit.slimefun4.api.items.settings.TestIntRangeSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.items.settings.TestMaterialTagSetting
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in io.github.thebusybiscuit.slimefun4.api.items.settings.TestMaterialTagSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.items.settings.TestDoubleRangeSetting
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.api.items.settings.TestDoubleRangeSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.items.settings.TestEnumSetting
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.api.items.settings.TestEnumSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.api.items.settings.TestItemSettings
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.thebusybiscuit.slimefun4.api.items.settings.TestItemSettings
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestChatUtils
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in io.github.thebusybiscuit.slimefun4.utils.TestChatUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.tags.TestTagParser
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.thebusybiscuit.slimefun4.utils.tags.TestTagParser
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.tags.TestSlimefunTags
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s - in io.github.thebusybiscuit.slimefun4.utils.tags.TestSlimefunTags
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestMinecraftVersion
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in io.github.thebusybiscuit.slimefun4.utils.TestMinecraftVersion
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestFireworkUtils
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in io.github.thebusybiscuit.slimefun4.utils.TestFireworkUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestNumberUtils
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.utils.TestNumberUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestHeadTextures
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.thebusybiscuit.slimefun4.utils.TestHeadTextures
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestChargeUtils
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.thebusybiscuit.slimefun4.utils.TestChargeUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestSoulboundItem
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in io.github.thebusybiscuit.slimefun4.utils.TestSoulboundItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestLoreComparison
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.thebusybiscuit.slimefun4.utils.TestLoreComparison
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestItemStackWrapper
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.thebusybiscuit.slimefun4.utils.TestItemStackWrapper
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.biomes.TestBiomeMapParser
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in io.github.thebusybiscuit.slimefun4.utils.biomes.TestBiomeMapParser
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.biomes.TestBiomeMap
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.thebusybiscuit.slimefun4.utils.biomes.TestBiomeMap
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.biomes.TestBiomeMapCompatibility
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in io.github.thebusybiscuit.slimefun4.utils.biomes.TestBiomeMapCompatibility
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestWikiResource
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in io.github.thebusybiscuit.slimefun4.utils.TestWikiResource
+[INFO] Running io.github.thebusybiscuit.slimefun4.utils.TestInfiniteBlockGenerators
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in io.github.thebusybiscuit.slimefun4.utils.TestInfiniteBlockGenerators
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.tasks.TestArmorTask
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.implementation.tasks.TestArmorTask
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.food.TestMonsterJerky
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in io.github.thebusybiscuit.slimefun4.implementation.items.food.TestMonsterJerky
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.food.TestMeatJerky
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in io.github.thebusybiscuit.slimefun4.implementation.items.food.TestMeatJerky
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.food.TestDietCookie
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.github.thebusybiscuit.slimefun4.implementation.items.food.TestDietCookie
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.TestDamageableItem
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in io.github.thebusybiscuit.slimefun4.implementation.items.TestDamageableItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.TestRadioactiveItem
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.thebusybiscuit.slimefun4.implementation.items.TestRadioactiveItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.TestSlimefunItem
+[05:19:37 WARNING]: [Slimefun] 该物品"ANOTHER_WIKI_ITEM"暂未注册, 请在物品注册后再添加Wiki页面
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in io.github.thebusybiscuit.slimefun4.implementation.items.TestSlimefunItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.tools.TestClimbingPick
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in io.github.thebusybiscuit.slimefun4.implementation.items.tools.TestClimbingPick
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.tools.TestPortableDustbin
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.github.thebusybiscuit.slimefun4.implementation.items.tools.TestPortableDustbin
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.tools.TestTapeMeasure
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.thebusybiscuit.slimefun4.implementation.items.tools.TestTapeMeasure
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.autocrafters.TestAbstractRecipe
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in io.github.thebusybiscuit.slimefun4.implementation.items.autocrafters.TestAbstractRecipe
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.items.backpacks.TestEnderBackpack
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in io.github.thebusybiscuit.slimefun4.implementation.items.backpacks.TestEnderBackpack
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestPlayerProfileListener
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestPlayerProfileListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestSlimefunGuideListener
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestSlimefunGuideListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestSmithingTableListener
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.484 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestSmithingTableListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestNetworkListener
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestNetworkListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestBackpackListener
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestBackpackListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestMultiblockListener
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestMultiblockListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestPiglinListener
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestPiglinListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestAnvilListener
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestAnvilListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestBeeListener
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestBeeListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestFireworksListener
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestFireworksListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCraftingTableListener
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCraftingTableListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCargoNodeListener
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCargoNodeListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestItemPickupListener
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestItemPickupListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestGrindstoneListener
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestGrindstoneListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCoolerListener
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCoolerListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestIronGolemListener
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestIronGolemListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestVillagerTradingListener
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestVillagerTradingListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCartographyTableListener
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCartographyTableListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestDeathpointListener
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestDeathpointListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestBrewingStandListener
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestBrewingStandListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCauldronListener
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestCauldronListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.listeners.TestSoulboundListener
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.implementation.listeners.TestSoulboundListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.registration.TestSlimefunItemRegistration
+[05:19:38 SEVERE]: [Slimefun] Item "DUPLICATE_ID" from Slimefun v2022.12-release has caused an Error!
+[05:19:38 SEVERE]: [Slimefun] You can report it here: https://github.com/StarWishsama/Slimefun4/issues
+[05:19:38 SEVERE]: [Slimefun] Registering MockSlimefunItem - 'DUPLICATE_ID' (Slimefun v2022.12-release) has failed!
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.implementation.registration.TestSlimefunItemRegistration
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.registration.TestRechargeableItems
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.thebusybiscuit.slimefun4.implementation.registration.TestRechargeableItems
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.registration.TestItemGroups
+[05:19:38 INFO]: [Slimefun] Parent "slimefun:unregistered" for LockedItemGroup "slimefun:locked" was not found, probably just disabled.
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.thebusybiscuit.slimefun4.implementation.registration.TestItemGroups
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.registration.TestRegistration
+[05:19:39 INFO]: [Slimefun] 加载 Wiki 页面...
+[05:19:39 INFO]: [Slimefun] 加载了 Slimefun 中 486 个物品的 Wiki 页面
+[INFO] Tests run: 813, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.947 s - in io.github.thebusybiscuit.slimefun4.implementation.registration.TestRegistration
+[INFO] Running io.github.thebusybiscuit.slimefun4.implementation.registration.TestItemHandlers
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in io.github.thebusybiscuit.slimefun4.implementation.registration.TestItemHandlers
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.debug.TestDebugLogging
+[05:19:40 INFO]: [Slimefun] [DEBUG unit-test] Sushi is delicious and TheBusyBiscuit likes it!
+[05:19:40 INFO]: [Slimefun] [DEBUG unit-test] Sushi is delicious
+[05:19:40 INFO]: [Slimefun] [DEBUG unit-test] Ramen is delicious
+[05:19:40 INFO]: [Slimefun] [DEBUG unit-test] {Ramen} is} {delicious }{
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.268 s - in io.github.thebusybiscuit.slimefun4.core.debug.TestDebugLogging
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.multiblocks.TestMultiBlocks
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.thebusybiscuit.slimefun4.core.multiblocks.TestMultiBlocks
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.guide.TestGuideOpening
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in io.github.thebusybiscuit.slimefun4.core.guide.TestGuideOpening
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.networks.TestNetworkManager
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.core.networks.TestNetworkManager
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.researching.TestResearches
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in io.github.thebusybiscuit.slimefun4.core.researching.TestResearches
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.researching.TestProfileResearches
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in io.github.thebusybiscuit.slimefun4.core.researching.TestProfileResearches
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.researching.TestResearchUnlocking
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in io.github.thebusybiscuit.slimefun4.core.researching.TestResearchUnlocking
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.services.TestCustomTextureService
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.thebusybiscuit.slimefun4.core.services.TestCustomTextureService
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.services.TestItemDataService
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.thebusybiscuit.slimefun4.core.services.TestItemDataService
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.services.TestBlockDataService
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.thebusybiscuit.slimefun4.core.services.TestBlockDataService
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.services.TestPermissionsService
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.thebusybiscuit.slimefun4.core.services.TestPermissionsService
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.services.localization.TestColorCodes
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:40 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[05:19:41 SEVERE]: Cannot load configuration from stream
+[INFO] Tests run: 210, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.54 s - in io.github.thebusybiscuit.slimefun4.core.services.localization.TestColorCodes
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.services.TestRecipeService
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 0 Recipes!
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 1 Recipes!
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 1 Recipes!
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 2 Recipes!
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 3 Recipes!
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 4 Recipes!
+[05:19:41 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[05:19:41 INFO]: [Slimefun] Found 5 Recipes!
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in io.github.thebusybiscuit.slimefun4.core.services.TestRecipeService
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.commands.TestBackpackCommand
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.core.commands.TestBackpackCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.commands.TestGuideCommand
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in io.github.thebusybiscuit.slimefun4.core.commands.TestGuideCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.commands.TestDebugFishCommand
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.core.commands.TestDebugFishCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.commands.TestChargeCommand
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in io.github.thebusybiscuit.slimefun4.core.commands.TestChargeCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.core.commands.TestResearchCommand
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.core.commands.TestResearchCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.TestPluginClass
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.thebusybiscuit.slimefun4.TestPluginClass
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 1508, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/Slimefun-2022.12-release.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.4.0:shade (default) @ Slimefun ---
+[INFO] Including io.github.baked-libs:dough-api:jar:1.2.0 in the shaded jar.
+[INFO] Including io.papermc:paperlib:jar:1.0.7 in the shaded jar.
+[INFO] Including com.konghq:unirest-java:jar:3.13.11 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.13 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpmime:jar:4.5.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore-nio:jar:4.4.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpasyncclient:jar:4.1.5 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.15 in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Dependency-reduced POM written at: /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/dependency-reduced-pom.xml
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/Slimefun-2022.12-release.jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/Slimefun-2022.12-release-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.602 s
+[INFO] Finished at: 2022-12-16T05:19:43Z
+[INFO] ------------------------------------------------------------------------
