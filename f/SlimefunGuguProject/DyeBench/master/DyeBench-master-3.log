@@ -1,0 +1,64 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< me.jasperchasetoq:DyeBench >---------------------
+[INFO] Building DyeBench Build 3 zh-CN(LinYingLY) (git 8002da2)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom (3.5 kB at 17 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.1.0/GuizhanLibPlugin-1.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.1.0/GuizhanLibPlugin-1.1.0.pom (10 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.1.0/GuizhanLib-api-1.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.1.0/GuizhanLib-api-1.1.0.pom (8.1 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib/1.1.0/GuizhanLib-1.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib/1.1.0/GuizhanLib-1.1.0.pom (9.8 kB at 16 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.1.0/GuizhanLibPlugin-1.1.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.1.0/GuizhanLib-api-1.1.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLibPlugin/1.1.0/GuizhanLibPlugin-1.1.0.jar (566 kB at 230 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/guizhanss/GuizhanLib-api/1.1.0/GuizhanLib-api-1.1.0.jar (122 kB at 48 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar (41 kB at 208 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DyeBench ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DyeBench ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ DyeBench ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DyeBench ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ DyeBench ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DyeBench ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DyeBench ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/target/DyeBench-Build 3 zh-CN(LinYingLY) (git 8002da2).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.3.0:shade (default) @ DyeBench ---
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Including com.github.JasperChaseTOQ:WolfyLibrary:jar:v1.1.7 in the shaded jar.
+[INFO] Minimizing jar me.jasperchasetoq:DyeBench:jar:Build 3 zh-CN(LinYingLY) (git 8002da2)
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/target/classes (Is a directory)
+[INFO] Dependency-reduced POM written at: /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/dependency-reduced-pom.xml
+[INFO] Minimized 106 -> 33 (31%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/target/DyeBench-Build 3 zh-CN(LinYingLY) (git 8002da2).jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/SlimefunGuguProject/DyeBench/master/workspace/target/DyeBench-Build 3 zh-CN(LinYingLY) (git 8002da2)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.084 s
+[INFO] Finished at: 2022-12-18T00:00:46Z
+[INFO] ------------------------------------------------------------------------
