@@ -41,7 +41,7 @@
     "axios": "1.2.2",
     "eslint": "8.30.0",
     "eslint-plugin-nuxt": "4.0.0",
-    "eslint-plugin-vue": "9.8.0",
+    "eslint-plugin-vue": "9.9.0",
     "nuxt-storm": "1.1.3"
   }
 }
