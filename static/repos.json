@@ -1959,5 +1959,22 @@
                 "1": "汉化版[release-2022.06](https://github.com/StarWishsama/Slimefun4/releases/tag/2022.06)及以上"
             }
         }
+    },
+    "SlimefunGuguProject/ExoticGarden-changed:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "ExoticGarden",
+                "version": "Build {version} X (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.16+"
+            },
+            "Slimefun": {
+                "1": "RC-30+"
+            }
+        }
     }
 }
