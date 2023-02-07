@@ -1,0 +1,1 @@
+{"latest":1675743702000,"builds":[{"id":1,"success":true,"commit":"9101bad622da6c277bc9b4c8db33e6509a673d85","build_timestamp":1675747199581,"timestamp":1675743702000,"message":"fix(MagicModule): fix #22 break condition","author":"Xzavier0722","target":"SlimeGlue-Build 1 (git 9101bad).jar"}]}
