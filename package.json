@@ -16,7 +16,7 @@
     "@tailwindcss/forms": "0.5.3",
     "autoprefixer": "10.4.13",
     "core-js": "3.27.2",
-    "fs-extra": "10.1.0",
+    "fs-extra": "11.1.0",
     "lodash": "4.17.21",
     "marked": "4.2.12",
     "maven": "5.0.0",
