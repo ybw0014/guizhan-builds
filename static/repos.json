@@ -1100,7 +1100,11 @@
                 "1": "8+"
             },
             "Minecraft": {
+                "65": "1.16+",
                 "1": "1.14+"
+            },
+            "SlimeGlue": {
+                "74": "第三方插件适配需要 [SlimeGlue](https://builds.guizhanss.net/Xzavier0722/SlimeGlue/master)"
             }
         }
     },
@@ -1826,8 +1830,11 @@
                 "1": "16+"
             },
             "Minecraft": {
-                "73": "1.16+",
+                "5": "1.16+",
                 "1": "1.14+"
+            },
+            "SlimeGlue": {
+                "5": "第三方插件适配需要 [SlimeGlue](https://builds.guizhanss.net/Xzavier0722/SlimeGlue/master)"
             }
         }
     },
