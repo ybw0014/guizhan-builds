@@ -1,0 +1,221 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.xzavier0722.mc.plugin:SlimeGlue:jar:Build 9 (git 9b68db7)
+[WARNING] 'dependencies.dependency.systemPath' for com.bekvon.bukkit:residence:jar should not point at files within the project directory, ${project.basedir}/lib/Residence.jar will be unresolvable by dependent projects @ line 1, column 3326
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< com.xzavier0722.mc.plugin:SlimeGlue >-----------------
+[INFO] Building SlimeGlue Build 9 (git 9b68db7)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/5.0.0/git-commit-id-maven-plugin-5.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/5.0.0/git-commit-id-maven-plugin-5.0.0.pom (23 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/5.0.0/git-commit-id-maven-plugin-5.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/5.0.0/git-commit-id-maven-plugin-5.0.0.jar (41 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 436 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 600 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 923 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.7 kB/s)
+[WARNING] Checksum validation failed, expected cf632b5cb7ce0ff3b2c1996d5613e32c9906e8a0 but is d04e7df12497baaa35022f8aca3887d706cf23b9 from lss233-mirror for https://lss233.littleservice.cn/repositories/minecraft/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not validate integrity of download from https://lss233.littleservice.cn/repositories/minecraft/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, expected cf632b5cb7ce0ff3b2c1996d5613e32c9906e8a0 but is d04e7df12497baaa35022f8aca3887d706cf23b9
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validateExternalChecksums (ChecksumValidator.java:174)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:103)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:460)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:628)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:235)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver$ResolveTask.run (DefaultMetadataResolver.java:586)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[WARNING] Checksum validation failed, expected cf632b5cb7ce0ff3b2c1996d5613e32c9906e8a0 but is d04e7df12497baaa35022f8aca3887d706cf23b9 from lss233-mirror for https://lss233.littleservice.cn/repositories/minecraft/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.5 kB/s)
+[WARNING] Could not transfer metadata org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT/maven-metadata.xml from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT/maven-metadata.xmlfailed to transfer from https://repo.codemc.io/repository/maven-public/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of codemc-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT/maven-metadata.xml from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.pom
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from elmakers-repo: https://maven.elmakers.com/repository/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-32/Slimefun4-RC-32.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-32/Slimefun4-RC-32.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-32/Slimefun4-RC-32.pom (15 kB at 20 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[WARNING] Checksum validation failed, expected 1ec36c114b738c89c515d54811ff64c9f6da39e2 but is 650bbd35b24d605d332a40d0474244a223613a6b from lss233-mirror for https://lss233.littleservice.cn/repositories/minecraft/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[WARNING] Could not validate integrity of download from https://lss233.littleservice.cn/repositories/minecraft/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, expected 1ec36c114b738c89c515d54811ff64c9f6da39e2 but is 650bbd35b24d605d332a40d0474244a223613a6b
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validateExternalChecksums (ChecksumValidator.java:174)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:103)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:460)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:628)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:262)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:514)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:402)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:207)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:240)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:171)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.resolveCachedArtifactDescriptor (DefaultDependencyCollector.java:538)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.getArtifactDescriptorResult (DefaultDependencyCollector.java:523)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:410)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:362)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.process (DefaultDependencyCollector.java:349)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:254)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:284)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:170)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:401)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:347)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:171)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:163)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:298)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[WARNING] Checksum validation failed, expected 1ec36c114b738c89c515d54811ff64c9f6da39e2 but is 650bbd35b24d605d332a40d0474244a223613a6b from lss233-mirror for https://lss233.littleservice.cn/repositories/minecraft/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/github/cryptomorin/kingdoms/1.13.9/kingdoms-1.13.9.pom (12 kB at 5.2 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/elmakers/mine/bukkit/MagicAPI/10.2/MagicAPI-10.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/elmakers/mine/bukkit/MagicAPI/10.2/MagicAPI-10.2.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/elmakers/mine/bukkit/MagicAPI/10.2/MagicAPI-10.2.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/elmakers/mine/bukkit/MagicAPI/10.2/MagicAPI-10.2.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/elmakers/mine/bukkit/MagicAPI/10.2/MagicAPI-10.2.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/elmakers/mine/bukkit/MagicAPI/10.2/MagicAPI-10.2.pom (2.8 kB at 15 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/elmakers/mine/bukkit/Magic-parent/10.2/Magic-parent-10.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/elmakers/mine/bukkit/Magic-parent/10.2/Magic-parent-10.2.pom
+[INFO] Downloading from elmakers-repo: https://maven.elmakers.com/repository/com/elmakers/mine/bukkit/Magic-parent/10.2/Magic-parent-10.2.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/com/elmakers/mine/bukkit/Magic-parent/10.2/Magic-parent-10.2.pom
+[INFO] Downloading from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/elmakers/mine/bukkit/Magic-parent/10.2/Magic-parent-10.2.pom
+[INFO] Downloaded from lss233-mirror: https://lss233.littleservice.cn/repositories/minecraft/com/elmakers/mine/bukkit/Magic-parent/10.2/Magic-parent-10.2.pom (15 kB at 19 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32:59 min
+[INFO] Finished at: 2023-02-11T16:05:01Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project SlimeGlue: Could not resolve dependencies for project com.xzavier0722.mc.plugin:SlimeGlue:jar:Build 9 (git 9b68db7): Failed to collect dependencies at org.maxgamer:QuickShop:jar:5.1.1.2: Failed to read artifact descriptor for org.maxgamer:QuickShop:jar:5.1.1.2: Could not transfer artifact org.maxgamer:QuickShop:pom:5.1.1.2 from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/org/maxgamer/QuickShop/5.1.1.2/QuickShop-5.1.1.2.pom: Connect to repo.codemc.io:443 [repo.codemc.io/45.141.57.117] failed: Connection timed out -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
