@@ -2022,5 +2022,22 @@
                 "1": "汉化版[release-2023.02](https://github.com/StarWishsama/Slimefun4/releases/tag/2023.02)及以上"
             }
         }
+    },
+    "SlimefunGuguProject/SmallSpace:master": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "SmallSpace",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.17+"
+            },
+            "Slimefun": {
+                "1": "汉化版[release-2023.02](https://github.com/StarWishsama/Slimefun4/releases/tag/2023.02)及以上"
+            }
+        }
     }
 }
