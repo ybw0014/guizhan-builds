@@ -2009,9 +2009,6 @@
             }
         },
         "dependencies": {
-            "Java": {
-                "1": "16+"
-            },
             "Minecraft": {
                 "1": "1.17+"
             },
@@ -2034,6 +2031,23 @@
         "dependencies": {
             "Minecraft": {
                 "1": "1.17+"
+            },
+            "Slimefun": {
+                "1": "汉化版[release-2023.02](https://github.com/StarWishsama/Slimefun4/releases/tag/2023.02)及以上"
+            }
+        }
+    },
+    "SlimefunGuguProject/Cultivation:main": {
+        "type": "maven",
+        "options": {
+            "target": {
+                "name": "Cultivation",
+                "version": "Build {version} zh-CN(SlimefunGuguProject) (git {git_commit})"
+            }
+        },
+        "dependencies": {
+            "Minecraft": {
+                "1": "1.19.4+"
             },
             "Slimefun": {
                 "1": "汉化版[release-2023.02](https://github.com/StarWishsama/Slimefun4/releases/tag/2023.02)及以上"
