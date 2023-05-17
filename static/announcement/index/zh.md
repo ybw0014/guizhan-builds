@@ -6,4 +6,4 @@
 
 GitHub 仓库: [点击前往](https://github.com/ybw0014/guizhan-builds)
 
-由 ybw0014 整合的粘液科技材质包推荐: [点击查看](https://ybw0014.net/post/guizhancraft-resource-pack)
+附屬列表：[点击前往](https://slimefun-wiki.guizhanss.cn/Addons)
