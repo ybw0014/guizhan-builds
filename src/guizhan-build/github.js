@@ -9,7 +9,7 @@ const childProcess = require('child_process')
 const logger = require('./logger')
 const projects = require('./projects')
 const request = require('./request')
-request.defaults.baseURL = 'https://api.github.com/'
+request.defaults.baseURL = 
 
 module.exports = {
     getLatestCommit,
@@ -51,12 +51,6 @@ function getLatestCommit (task) {
 function clone (task) {
     return new Promise((resolve, _reject) => {
         let dir = projects.getWorkingDirectory(task)
-        let gitOptions = {
-            cwd: path.resolve(__dirname, '../../'),
-            env: process.env,
-            stdio: [process.stdin, process.stdout, process.stderr],
-            encoding: 'utf-8'
-        }
 
         logger.log('> 正在克隆仓库')
 

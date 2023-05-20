@@ -23,45 +23,55 @@ module.exports = {
 
 /**
  * 获取所有项目
- * @returns {Promise} 包含项目列表的Promise
+ * @returns {Array} 包含项目列表的Promise
  */
-function getProjects () {
+async function getProjects(): Promise<Array<TaskInfo>> {
     return new Promise((resolve, reject) => {
-        const reposPath = !_.isNil(process.env.REPOS_PATH) ? process.env.REPOS_PATH : './static/repos.json'
-        fs.readFile(path.resolve(process.cwd(), reposPath), 'utf-8')
-            .then((repos) => {
-                const tasks = []
-                const json = JSON.parse(repos)
+        fs.readFile(path.resolve(config.path_cwd, config.path_repos), 'utf-8').then((repos) => {
+            const tasks = []
+            const json = JSON.parse(repos)
 
-                for (const repo in json) {
-                    logger.log(`> 已加载项目 ${repo}`)
+            for (const repo in json) {
+                logger.log(`> 读取项目信息 ${repo}`)
+                const repoJson = json[repo]
 
-                    if (json[repo].type === 'redirect') {
-                        logger.log(`> ${repo} 为重定向仓库，跳过`)
-                        continue
-                    }
-
-                    let taskInfo = {
-                        repoStr: repo,
-                        user: repo.split('/')[0],
-                        repo: repo.split('/')[1].split(':')[0],
-                        branch: repo.split(':')[1],
-                        buildTool: json[repo].type
-                    }
-
-                    taskInfo.directory = taskInfo.user + '/' + taskInfo.repo + '/' + taskInfo.branch
-
-                    taskInfo.options = json[repo].options
-
-                    if (taskInfo.options.customDir) {
-                        taskInfo.directory = taskInfo.options.customDir
-                    }
-
-                    tasks.push(taskInfo)
+                if (repoJson.type === 'redirect') {
+                    logger.log(`> ${repo} 为重定向仓库，跳过`)
+                    continue
                 }
 
-                resolve(tasks)
-            }, reject)
+                /*
+                    taskInfo 结构
+                    - repoStr 包含仓库用户、名称、分支信息的原始字符串
+                    - user 用户
+                    - repo 仓库名
+                    - branch 分支
+                    - buildTool 构建工具（目前支持mavne/gradle）
+                    - directory 项目目录（可通过options.customDir更改，兼容重定向）
+                    - rawDirectory 项目目录（根据目前的用户/仓库名/分支生成）
+                    - options 项目配置（见repos.json）
+                */
+                let taskInfo = {
+                    repoStr: repo,
+                    user: repo.split('/')[0],
+                    repo: repo.split('/')[1].split(':')[0],
+                    branch: repo.split(':')[1],
+                    buildTool: repoJson.type
+                }
+
+                taskInfo.directory = taskInfo.user + '/' + taskInfo.repo + '/' + taskInfo.branch
+                taskInfo.rawDirectory = taskInfo.directory
+                taskInfo.options = repoJson.options
+
+                if (taskInfo.options.customDir) {
+                    taskInfo.directory = taskInfo.options.customDir
+                }
+
+                tasks.push(taskInfo)
+            }
+
+            resolve(tasks)
+        }, reject)
     })
 }
 
@@ -72,7 +82,7 @@ function getProjects () {
  * @param timestamp 最新时间戳
  * @returns {Promise} 如果有更新内容则resolve, 包含新版本号
  */
-function hasUpdate (task, timestamp) {
+function hasUpdate(task, timestamp) {
     return new Promise((resolve, reject) => {
         const filePath = path.resolve(__dirname, '../../', config.projects_dir, task.directory, './builds.json')
         // 检查文件是否存在
@@ -120,7 +130,7 @@ function prepareBuild (task) {
             .replace('{year}', date.getYear())
             .replace('{Month}', (date.getMonth() + 1).toString().padStart(2, '0'))
             .replace('{month}', date.getMonth() + 1)
-            .replace('{date}', date.getDate())
+            .replace('{day}', date.getDate())
 
         Promise.all([
             this.clearWorkspace(task)

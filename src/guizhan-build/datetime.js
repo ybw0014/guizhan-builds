@@ -14,7 +14,7 @@ module.exports = {
  * @param isotime iso时间
  * @returns {number} 时间戳
  */
-function isoToTimestamp (isotime) {
+function isoToTimestamp(isotime) {
     return Date.parse(isotime)
 }
 
@@ -23,7 +23,7 @@ function isoToTimestamp (isotime) {
  * @param isotime iso时间
  * @returns {string} 标准时间格式
  */
-function isoToString (isotime) {
+function isoToString(isotime) {
     return Date.parse(isotime).toString()
 }
 
@@ -32,6 +32,6 @@ function isoToString (isotime) {
  * @param timestamp 时间戳
  * @returns {string} 标准时间格式
  */
-function timestampToString (timestamp) {
+function timestampToString(timestamp) {
     return new Date(timestamp).toString()
 }

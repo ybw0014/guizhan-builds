@@ -16,9 +16,9 @@ module.exports = {
  * 封装调试输出
  * @param messages
  */
-function debug (...messages) {
+function debug(messages: any[]): void {
     if (process.env.DEBUG === '1') {
-        console.log('[DEBUG] ', ...messages)
+        console.log('[DEBUG] ', messages)
     }
 }
 

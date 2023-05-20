@@ -3,11 +3,10 @@
  * @author ybw0014
  */
 
-const path = require('path')
-const childProcess = require('child_process')
 const core = require('@actions/core')
 
 const datetime = require('./datetime')
+const git = require('./git')
 const github = require('./github')
 const gradle = require('./gradle')
 const logger = require('./logger')
@@ -21,77 +20,48 @@ module.exports = {
 
 /**
  * 开始工作流
- * @returns {Promise} 处理完工作流中所有任务后返回的 Promise
  */
-function start () {
-    // Setup
-    let gitOptions = {
-        cwd: path.resolve(__dirname, '../../'),
-        env: process.env,
-        stdio: [process.stdin, process.stdout, process.stderr],
-        encoding: 'utf-8'
+async function start() {
+    // git 初始化
+    logger.log('# 正在初始化')
+    git.init()
+
+    logger.log('# 正在加载所有项目')
+
+    const tasks = await projects.getProjects()
+    global.tasks = tasks.slice()
+    for (const index in tasks) {
+        updateStatus(index, '正在队列中')
     }
-    childProcess.spawnSync('git', [
-        'config',
-        'user.name',
-        process.env.BOT_USERNAME
-    ], gitOptions)
-    childProcess.spawnSync('git', [
-        'config',
-        'user.name',
-        process.env.BOT_EMAIL
-    ], gitOptions)
-    childProcess.spawnSync('git', [
-        'remote',
-        'set-url',
-        'origin',
-        `https://${process.env.BOT_TOKEN}@github.com/ybw0014/guizhan-builds.git`
-    ], gitOptions)
 
-    logger.log('> 正在克隆仓库')
+    let i = -1
 
-    return new Promise((resolve, reject) => {
-        logger.log('正在加载所有项目')
+    // 运行任务
+    const nextTask = () => {
+        i++
+        if (!global.running || i >= tasks.length) {
+            logger.log('')
+            logger.log('已完成所有任务')
+        } else {
+            let currentTask = tasks[i]
+            logger.log('')
+            logger.log(`正在执行任务 ${currentTask.repoStr} (${i + 1}/${tasks.length})`)
 
-        projects.getProjects().then((tasks) => {
-            global.status.tasks = tasks.slice()
-
-            // 将所有项目任务加入队列
-            for (const index in tasks) {
-                updateStatus(index, '正在队列中')
-            }
-
-            let i = -1
-
-            // 运行任务
-            const nextTask = () => {
-                i++
-                if (!global.status.running || i >= tasks.length) {
-                    logger.log('')
-                    logger.log('已完成所有任务')
-                    resolve()
-                } else {
-                    let currentTask = tasks[i]
-                    logger.log('')
-                    logger.log(`正在运行 ${currentTask.directory} (${i + 1}/${tasks.length})`)
-
-                    check(currentTask)
-                        .then(() => update(currentTask)
-                            .then(() => build(currentTask)
-                                .then(() => upload(currentTask)
-                                    .then(() => finish(currentTask)
-                                        .then(() => updateStatus(i, '已完成'))
-                                        .then(nextTask, reject),
-                                    reject),
-                                reject),
+            check(currentTask)
+                .then(() => update(currentTask)
+                    .then(() => build(currentTask)
+                        .then(() => upload(currentTask)
+                            .then(() => finish(currentTask)
+                                .then(() => updateStatus(i, '已完成'))
+                                .then(nextTask, reject),
                             reject),
-                        nextTask)
-                }
-            }
+                        reject),
+                    reject),
+                nextTask)
+        }
+    }
 
-            nextTask()
-        }, reject)
-    })
+    nextTask()
 }
 
 /**
@@ -207,7 +177,7 @@ function upload (task) {
  * @param task 任务
  * @returns {Promise} 总是resolve
  */
-function finish (task) {
+function finish(task) {
     return new Promise((resolve, reject) => {
         logger.log('> 提交改动')
         github.pushChanges(task).then(() =>
@@ -221,6 +191,6 @@ function finish (task) {
  * @param index 任务索引
  * @param status 状态
  */
-function updateStatus (index, status) {
-    global.status.tasks[index].status = status
+function updateStatus(index, status) {
+    global.tasks[index].status = status
 }
