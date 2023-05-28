@@ -1366,24 +1366,6 @@
             }
         }
     },
-    "zomx127/FinalTECH:master": {
-        "type": "maven",
-        "options": {
-            "target": {
-                "name": "FinalTech",
-                "version": "Build {version} zh-CN(ECRO) (git {git_commit})"
-            }
-        },
-        "dependencies": {
-            "Java": {
-                "1": "17+"
-            },
-            "Minecraft": {
-                "34": "1.19+",
-                "1": "1.17+"
-            }
-        }
-    },
     "SlimefunGuguProject/Cringle-Bosses:master": {
         "type": "maven",
         "options": {
