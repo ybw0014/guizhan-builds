@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.slimefun:Slimefun:jar:2023.06-release
+[WARNING] 'dependencies.dependency.systemPath' for com.bekvon.bukkit:residence:jar should not point at files within the project directory, ${project.basedir}/lib/Residence.jar will be unresolvable by dependent projects @ line 1, column 9020
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< com.github.slimefun:Slimefun >--------------------
+[INFO] Building Slimefun 2023.06-release
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.maxgamer:QuickShop:jar:5.1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 270 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 620 source files with javac [debug target 16] to target/classes
+[WARNING] system modules path not set in conjunction with -source 16
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/interfaces/InventoryBlock.java:[19,8] deprecated item is not annotated with @Deprecated
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/com/xzavier0722/mc/plugin/slimefun4/storage/controller/ControllerHolder.java: /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/com/xzavier0722/mc/plugin/slimefun4/storage/controller/ControllerHolder.java uses unchecked or unsafe operations.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/main/java/com/xzavier0722/mc/plugin/slimefun4/storage/controller/ControllerHolder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/Slimefun-2023.06-release.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.4.1:shade (default) @ Slimefun ---
+[INFO] Including com.github.StarWishsama.dough:dough-api:jar:4f7357184a in the shaded jar.
+[INFO] Including io.papermc:paperlib:jar:1.0.8 in the shaded jar.
+[INFO] Including com.konghq:unirest-java:jar:3.14.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.13 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpmime:jar:4.5.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore-nio:jar:4.4.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpasyncclient:jar:4.1.5 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.15 in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.github.Xzavier0722:SlimefunCompLib:jar:b7a2bd8 in the shaded jar.
+[INFO] Including net.guizhanss:GuizhanLib-common:jar:1.1.1 in the shaded jar.
+[INFO] Including net.guizhanss:GuizhanLib-updater:jar:1.1.1 in the shaded jar.
+[INFO] Dependency-reduced POM written at: /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/dependency-reduced-pom.xml
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/Slimefun-2023.06-release.jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/StarWishsama/Slimefun4/release/workspace/target/Slimefun-2023.06-release-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.343 s
+[INFO] Finished at: 2023-06-06T07:20:32Z
+[INFO] ------------------------------------------------------------------------
