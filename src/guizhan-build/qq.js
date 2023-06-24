@@ -29,6 +29,8 @@ function deliverBuildStatus (task) {
             method: 'post',
             headers: { Authorization: process.env.WEBHOOK_KEY },
             data: build
-        }).then(resolve, reject)
+        }).then((data) => {
+            resolve(data)
+        }).catch((err) => {})
     })
 }
