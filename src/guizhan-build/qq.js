@@ -30,7 +30,9 @@ function deliverBuildStatus (task) {
             headers: { Authorization: process.env.WEBHOOK_KEY },
             data: build
         }).then((data) => {
-            resolve(data)
-        }).catch((err) => {})
+            resolve()
+        }).catch((err) => {
+            resolve()
+        })
     })
 }
