@@ -1,0 +1,810 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< me.char321:SlimefunAdvancements >-------------------
+[INFO] Building SlimefunAdvancements Build 12 zh-CN(ybw0014) (git a4860bf)
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.pom (3.7 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.7/org.jacoco.build-0.8.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.7/org.jacoco.build-0.8.7.pom (43 kB at 909 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar (56 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom (12 kB at 656 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 kB at 334 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar (62 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.pom (8.0 kB at 335 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M5/surefire-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M5/surefire-3.0.0-M5.pom (27 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar (43 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.pom (11 kB at 673 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom (11 kB at 345 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar (134 kB at 3.6 MB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 8.5 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.pom
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.pom (11 kB at 188 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/apache/7/apache-7.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom (14 kB at 135 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.pom (1.3 kB at 33 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom (1.7 kB at 38 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom (1.5 kB at 11 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom (3.2 kB at 71 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom (5.6 kB at 108 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom (3.2 kB at 71 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 40 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom (2.8 kB at 56 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom (1.5 kB at 35 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom (3.0 kB at 72 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom (3.2 kB at 76 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom (3.2 kB at 74 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.pom (2.5 kB at 53 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.pom (12 kB at 186 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy-parent/1.12.7/byte-buddy-parent-1.12.7.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy-parent/1.12.7/byte-buddy-parent-1.12.7.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy-parent/1.12.7/byte-buddy-parent-1.12.7.pom (44 kB at 625 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy-agent/1.12.7/byte-buddy-agent-1.12.7.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy-agent/1.12.7/byte-buddy-agent-1.12.7.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy-agent/1.12.7/byte-buddy-agent-1.12.7.pom (11 kB at 248 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/objenesis/objenesis/3.2/objenesis-3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/objenesis/objenesis/3.2/objenesis-3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/objenesis/objenesis/3.2/objenesis-3.2.pom (3.0 kB at 65 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/objenesis/objenesis-parent/3.2/objenesis-parent-3.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/objenesis/objenesis-parent/3.2/objenesis-parent-3.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/objenesis/objenesis-parent/3.2/objenesis-parent-3.2.pom (18 kB at 344 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.18/1.24.1/MockBukkit-v1.18-1.24.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/github/seeseemelk/MockBukkit-v1.18/1.24.1/MockBukkit-v1.18-1.24.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/github/seeseemelk/MockBukkit-v1.18/1.24.1/MockBukkit-v1.18-1.24.1.pom (3.1 kB at 49 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 25 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/spigot-api-1.18.2-R0.1-20220607.160742-53.pom
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.2-R0.1-SNAPSHOT/spigot-api-1.18.2-R0.1-20220607.160742-53.pom (11 kB at 175 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom (20 kB at 334 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-parent/52/commons-parent-52.pom (79 kB at 1.7 MB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 116 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.pom (1.4 kB at 24 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom (1.1 kB at 25 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.pom (4.2 kB at 74 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven/3.8.4/maven-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven/3.8.4/maven-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven/3.8.4/maven-3.8.4.pom (27 kB at 616 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.pom (2.8 kB at 55 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.pom (3.4 kB at 68 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom (2.7 kB at 60 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 14 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.pom (2.4 kB at 36 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom (28 kB at 634 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom (2.6 kB at 51 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom (14 kB at 262 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.pom (1.9 kB at 41 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.pom (2.6 kB at 49 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver/1.6.3/maven-resolver-1.6.3.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver/1.6.3/maven-resolver-1.6.3.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver/1.6.3/maven-resolver-1.6.3.pom (19 kB at 388 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.pom (2.7 kB at 65 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.pom (2.8 kB at 61 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.pom (4.2 kB at 85 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom (3.8 kB at 91 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom (14 kB at 226 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.2/maven-resolver-connector-basic-1.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.2/maven-resolver-connector-basic-1.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.2/maven-resolver-connector-basic-1.7.2.pom (4.2 kB at 95 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver/1.7.2/maven-resolver-1.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver/1.7.2/maven-resolver-1.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver/1.7.2/maven-resolver-1.7.2.pom (21 kB at 373 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-api/1.7.2/maven-resolver-api-1.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.7.2/maven-resolver-api-1.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.7.2/maven-resolver-api-1.7.2.pom (2.6 kB at 63 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-spi/1.7.2/maven-resolver-spi-1.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-spi/1.7.2/maven-resolver-spi-1.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-spi/1.7.2/maven-resolver-spi-1.7.2.pom (2.7 kB at 56 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-util/1.7.2/maven-resolver-util-1.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.7.2/maven-resolver-util-1.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.7.2/maven-resolver-util-1.7.2.pom (2.8 kB at 50 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-transport-http/1.7.2/maven-resolver-transport-http-1.7.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-transport-http/1.7.2/maven-resolver-transport-http-1.7.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-transport-http/1.7.2/maven-resolver-transport-http-1.7.2.pom (5.8 kB at 61 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom (6.6 kB at 161 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom (16 kB at 372 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom (35 kB at 846 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom (5.0 kB at 86 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom (13 kB at 269 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (14 kB at 237 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom (5.0 kB at 121 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-core/4.4.14/httpcomponents-core-4.4.14.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.14/httpcomponents-core-4.4.14.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.14/httpcomponents-core-4.4.14.pom (13 kB at 274 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.pom (1.2 kB at 25 kB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLibPlugin/1.2.2/GuizhanLibPlugin-1.2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLibPlugin/1.2.2/GuizhanLibPlugin-1.2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLibPlugin/1.2.2/GuizhanLibPlugin-1.2.2.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib-api/1.2.2/GuizhanLib-api-1.2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLib-api/1.2.2/GuizhanLib-api-1.2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLib-api/1.2.2/GuizhanLib-api-1.2.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib/1.2.2/GuizhanLib-1.2.2.pom
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLib/1.2.2/GuizhanLib-1.2.2.pom
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLib/1.2.2/GuizhanLib-1.2.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.jar
+[INFO] Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.18.1-R0.1-SNAPSHOT/spigot-api-1.18.1-R0.1-20220228.150432-81.jar (1.4 MB at 7.8 MB/s)
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/objenesis/objenesis/3.2/objenesis-3.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy-agent/1.12.7/byte-buddy-agent-1.12.7.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.18/1.24.1/MockBukkit-v1.18-1.24.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/javax/inject/javax.inject/1/javax.inject-1.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.2/maven-resolver-connector-basic-1.7.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-transport-http/1.7.2/maven-resolver-transport-http-1.7.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLibPlugin/1.2.2/GuizhanLibPlugin-1.2.2.jar
+[INFO] Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/guizhanss/GuizhanLib-api/1.2.2/GuizhanLib-api-1.2.2.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar (242 kB at 2.2 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar (4.1 kB at 32 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar (6.4 kB at 46 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar (194 kB at 1.3 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar (22 kB at 149 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 48 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar (100 kB at 581 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar (6.8 kB at 38 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar (577 kB at 2.7 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy-agent/1.12.7/byte-buddy-agent-1.12.7.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar (230 kB at 1.1 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/objenesis/objenesis/3.2/objenesis-3.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar (186 kB at 860 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/github/seeseemelk/MockBukkit-v1.18/1.24.1/MockBukkit-v1.18-1.24.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/objenesis/objenesis/3.2/objenesis-3.2.jar (49 kB at 192 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/mockito/mockito-core/4.3.1/mockito-core-4.3.1.jar (671 kB at 2.6 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy-agent/1.12.7/byte-buddy-agent-1.12.7.jar (257 kB at 980 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/com/github/seeseemelk/MockBukkit-v1.18/1.24.1/MockBukkit-v1.18-1.24.1.jar (311 kB at 1.2 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar (0 B at 0 B/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar (327 kB at 1.1 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar (1.5 kB at 5.0 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/bytebuddy/byte-buddy/1.12.7/byte-buddy-1.12.7.jar (3.8 MB at 12 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar (1.5 kB at 4.8 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar (123 kB at 381 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.jar (67 kB at 193 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.jar (215 kB at 603 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar (85 kB at 235 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.jar (192 kB at 527 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.jar (58 kB at 153 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar (379 kB at 941 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.jar (149 kB at 364 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.jar (14 kB at 35 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.jar (27 kB at 65 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/javax/inject/javax.inject/1/javax.inject-1.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.jar (38 kB at 91 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.2/maven-resolver-connector-basic-1.7.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.jar (169 kB at 372 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/javax/inject/javax.inject/1/javax.inject-1.jar (2.5 kB at 5.5 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-transport-http/1.7.2/maven-resolver-transport-http-1.7.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar (502 kB at 1.1 MB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-connector-basic/1.7.2/maven-resolver-connector-basic-1.7.2.jar (46 kB at 98 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.jar (180 kB at 383 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar (41 kB at 83 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/maven/resolver/maven-resolver-transport-http/1.7.2/maven-resolver-transport-http-1.7.2.jar (43 kB at 85 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLibPlugin/1.2.2/GuizhanLibPlugin-1.2.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (335 kB at 652 kB/s)
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLib-api/1.2.2/GuizhanLib-api-1.2.2.jar
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar (328 kB at 637 kB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLibPlugin/1.2.2/GuizhanLibPlugin-1.2.2.jar (0 B at 0 B/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/net/guizhanss/GuizhanLib-api/1.2.2/GuizhanLib-api-1.2.2.jar (0 B at 0 B/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar (780 kB at 1.4 MB/s)
+[INFO] Downloaded from sonatype: https://oss.sonatype.org/content/groups/public/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar (17 kB at 30 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/qwertyuioplkjhgfd/AdvancementAPI/f243bdaf75/AdvancementAPI-f243bdaf75.jar (87 kB at 1.1 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar (4.3 MB at 46 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimefunAdvancements ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare) @ SlimefunAdvancements ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom (3.3 kB at 222 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom (5.4 kB at 358 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom (3.1 kB at 241 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom (2.6 kB at 186 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom (1.2 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom (7.8 kB at 598 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom (815 B at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom (4.2 kB at 223 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom (17 kB at 867 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom (5.5 kB at 455 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom (11 kB at 851 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom (3.8 kB at 295 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (3.9 kB at 324 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (8.4 kB at 649 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4.1 kB at 338 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (2.7 kB at 206 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (765 B at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (13 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (767 B at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom (1.4 kB at 107 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (1.3 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.pom (25 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (766 B at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (2.0 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (588 B at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (6.4 kB at 534 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (2.3 kB at 174 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (5.3 kB at 312 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (9.8 kB at 653 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom (2.4 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom (9.3 kB at 778 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom (23 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom (1.4 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom (9.6 kB at 742 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/10/maven-parent-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/10/maven-parent-10.pom (32 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7.pom (3.5 kB at 233 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.pom (2.1 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.pom (2.4 kB at 197 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5/ow2-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5/ow2-1.5.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.pom (3.0 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.pom (2.6 kB at 199 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.pom (2.6 kB at 201 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.pom (1.9 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (38 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar (202 kB at 5.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar (245 kB at 5.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar (153 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 kB at 806 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar (49 kB at 983 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar (472 kB at 8.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (43 kB at 678 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar (45 kB at 693 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar (195 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar (10 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar (383 kB at 4.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar (292 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar (73 kB at 734 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar (34 kB at 343 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.jar (122 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar (200 kB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar (53 kB at 502 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar (129 kB at 1.0 MB/s)
+[INFO] argLine set to -javaagent:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimefunAdvancements ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ SlimefunAdvancements ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (770 B at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5.0 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (22 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom (5.6 kB at 433 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.pom (5.1 kB at 393 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.10/plexus-languages-0.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.10/plexus-languages-0.9.10.pom (4.1 kB at 345 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom (2.9 kB at 196 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom (16 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom (867 B at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom (6.0 kB at 431 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom (2.7 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom (692 B at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom (771 B at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom (1.3 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 268 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar (209 kB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar (39 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar (167 kB at 7.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar (111 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar (222 kB at 6.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar (27 kB at 846 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar (317 kB at 9.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar (4.7 kB at 127 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar (21 kB at 519 kB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 50 source files to /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/target/classes
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/src/main/java/me/char321/sfadvancements/api/criteria/MobKillCriterion.java: /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/src/main/java/me/char321/sfadvancements/api/criteria/MobKillCriterion.java uses or overrides a deprecated API.
+[INFO] /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/src/main/java/me/char321/sfadvancements/api/criteria/MobKillCriterion.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimefunAdvancements ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ SlimefunAdvancements ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ SlimefunAdvancements ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.pom (9.6 kB at 402 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.pom (3.2 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.pom (3.7 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.pom (3.9 kB at 260 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M4/surefire-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M4/surefire-3.0.0-M4.pom (27 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.pom (4.0 kB at 269 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.pom (4.8 kB at 255 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.pom (1.6 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.pom (2.2 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0-alpha-2/maven-3.0-alpha-2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0-alpha-2/maven-3.0-alpha-2.pom (21 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom (11 kB at 818 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.pom (4.6 kB at 256 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.0.5/plexus-languages-1.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.0.5/plexus-languages-1.0.5.pom (3.9 kB at 261 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.2/plexus-6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.2/plexus-6.2.pom (24 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.pom (2.9 kB at 210 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar (14 kB at 682 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar (311 kB at 14 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar (24 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar (144 kB at 6.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar (106 kB at 4.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar (128 kB at 4.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar (7.9 kB at 227 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar (36 kB at 976 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.jar (115 kB at 2.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar (52 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (169 kB at 3.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar (1.9 MB at 29 MB/s)
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (report) @ SlimefunAdvancements ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimefunAdvancements ---
+[INFO] Building jar: /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/target/SlimefunAdvancements-Build 12 zh-CN(ybw0014) (git a4860bf).jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SlimefunAdvancements ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom (750 B at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.0.0/plexus-containers-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.0.0/plexus-containers-2.0.0.pom (4.8 kB at 370 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.pom (11 kB at 865 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom (4.8 kB at 403 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom (5.1 kB at 317 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0/asm-8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0/asm-8.0.pom (2.9 kB at 245 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.pom (3.7 kB at 306 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.pom (3.1 kB at 184 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.pom (3.2 kB at 263 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom (4.6 kB at 307 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.4.0/jdependency-2.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.4.0/jdependency-2.4.0.pom (15 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/8.0/asm-util-8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/8.0/asm-util-8.0.pom (3.7 kB at 192 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/28.2-android/guava-28.2-android.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/28.2-android/guava-28.2-android.pom (11 kB at 911 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/28.2-android/guava-parent-28.2-android.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/28.2-android/guava-parent-28.2-android.pom (13 kB at 993 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.pom (2.7 kB at 211 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom (2.1 kB at 176 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom (5.4 kB at 452 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom (28 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0/asm-8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.jar (4.2 kB at 325 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.jar (120 kB at 5.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar (61 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar (72 kB at 3.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.4.0/jdependency-2.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0/asm-8.0.jar (122 kB at 4.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/8.0/asm-util-8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar (53 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/28.2-android/guava-28.2-android.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar (33 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.4.0/jdependency-2.4.0.jar (180 kB at 4.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/8.0/asm-util-8.0.jar (85 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar (14 kB at 235 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar (5.9 kB at 90 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar (500 kB at 6.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar (305 kB at 3.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/28.2-android/guava-28.2-android.jar (2.6 MB at 32 MB/s)
+[INFO] Including com.github.qwertyuioplkjhgfd:AdvancementAPI:jar:f243bdaf75 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Minimizing jar me.char321:SlimefunAdvancements:jar:Build 12 zh-CN(ybw0014) (git a4860bf)
+[WARNING] /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/target/classes (Is a directory)
+[INFO] Minimized 160 -> 153 (95%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/target/SlimefunAdvancements-Build 12 zh-CN(ybw0014) (git a4860bf).jar with /home/runner/work/guizhan-builds/guizhan-builds/static/f/ybw0014/SlimefunAdvancements-CN/main/workspace/target/SlimefunAdvancements-Build 12 zh-CN(ybw0014) (git a4860bf)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.914 s
+[INFO] Finished at: 2023-06-26T02:27:48Z
+[INFO] ------------------------------------------------------------------------
